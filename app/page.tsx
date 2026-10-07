@@ -1,81 +1,82 @@
 const brief = {
-  date: "October 7, 2026",
+  fecha: "7 de octubre de 2026",
 
-  title: "Global supply chains are entering a critical Q4.",
+  titulo: "Las cadenas de suministro globales entran a un Q4 crítico.",
 
-  subtitle:
-    "The most relevant disruptions logistics leaders should be watching today — and what they could mean for upcoming shipments.",
+  subtitulo:
+    "Las disrupciones logísticas más relevantes que los líderes de supply chain deben monitorear hoy y lo que podrían significar para sus próximos embarques.",
 
-  news: [
+  noticias: [
     {
       region: "CHINA",
-      mode: "OCEAN & AIR",
-      headline: "Post-Golden Week congestion extends Asia lead times",
-      fact:
-        "Golden Week closures, weather disruption and port congestion are affecting Shanghai, Ningbo and Yantian, with reported waits exceeding five days at some gateways.",
-      impact:
-        "Delays may continue flowing into North American and European supply chains.",
-      action:
-        "Consider adding 7–14 days of flexibility to critical Asia shipments and confirm space early.",
+      modo: "OCEAN & AIR",
+      titular: "La congestión post-Golden Week podría extender los tiempos desde Asia",
+      dato:
+        "Los cierres por Golden Week, las afectaciones climáticas y la congestión portuaria continúan impactando Shanghái, Ningbo y Yantian, con esperas reportadas de más de cinco días en algunos puntos.",
+      impacto:
+        "Los retrasos originados en Asia podrían trasladarse a las cadenas de suministro de Norteamérica y Europa.",
+      accion:
+        "Considera agregar entre 7 y 14 días de flexibilidad a embarques críticos desde Asia y confirma espacio con anticipación.",
     },
     {
       region: "INDIA",
-      mode: "OCEAN FREIGHT",
-      headline: "Capacity and connection risks remain elevated",
-      fact:
-        "Residual disruption following the Mundra empty-container dispute continues to affect flows, while approximately 11% of scheduled sailings were reported cancelled across the mid-September to mid-October period.",
-      impact:
-        "India-origin cargo may face greater risk of missed connections and longer transit times.",
-      action:
-        "Confirm bookings early and closely monitor transshipment connections.",
+      modo: "OCEAN FREIGHT",
+      titular: "Persisten riesgos de capacidad y conexiones",
+      dato:
+        "Los efectos residuales posteriores a las disrupciones en Mundra continúan afectando los flujos de contenedores, mientras que cancelaciones de salidas reducen la capacidad disponible durante el periodo de septiembre a octubre.",
+      impacto:
+        "La carga con origen en India podría enfrentar mayor riesgo de conexiones perdidas y tiempos de tránsito más largos.",
+      accion:
+        "Confirma reservas con anticipación y monitorea de cerca las conexiones de transbordo.",
     },
     {
-      region: "EUROPE",
-      mode: "OCEAN & INLAND",
-      headline: "Low Rhine levels pressure inland transport",
-      fact:
-        "Extremely low water levels on the Rhine are limiting barge operations in Germany, while northern European ports continue managing congestion.",
-      impact:
-        "Reduced inland capacity can increase cost and extend delivery times.",
-      action:
-        "Review rail and truck alternatives for time-sensitive cargo.",
+      region: "EUROPA",
+      modo: "OCEAN & INLAND",
+      titular: "Los bajos niveles del Rin presionan el transporte interior",
+      dato:
+        "Los niveles extremadamente bajos del río Rin están limitando las operaciones de barcazas en Alemania, mientras los puertos del norte de Europa continúan enfrentando presión operativa.",
+      impacto:
+        "La reducción de capacidad interior puede aumentar costos y extender los tiempos de entrega.",
+      accion:
+        "Evalúa alternativas ferroviarias y terrestres para carga sensible al tiempo.",
     },
   ],
 
-  watchlist: [
+  vigilancia: [
     {
-      title: "United States",
-      text:
-        "Asia delays could translate into later arrivals at U.S. ports, while transatlantic ocean capacity remains tight.",
+      titulo: "Estados Unidos",
+      texto:
+        "Los retrasos provenientes de Asia podrían traducirse en llegadas tardías a puertos de EE. UU., mientras la capacidad transatlántica permanece ajustada.",
     },
     {
-      title: "Mexico",
-      text:
-        "No major port strikes are currently active, but Pacific gateways remain vulnerable to congestion and operational disruption.",
+      titulo: "México",
+      texto:
+        "Actualmente no se reportan huelgas portuarias activas de gran escala, pero los puertos del Pacífico deben seguir siendo monitoreados por posibles episodios de congestión.",
     },
     {
-      title: "Spain | Oct 28 – Nov 2",
-      text:
-        "A planned logistics labor action involving approximately 45,000 workers in Guadalajara could disrupt distribution in central Spain.",
+      titulo: "España | 28 oct – 2 nov",
+      texto:
+        "Una acción laboral prevista en Guadalajara podría generar afectaciones en distribución y movimientos interiores en el centro de España.",
     },
     {
-      title: "Gulf of Mexico",
-      text:
-        "Hurricane season remains active through November, maintaining the risk of temporary port and inland transportation disruption.",
+      titulo: "Golfo de México",
+      texto:
+        "La temporada de huracanes permanece activa durante noviembre, manteniendo el riesgo de cierres temporales de puertos y afectaciones al transporte terrestre.",
     },
   ],
 
-  recommendations: [
-    "Build 7–14 days of flexibility into critical Asia lead times.",
-    "Monitor Shanghai, Ningbo, Yantian and northern European gateways.",
-    "Review alternative routing where Panama Canal or Red Sea exposure creates risk.",
-    "Communicate potential Q4 delays proactively with customers and internal teams.",
+  recomendaciones: [
+    "Considera entre 7 y 14 días adicionales de flexibilidad para embarques críticos desde Asia.",
+    "Monitorea Shanghái, Ningbo, Yantian y los principales puertos del norte de Europa.",
+    "Evalúa rutas alternativas cuando exista exposición al Canal de Panamá o al Mar Rojo.",
+    "Comunica de manera proactiva posibles retrasos de Q4 a clientes y equipos internos.",
   ],
 };
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#F3F5F7] text-[#111111]">
+      {/* ENCABEZADO */}
       <section className="bg-[#003C6F] text-white">
         <div className="mx-auto max-w-7xl px-6 py-10 md:px-10">
           <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
@@ -88,42 +89,44 @@ export default function Home() {
 
             <div className="md:text-right">
               <p className="text-xs tracking-[0.15em] text-white/60">
-                DAILY SUPPLY CHAIN BRIEF
+                REPORTE DIARIO DE CADENA DE SUMINISTRO
               </p>
-              <p className="mt-1 font-semibold">{brief.date}</p>
+              <p className="mt-1 font-semibold">{brief.fecha}</p>
             </div>
           </div>
 
           <div className="max-w-4xl py-16 md:py-20">
             <p className="mb-4 text-sm font-bold tracking-[0.18em] text-[#FF3E32]">
-              TODAY&apos;S GLOBAL LOGISTICS UPDATE
+              ACTUALIZACIÓN LOGÍSTICA GLOBAL DE HOY
             </p>
 
             <h1 className="text-4xl font-bold leading-tight md:text-6xl">
-              {brief.title}
+              {brief.titulo}
             </h1>
 
             <p className="mt-6 max-w-3xl text-lg leading-8 text-white/75">
-              {brief.subtitle}
+              {brief.subtitulo}
             </p>
           </div>
         </div>
       </section>
 
+      {/* PRINCIPALES NOTICIAS */}
       <section className="mx-auto max-w-7xl px-6 py-14 md:px-10">
         <div className="mb-8">
           <p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">
-            TOP DEVELOPMENTS
+            PRINCIPALES DESARROLLOS
           </p>
+
           <h2 className="mt-3 text-3xl font-bold text-[#003C6F]">
-            What matters today
+            Lo más relevante de hoy
           </h2>
         </div>
 
         <div className="grid gap-6 lg:grid-cols-3">
-          {brief.news.map((item, index) => (
+          {brief.noticias.map((item, index) => (
             <article
-              key={item.headline}
+              key={item.titular}
               className="rounded-2xl border border-gray-200 bg-white p-7 shadow-sm"
             >
               <div className="mb-7 flex items-start justify-between gap-4">
@@ -131,8 +134,9 @@ export default function Home() {
                   <p className="text-xs font-bold tracking-[0.16em] text-[#FF3E32]">
                     {item.region}
                   </p>
+
                   <p className="mt-1 text-xs font-semibold tracking-[0.12em] text-[#003C6F]">
-                    {item.mode}
+                    {item.modo}
                   </p>
                 </div>
 
@@ -142,26 +146,28 @@ export default function Home() {
               </div>
 
               <h3 className="text-2xl font-bold leading-tight">
-                {item.headline}
+                {item.titular}
               </h3>
 
-              <p className="mt-5 leading-7 text-gray-600">{item.fact}</p>
+              <p className="mt-5 leading-7 text-gray-600">{item.dato}</p>
 
               <div className="mt-7 border-t border-gray-200 pt-6">
                 <p className="text-xs font-bold tracking-[0.14em] text-[#003C6F]">
-                  POTENTIAL IMPACT
+                  IMPACTO POTENCIAL
                 </p>
+
                 <p className="mt-2 text-sm leading-6 text-gray-700">
-                  {item.impact}
+                  {item.impacto}
                 </p>
               </div>
 
               <div className="mt-5 rounded-xl bg-[#F3F5F7] p-4">
                 <p className="text-xs font-bold tracking-[0.14em] text-[#FF3E32]">
-                  ACTION
+                  ACCIÓN RECOMENDADA
                 </p>
+
                 <p className="mt-2 text-sm leading-6 text-gray-700">
-                  {item.action}
+                  {item.accion}
                 </p>
               </div>
             </article>
@@ -169,42 +175,45 @@ export default function Home() {
         </div>
       </section>
 
+      {/* LO QUE ESTAMOS MONITOREANDO */}
       <section className="bg-white">
         <div className="mx-auto max-w-7xl px-6 py-14 md:px-10">
           <p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">
-            WHAT WE&apos;RE WATCHING
+            LO QUE ESTAMOS MONITOREANDO
           </p>
 
           <h2 className="mt-3 text-3xl font-bold text-[#003C6F]">
-            Additional risks on the radar
+            Otros riesgos en el radar
           </h2>
 
           <div className="mt-8 grid gap-5 md:grid-cols-2">
-            {brief.watchlist.map((item) => (
+            {brief.vigilancia.map((item) => (
               <div
-                key={item.title}
+                key={item.titulo}
                 className="rounded-xl border border-gray-200 p-6"
               >
-                <h3 className="font-bold text-[#003C6F]">{item.title}</h3>
-                <p className="mt-3 leading-7 text-gray-600">{item.text}</p>
+                <h3 className="font-bold text-[#003C6F]">{item.titulo}</h3>
+
+                <p className="mt-3 leading-7 text-gray-600">{item.texto}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
+      {/* ACCIONES RECOMENDADAS */}
       <section className="bg-[#003C6F] text-white">
         <div className="mx-auto max-w-7xl px-6 py-14 md:px-10">
           <p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">
-            RECOMMENDED ACTIONS
+            ACCIONES RECOMENDADAS
           </p>
 
           <h2 className="mt-3 text-3xl font-bold">
-            What supply chain teams should consider today
+            Qué deberían considerar hoy los equipos de supply chain
           </h2>
 
           <div className="mt-8 grid gap-4 md:grid-cols-2">
-            {brief.recommendations.map((item, index) => (
+            {brief.recomendaciones.map((item, index) => (
               <div
                 key={item}
                 className="flex gap-4 rounded-xl border border-white/15 p-5"
@@ -212,6 +221,7 @@ export default function Home() {
                 <span className="font-bold text-[#FF3E32]">
                   {String(index + 1).padStart(2, "0")}
                 </span>
+
                 <p className="leading-6 text-white/80">{item}</p>
               </div>
             ))}
@@ -219,25 +229,26 @@ export default function Home() {
         </div>
       </section>
 
+      {/* APOYO VECTOR */}
       <section className="bg-white">
         <div className="mx-auto grid max-w-7xl gap-10 px-6 py-16 md:px-10 lg:grid-cols-2">
           <div>
             <p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">
-              HOW VECTOR CAN SUPPORT
+              CÓMO PUEDE APOYAR VECTOR
             </p>
 
             <h2 className="mt-3 text-3xl font-bold leading-tight text-[#003C6F]">
-              When conditions change, your logistics strategy should be able to
-              change with them.
+              Cuando las condiciones cambian, tu estrategia logística también
+              debe poder adaptarse.
             </h2>
           </div>
 
           <div>
             <p className="text-lg leading-8 text-gray-600">
-              Vector Global Logistics helps companies evaluate alternatives
-              across air, ocean and ground transportation, identify critical
-              shipments and develop solutions designed to help protect supply
-              chain continuity.
+              Vector Global Logistics ayuda a las empresas a evaluar
+              alternativas de transporte aéreo, marítimo y terrestre,
+              identificar embarques críticos y desarrollar soluciones
+              orientadas a proteger la continuidad de la cadena de suministro.
             </p>
 
             <a
@@ -246,18 +257,19 @@ export default function Home() {
               rel="noopener noreferrer"
               className="mt-7 inline-flex rounded-full bg-[#FF3E32] px-7 py-4 font-bold text-white"
             >
-              Contact our team →
+              Contacta a nuestro equipo →
             </a>
           </div>
         </div>
       </section>
 
+      {/* FOOTER */}
       <footer className="bg-[#111111] text-white">
         <div className="mx-auto flex max-w-7xl flex-col gap-3 px-6 py-8 text-sm md:flex-row md:items-center md:justify-between md:px-10">
           <strong>Vector Global Logistics</strong>
+
           <span className="text-white/60">
-            Source summary: specialized logistics and market intelligence
-            sources.
+            Resumen elaborado con fuentes especializadas de logística y mercado.
           </span>
         </div>
       </footer>
