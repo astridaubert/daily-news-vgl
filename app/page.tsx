@@ -17,7 +17,7 @@ const brief = {
       region: "CHINA",
       modo: "MARÍTIMO Y AÉREO",
       imagen: "https://unsplash.com/photos/tWd8h1Ad9G0/download?force=true&w=1200",
-      bandera: "🇨🇳",
+      bandera: "https://flagcdn.com/w40/cn.png",
       titular:
         "Congestión posterior a la Semana Dorada extiende los tiempos desde Asia",
       dato:
@@ -31,7 +31,7 @@ const brief = {
       region: "INDIA",
       modo: "TRANSPORTE MARÍTIMO",
       imagen: "https://unsplash.com/photos/RoLHfV_R5bI/download?force=true&w=1200",
-      bandera: "🇮🇳",
+      bandera: "https://flagcdn.com/w40/in.png",
       titular:
         "Persisten riesgos de capacidad y conexiones desde India",
       dato:
@@ -45,7 +45,7 @@ const brief = {
       region: "EUROPA",
       modo: "MARÍTIMO Y TERRESTRE",
       imagen: "https://unsplash.com/photos/Iw5qETjoQto/download?force=true&w=1200",
-      bandera: "🇪🇺",
+      bandera: "https://flagcdn.com/w40/eu.png",
       titular:
         "Los bajos niveles del Rin presionan el transporte interior",
       dato:
@@ -60,13 +60,13 @@ const brief = {
   vigilancia: [
     {
       titulo: "Estados Unidos",
-      bandera: "🇺🇸",
+      bandera: "https://flagcdn.com/w40/us.png",
       texto:
         "Los retrasos provenientes de Asia podrían traducirse en llegadas tardías a puertos de Estados Unidos, mientras la capacidad oceánica continúa bajo presión en rutas clave.",
     },
     {
       titulo: "México",
-      bandera: "🇲🇽",
+      bandera: "https://flagcdn.com/w40/mx.png",
       texto:
         "Actualmente no se reportan huelgas portuarias activas de gran escala, pero los principales puertos del Pacífico deben mantenerse bajo monitoreo ante posibles episodios de congestión.",
     },
@@ -163,16 +163,17 @@ export default function Home() {
                   className="h-full w-full object-cover"
                   loading="lazy"
                 />
-                <div className="absolute left-4 top-4 flex h-11 w-11 items-center justify-center rounded-full border border-white/70 bg-white/95 text-2xl shadow-md">
-                  {item.bandera}
-                </div>
               </div>
 
               <div className="p-7">
                 <div className="mb-7 flex items-start justify-between gap-4">
                   <div>
                     <p className="flex items-center gap-1.5 text-xs font-bold tracking-[0.16em] text-[#FF3E32]">
-                      <span className="text-sm leading-none">{item.bandera}</span>
+                      <img
+                        src={item.bandera}
+                        alt=""
+                        className="h-3 w-5 rounded-[2px] object-cover shadow-sm"
+                      />
                       <span>{item.region}</span>
                     </p>
 
@@ -236,7 +237,11 @@ export default function Home() {
               >
                 <h3 className="flex items-center gap-2 font-bold text-[#003C6F]">
                   {"bandera" in item && item.bandera ? (
-                    <span className="text-lg leading-none">{item.bandera}</span>
+                    <img
+                      src={item.bandera}
+                      alt=""
+                      className="h-3.5 w-5 rounded-[2px] object-cover shadow-sm"
+                    />
                   ) : null}
                   <span>{item.titulo}</span>
                 </h3>
