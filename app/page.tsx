@@ -16,7 +16,7 @@ const brief = {
     {
       region: "CHINA",
       modo: "MARÍTIMO Y AÉREO",
-      imagen: "/china-port.jpg",
+      imagen: "/china-port.svg",
       titular:
         "Congestión posterior a la Semana Dorada extiende los tiempos desde Asia",
       dato:
@@ -29,7 +29,7 @@ const brief = {
     {
       region: "INDIA",
       modo: "TRANSPORTE MARÍTIMO",
-      imagen: "/india-port.jpg",
+      imagen: "/india-port.svg",
       titular:
         "Persisten riesgos de capacidad y conexiones desde India",
       dato:
@@ -42,7 +42,7 @@ const brief = {
     {
       region: "EUROPA",
       modo: "MARÍTIMO Y TERRESTRE",
-      imagen: "/europe-rhine.jpg",
+      imagen: "/europe-rhine.svg",
       titular:
         "Los bajos niveles del Rin presionan el transporte interior",
       dato:
