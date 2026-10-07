@@ -16,7 +16,8 @@ const brief = {
     {
       region: "CHINA",
       modo: "MARÍTIMO Y AÉREO",
-      imagen: "/china-port.svg",
+      imagen: "https://unsplash.com/photos/tWd8h1Ad9G0/download?force=true&w=1200",
+      bandera: "🇨🇳",
       titular:
         "Congestión posterior a la Semana Dorada extiende los tiempos desde Asia",
       dato:
@@ -29,7 +30,8 @@ const brief = {
     {
       region: "INDIA",
       modo: "TRANSPORTE MARÍTIMO",
-      imagen: "/india-port.svg",
+      imagen: "https://unsplash.com/photos/RoLHfV_R5bI/download?force=true&w=1200",
+      bandera: "🇮🇳",
       titular:
         "Persisten riesgos de capacidad y conexiones desde India",
       dato:
@@ -42,7 +44,8 @@ const brief = {
     {
       region: "EUROPA",
       modo: "MARÍTIMO Y TERRESTRE",
-      imagen: "/europe-rhine.svg",
+      imagen: "https://unsplash.com/photos/Iw5qETjoQto/download?force=true&w=1200",
+      bandera: "🇪🇺",
       titular:
         "Los bajos niveles del Rin presionan el transporte interior",
       dato:
@@ -151,13 +154,16 @@ export default function Home() {
               key={item.titular}
               className="overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm"
             >
-              <div className="relative h-48 w-full">
-                <Image
+              <div className="relative h-48 w-full overflow-hidden bg-gray-100">
+                <img
                   src={item.imagen}
                   alt={item.titular}
-                  fill
-                  className="object-cover"
+                  className="h-full w-full object-cover"
+                  loading="lazy"
                 />
+                <div className="absolute left-4 top-4 flex h-11 w-11 items-center justify-center rounded-full border border-white/70 bg-white/95 text-2xl shadow-md">
+                  {item.bandera}
+                </div>
               </div>
 
               <div className="p-7">
