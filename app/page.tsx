@@ -1,6 +1,8 @@
 import Image from "next/image";
 
+// ======================================================
 // EDITAR AQUÍ CADA DÍA
+// ======================================================
 
 const brief = {
   fecha: "7 de octubre de 2026",
@@ -83,7 +85,9 @@ const brief = {
   ],
 };
 
+// ======================================================
 // NO EDITAR DEBAJO DE ESTA LÍNEA
+// ======================================================
 
 export default function Home() {
   return (
@@ -91,16 +95,18 @@ export default function Home() {
       {/* ENCABEZADO */}
       <section className="bg-[#003C6F] text-white">
         <div className="mx-auto max-w-7xl px-6 py-8 md:px-10">
-          <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
+          <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between md:gap-12">
             <div>
-              <Image
-                src="/vector-logo-white.png"
-                alt="Vector Global Logistics"
-                width={260}
-                height={80}
-                priority
-                className="h-auto w-[220px] md:w-[260px]"
-              />
+              <div className="inline-flex rounded-xl bg-white p-4">
+                <Image
+                  src="/vector-logo.png"
+                  alt="Vector Global Logistics"
+                  width={260}
+                  height={80}
+                  priority
+                  className="h-auto w-[220px] md:w-[260px]"
+                />
+              </div>
             </div>
 
             <div className="md:text-right">
@@ -111,12 +117,12 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="max-w-4xl py-16 md:py-20">
+          <div className="max-w-4xl py-12 md:py-14">
             <p className="mb-4 text-sm font-bold tracking-[0.18em] text-[#FF3E32]">
               ACTUALIZACIÓN LOGÍSTICA GLOBAL DE HOY
             </p>
 
-            <h1 className="text-4xl font-bold leading-tight md:text-6xl">
+            <h1 className="text-4xl font-bold leading-tight md:text-5xl">
               Lo que está moviendo la logística global hoy
             </h1>
 
