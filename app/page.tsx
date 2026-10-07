@@ -1,425 +1,324 @@
-Create a premium, modern, responsive one-page daily logistics news website for Vector Global Logistics.
-
-The entire website must be in Spanish.
-
-The purpose is to publish a DAILY logistics and supply chain news brief for clients, prospects, partners and industry professionals.
-
-The design should feel:
-- Executive
-- Premium
-- Clean
-- Modern
-- Editorial
-- Easy to scan
-- Professional
-- High-end B2B
-- Not overly corporate
-- Not cluttered
-- Mobile responsive
-
-BRAND
-
-Company:
-Vector Global Logistics
-
-Main title:
-Vector Global Logistics | Radar Logístico Global
-
-Use Vector Global Logistics brand colors:
-
-Primary colors:
-#FF3E32 — Vector red
-#003C6F — dark blue
-#000000 — black
-#F3F5F7 — light gray
-
-Secondary colors:
-#F15B40
-#FBB03B
-#FBBF6D
-#0F6E8C
-#148C9A
-#6EAAA0
-#B0C2CB
-#C5D5DF
-#DAEBF5
-
-Fonts:
-Use Poppins for headings.
-Use Lato for body copy.
-
-LOGO
-
-Place the Vector Global Logistics logo prominently in the top-left of the header.
-
-Use the uploaded Vector Global Logistics logo file.
-
-Do NOT recreate or modify the logo.
-Maintain the original proportions.
-Give the logo enough white space around it.
-
-HEADER
-
-Create a strong dark-blue header using #003C6F.
-
-Top left:
-Vector Global Logistics logo.
-
-Top right:
-RADAR LOGÍSTICO GLOBAL
-Fecha: 7 de octubre de 2026
-
-Below this, include:
-
-Small red label:
-ACTUALIZACIÓN LOGÍSTICA GLOBAL DE HOY
-
-Main headline:
-
-“Lo que está moviendo la logística global hoy”
-
-Supporting text:
-
-“Las principales disrupciones, riesgos y movimientos de mercado que los equipos de cadena de suministro deben conocer hoy, junto con acciones para anticiparse a posibles impactos.”
-
-Add one strong logistics hero image below or integrated into this section.
-
-The hero image should show global logistics such as:
-- container port
-- cargo ship
-- aircraft
-- international freight movement
-
-Use a dark blue overlay so text remains readable.
-
-Do not use generic corporate people stock photography.
-
-SECTION 1 — PRINCIPALES DESARROLLOS
-
-Section label:
-PRINCIPALES DESARROLLOS
-
-Section title:
-Lo más relevante de hoy
-
-Create 3 large news cards in a three-column layout on desktop and stacked on mobile.
-
-Each card must contain:
-
-- Region
-- Transport mode
-- Relevant image
-- Headline
-- Short factual explanation
-- Impacto potencial
-- Acción recomendada
-
-CARD 1
-
-REGIÓN:
-CHINA
-
-MODO:
-OCEAN & AIR
-
-HEADLINE:
-Congestión post-Golden Week extiende los tiempos desde Asia
-
-TEXT:
-Los cierres por Golden Week, las afectaciones climáticas y la congestión portuaria continúan impactando Shanghái, Ningbo y Yantian, con esperas reportadas superiores a cinco días en algunos puntos.
-
-IMPACTO POTENCIAL:
-Los retrasos originados en Asia podrían trasladarse a las cadenas de suministro de Norteamérica y Europa durante las próximas semanas.
-
-ACCIÓN RECOMENDADA:
-Considerar entre 7 y 14 días adicionales de flexibilidad para embarques críticos desde Asia y confirmar espacio con anticipación.
-
-IMAGE:
-Use a high-quality image of a Chinese container port or container ship.
-
-CARD 2
-
-REGIÓN:
-INDIA
-
-MODO:
-OCEAN FREIGHT
-
-HEADLINE:
-Persisten riesgos de capacidad y conexiones desde India
-
-TEXT:
-Los efectos residuales posteriores a las disrupciones en Mundra continúan afectando el flujo de contenedores, mientras las cancelaciones de salidas mantienen presión sobre la capacidad disponible.
-
-IMPACTO POTENCIAL:
-La carga con origen en India podría enfrentar mayor riesgo de conexiones perdidas, reprogramaciones y tiempos de tránsito extendidos.
-
-ACCIÓN RECOMENDADA:
-Confirmar reservas con anticipación y monitorear de cerca las conexiones de transbordo.
-
-IMAGE:
-Use a professional image of Mundra or a major Indian container port.
-
-CARD 3
-
-REGIÓN:
-EUROPA
-
-MODO:
-OCEAN & INLAND
-
-HEADLINE:
-Los bajos niveles del Rin presionan el transporte interior
-
-TEXT:
-Los niveles extremadamente bajos del río Rin están limitando las operaciones de barcazas en Alemania, mientras los puertos del norte de Europa continúan enfrentando presión operativa.
-
-IMPACTO POTENCIAL:
-La reducción de capacidad interior puede generar mayores costos y extender los tiempos de entrega.
-
-ACCIÓN RECOMENDADA:
-Evaluar alternativas ferroviarias y terrestres para carga sensible al tiempo.
-
-IMAGE:
-Use a professional image of cargo barges or logistics activity on the Rhine River.
-
-DESIGN FOR NEWS CARDS
-
-Use white cards with:
-- subtle borders
-- small shadow
-- generous spacing
-- rounded corners
-- strong hierarchy
-
-Region labels should use Vector red.
-
-Mode labels should use Vector dark blue.
-
-Use large numbers:
-01
-02
-03
-
-Use light blue #DAEBF5 for the large card numbers.
-
-Make the “ACCIÓN RECOMENDADA” section visually distinct with a very light gray background.
-
-SECTION 2 — LO QUE ESTAMOS MONITOREANDO
-
-Create a clean four-card grid.
-
-Title:
-LO QUE ESTAMOS MONITOREANDO
-
-Subtitle:
-Otros riesgos en el radar
-
-CARD 1:
-Estados Unidos
-
-Text:
-Los retrasos provenientes de Asia podrían traducirse en llegadas tardías a puertos de Estados Unidos, mientras la capacidad oceánica continúa bajo presión en rutas clave.
-
-CARD 2:
-México
-
-Text:
-Actualmente no se reportan huelgas portuarias activas de gran escala, pero los principales puertos del Pacífico deben mantenerse bajo monitoreo ante posibles episodios de congestión.
-
-CARD 3:
-España | 28 oct – 2 nov
-
-Text:
-Una acción laboral prevista en Guadalajara podría generar afectaciones en distribución y movimientos interiores en el centro de España.
-
-CARD 4:
-Golfo de México
-
-Text:
-La temporada de huracanes permanece activa durante noviembre, manteniendo el riesgo de cierres temporales de puertos y afectaciones al transporte terrestre.
-
-SECTION 3 — ACCIONES RECOMENDADAS
-
-Use a full-width Vector dark-blue background.
-
-Section label in red:
-ACCIONES RECOMENDADAS
-
-Headline:
-Qué deberían considerar hoy los equipos de supply chain
-
-Include four recommendations:
-
-01
-Considerar entre 7 y 14 días adicionales de flexibilidad para embarques críticos desde Asia.
-
-02
-Monitorear Shanghái, Ningbo, Yantian y los principales puertos del norte de Europa.
-
-03
-Evaluar rutas alternativas cuando exista exposición al Canal de Panamá, Mar Rojo u otras zonas de disrupción.
-
-04
-Comunicar de manera proactiva posibles retrasos de Q4 a clientes y equipos internos.
-
-Make this section visually strong but very easy to read.
-
-SECTION 4 — CÓMO PUEDE APOYAR VECTOR
-
-White background.
-
-Left side:
-
-Small label:
-CÓMO PUEDE APOYAR VECTOR
-
-Headline:
-Cuando las condiciones cambian, tu estrategia logística también debe poder adaptarse.
-
-Right side:
-
-Text:
-
-“Vector Global Logistics ayuda a las empresas a evaluar alternativas de transporte aéreo, marítimo y terrestre, identificar embarques críticos y desarrollar soluciones orientadas a proteger la continuidad de la cadena de suministro.
-
-Nuestro equipo analiza cada operación para encontrar alternativas que respondan a las necesidades específicas de tiempo, capacidad, ruta y tipo de carga.”
-
-Add service chips or small cards:
-
-Air Freight
-Ocean Freight
-Ground Transportation
-Cross-Border
-Expedited
-Time-Critical
-Specialized Cargo
-
-CTA BUTTON
-
-Text:
-Contacta a nuestro equipo
-
-Link:
-https://vectorgl.com
-
-Button color:
-#FF3E32
-
-White text.
-
-FOOTER
-
-Dark background.
-
-Include:
-
-Vector Global Logistics
-
-“Información elaborada con base en fuentes especializadas de logística, transporte y comercio internacional.”
-
-Add:
-vectorgl.com
-
-DAILY EDITING STRUCTURE
-
-IMPORTANT:
-
-Build the page so that all daily content is stored in ONE clearly labeled data object at the top of the page.tsx file.
-
-Call it:
-
-const brief = {}
-
-Include inside this object:
-
-fecha
-titulo
-subtitulo
-noticias
-vigilancia
-recomendaciones
-
-I want to be able to update the daily news WITHOUT editing the visual structure of the page.
-
-Add clear code comments:
+import Image from "next/image";
 
 // EDITAR AQUÍ CADA DÍA
 
-and
+const brief = {
+  fecha: "7 de octubre de 2026",
+
+  titulo: "Vector Global Logistics | Radar Logístico Global",
+
+  subtitulo:
+    "Las principales disrupciones, riesgos y movimientos de mercado que los equipos de cadena de suministro deben conocer hoy, junto con acciones para anticiparse a posibles impactos.",
+
+  noticias: [
+    {
+      region: "CHINA",
+      modo: "OCEAN & AIR",
+      imagen: "/china-port.jpg",
+      titular:
+        "Congestión post-Golden Week extiende los tiempos desde Asia",
+      dato:
+        "Los cierres por Golden Week, las afectaciones climáticas y la congestión portuaria continúan impactando Shanghái, Ningbo y Yantian, con esperas reportadas superiores a cinco días en algunos puntos.",
+      impacto:
+        "Los retrasos originados en Asia podrían trasladarse a las cadenas de suministro de Norteamérica y Europa durante las próximas semanas.",
+      accion:
+        "Considerar entre 7 y 14 días adicionales de flexibilidad para embarques críticos desde Asia y confirmar espacio con anticipación.",
+    },
+    {
+      region: "INDIA",
+      modo: "OCEAN FREIGHT",
+      imagen: "/india-port.jpg",
+      titular:
+        "Persisten riesgos de capacidad y conexiones desde India",
+      dato:
+        "Los efectos residuales posteriores a las disrupciones en Mundra continúan afectando el flujo de contenedores, mientras las cancelaciones de salidas mantienen presión sobre la capacidad disponible.",
+      impacto:
+        "La carga con origen en India podría enfrentar mayor riesgo de conexiones perdidas, reprogramaciones y tiempos de tránsito extendidos.",
+      accion:
+        "Confirmar reservas con anticipación y monitorear de cerca las conexiones de transbordo.",
+    },
+    {
+      region: "EUROPA",
+      modo: "OCEAN & INLAND",
+      imagen: "/europe-rhine.jpg",
+      titular:
+        "Los bajos niveles del Rin presionan el transporte interior",
+      dato:
+        "Los niveles extremadamente bajos del río Rin están limitando las operaciones de barcazas en Alemania, mientras los puertos del norte de Europa continúan enfrentando presión operativa.",
+      impacto:
+        "La reducción de capacidad interior puede generar mayores costos y extender los tiempos de entrega.",
+      accion:
+        "Evaluar alternativas ferroviarias y terrestres para carga sensible al tiempo.",
+    },
+  ],
+
+  vigilancia: [
+    {
+      titulo: "Estados Unidos",
+      texto:
+        "Los retrasos provenientes de Asia podrían traducirse en llegadas tardías a puertos de Estados Unidos, mientras la capacidad oceánica continúa bajo presión en rutas clave.",
+    },
+    {
+      titulo: "México",
+      texto:
+        "Actualmente no se reportan huelgas portuarias activas de gran escala, pero los principales puertos del Pacífico deben mantenerse bajo monitoreo ante posibles episodios de congestión.",
+    },
+    {
+      titulo: "España | 28 oct – 2 nov",
+      texto:
+        "Una acción laboral prevista en Guadalajara podría generar afectaciones en distribución y movimientos interiores en el centro de España.",
+    },
+    {
+      titulo: "Golfo de México",
+      texto:
+        "La temporada de huracanes permanece activa durante noviembre, manteniendo el riesgo de cierres temporales de puertos y afectaciones al transporte terrestre.",
+    },
+  ],
+
+  recomendaciones: [
+    "Considerar entre 7 y 14 días adicionales de flexibilidad para embarques críticos desde Asia.",
+    "Monitorear Shanghái, Ningbo, Yantian y los principales puertos del norte de Europa.",
+    "Evaluar rutas alternativas cuando exista exposición al Canal de Panamá, Mar Rojo u otras zonas de disrupción.",
+    "Comunicar de manera proactiva posibles retrasos de Q4 a clientes y equipos internos.",
+  ],
+};
 
 // NO EDITAR DEBAJO DE ESTA LÍNEA
 
-The page design should automatically update when the content in the brief object changes.
+export default function Home() {
+  return (
+    <main className="min-h-screen bg-[#F3F5F7] text-[#111111]">
+      {/* ENCABEZADO */}
+      <section className="bg-[#003C6F] text-white">
+        <div className="mx-auto max-w-7xl px-6 py-8 md:px-10">
+          <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
+            <div>
+              <Image
+                src="/vector-logo-white.png"
+                alt="Vector Global Logistics"
+                width={260}
+                height={80}
+                priority
+                className="h-auto w-[220px] md:w-[260px]"
+              />
+            </div>
 
-IMAGES
+            <div className="md:text-right">
+              <p className="text-xs tracking-[0.15em] text-white/60">
+                RADAR LOGÍSTICO GLOBAL
+              </p>
+              <p className="mt-1 font-semibold">{brief.fecha}</p>
+            </div>
+          </div>
 
-Create an image property inside every news object.
+          <div className="max-w-4xl py-16 md:py-20">
+            <p className="mb-4 text-sm font-bold tracking-[0.18em] text-[#FF3E32]">
+              ACTUALIZACIÓN LOGÍSTICA GLOBAL DE HOY
+            </p>
 
-Example:
+            <h1 className="text-4xl font-bold leading-tight md:text-6xl">
+              Lo que está moviendo la logística global hoy
+            </h1>
 
-imagen: "/china-port.jpg"
+            <p className="mt-6 max-w-3xl text-lg leading-8 text-white/75">
+              {brief.subtitulo}
+            </p>
+          </div>
+        </div>
+      </section>
 
-Use Next.js Image component.
+      {/* PRINCIPALES DESARROLLOS */}
+      <section className="mx-auto max-w-7xl px-6 py-14 md:px-10">
+        <div className="mb-8">
+          <p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">
+            PRINCIPALES DESARROLLOS
+          </p>
 
-Images will be stored in the public folder.
+          <h2 className="mt-3 text-3xl font-bold text-[#003C6F]">
+            Lo más relevante de hoy
+          </h2>
+        </div>
 
-Use:
-object-cover
-rounded corners
-responsive image sizing
+        <div className="grid gap-6 lg:grid-cols-3">
+          {brief.noticias.map((item, index) => (
+            <article
+              key={item.titular}
+              className="overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm"
+            >
+              <div className="relative h-48 w-full">
+                <Image
+                  src={item.imagen}
+                  alt={item.titular}
+                  fill
+                  className="object-cover"
+                />
+              </div>
 
-Do not distort images.
+              <div className="p-7">
+                <div className="mb-7 flex items-start justify-between gap-4">
+                  <div>
+                    <p className="text-xs font-bold tracking-[0.16em] text-[#FF3E32]">
+                      {item.region}
+                    </p>
 
-Make it very easy for me to replace images later.
+                    <p className="mt-1 text-xs font-semibold tracking-[0.12em] text-[#003C6F]">
+                      {item.modo}
+                    </p>
+                  </div>
 
-SEO
+                  <span className="text-4xl font-bold text-[#DAEBF5]">
+                    {String(index + 1).padStart(2, "0")}
+                  </span>
+                </div>
 
-Set the page title to:
+                <h3 className="text-2xl font-bold leading-tight">
+                  {item.titular}
+                </h3>
 
-Vector Global Logistics | Radar Logístico Global
+                <p className="mt-5 leading-7 text-gray-600">{item.dato}</p>
 
-Meta description:
+                <div className="mt-7 border-t border-gray-200 pt-6">
+                  <p className="text-xs font-bold tracking-[0.14em] text-[#003C6F]">
+                    IMPACTO POTENCIAL
+                  </p>
 
-“Actualización diaria de las principales noticias, riesgos y disrupciones que impactan la cadena de suministro global.”
+                  <p className="mt-2 text-sm leading-6 text-gray-700">
+                    {item.impacto}
+                  </p>
+                </div>
 
-RESPONSIVE DESIGN
+                <div className="mt-5 rounded-xl bg-[#F3F5F7] p-4">
+                  <p className="text-xs font-bold tracking-[0.14em] text-[#FF3E32]">
+                    ACCIÓN RECOMENDADA
+                  </p>
 
-Desktop:
-3-column news cards.
+                  <p className="mt-2 text-sm leading-6 text-gray-700">
+                    {item.accion}
+                  </p>
+                </div>
+              </div>
+            </article>
+          ))}
+        </div>
+      </section>
 
-Tablet:
-2-column where appropriate.
+      {/* LO QUE ESTAMOS MONITOREANDO */}
+      <section className="bg-white">
+        <div className="mx-auto max-w-7xl px-6 py-14 md:px-10">
+          <p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">
+            LO QUE ESTAMOS MONITOREANDO
+          </p>
 
-Mobile:
-All content stacked vertically.
+          <h2 className="mt-3 text-3xl font-bold text-[#003C6F]">
+            Otros riesgos en el radar
+          </h2>
 
-Ensure:
-- readable typography
-- generous spacing
-- fast loading
-- strong contrast
-- no horizontal scrolling
+          <div className="mt-8 grid gap-5 md:grid-cols-2">
+            {brief.vigilancia.map((item) => (
+              <div
+                key={item.titulo}
+                className="rounded-xl border border-gray-200 p-6"
+              >
+                <h3 className="font-bold text-[#003C6F]">{item.titulo}</h3>
 
-IMPORTANT DESIGN RULES
+                <p className="mt-3 leading-7 text-gray-600">{item.texto}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
-Do NOT make this look like a traditional news website.
+      {/* ACCIONES RECOMENDADAS */}
+      <section className="bg-[#003C6F] text-white">
+        <div className="mx-auto max-w-7xl px-6 py-14 md:px-10">
+          <p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">
+            ACCIONES RECOMENDADAS
+          </p>
 
-Do NOT make it look like a newspaper.
+          <h2 className="mt-3 text-3xl font-bold">
+            Qué deberían considerar hoy los equipos de supply chain
+          </h2>
 
-Do NOT overload the page.
+          <div className="mt-8 grid gap-4 md:grid-cols-2">
+            {brief.recomendaciones.map((item, index) => (
+              <div
+                key={item}
+                className="flex gap-4 rounded-xl border border-white/15 p-5"
+              >
+                <span className="font-bold text-[#FF3E32]">
+                  {String(index + 1).padStart(2, "0")}
+                </span>
 
-Do NOT use excessive gradients.
+                <p className="leading-6 text-white/80">{item}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
-Do NOT use generic icons everywhere.
+      {/* CÓMO PUEDE APOYAR VECTOR */}
+      <section className="bg-white">
+        <div className="mx-auto grid max-w-7xl gap-10 px-6 py-16 md:px-10 lg:grid-cols-2">
+          <div>
+            <p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">
+              CÓMO PUEDE APOYAR VECTOR
+            </p>
 
-Do NOT use animations that distract from the information.
+            <h2 className="mt-3 text-3xl font-bold leading-tight text-[#003C6F]">
+              Cuando las condiciones cambian, tu estrategia logística también
+              debe poder adaptarse.
+            </h2>
+          </div>
 
-Prioritize:
-clarity
-credibility
-authority
-speed of reading
-premium B2B presentation
+          <div>
+            <p className="text-lg leading-8 text-gray-600">
+              Vector Global Logistics ayuda a las empresas a evaluar
+              alternativas de transporte aéreo, marítimo y terrestre,
+              identificar embarques críticos y desarrollar soluciones
+              orientadas a proteger la continuidad de la cadena de suministro.
+            </p>
 
-The page should look like a polished daily intelligence brief produced by a global logistics company.
+            <p className="mt-5 text-lg leading-8 text-gray-600">
+              Nuestro equipo analiza cada operación para encontrar alternativas
+              que respondan a las necesidades específicas de tiempo, capacidad,
+              ruta y tipo de carga.
+            </p>
+
+            <div className="mt-7 grid grid-cols-2 gap-3 text-sm font-semibold text-[#003C6F] md:grid-cols-3">
+              <div className="rounded-lg bg-[#F3F5F7] p-4">Air Freight</div>
+              <div className="rounded-lg bg-[#F3F5F7] p-4">Ocean Freight</div>
+              <div className="rounded-lg bg-[#F3F5F7] p-4">Ground</div>
+              <div className="rounded-lg bg-[#F3F5F7] p-4">Cross-Border</div>
+              <div className="rounded-lg bg-[#F3F5F7] p-4">Expedited</div>
+              <div className="rounded-lg bg-[#F3F5F7] p-4">Time-Critical</div>
+            </div>
+
+            <a
+              href="https://vectorgl.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-8 inline-flex rounded-full bg-[#FF3E32] px-7 py-4 font-bold text-white transition hover:opacity-90"
+            >
+              Contacta a nuestro equipo →
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* FOOTER */}
+      <footer className="bg-[#111111] text-white">
+        <div className="mx-auto flex max-w-7xl flex-col gap-3 px-6 py-8 text-sm md:flex-row md:items-center md:justify-between md:px-10">
+          <div>
+            <strong>Vector Global Logistics</strong>
+            <p className="mt-1 text-white/60">vectorgl.com</p>
+          </div>
+
+          <span className="max-w-xl text-white/60 md:text-right">
+            Información elaborada con base en fuentes especializadas de
+            logística, transporte y comercio internacional.
+          </span>
+        </div>
+      </footer>
+    </main>
+  );
+}
