@@ -60,11 +60,13 @@ const brief = {
   vigilancia: [
     {
       titulo: "Estados Unidos",
+      bandera: "🇺🇸",
       texto:
         "Los retrasos provenientes de Asia podrían traducirse en llegadas tardías a puertos de Estados Unidos, mientras la capacidad oceánica continúa bajo presión en rutas clave.",
     },
     {
       titulo: "México",
+      bandera: "🇲🇽",
       texto:
         "Actualmente no se reportan huelgas portuarias activas de gran escala, pero los principales puertos del Pacífico deben mantenerse bajo monitoreo ante posibles episodios de congestión.",
     },
@@ -169,8 +171,9 @@ export default function Home() {
               <div className="p-7">
                 <div className="mb-7 flex items-start justify-between gap-4">
                   <div>
-                    <p className="text-xs font-bold tracking-[0.16em] text-[#FF3E32]">
-                      {item.region}
+                    <p className="flex items-center gap-1.5 text-xs font-bold tracking-[0.16em] text-[#FF3E32]">
+                      <span className="text-sm leading-none">{item.bandera}</span>
+                      <span>{item.region}</span>
                     </p>
 
                     <p className="mt-1 text-xs font-semibold tracking-[0.12em] text-[#003C6F]">
@@ -231,7 +234,12 @@ export default function Home() {
                 key={item.titulo}
                 className="rounded-xl border border-gray-200 p-6"
               >
-                <h3 className="font-bold text-[#003C6F]">{item.titulo}</h3>
+                <h3 className="flex items-center gap-2 font-bold text-[#003C6F]">
+                  {"bandera" in item && item.bandera ? (
+                    <span className="text-lg leading-none">{item.bandera}</span>
+                  ) : null}
+                  <span>{item.titulo}</span>
+                </h3>
 
                 <p className="mt-3 leading-7 text-gray-600">{item.texto}</p>
               </div>
