@@ -15,12 +15,12 @@ const brief = {
   noticias: [
     {
       region: "CHINA",
-      modo: "OCEAN & AIR",
+      modo: "MARÍTIMO Y AÉREO",
       imagen: "/china-port.jpg",
       titular:
-        "Congestión post-Golden Week extiende los tiempos desde Asia",
+        "Congestión posterior a la Semana Dorada extiende los tiempos desde Asia",
       dato:
-        "Los cierres por Golden Week, las afectaciones climáticas y la congestión portuaria continúan impactando Shanghái, Ningbo y Yantian, con esperas reportadas superiores a cinco días en algunos puntos.",
+        "Los cierres por la Semana Dorada, las afectaciones climáticas y la congestión portuaria continúan impactando Shanghái, Ningbo y Yantian, con esperas reportadas superiores a cinco días en algunos puntos.",
       impacto:
         "Los retrasos originados en Asia podrían trasladarse a las cadenas de suministro de Norteamérica y Europa durante las próximas semanas.",
       accion:
@@ -28,7 +28,7 @@ const brief = {
     },
     {
       region: "INDIA",
-      modo: "OCEAN FREIGHT",
+      modo: "TRANSPORTE MARÍTIMO",
       imagen: "/india-port.jpg",
       titular:
         "Persisten riesgos de capacidad y conexiones desde India",
@@ -41,7 +41,7 @@ const brief = {
     },
     {
       region: "EUROPA",
-      modo: "OCEAN & INLAND",
+      modo: "MARÍTIMO Y TERRESTRE",
       imagen: "/europe-rhine.jpg",
       titular:
         "Los bajos niveles del Rin presionan el transporte interior",
@@ -97,9 +97,9 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-6 py-8 md:px-10">
           <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between md:gap-12">
             <div>
-              <div className="inline-flex rounded-xl bg-white p-4">
+              <div className="inline-flex">
                 <Image
-                  src="/vector-logo.png"
+                  src="/Vector Logo White (1).png"
                   alt="Vector Global Logistics"
                   width={260}
                   height={80}
@@ -242,7 +242,7 @@ export default function Home() {
           </p>
 
           <h2 className="mt-3 text-3xl font-bold">
-            Qué deberían considerar hoy los equipos de supply chain
+            Qué deberían considerar hoy los equipos de cadena de suministro
           </h2>
 
           <div className="mt-8 grid gap-4 md:grid-cols-2">
@@ -291,12 +291,12 @@ export default function Home() {
             </p>
 
             <div className="mt-7 grid grid-cols-2 gap-3 text-sm font-semibold text-[#003C6F] md:grid-cols-3">
-              <div className="rounded-lg bg-[#F3F5F7] p-4">Air Freight</div>
-              <div className="rounded-lg bg-[#F3F5F7] p-4">Ocean Freight</div>
-              <div className="rounded-lg bg-[#F3F5F7] p-4">Ground</div>
-              <div className="rounded-lg bg-[#F3F5F7] p-4">Cross-Border</div>
-              <div className="rounded-lg bg-[#F3F5F7] p-4">Expedited</div>
-              <div className="rounded-lg bg-[#F3F5F7] p-4">Time-Critical</div>
+              <div className="rounded-lg bg-[#F3F5F7] p-4">Transporte aéreo</div>
+              <div className="rounded-lg bg-[#F3F5F7] p-4">Transporte marítimo</div>
+              <div className="rounded-lg bg-[#F3F5F7] p-4">Transporte terrestre</div>
+              <div className="rounded-lg bg-[#F3F5F7] p-4">Cruce fronterizo</div>
+              <div className="rounded-lg bg-[#F3F5F7] p-4">Carga expedita</div>
+              <div className="rounded-lg bg-[#F3F5F7] p-4">Carga crítica</div>
             </div>
 
             <a
