@@ -1,122 +1,167 @@
-export default function Home() {
-  const news = [
-    {
-      category: "OCEAN FREIGHT",
-      number: "01",
-      headline: "Today’s key ocean freight development",
-      text: "Add a concise summary of the most important ocean freight development affecting global supply chains today.",
-      impact:
-        "Consider reviewing upcoming bookings, capacity requirements and potential changes in transit times.",
-    },
-    {
-      category: "AIR FREIGHT",
-      number: "02",
-      headline: "Today’s key air cargo development",
-      text: "Highlight the most relevant change in air cargo capacity, rates, demand or operations.",
-      impact:
-        "Time-sensitive shipments may benefit from earlier planning and alternative routing options.",
-    },
-    {
-      category: "GROUND & CROSS-BORDER",
-      number: "03",
-      headline: "Today’s key ground transportation development",
-      text: "Share the most relevant cross-border, trucking, customs or inland transportation update.",
-      impact:
-        "Review critical shipments and confirm available capacity before upcoming departures.",
-    },
-  ];
+const brief = {
+  date: "October 7, 2026",
 
+  title: "Global supply chains are entering a critical Q4.",
+
+  subtitle:
+    "The most relevant disruptions logistics leaders should be watching today — and what they could mean for upcoming shipments.",
+
+  news: [
+    {
+      region: "CHINA",
+      mode: "OCEAN & AIR",
+      headline: "Post-Golden Week congestion extends Asia lead times",
+      fact:
+        "Golden Week closures, weather disruption and port congestion are affecting Shanghai, Ningbo and Yantian, with reported waits exceeding five days at some gateways.",
+      impact:
+        "Delays may continue flowing into North American and European supply chains.",
+      action:
+        "Consider adding 7–14 days of flexibility to critical Asia shipments and confirm space early.",
+    },
+    {
+      region: "INDIA",
+      mode: "OCEAN FREIGHT",
+      headline: "Capacity and connection risks remain elevated",
+      fact:
+        "Residual disruption following the Mundra empty-container dispute continues to affect flows, while approximately 11% of scheduled sailings were reported cancelled across the mid-September to mid-October period.",
+      impact:
+        "India-origin cargo may face greater risk of missed connections and longer transit times.",
+      action:
+        "Confirm bookings early and closely monitor transshipment connections.",
+    },
+    {
+      region: "EUROPE",
+      mode: "OCEAN & INLAND",
+      headline: "Low Rhine levels pressure inland transport",
+      fact:
+        "Extremely low water levels on the Rhine are limiting barge operations in Germany, while northern European ports continue managing congestion.",
+      impact:
+        "Reduced inland capacity can increase cost and extend delivery times.",
+      action:
+        "Review rail and truck alternatives for time-sensitive cargo.",
+    },
+  ],
+
+  watchlist: [
+    {
+      title: "United States",
+      text:
+        "Asia delays could translate into later arrivals at U.S. ports, while transatlantic ocean capacity remains tight.",
+    },
+    {
+      title: "Mexico",
+      text:
+        "No major port strikes are currently active, but Pacific gateways remain vulnerable to congestion and operational disruption.",
+    },
+    {
+      title: "Spain | Oct 28 – Nov 2",
+      text:
+        "A planned logistics labor action involving approximately 45,000 workers in Guadalajara could disrupt distribution in central Spain.",
+    },
+    {
+      title: "Gulf of Mexico",
+      text:
+        "Hurricane season remains active through November, maintaining the risk of temporary port and inland transportation disruption.",
+    },
+  ],
+
+  recommendations: [
+    "Build 7–14 days of flexibility into critical Asia lead times.",
+    "Monitor Shanghai, Ningbo, Yantian and northern European gateways.",
+    "Review alternative routing where Panama Canal or Red Sea exposure creates risk.",
+    "Communicate potential Q4 delays proactively with customers and internal teams.",
+  ],
+};
+
+export default function Home() {
   return (
     <main className="min-h-screen bg-[#F3F5F7] text-[#111111]">
-      {/* HEADER */}
       <section className="bg-[#003C6F] text-white">
-        <div className="mx-auto max-w-7xl px-6 py-8 md:px-10">
+        <div className="mx-auto max-w-7xl px-6 py-10 md:px-10">
           <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
             <div>
-              <div className="mb-2 text-sm font-semibold tracking-[0.18em]">
+              <p className="text-sm font-bold tracking-[0.18em]">
                 VECTOR GLOBAL LOGISTICS
-              </div>
-              <div className="h-1 w-16 bg-[#FF3E32]" />
+              </p>
+              <div className="mt-2 h-1 w-16 bg-[#FF3E32]" />
             </div>
 
-            <div className="text-left md:text-right">
-              <p className="text-sm text-white/70">SUPPLY CHAIN INTELLIGENCE</p>
-              <p className="font-semibold">October 7, 2026</p>
+            <div className="md:text-right">
+              <p className="text-xs tracking-[0.15em] text-white/60">
+                DAILY SUPPLY CHAIN BRIEF
+              </p>
+              <p className="mt-1 font-semibold">{brief.date}</p>
             </div>
           </div>
 
-          <div className="max-w-4xl py-16 md:py-24">
-            <p className="mb-5 text-sm font-bold tracking-[0.2em] text-[#FF3E32]">
-              TODAY&apos;S SUPPLY CHAIN BRIEF
+          <div className="max-w-4xl py-16 md:py-20">
+            <p className="mb-4 text-sm font-bold tracking-[0.18em] text-[#FF3E32]">
+              TODAY&apos;S GLOBAL LOGISTICS UPDATE
             </p>
 
             <h1 className="text-4xl font-bold leading-tight md:text-6xl">
-              What&apos;s moving global
-              <br />
-              supply chains today?
+              {brief.title}
             </h1>
 
-            <p className="mt-6 max-w-2xl text-lg leading-8 text-white/80">
-              The developments logistics leaders should be watching today —
-              and what they could mean for upcoming shipments.
+            <p className="mt-6 max-w-3xl text-lg leading-8 text-white/75">
+              {brief.subtitle}
             </p>
           </div>
         </div>
       </section>
 
-      {/* INTRO */}
-      <section className="mx-auto max-w-7xl px-6 py-12 md:px-10 md:py-16">
-        <div className="grid gap-8 md:grid-cols-[1.4fr_.6fr] md:items-end">
-          <div>
-            <p className="mb-3 text-sm font-bold tracking-[0.15em] text-[#FF3E32]">
-              THE BIG PICTURE
-            </p>
-
-            <h2 className="max-w-3xl text-3xl font-bold leading-tight text-[#003C6F] md:text-4xl">
-              Three developments worth having on your radar today.
-            </h2>
-          </div>
-
-          <p className="text-sm leading-6 text-gray-600">
-            A concise overview designed to help supply chain teams identify
-            potential risks, opportunities and actions.
+      <section className="mx-auto max-w-7xl px-6 py-14 md:px-10">
+        <div className="mb-8">
+          <p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">
+            TOP DEVELOPMENTS
           </p>
+          <h2 className="mt-3 text-3xl font-bold text-[#003C6F]">
+            What matters today
+          </h2>
         </div>
-      </section>
 
-      {/* NEWS */}
-      <section className="mx-auto max-w-7xl px-6 pb-16 md:px-10">
         <div className="grid gap-6 lg:grid-cols-3">
-          {news.map((item) => (
+          {brief.news.map((item, index) => (
             <article
-              key={item.number}
-              className="flex min-h-[430px] flex-col justify-between rounded-2xl border border-gray-200 bg-white p-7 shadow-sm"
+              key={item.headline}
+              className="rounded-2xl border border-gray-200 bg-white p-7 shadow-sm"
             >
-              <div>
-                <div className="mb-8 flex items-center justify-between">
-                  <span className="text-xs font-bold tracking-[0.16em] text-[#003C6F]">
-                    {item.category}
-                  </span>
-
-                  <span className="text-4xl font-bold text-[#DAEBF5]">
-                    {item.number}
-                  </span>
+              <div className="mb-7 flex items-start justify-between gap-4">
+                <div>
+                  <p className="text-xs font-bold tracking-[0.16em] text-[#FF3E32]">
+                    {item.region}
+                  </p>
+                  <p className="mt-1 text-xs font-semibold tracking-[0.12em] text-[#003C6F]">
+                    {item.mode}
+                  </p>
                 </div>
 
-                <h3 className="mb-5 text-2xl font-bold leading-tight">
-                  {item.headline}
-                </h3>
-
-                <p className="leading-7 text-gray-600">{item.text}</p>
+                <span className="text-4xl font-bold text-[#DAEBF5]">
+                  {String(index + 1).padStart(2, "0")}
+                </span>
               </div>
 
-              <div className="mt-8 border-t border-gray-200 pt-6">
-                <p className="mb-2 text-xs font-bold tracking-[0.15em] text-[#FF3E32]">
-                  WHAT TO KEEP IN MIND
-                </p>
+              <h3 className="text-2xl font-bold leading-tight">
+                {item.headline}
+              </h3>
 
-                <p className="text-sm leading-6 text-gray-700">
+              <p className="mt-5 leading-7 text-gray-600">{item.fact}</p>
+
+              <div className="mt-7 border-t border-gray-200 pt-6">
+                <p className="text-xs font-bold tracking-[0.14em] text-[#003C6F]">
+                  POTENTIAL IMPACT
+                </p>
+                <p className="mt-2 text-sm leading-6 text-gray-700">
                   {item.impact}
+                </p>
+              </div>
+
+              <div className="mt-5 rounded-xl bg-[#F3F5F7] p-4">
+                <p className="text-xs font-bold tracking-[0.14em] text-[#FF3E32]">
+                  ACTION
+                </p>
+                <p className="mt-2 text-sm leading-6 text-gray-700">
+                  {item.action}
                 </p>
               </div>
             </article>
@@ -124,79 +169,96 @@ export default function Home() {
         </div>
       </section>
 
-      {/* VECTOR SUPPORT */}
       <section className="bg-white">
-        <div className="mx-auto grid max-w-7xl gap-10 px-6 py-16 md:px-10 lg:grid-cols-2 lg:items-center">
+        <div className="mx-auto max-w-7xl px-6 py-14 md:px-10">
+          <p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">
+            WHAT WE&apos;RE WATCHING
+          </p>
+
+          <h2 className="mt-3 text-3xl font-bold text-[#003C6F]">
+            Additional risks on the radar
+          </h2>
+
+          <div className="mt-8 grid gap-5 md:grid-cols-2">
+            {brief.watchlist.map((item) => (
+              <div
+                key={item.title}
+                className="rounded-xl border border-gray-200 p-6"
+              >
+                <h3 className="font-bold text-[#003C6F]">{item.title}</h3>
+                <p className="mt-3 leading-7 text-gray-600">{item.text}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-[#003C6F] text-white">
+        <div className="mx-auto max-w-7xl px-6 py-14 md:px-10">
+          <p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">
+            RECOMMENDED ACTIONS
+          </p>
+
+          <h2 className="mt-3 text-3xl font-bold">
+            What supply chain teams should consider today
+          </h2>
+
+          <div className="mt-8 grid gap-4 md:grid-cols-2">
+            {brief.recommendations.map((item, index) => (
+              <div
+                key={item}
+                className="flex gap-4 rounded-xl border border-white/15 p-5"
+              >
+                <span className="font-bold text-[#FF3E32]">
+                  {String(index + 1).padStart(2, "0")}
+                </span>
+                <p className="leading-6 text-white/80">{item}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-white">
+        <div className="mx-auto grid max-w-7xl gap-10 px-6 py-16 md:px-10 lg:grid-cols-2">
           <div>
-            <p className="mb-4 text-sm font-bold tracking-[0.15em] text-[#FF3E32]">
-              HOW VECTOR CAN SUPPORT YOUR SUPPLY CHAIN
+            <p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">
+              HOW VECTOR CAN SUPPORT
             </p>
 
-            <h2 className="text-3xl font-bold leading-tight text-[#003C6F] md:text-4xl">
+            <h2 className="mt-3 text-3xl font-bold leading-tight text-[#003C6F]">
               When conditions change, your logistics strategy should be able to
               change with them.
             </h2>
           </div>
 
           <div>
-            <p className="mb-7 text-lg leading-8 text-gray-600">
-              Vector Global Logistics helps companies navigate complex supply
-              chains through flexible international transportation solutions,
-              responsive support and a team focused on understanding what each
-              operation actually requires.
+            <p className="text-lg leading-8 text-gray-600">
+              Vector Global Logistics helps companies evaluate alternatives
+              across air, ocean and ground transportation, identify critical
+              shipments and develop solutions designed to help protect supply
+              chain continuity.
             </p>
-
-            <div className="grid grid-cols-2 gap-3 text-sm font-semibold text-[#003C6F] md:grid-cols-3">
-              <div className="rounded-lg bg-[#F3F5F7] p-4">Air Freight</div>
-              <div className="rounded-lg bg-[#F3F5F7] p-4">Ocean Freight</div>
-              <div className="rounded-lg bg-[#F3F5F7] p-4">Ground</div>
-              <div className="rounded-lg bg-[#F3F5F7] p-4">Expedited</div>
-              <div className="rounded-lg bg-[#F3F5F7] p-4">Cross-Border</div>
-              <div className="rounded-lg bg-[#F3F5F7] p-4">
-                Specialized Cargo
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA */}
-      <section className="bg-[#FF3E32] text-white">
-        <div className="mx-auto max-w-7xl px-6 py-14 md:px-10">
-          <div className="flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
-            <div>
-              <p className="mb-2 text-sm font-semibold tracking-[0.15em]">
-                NEED SUPPORT WITH YOUR NEXT SHIPMENT?
-              </p>
-
-              <h2 className="text-3xl font-bold md:text-4xl">
-                Let&apos;s find the right solution.
-              </h2>
-            </div>
 
             <a
               href="https://vectorgl.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex w-fit items-center rounded-full bg-white px-7 py-4 font-bold text-[#003C6F] transition hover:scale-[1.02]"
+              className="mt-7 inline-flex rounded-full bg-[#FF3E32] px-7 py-4 font-bold text-white"
             >
-              Contact Vector →
+              Contact our team →
             </a>
           </div>
         </div>
       </section>
 
-      {/* FOOTER */}
-      <footer className="bg-[#003C6F] text-white">
-        <div className="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-8 text-sm md:flex-row md:items-center md:justify-between md:px-10">
-          <div>
-            <strong>Vector Global Logistics</strong>
-            <p className="mt-1 text-white/60">
-              Global logistics solutions for complex supply chains.
-            </p>
-          </div>
-
-          <div className="text-white/60">vectorgl.com</div>
+      <footer className="bg-[#111111] text-white">
+        <div className="mx-auto flex max-w-7xl flex-col gap-3 px-6 py-8 text-sm md:flex-row md:items-center md:justify-between md:px-10">
+          <strong>Vector Global Logistics</strong>
+          <span className="text-white/60">
+            Source summary: specialized logistics and market intelligence
+            sources.
+          </span>
         </div>
       </footer>
     </main>
