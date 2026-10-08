@@ -14,54 +14,59 @@ const brief = {
 
   noticias: [
     {
+      region: "MÉXICO",
+      modo: "MARÍTIMO Y TERRESTRE",
+      imagen: "https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=1200&q=80",
+      bandera: "https://flagcdn.com/w40/mx.png",
+      titular:
+        "Simon eleva el riesgo operativo en el Pacífico mexicano mientras Manzanillo mantiene presión",
+      dato:
+        "La tormenta tropical Simon continúa fortaleciéndose frente al occidente de México y existe vigilancia de huracán para parte de la costa. Manzanillo mantiene un nivel de congestión medio, con tiempos recientes cercanos a un día de espera.",
+      impacto:
+        "Las condiciones meteorológicas pueden afectar ventanas marítimas, transporte terrestre y programación de carga en el corredor del Pacífico mexicano durante los próximos días.",
+      accion:
+        "Monitorear avisos de Capitanía de Puerto y condiciones carreteras, confirmar citas y mantener flexibilidad en embarques sensibles al tiempo.",
+    },
+    {
       region: "CHINA",
-      modo: "TRANSPORTE MARÍTIMO",
+      modo: "MARÍTIMO Y AÉREO",
       imagen: "https://unsplash.com/photos/tWd8h1Ad9G0/download?force=true&w=1200",
       bandera: "https://flagcdn.com/w40/cn.png",
       titular:
-        "Congestión severa en Shanghái y Ningbo presiona los embarques desde Asia",
+        "Congestión en Shanghái y Ningbo presiona los embarques desde Asia",
       dato:
-        "Shanghái registra alrededor de 3.5 días de espera y Ningbo 2.4 días, mientras la confiabilidad de itinerarios en Asia permanece bajo presión y continúan los blank sailings durante la primera mitad de octubre.",
+        "Shanghái registra alrededor de 3.5 días de espera y Ningbo 2.4 días, mientras la confiabilidad de itinerarios en Asia permanece bajo presión. También se han observado retrasos puntuales importantes en vuelos de carga desde Shanghai Pudong.",
       impacto:
-        "Los embarques Asia→México y Asia→Norteamérica podrían enfrentar entre 5 y 10 días adicionales frente a tiempos estándar.",
+        "Los embarques marítimos y aéreos desde Asia podrían enfrentar reprogramaciones, conexiones más ajustadas y tiempos de tránsito extendidos.",
       accion:
-        "Confirmar espacio con anticipación, priorizar inventarios de seguridad y comunicar posibles retrasos de forma preventiva.",
+        "Confirmar espacio y conexiones con anticipación y considerar mayor flexibilidad para carga urgente o con fechas críticas.",
     },
     {
       region: "ESTRECHO DE HORMUZ",
       modo: "MARÍTIMO Y ENERGÍA",
       imagen: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&w=1200&q=80",
       titular:
-        "Escala el riesgo marítimo y aumenta la presión sobre costos de combustible",
+        "Escala el riesgo en Medio Oriente y aumenta la presión sobre transporte y combustible",
       dato:
-        "Durante octubre se han reportado nueve ataques a petroleros en el Estrecho de Hormuz. Maersk anunció un incremento de fuel surcharge de hasta 20% a partir del 12 de octubre.",
+        "La situación de seguridad continúa afectando rutas marítimas y aéreas en Medio Oriente. Se mantienen restricciones operativas y cambios de itinerario en distintos mercados de la región.",
       impacto:
-        "Mayor presión sobre costos de transporte marítimo y terrestre, además de riesgo adicional para rutas expuestas a Medio Oriente.",
+        "Mayor riesgo de recargos, cambios de ruta, restricciones de capacidad y retrasos para carga expuesta a conexiones en Medio Oriente.",
       accion:
-        "Revisar recargos vigentes, validar rutas alternativas y considerar posibles incrementos de costo en embarques sensibles.",
-    },
-    {
-      region: "SUDÁFRICA",
-      modo: "TRANSPORTE MARÍTIMO",
-      imagen: "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?auto=format&fit=crop&w=1200&q=80",
-      bandera: "https://flagcdn.com/w40/za.png",
-      titular:
-        "Durban registra esperas de hasta siete días por congestión extrema",
-      dato:
-        "La congestión en Durban continúa generando esperas cercanas a siete días y algunos carriers están omitiendo el puerto para proteger sus itinerarios.",
-      impacto:
-        "Mayor riesgo de reprogramaciones, conexiones perdidas y tiempos de tránsito extendidos para carga con origen o destino en Sudáfrica.",
-      accion:
-        "Revisar itinerarios confirmados, alternativas de conexión y posibles puertos sustitutos antes de embarcar carga crítica.",
+        "Revisar recargos vigentes, validar conexiones aéreas y marítimas y considerar rutas alternativas para embarques críticos.",
     },
   ],
 
   vigilancia: [
     {
-      titulo: "México",
-      bandera: "https://flagcdn.com/w40/mx.png",
+      titulo: "Carga aérea | Medio Oriente",
       texto:
-        "Los puertos del Pacífico avanzan en una reapertura gradual tras el huracán Rachel. Manzanillo opera con congestión media, con alrededor de 1.4 días de espera. Se estiman posibles extensiones de 2 a 4 días en tránsito hacia el interior.",
+        "Lufthansa Group y Air India suspendieron temporalmente vuelos a Riad tras nuevos incidentes de seguridad. Además, operaciones de carga aérea en varios mercados de Medio Oriente continúan restringidas o sujetas a cambios y cancelaciones con poca anticipación.",
+    },
+    {
+      titulo: "Sudáfrica",
+      bandera: "https://flagcdn.com/w40/za.png",
+      texto:
+        "Durban continúa registrando esperas cercanas a siete días por congestión severa, con riesgo de omisiones de puerto, reprogramaciones y conexiones perdidas.",
     },
     {
       titulo: "Brasil",
