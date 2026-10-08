@@ -5,7 +5,7 @@ import Image from "next/image";
 // ======================================================
 
 const brief = {
-  fecha: "7 de octubre de 2026",
+  fecha: "8 de octubre de 2026",
 
   titulo: "Vector Global Logistics | Radar Logístico Global",
 
@@ -15,78 +15,87 @@ const brief = {
   noticias: [
     {
       region: "CHINA",
-      modo: "MARÍTIMO Y AÉREO",
+      modo: "TRANSPORTE MARÍTIMO",
       imagen: "https://unsplash.com/photos/tWd8h1Ad9G0/download?force=true&w=1200",
       bandera: "https://flagcdn.com/w40/cn.png",
       titular:
-        "Congestión posterior a la Semana Dorada extiende los tiempos desde Asia",
+        "Congestión severa en Shanghái y Ningbo presiona los embarques desde Asia",
       dato:
-        "Los cierres por la Semana Dorada, las afectaciones climáticas y la congestión portuaria continúan impactando Shanghái, Ningbo y Yantian, con esperas reportadas superiores a cinco días en algunos puntos.",
+        "Shanghái registra alrededor de 3.5 días de espera y Ningbo 2.4 días, mientras la confiabilidad de itinerarios en Asia permanece bajo presión y continúan los blank sailings durante la primera mitad de octubre.",
       impacto:
-        "Los retrasos originados en Asia podrían trasladarse a las cadenas de suministro de Norteamérica y Europa durante las próximas semanas.",
+        "Los embarques Asia→México y Asia→Norteamérica podrían enfrentar entre 5 y 10 días adicionales frente a tiempos estándar.",
       accion:
-        "Considerar entre 7 y 14 días adicionales de flexibilidad para embarques críticos desde Asia y confirmar espacio con anticipación.",
+        "Confirmar espacio con anticipación, priorizar inventarios de seguridad y comunicar posibles retrasos de forma preventiva.",
     },
     {
-      region: "INDIA",
+      region: "ESTRECHO DE HORMUZ",
+      modo: "MARÍTIMO Y ENERGÍA",
+      imagen: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&w=1200&q=80",
+      titular:
+        "Escala el riesgo marítimo y aumenta la presión sobre costos de combustible",
+      dato:
+        "Durante octubre se han reportado nueve ataques a petroleros en el Estrecho de Hormuz. Maersk anunció un incremento de fuel surcharge de hasta 20% a partir del 12 de octubre.",
+      impacto:
+        "Mayor presión sobre costos de transporte marítimo y terrestre, además de riesgo adicional para rutas expuestas a Medio Oriente.",
+      accion:
+        "Revisar recargos vigentes, validar rutas alternativas y considerar posibles incrementos de costo en embarques sensibles.",
+    },
+    {
+      region: "SUDÁFRICA",
       modo: "TRANSPORTE MARÍTIMO",
-      imagen: "https://unsplash.com/photos/RoLHfV_R5bI/download?force=true&w=1200",
-      bandera: "https://flagcdn.com/w40/in.png",
+      imagen: "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?auto=format&fit=crop&w=1200&q=80",
+      bandera: "https://flagcdn.com/w40/za.png",
       titular:
-        "Persisten riesgos de capacidad y conexiones desde India",
+        "Durban registra esperas de hasta siete días por congestión extrema",
       dato:
-        "Los efectos residuales posteriores a las disrupciones en Mundra continúan afectando el flujo de contenedores, mientras las cancelaciones de salidas mantienen presión sobre la capacidad disponible.",
+        "La congestión en Durban continúa generando esperas cercanas a siete días y algunos carriers están omitiendo el puerto para proteger sus itinerarios.",
       impacto:
-        "La carga con origen en India podría enfrentar mayor riesgo de conexiones perdidas, reprogramaciones y tiempos de tránsito extendidos.",
+        "Mayor riesgo de reprogramaciones, conexiones perdidas y tiempos de tránsito extendidos para carga con origen o destino en Sudáfrica.",
       accion:
-        "Confirmar reservas con anticipación y monitorear de cerca las conexiones de transbordo.",
-    },
-    {
-      region: "EUROPA",
-      modo: "MARÍTIMO Y TERRESTRE",
-      imagen: "https://unsplash.com/photos/Iw5qETjoQto/download?force=true&w=1200",
-      bandera: "https://flagcdn.com/w40/eu.png",
-      titular:
-        "Los bajos niveles del Rin presionan el transporte interior",
-      dato:
-        "Los niveles extremadamente bajos del río Rin están limitando las operaciones de barcazas en Alemania, mientras los puertos del norte de Europa continúan enfrentando presión operativa.",
-      impacto:
-        "La reducción de capacidad interior puede generar mayores costos y extender los tiempos de entrega.",
-      accion:
-        "Evaluar alternativas ferroviarias y terrestres para carga sensible al tiempo.",
+        "Revisar itinerarios confirmados, alternativas de conexión y posibles puertos sustitutos antes de embarcar carga crítica.",
     },
   ],
 
   vigilancia: [
     {
-      titulo: "Estados Unidos",
-      bandera: "https://flagcdn.com/w40/us.png",
-      texto:
-        "Los retrasos provenientes de Asia podrían traducirse en llegadas tardías a puertos de Estados Unidos, mientras la capacidad oceánica continúa bajo presión en rutas clave.",
-    },
-    {
       titulo: "México",
       bandera: "https://flagcdn.com/w40/mx.png",
       texto:
-        "Actualmente no se reportan huelgas portuarias activas de gran escala, pero los principales puertos del Pacífico deben mantenerse bajo monitoreo ante posibles episodios de congestión.",
+        "Los puertos del Pacífico avanzan en una reapertura gradual tras el huracán Rachel. Manzanillo opera con congestión media, con alrededor de 1.4 días de espera. Se estiman posibles extensiones de 2 a 4 días en tránsito hacia el interior.",
     },
     {
-      titulo: "España | 28 oct – 2 nov",
+      titulo: "Brasil",
+      bandera: "https://flagcdn.com/w40/br.png",
       texto:
-        "Una acción laboral prevista en Guadalajara podría generar afectaciones en distribución y movimientos interiores en el centro de España.",
+        "Navegantes registra cerca de cinco días de espera por alta demanda, mientras Manaus enfrenta riesgo de restricciones adicionales por la sequía del Amazonas hacia el cierre del año.",
     },
     {
-      titulo: "Golfo de México",
+      titulo: "Europa",
+      bandera: "https://flagcdn.com/w40/eu.png",
       texto:
-        "La temporada de huracanes permanece activa durante noviembre, manteniendo el riesgo de cierres temporales de puertos y afectaciones al transporte terrestre.",
+        "Rotterdam y Amberes reportan retrasos menores; Alemania mantiene presión por bajos niveles del Rin y posibles desvíos a camión o tren. También se monitorean acciones laborales en Italia y Grecia.",
+    },
+    {
+      titulo: "Estados Unidos",
+      bandera: "https://flagcdn.com/w40/us.png",
+      texto:
+        "Los Ángeles mantiene tiempos cercanos a un día en puerto, aunque persisten presiones en conexiones inland y ferroviarias. También deben monitorearse nuevos requisitos de compliance aduanero para Q4.",
     },
   ],
 
+  metricas: [
+    { indicador: "Congestión global", valor: "12% de capacidad de buques", tendencia: "Máximo de 4 años" },
+    { indicador: "Confiabilidad global", valor: "49.9%", tendencia: "Mínimo desde 2022" },
+    { indicador: "Confiabilidad Asia", valor: "32.3%", tendencia: "Nivel crítico" },
+    { indicador: "Espera en Durban", valor: "7 días", tendencia: "Severo" },
+    { indicador: "Espera en Shanghái", valor: "3.5 días", tendencia: "Crítico" },
+  ],
+
   recomendaciones: [
-    "Considerar entre 7 y 14 días adicionales de flexibilidad para embarques críticos desde Asia.",
-    "Monitorear Shanghái, Ningbo, Yantian y los principales puertos del norte de Europa.",
-    "Evaluar rutas alternativas cuando exista exposición al Canal de Panamá, Mar Rojo u otras zonas de disrupción.",
-    "Comunicar de manera proactiva posibles retrasos de Q4 a clientes y equipos internos.",
+    "Priorizar inventarios de seguridad para carga con origen en Asia y considerar entre 5 y 10 días adicionales frente a tiempos estándar.",
+    "Revisar recargos de combustible y posibles incrementos de costo en rutas expuestas a Medio Oriente.",
+    "Confirmar espacio y conexiones con anticipación en Shanghái, Ningbo, Durban y otros puertos con congestión relevante.",
+    "Evaluar proveedores, rutas o modos alternativos cuando exista riesgo de retraso significativo, especialmente en Asia y Europa.",
   ],
 };
 
@@ -169,11 +178,13 @@ export default function Home() {
                 <div className="mb-7 flex items-start justify-between gap-4">
                   <div>
                     <p className="flex items-center gap-1.5 text-xs font-bold tracking-[0.16em] text-[#FF3E32]">
-                      <img
-                        src={item.bandera}
-                        alt=""
-                        className="h-3 w-5 rounded-[2px] object-cover shadow-sm"
-                      />
+                      {"bandera" in item && item.bandera ? (
+                        <img
+                          src={item.bandera}
+                          alt=""
+                          className="h-3 w-5 rounded-[2px] object-cover shadow-sm"
+                        />
+                      ) : null}
                       <span>{item.region}</span>
                     </p>
 
@@ -247,6 +258,29 @@ export default function Home() {
                 </h3>
 
                 <p className="mt-3 leading-7 text-gray-600">{item.texto}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* MÉTRICAS CLAVE */}
+      <section className="bg-[#F3F5F7]">
+        <div className="mx-auto max-w-7xl px-6 py-14 md:px-10">
+          <p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">
+            MÉTRICAS CLAVE
+          </p>
+
+          <h2 className="mt-3 text-3xl font-bold text-[#003C6F]">
+            Señales a seguir hoy
+          </h2>
+
+          <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
+            {brief.metricas.map((item) => (
+              <div key={item.indicador} className="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
+                <p className="text-xs font-bold tracking-[0.12em] text-[#FF3E32]">{item.indicador}</p>
+                <p className="mt-3 text-2xl font-bold text-[#003C6F]">{item.valor}</p>
+                <p className="mt-2 text-sm text-gray-600">{item.tendencia}</p>
               </div>
             ))}
           </div>
