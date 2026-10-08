@@ -16,7 +16,7 @@ const brief = {
     {
       region: "MÉXICO",
       modo: "MARÍTIMO Y TERRESTRE",
-      imagen: "https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=1200&q=80",
+      imagen: "https://cdn.star.nesdis.noaa.gov/FLOATER/EP202026/GEOCOLOR/20262810430_GOES19-ABI-FL-GEOCOLOR-EP202026-1000x1000.jpg",
       bandera: "https://flagcdn.com/w40/mx.png",
       titular:
         "Simon eleva el riesgo operativo en el Pacífico mexicano mientras Manzanillo mantiene presión",
