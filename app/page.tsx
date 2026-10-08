@@ -44,7 +44,7 @@ const brief = {
     {
       region: "ESTRECHO DE HORMUZ",
       modo: "MARÍTIMO Y ENERGÍA",
-      imagen: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&w=1200&q=80",
+      imagen: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Strait_of_Hormuz_AR.jpg",
       titular:
         "Escala el riesgo en Medio Oriente y aumenta la presión sobre transporte y combustible",
       dato:
