@@ -5,104 +5,69 @@ import Image from "next/image";
 // ======================================================
 
 const brief = {
-  fecha: "8 de octubre de 2026",
-
+  fecha: "9 de octubre de 2026",
   titulo: "Vector Global Logistics | Radar Logístico Global",
-
-  subtitulo:
-    "Las principales disrupciones, riesgos y movimientos de mercado que los equipos de cadena de suministro deben conocer hoy, junto con acciones para anticiparse a posibles impactos.",
-
+  subtitulo: "Retrasos portuarios, cierres por condiciones meteorológicas y riesgos de transporte. Referencias operativas del 9 de octubre; confirmar cada ETA con la terminal y la naviera.",
   noticias: [
     {
-      region: "MÉXICO",
-      modo: "MARÍTIMO Y TERRESTRE",
+      region: "MÉXICO", modo: "MARÍTIMO Y TERRESTRE",
       imagen: "https://cdn.star.nesdis.noaa.gov/FLOATER/EP202026/GEOCOLOR/20262810430_GOES19-ABI-FL-GEOCOLOR-EP202026-1000x1000.jpg",
       bandera: "https://flagcdn.com/w40/mx.png",
-      titular:
-        "Simon eleva el riesgo operativo en el Pacífico mexicano mientras Manzanillo mantiene presión",
-      dato:
-        "La tormenta tropical Simon continúa fortaleciéndose frente al occidente de México y existe vigilancia de huracán para parte de la costa. Manzanillo mantiene un nivel de congestión medio, con tiempos recientes cercanos a un día de espera.",
-      impacto:
-        "Las condiciones meteorológicas pueden afectar ventanas marítimas, transporte terrestre y programación de carga en el corredor del Pacífico mexicano durante los próximos días.",
-      accion:
-        "Monitorear avisos de Capitanía de Puerto y condiciones carreteras, confirmar citas y mantener flexibilidad en embarques sensibles al tiempo.",
+      titular: "Lázaro Cárdenas: cierre a la navegación por Simón",
+      dato: "Antes del cierre se reportaban 3.4–3.5 días de espera en Lázaro Cárdenas y 1.4 días en Manzanillo. Son cifras de referencia anteriores a las restricciones, no estimaciones vigentes. No hay una estimación pública fiable de demora adicional durante el cierre.",
+      impacto: "Reprogramación potencial de escalas, retiros y entregas; la duración del retraso dependerá de la reapertura y de la recuperación operativa.",
+      accion: "Confirmar avisos de Capitanía de Puerto, estado de terminal, itinerario de la naviera y nuevas ETA antes de comprometer entregas.",
     },
     {
-      region: "CHINA",
-      modo: "MARÍTIMO Y AÉREO",
+      region: "CHINA", modo: "MARÍTIMO",
       imagen: "https://unsplash.com/photos/tWd8h1Ad9G0/download?force=true&w=1200",
       bandera: "https://flagcdn.com/w40/cn.png",
-      titular:
-        "Congestión en Shanghái y Ningbo presiona los embarques desde Asia",
-      dato:
-        "Shanghái registra alrededor de 3.5 días de espera y Ningbo 2.4 días, mientras la confiabilidad de itinerarios en Asia permanece bajo presión. También se han observado retrasos puntuales importantes en vuelos de carga desde Shanghai Pudong.",
-      impacto:
-        "Los embarques marítimos y aéreos desde Asia podrían enfrentar reprogramaciones, conexiones más ajustadas y tiempos de tránsito extendidos.",
-      accion:
-        "Confirmar espacio y conexiones con anticipación y considerar mayor flexibilidad para carga urgente o con fechas críticas.",
+      titular: "Shanghái y Ningbo mantienen presión por congestión",
+      dato: "Shanghái registra como referencia 3.51 días de espera, con algunas terminales por encima de 7 días. Ningbo presenta 2.37 días y restricciones de patio y disponibilidad de atraque.",
+      impacto: "Riesgo de salidas reprogramadas, conexiones perdidas y ventanas de carga más ajustadas.",
+      accion: "Confirmar atraque, cut-off, espacio disponible y alternativas para embarques críticos.",
     },
     {
-      region: "ESTRECHO DE HORMUZ",
-      modo: "MARÍTIMO Y ENERGÍA",
-      imagen: "https://images-assets.nasa.gov/image/iss064e046338/iss064e046338~orig.jpg",
-      titular:
-        "Escala el riesgo en Medio Oriente y aumenta la presión sobre transporte y combustible",
-      dato:
-        "La situación de seguridad continúa afectando rutas marítimas y aéreas en Medio Oriente. Se mantienen restricciones operativas y cambios de itinerario en distintos mercados de la región.",
-      impacto:
-        "Mayor riesgo de recargos, cambios de ruta, restricciones de capacidad y retrasos para carga expuesta a conexiones en Medio Oriente.",
-      accion:
-        "Revisar recargos vigentes, validar conexiones aéreas y marítimas y considerar rutas alternativas para embarques críticos.",
-    },
-  ],
-
-  vigilancia: [
-    {
-      titulo: "Carga aérea | Medio Oriente",
-      texto:
-        "Lufthansa Group y Air India suspendieron temporalmente vuelos a Riad tras nuevos incidentes de seguridad. Además, operaciones de carga aérea en varios mercados de Medio Oriente continúan restringidas o sujetas a cambios y cancelaciones con poca anticipación.",
-    },
-    {
-      titulo: "Sudáfrica",
-      bandera: "https://flagcdn.com/w40/za.png",
-      texto:
-        "Durban continúa registrando esperas cercanas a siete días por congestión severa, con riesgo de omisiones de puerto, reprogramaciones y conexiones perdidas.",
-    },
-    {
-      titulo: "Brasil",
-      bandera: "https://flagcdn.com/w40/br.png",
-      texto:
-        "Navegantes registra cerca de cinco días de espera por alta demanda, mientras Manaus enfrenta riesgo de restricciones adicionales por la sequía del Amazonas hacia el cierre del año.",
-    },
-    {
-      titulo: "Europa",
-      bandera: "https://flagcdn.com/w40/eu.png",
-      texto:
-        "Rotterdam y Amberes reportan retrasos menores; Alemania mantiene presión por bajos niveles del Rin y posibles desvíos a camión o tren. También se monitorean acciones laborales en Italia y Grecia.",
-    },
-    {
-      titulo: "Estados Unidos",
+      region: "ESTADOS UNIDOS", modo: "PORTUARIO Y AÉREO",
+      imagen: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200",
       bandera: "https://flagcdn.com/w40/us.png",
-      texto:
-        "Los Ángeles mantiene tiempos cercanos a un día en puerto, aunque persisten presiones en conexiones inland y ferroviarias. También deben monitorearse nuevos requisitos de compliance aduanero para Q4.",
+      titular: "Isaías afecta la planificación de puertos y vuelos",
+      dato: "Según los reportes proporcionados, Mobile estaba bajo condición portuaria Yankee y Pensacola preveía cerrar vuelos comerciales a las 10:00 a. m. El 7 de octubre se habían reportado 441 vuelos demorados en aeropuertos de Florida hasta las 2:30 p. m.; no es una cifra acumulada del 9 de octubre.",
+      impacto: "Las restricciones e inspecciones posteriores pueden afectar vuelos, buques y transporte terrestre. No hay estimación fiable de horas de retraso total.",
+      accion: "Confirmar con autoridades, aerolíneas, terminales y transportistas el estatus actual y la reprogramación.",
     },
   ],
-
-  metricas: [
-    { indicador: "Congestión global", valor: "12% de capacidad de buques", tendencia: "Máximo de 4 años" },
-    { indicador: "Confiabilidad global", valor: "49.9%", tendencia: "Mínimo desde 2022" },
-    { indicador: "Confiabilidad Asia", valor: "32.3%", tendencia: "Nivel crítico" },
-    { indicador: "Espera en Durban", valor: "7 días", tendencia: "Severo" },
-    { indicador: "Espera en Shanghái", valor: "3.5 días", tendencia: "Crítico" },
+  vigilancia: [
+    { titulo: "Europa | Rotterdam y Amberes", bandera: "https://flagcdn.com/w40/eu.png", texto: "Rotterdam: 1.39 días de espera de buques, con 12–24 horas adicionales para barcazas y feeders. Amberes: 1.37 días y demoras de barcazas cercanas a 24 horas. Referencias reportadas, no lecturas en vivo." },
+    { titulo: "Europa | Bremerhaven y Hamburgo", bandera: "https://flagcdn.com/w40/de.png", texto: "Bremerhaven: 1.08 días de espera y ocupación de patio reportada del 92%. Hamburgo: 1.14 días de espera de buques. Validar disponibilidad y citas antes de programar retiro." },
+    { titulo: "Brasil | Navegantes, Itajaí y Manaus", bandera: "https://flagcdn.com/w40/br.png", texto: "Navegantes: 5.0 días; Itajaí: 2.0 días; Manaus: 1.0 día, según las referencias compartidas. La temporada seca del Amazonas podría añadir restricciones de navegación más adelante." },
+    { titulo: "India / conexión por Colombo", bandera: "https://flagcdn.com/w40/lk.png", texto: "Colombo había reportado demoras de atraque de hasta 24–36 horas para buques con ventana confirmada. Es un dato anterior, NO una lectura en vivo del 9 de octubre." },
+    { titulo: "Aéreo | Florida", bandera: "https://flagcdn.com/w40/us.png", texto: "Los 441 vuelos demorados fueron reportados el 7 de octubre hasta las 2:30 p. m. No utilizar esta cifra como acumulado del 9 de octubre. Confirmar estatus de aeropuertos y aerolíneas." },
   ],
-
+  metricas: [
+    { indicador: "Lázaro Cárdenas", valor: "3.4–3.5 días", tendencia: "Antes del cierre; demora actual sin cuantificar" },
+    { indicador: "Manzanillo", valor: "1.4 días", tendencia: "Referencia previa a restricciones" },
+    { indicador: "Shanghái", valor: "3.51 días", tendencia: "Algunas terminales superan 7 días" },
+    { indicador: "Ningbo", valor: "2.37 días", tendencia: "Restricciones de patio y atraque" },
+    { indicador: "Navegantes", valor: "5.0 días", tendencia: "Congestión elevada reportada" },
+    { indicador: "Rotterdam", valor: "1.39 días", tendencia: "Barcazas/feeders: +12–24 h" },
+    { indicador: "Amberes", valor: "1.37 días", tendencia: "Barcazas: alrededor de +24 h" },
+    { indicador: "Bremerhaven", valor: "1.08 días", tendencia: "Patio al 92% reportado" },
+    { indicador: "Hamburgo", valor: "1.14 días", tendencia: "Espera de buques" },
+    { indicador: "Itajaí", valor: "2.0 días", tendencia: "Referencia reportada" },
+    { indicador: "Manaus", valor: "1.0 día", tendencia: "Vigilar temporada seca" },
+  ],
   recomendaciones: [
-    "Priorizar inventarios de seguridad para carga con origen en Asia y considerar entre 5 y 10 días adicionales frente a tiempos estándar.",
-    "Revisar recargos de combustible y posibles incrementos de costo en rutas expuestas a Medio Oriente.",
-    "Confirmar espacio y conexiones con anticipación en Shanghái, Ningbo, Durban y otros puertos con congestión relevante.",
-    "Evaluar proveedores, rutas o modos alternativos cuando exista riesgo de retraso significativo, especialmente en Asia y Europa.",
+    "México: tratar las esperas previas a Simón solo como referencia y confirmar reapertura, itinerario y ETA con la naviera.",
+    "Europa: contemplar las demoras adicionales de barcazas y feeders al planificar conexiones, retiros y entregas.",
+    "Asia y Brasil: validar ventanas de atraque, disponibilidad de patio y reservas antes de confirmar compromisos comerciales.",
+    "EE. UU. y Colombo: diferenciar cifras históricas de estatus actual; no convertir retrasos sin estimación pública en ETAs garantizadas.",
   ],
 };
+
+// Referencias proporcionadas para este corte: FreshPlaza (congestión portuaria);
+// PNJ (retrasos de vuelos en Florida); Daily Mirror (Colombo).
+// Las cifras son indicativas y no representan monitoreo en vivo.
 
 // ======================================================
 // NO EDITAR DEBAJO DE ESTA LÍNEA
@@ -280,7 +245,7 @@ export default function Home() {
             Señales a seguir hoy
           </h2>
 
-          <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
+          <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {brief.metricas.map((item) => (
               <div key={item.indicador} className="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
                 <p className="text-xs font-bold tracking-[0.12em] text-[#FF3E32]">{item.indicador}</p>
