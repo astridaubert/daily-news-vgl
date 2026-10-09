@@ -11,7 +11,7 @@ const brief = {
   noticias: [
     {
       region: "MÉXICO", modo: "MARÍTIMO Y TERRESTRE",
-      imagen: "https://images.unsplash.com/photo-1519608487953-e999c86e7455?w=1200",
+      imagen: "https://upload.wikimedia.org/wikipedia/commons/3/3c/Nora_1997-09-21_1630Z.png",
       bandera: "https://flagcdn.com/w40/mx.png",
       titular: "Simón genera incertidumbre operativa en el Pacífico mexicano",
       dato: "Las condiciones meteorológicas asociadas a Simón han motivado restricciones a la navegación y ajustes en la planificación de operaciones en el Pacífico mexicano. Las terminales, navieras y empresas de transporte deben coordinar sus movimientos con la evolución de los avisos oficiales.",
