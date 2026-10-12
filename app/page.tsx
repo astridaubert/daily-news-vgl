@@ -12,7 +12,7 @@ const brief = {
     {
       "region": "MÉXICO",
       "modo": "PUERTOS · AEROPUERTOS · CARRETERAS",
-      "imagen": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?w=1200",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Hurricane_Melissa_at_landfall_true_color.png",
       "bandera": "https://flagcdn.com/w40/mx.png",
       "titular": "Simón eleva el riesgo logístico en el Pacífico mexicano",
       "dato": "El huracán Simón mantiene lluvias extremas, inundaciones y riesgo de deslaves en la costa occidental, especialmente Jalisco, Colima y Michoacán. Se reportan restricciones portuarias en Manzanillo y Lázaro Cárdenas y suspensiones aeroportuarias en Puerto Vallarta y Manzanillo. Los horarios de reapertura requieren verificación directa.",
@@ -22,7 +22,7 @@ const brief = {
     {
       "region": "ESTADOS UNIDOS",
       "modo": "CARRETERAS · PUERTOS · FERIADO",
-      "imagen": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Columbus_citizens_foundation_2019_parade_jeh.jpg",
       "bandera": "https://flagcdn.com/w40/us.png",
       "titular": "Recuperación tras Isaías y ajustes por Columbus Day",
       "dato": "Tras el paso de Isaías por el noroeste de Florida, persisten riesgos locales de inundación, caída de árboles y cortes eléctricos. El lunes 12 también es Columbus Day; algunas terminales portuarias modifican sus horarios de puerta para camiones, incluida Virginia.",
@@ -233,7 +233,7 @@ export default function Home() {
               <div className="relative h-48 w-full overflow-hidden bg-gray-100">
                 <img
                   src={item.imagen}
-                  alt={item.titular}
+                  alt={item.region === "MÉXICO" ? "Imagen satelital ilustrativa de un huracán (no corresponde a Simón)" : item.region === "ESTADOS UNIDOS" ? "Desfile de Columbus Day de 2019, imagen ilustrativa" : item.titular}
                   className="h-full w-full object-cover"
                   loading="lazy"
                 />
