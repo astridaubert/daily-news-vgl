@@ -5,80 +5,160 @@ import Image from "next/image";
 // ======================================================
 
 const brief = {
-  fecha: "9 de octubre de 2026",
-  titulo: "Vector Global Logistics | Radar Logístico Global",
-  subtitulo: "Contexto de las principales disrupciones logísticas globales y métricas portuarias de referencia para apoyar decisiones de transporte.",
-  noticias: [
+  "fecha": "lunes 12 de octubre de 2026",
+  "titulo": "Vector Global Logistics | Radar Logístico Global",
+  "subtitulo": "Riesgo alto en el Pacífico mexicano por el huracán Simón. Recuperación tras Isaías en EE. UU., afectaciones ferroviarias en Bélgica y ajustes por feriados en Brasil y Estados Unidos. Confirmar operaciones, citas y rutas antes de comprometer fechas de entrega.",
+  "noticias": [
     {
-      region: "MÉXICO", modo: "MARÍTIMO Y TERRESTRE",
-      imagen: "https://upload.wikimedia.org/wikipedia/commons/3/3c/Nora_1997-09-21_1630Z.png",
-      bandera: "https://flagcdn.com/w40/mx.png",
-      titular: "Simón provoca cierre a la navegación en Lázaro Cárdenas y alerta en Manzanillo",
-      dato: "La Secretaría de Marina y Protección Civil reportaron el cierre a la navegación de embarcaciones mayores y menores en Lázaro Cárdenas por el huracán Simón. En Manzanillo también se reportan restricciones para embarcaciones menores y persiste el riesgo de nuevas afectaciones por viento y oleaje. El estatus de cada puerto puede cambiar conforme avance el sistema.",
-      impacto: "El cierre reportado en Lázaro Cárdenas y las restricciones en Manzanillo pueden ocasionar reprogramaciones de escalas, ventanas de carga, retiros y entregas.",
-      accion: "Verificar la vigencia de los cierres y restricciones con Capitanía de Puerto, terminales y navieras antes de confirmar salidas y fechas de entrega.",
+      "region": "MÉXICO",
+      "modo": "PUERTOS · AEROPUERTOS · CARRETERAS",
+      "imagen": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?w=1200",
+      "bandera": "https://flagcdn.com/w40/mx.png",
+      "titular": "Simón eleva el riesgo logístico en el Pacífico mexicano",
+      "dato": "El huracán Simón mantiene lluvias extremas, inundaciones y riesgo de deslaves en la costa occidental, especialmente Jalisco, Colima y Michoacán. Se reportan restricciones portuarias en Manzanillo y Lázaro Cárdenas y suspensiones aeroportuarias en Puerto Vallarta y Manzanillo. Los horarios de reapertura requieren verificación directa.",
+      "impacto": "Posibles suspensiones de navegación, reprogramación de buques y citas, cancelaciones aéreas y demoras terrestres. Un cierre de navegación no implica necesariamente cierre idéntico de todas las terminales.",
+      "accion": "Confirmar por separado navegación, atraque, recepción de carga, patios, acceso vial y NOTAM de PVR/ZLO antes de prometer fechas."
     },
     {
-      region: "ESTADOS UNIDOS", modo: "PORTUARIO Y AÉREO",
-      imagen: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200",
-      bandera: "https://flagcdn.com/w40/us.png",
-      titular: "Isaías altera la planificación de vuelos y puertos",
-      dato: "Los avisos meteorológicos asociados a Isaías han provocado medidas preventivas en operaciones portuarias y aéreas de la costa del golfo de Estados Unidos. La normalización dependerá de las decisiones de las autoridades y de la revisión de instalaciones tras el paso del sistema.",
-      impacto: "Potenciales cancelaciones, cambios de itinerario y afectaciones a conexiones de carga marítima, aérea y terrestre.",
-      accion: "Consultar el estatus operativo con aerolíneas, aeropuertos, terminales portuarias y transportistas antes de programar embarques.",
+      "region": "ESTADOS UNIDOS",
+      "modo": "CARRETERAS · PUERTOS · FERIADO",
+      "imagen": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200",
+      "bandera": "https://flagcdn.com/w40/us.png",
+      "titular": "Recuperación tras Isaías y ajustes por Columbus Day",
+      "dato": "Tras el paso de Isaías por el noroeste de Florida, persisten riesgos locales de inundación, caída de árboles y cortes eléctricos. El lunes 12 también es Columbus Day; algunas terminales portuarias modifican sus horarios de puerta para camiones, incluida Virginia.",
+      "impacto": "Los cierres parciales y las rutas dañadas pueden generar desvíos, entregas tardías y cambios de citas incluso cuando un puerto principal reabre.",
+      "accion": "Confirmar estatus de puertos del Golfo, accesos en Florida y Alabama, horarios de terminales y disponibilidad de transporte local."
     },
     {
-      region: "CHINA", modo: "MARÍTIMO",
-      imagen: "https://unsplash.com/photos/tWd8h1Ad9G0/download?force=true&w=1200",
-      bandera: "https://flagcdn.com/w40/cn.png",
-      titular: "La congestión de Shanghái y Ningbo presiona la cadena de suministro",
-      dato: "La actividad en los principales puertos de China sigue condicionada por la disponibilidad de atraque, el movimiento de contenedores y la utilización de los patios. Esta presión puede complicar el cumplimiento de las ventanas programadas.",
-      impacto: "Riesgo de cambios en salidas, conexiones y tiempos de entrega para mercancías originadas en Asia.",
-      accion: "Validar cut-offs, reservas, disponibilidad de espacio y opciones de conexión para embarques prioritarios.",
-    },
+      "region": "ASIA",
+      "modo": "CONGESTIÓN · CAPACIDAD",
+      "imagen": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1200",
+      "bandera": "https://flagcdn.com/w40/cn.png",
+      "titular": "Post–Golden Week: revisar conexiones, espacio y tarifa",
+      "dato": "Los reportes para Shanghai presentan mediciones distintas: 0.6 días de mediana en un indicador frente a 7–10 días en terminales o rutas afectadas. Ningbo registra referencias de 2–4 días. Los blank sailings y la congestión pueden reducir espacio disponible.",
+      "impacto": "Mayor incertidumbre en las fechas de salida, transbordo y entrega; el retraso en una terminal no representa el promedio de todo el puerto.",
+      "accion": "Reconfirmar booking, cut-off, equipo, terminal, transbordo y tarifa por ruta; no usar referencias de mercado como cotización garantizada."
+    }
   ],
-  vigilancia: [
+  "vigilancia": [
     {
-      titulo: "Europa | Rotterdam y Amberes", bandera: "https://flagcdn.com/w40/eu.png",
-      texto: "La actividad en los principales centros logísticos del norte de Europa sigue enfrentando presión operativa. La coordinación de conexiones con barcazas y feeders es clave para evitar interrupciones en la distribución interior.",
+      "titulo": "Europa | Bélgica y conexiones ferroviarias",
+      "bandera": "https://flagcdn.com/w40/be.png",
+      "texto": "El paro nacional del sector público afecta trenes y transporte urbano hoy; Eurostar anunció cancelaciones seleccionadas hacia/desde Bruselas. Los trabajos ferroviarios en Rheintalbahn pueden añadir restricciones. Verificar la conexión intermodal; no asumir cierre portuario general."
     },
     {
-      titulo: "Europa | Bremerhaven y Hamburgo", bandera: "https://flagcdn.com/w40/de.png",
-      texto: "El uso intensivo de patios y los retos de coordinación portuaria en Alemania pueden reducir la flexibilidad para retirar contenedores y conectar la carga con el transporte terrestre.",
+      "titulo": "Europa | Tarifa Asia–Norte de Europa",
+      "bandera": "https://flagcdn.com/w40/eu.png",
+      "texto": "MSC anunció tarifas FAK desde el 19 de octubre: US$3,150 por 20 pies y US$4,500 por 40 pies, sujetas a condiciones y cargos adicionales. Solicitar cotización vigente antes del booking."
     },
     {
-      titulo: "Brasil | Navegantes, Itajaí y Manaus", bandera: "https://flagcdn.com/w40/br.png",
-      texto: "Los puertos brasileños enfrentan distintos niveles de presión operativa. En Manaus también conviene vigilar los efectos de la temporada seca sobre la navegación fluvial y la programación de embarques.",
+      "titulo": "Brasil | Nossa Senhora Aparecida",
+      "bandera": "https://flagcdn.com/w40/br.png",
+      "texto": "Feriado nacional este 12 de octubre: posibles cierres bancarios, menor capacidad administrativa y cambios de horario en transporte. No hay cierre portuario nacional confirmado. Maersk anunció ajustes OHC/DHC desde el 1 de noviembre, no desde hoy."
     },
     {
-      titulo: "India / conexión por Colombo", bandera: "https://flagcdn.com/w40/lk.png",
-      texto: "La congestión reportada anteriormente en Colombo es un riesgo para los transbordos vinculados a India y mercados cercanos. Conviene confirmar las conexiones actuales con navieras y agentes locales.",
+      "titulo": "India | Mundra y Dussehra",
+      "bandera": "https://flagcdn.com/w40/in.png",
+      "texto": "La disputa previa en patios de vacíos de Mundra concluyó, pero cada retiro y cita depende de equipo y depot. El calendario de Nhava Sheva señala Dussehra el 20 de octubre. Comprobar conexiones vía Colombo y recargos aplicables."
     },
     {
-      titulo: "Aéreo | Florida", bandera: "https://flagcdn.com/w40/us.png",
-      texto: "Las condiciones meteorológicas en Florida han motivado ajustes operativos en el transporte aéreo. Antes de comprometer itinerarios es recomendable verificar cancelaciones, conexiones y disponibilidad de servicios en tierra.",
-    },
+      "titulo": "Aeropuertos | Puerto Vallarta y Manzanillo",
+      "bandera": "https://flagcdn.com/w40/mx.png",
+      "texto": "Se reportaron suspensiones relacionadas con Simón. Los horarios de cierre o reapertura publicados pueden variar: verificar NOTAM, aerolínea y confirmación de aceptación de carga antes de movilizar embarques."
+    }
   ],
-  metricas: [
-    { indicador: "Lázaro Cárdenas", valor: "3.4–3.5 días", tendencia: "Antes del cierre; demora actual sin cuantificar" },
-    { indicador: "Manzanillo", valor: "1.4 días", tendencia: "Referencia previa a restricciones" },
-    { indicador: "Shanghái", valor: "3.51 días", tendencia: "Algunas terminales superan 7 días" },
-    { indicador: "Ningbo", valor: "2.37 días", tendencia: "Restricciones de patio y atraque" },
-    { indicador: "Navegantes", valor: "5.0 días", tendencia: "Congestión elevada reportada" },
-    { indicador: "Rotterdam", valor: "1.39 días", tendencia: "Barcazas/feeders: +12–24 h" },
-    { indicador: "Amberes", valor: "1.37 días", tendencia: "Barcazas: alrededor de +24 h" },
-    { indicador: "Bremerhaven", valor: "1.08 días", tendencia: "Patio al 92% reportado" },
-    { indicador: "Hamburgo", valor: "1.14 días", tendencia: "Espera de buques" },
-    { indicador: "Itajaí", valor: "2.0 días", tendencia: "Referencia reportada" },
-    { indicador: "Manaus", valor: "1.0 día", tendencia: "Vigilar temporada seca" },
+  "metricas": [
+    {
+      "indicador": "Manzanillo, MX",
+      "valor": "Sin estimación",
+      "tendencia": "Demoras asociadas a Simón: confirmar terminal y cita"
+    },
+    {
+      "indicador": "Lázaro Cárdenas, MX",
+      "valor": "Sin estimación",
+      "tendencia": "Restricción a navegación; validar operación"
+    },
+    {
+      "indicador": "Shanghai, CN",
+      "valor": "0.6 d / 7–10 d",
+      "tendencia": "Mediana general vs. reportes de terminales afectadas"
+    },
+    {
+      "indicador": "Ningbo, CN",
+      "valor": "2–4 días",
+      "tendencia": "Referencia por terminal tras Golden Week"
+    },
+    {
+      "indicador": "Rotterdam, NL",
+      "valor": "43 horas",
+      "tendencia": "Espera de barcazas; buques: mediana 0.08 días"
+    },
+    {
+      "indicador": "Amberes, BE",
+      "valor": "44 horas",
+      "tendencia": "Espera de barcazas / conexión interior"
+    },
+    {
+      "indicador": "Navegantes, BR",
+      "valor": "≈5 días",
+      "tendencia": "Promedio móvil 30 sep.–6 oct., no dato en vivo"
+    },
+    {
+      "indicador": "Mundra, IN",
+      "valor": "≈1 hora",
+      "tendencia": "Fondeo de buques; no incluye patio ni aduana"
+    }
   ],
-  recomendaciones: [
-    "México: tratar las esperas previas a Simón solo como referencia y confirmar reapertura, itinerario y ETA con la naviera.",
-    "Europa: contemplar las demoras adicionales de barcazas y feeders al planificar conexiones, retiros y entregas.",
-    "Asia y Brasil: validar ventanas de atraque, disponibilidad de patio y reservas antes de confirmar compromisos comerciales.",
-    "EE. UU. y Colombo: diferenciar cifras históricas de estatus actual; no convertir retrasos sin estimación pública en ETAs garantizadas.",
-  ],
+  "recomendaciones": [
+    "Prioridad máxima: confirmar cierres, aceptación de carga y nuevas citas en Manzanillo, Lázaro Cárdenas y aeropuertos PVR/ZLO.",
+    "Revalidar rutas terrestres del Pacífico mexicano y del Golfo estadounidense; no asumir tiempos habituales tras Simón e Isaías.",
+    "Considerar Columbus Day en EE. UU., el feriado brasileño y las afectaciones ferroviarias en Bélgica al programar conexiones.",
+    "Reconfirmar tarifas y espacios Asia–Europa para salidas desde el 19 de octubre; verificar cargos de Brasil previstos desde el 1 de noviembre."
+  ]
 };
+
+const retrasos = [
+  {
+    "puerto": "México · Manzanillo",
+    "tiempo": "Sin estimación confirmada",
+    "estado": "Citas y operación afectadas por Simón; validar terminal/naviera."
+  },
+  {
+    "puerto": "México · Lázaro Cárdenas",
+    "tiempo": "Sin estimación confirmada",
+    "estado": "Cierre a navegación reportado; verificar actualización oficial."
+  },
+  {
+    "puerto": "China · Shanghai",
+    "tiempo": "0.6 días mediana; 7–10 días en áreas afectadas",
+    "estado": "Fuentes y metodologías distintas; rango alto no es promedio del puerto."
+  },
+  {
+    "puerto": "China · Ningbo",
+    "tiempo": "2–4 días",
+    "estado": "Depende de terminal y atraque específico."
+  },
+  {
+    "puerto": "Países Bajos · Rotterdam",
+    "tiempo": "0.08 días buques; 43 h barcazas",
+    "estado": "Modalidades distintas; no comparar directamente."
+  },
+  {
+    "puerto": "Bélgica · Amberes",
+    "tiempo": "44 horas (barcazas)",
+    "estado": "Puede afectar conexiones con el interior."
+  },
+  {
+    "puerto": "Brasil · Navegantes",
+    "tiempo": "≈5 días",
+    "estado": "Referencia 30 sep.–6 oct.; no es medición en vivo."
+  },
+  {
+    "puerto": "India · Mundra",
+    "tiempo": "≈1 hora (fondeo)",
+    "estado": "No incluye disponibilidad de vacíos, citas ni aduana."
+  }
+];
 
 // Referencias proporcionadas para este corte: FreshPlaza (congestión portuaria);
 // PNJ (retrasos de vuelos en Florida); Daily Mirror (Colombo).
@@ -249,6 +329,9 @@ export default function Home() {
         </div>
       </section>
 
+      {/* TABLA DE RETRASOS PORTUARIOS */}
+      <section className="bg-white"><div className="mx-auto max-w-7xl px-6 py-14 md:px-10"><p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">RETRASOS PORTUARIOS · 12 DE OCTUBRE</p><h2 className="mt-3 text-3xl font-bold text-[#003C6F]">Tiempos de espera reportados</h2><p className="mt-3 max-w-4xl text-sm leading-6 text-gray-600">Referencias recientes de buques o conexiones, no demora asegurada de cada contenedor. Los puertos afectados por Simón carecen de una estimación confiable mientras duren las suspensiones.</p><div className="mt-7 overflow-x-auto rounded-2xl border border-gray-200"><table className="w-full min-w-[760px] text-left text-sm"><thead className="bg-[#003C6F] text-white"><tr><th className="p-4">País / puerto</th><th className="p-4">Tiempo reportado</th><th className="p-4">Estado e interpretación</th></tr></thead><tbody>{retrasos.map((r,i)=><tr key={r.puerto} className={i%2===0?"bg-[#F3F5F7]":"bg-white"}><td className="p-4 font-bold text-[#003C6F]">{r.puerto}</td><td className="p-4 font-semibold">{r.tiempo}</td><td className="p-4 text-gray-600">{r.estado}</td></tr>)}</tbody></table></div></div></section>
+
       {/* MÉTRICAS CLAVE */}
       <section className="bg-[#F3F5F7]">
         <div className="mx-auto max-w-7xl px-6 py-14 md:px-10">
@@ -358,8 +441,7 @@ export default function Home() {
           </div>
 
           <span className="max-w-xl text-white/60 md:text-right">
-            Información elaborada con base en fuentes especializadas de
-            logística, transporte y comercio internacional.
+            Corte informativo del 12 de octubre de 2026. Fuentes: Reuters, AP y referencias sectoriales facilitadas; cifras sujetas a confirmación directa con autoridades, terminales y navieras.
           </span>
         </div>
       </footer>
