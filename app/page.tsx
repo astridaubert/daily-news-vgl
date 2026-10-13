@@ -5,115 +5,135 @@ import Image from "next/image";
 // ======================================================
 
 const brief = {
-  "fecha": "lunes 12 de octubre de 2026",
+  "fecha": "martes 13 de octubre de 2026",
   "titulo": "Vector Global Logistics | Radar Logístico Global",
-  "subtitulo": "Riesgo alto en el Pacífico mexicano por el huracán Simón. Recuperación tras Isaías en EE. UU., afectaciones ferroviarias en Bélgica y ajustes por feriados en Brasil y Estados Unidos. Confirmar operaciones, citas y rutas antes de comprometer fechas de entrega.",
+  "subtitulo": "Prioridad alta: Simón mantiene riesgos para la carga del Pacífico mexicano, Riad sufre cierre aeroportuario hasta el 17 de octubre y la congestión asiática presiona conexiones. La supuesta huelga en Amberes del 13–15 de octubre aún NO está confirmada para 2026. Reconfirmar cada operación antes de comprometer fechas.",
   "noticias": [
     {
       "region": "MÉXICO",
-      "modo": "PUERTOS · AEROPUERTOS · CARRETERAS",
+      "modo": "ALTO · CLIMA Y PUERTOS",
       "imagen": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Hurricane_Melissa_at_landfall_true_color.png",
       "bandera": "https://flagcdn.com/w40/mx.png",
-      "titular": "Simón eleva el riesgo logístico en el Pacífico mexicano",
-      "dato": "El huracán Simón mantiene lluvias extremas, inundaciones y riesgo de deslaves en la costa occidental, especialmente Jalisco, Colima y Michoacán. Se reportan restricciones portuarias en Manzanillo y Lázaro Cárdenas y suspensiones aeroportuarias en Puerto Vallarta y Manzanillo. Los horarios de reapertura requieren verificación directa.",
-      "impacto": "Posibles suspensiones de navegación, reprogramación de buques y citas, cancelaciones aéreas y demoras terrestres. Un cierre de navegación no implica necesariamente cierre idéntico de todas las terminales.",
-      "accion": "Confirmar por separado navegación, atraque, recepción de carga, patios, acceso vial y NOTAM de PVR/ZLO antes de prometer fechas."
+      "titular": "Simón: riesgo para el Pacífico mexicano",
+      "dato": "Continúan las afectaciones por lluvia, oleaje e inundaciones en el Pacífico mexicano. Se han comunicado cierres preventivos y afectaciones en el entorno de Manzanillo, Lázaro Cárdenas y Puerto Vallarta; cada puerto y terminal requiere confirmación actualizada. Fuentes: Servicio Meteorológico Nacional, AP y Reuters.",
+      "impacto": "Posibles restricciones de navegación, demoras en atraques, citas, carga terrestre y vuelos.",
+      "accion": "Verificar estatus oficial de puerto, terminal, naviera, carreteras y cada vuelo antes de confirmar fechas; considerar holgura de 1–2 días según ruta."
     },
     {
-      "region": "ESTADOS UNIDOS",
-      "modo": "CARRETERAS · PUERTOS · FERIADO",
-      "imagen": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Columbus_citizens_foundation_2019_parade_jeh.jpg",
-      "bandera": "https://flagcdn.com/w40/us.png",
-      "titular": "Recuperación tras Isaías y ajustes por Columbus Day",
-      "dato": "Tras el paso de Isaías por el noroeste de Florida, persisten riesgos locales de inundación, caída de árboles y cortes eléctricos. El lunes 12 también es Columbus Day; algunas terminales portuarias modifican sus horarios de puerta para camiones, incluida Virginia.",
-      "impacto": "Los cierres parciales y las rutas dañadas pueden generar desvíos, entregas tardías y cambios de citas incluso cuando un puerto principal reabre.",
-      "accion": "Confirmar estatus de puertos del Golfo, accesos en Florida y Alabama, horarios de terminales y disponibilidad de transporte local."
+      "region": "MEDIO ORIENTE",
+      "modo": "ALTO · TRANSPORTE AÉREO",
+      "imagen": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200",
+      "bandera": "https://flagcdn.com/w40/sa.png",
+      "titular": "Aeropuerto de Riad cerrado hasta el 17 de octubre",
+      "dato": "Los ataques recientes generaron el cierre del aeropuerto internacional Rey Khalid en Riad hasta al menos el 17 de octubre y cancelaciones de varias aerolíneas. Fuente: Reuters, 12 de octubre de 2026.",
+      "impacto": "Menor capacidad aérea, desvíos, cancelaciones y riesgos para conexiones regionales.",
+      "accion": "Reconfirmar itinerarios y disponibilidad vuelo por vuelo; valorar hubs alternativos y coberturas de seguro."
     },
     {
       "region": "ASIA",
-      "modo": "CONGESTIÓN · CAPACIDAD",
+      "modo": "ALTO · CONGESTIÓN MARÍTIMA",
       "imagen": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1200",
       "bandera": "https://flagcdn.com/w40/cn.png",
-      "titular": "Post–Golden Week: revisar conexiones, espacio y tarifa",
-      "dato": "Los reportes para Shanghai presentan mediciones distintas: 0.6 días de mediana en un indicador frente a 7–10 días en terminales o rutas afectadas. Ningbo registra referencias de 2–4 días. Los blank sailings y la congestión pueden reducir espacio disponible.",
-      "impacto": "Mayor incertidumbre en las fechas de salida, transbordo y entrega; el retraso en una terminal no representa el promedio de todo el puerto.",
-      "accion": "Reconfirmar booking, cut-off, equipo, terminal, transbordo y tarifa por ruta; no usar referencias de mercado como cotización garantizada."
+      "titular": "Congestión en Asia afecta transbordos y capacidad",
+      "dato": "Reportes operativos apuntan a esperas de hasta 10 días en determinadas terminales o itinerarios de Shanghai y Ningbo después de Golden Week. Es un máximo indicativo, no el promedio de todos los buques; debe contrastarse con la naviera.",
+      "impacto": "Mayor incertidumbre en ETD/ETA, conexiones, equipo y espacio transpacífico.",
+      "accion": "Anticipar reservas y reconfirmar cut-offs, transbordos, terminales y puertos alternos."
     }
   ],
   "vigilancia": [
     {
-      "titulo": "Europa | Bélgica y conexiones ferroviarias",
+      "titulo": "Bélgica | Amberes: huelga pendiente de confirmar",
       "bandera": "https://flagcdn.com/w40/be.png",
-      "texto": "El paro nacional del sector público afecta trenes y transporte urbano hoy; Eurostar anunció cancelaciones seleccionadas hacia/desde Bruselas. Los trabajos ferroviarios en Rheintalbahn pueden añadir restricciones. Verificar la conexión intermodal; no asumir cierre portuario general."
+      "texto": "El horario difundido 13 oct. 19:30–15 oct. 07:30 aparece vinculado a información del año anterior; NO hay confirmación suficiente de cierre para 2026. Verificar con puerto, naviera y agentes antes de anunciar bloqueos o desvíos."
     },
     {
-      "titulo": "Europa | Tarifa Asia–Norte de Europa",
-      "bandera": "https://flagcdn.com/w40/eu.png",
-      "texto": "MSC anunció tarifas FAK desde el 19 de octubre: US$3,150 por 20 pies y US$4,500 por 40 pies, sujetas a condiciones y cargos adicionales. Solicitar cotización vigente antes del booking."
+      "titulo": "Europa | Caudal bajo en el Rin",
+      "bandera": "https://flagcdn.com/w40/de.png",
+      "texto": "Las restricciones por caudal pueden limitar carga de barcazas en determinados tramos. Verificar calado, capacidad y alternativas ferroviarias o terrestres."
     },
     {
-      "titulo": "Brasil | Nossa Senhora Aparecida",
-      "bandera": "https://flagcdn.com/w40/br.png",
-      "texto": "Feriado nacional este 12 de octubre: posibles cierres bancarios, menor capacidad administrativa y cambios de horario en transporte. No hay cierre portuario nacional confirmado. Maersk anunció ajustes OHC/DHC desde el 1 de noviembre, no desde hoy."
+      "titulo": "EE. UU. | Recuperación del Golfo",
+      "bandera": "https://flagcdn.com/w40/us.png",
+      "texto": "Persisten consecuencias del huracán Isaías en Florida y Alabama. Validar cada terminal, canal, horario de cita y acceso terrestre; no asumir que todos los puertos tienen la misma situación."
     },
     {
-      "titulo": "India | Mundra y Dussehra",
+      "titulo": "Panamá | Presión sobre tránsitos",
+      "bandera": "https://flagcdn.com/w40/pa.png",
+      "texto": "Los tiempos de espera pueden variar por tipo de buque y reserva. Comprobar itinerarios, costos y opciones intermodales antes de añadir una demora generalizada."
+    },
+    {
+      "titulo": "Argentina | Posible afectación laboral marítima",
+      "bandera": "https://flagcdn.com/w40/ar.png",
+      "texto": "Se reportan medidas laborales de 48 horas; confirmar vigencia, servicio y terminal antes de ajustar rutas por Montevideo o Brasil."
+    },
+    {
+      "titulo": "Bangladesh | Chittagong",
+      "bandera": "https://flagcdn.com/w40/bd.png",
+      "texto": "Protestas laborales y amenaza de medidas adicionales desde el 19 de octubre. Confirmar actividad de terminal y citas; no tratar la amenaza como huelga total vigente."
+    },
+    {
+      "titulo": "India | Omisiones de escala",
       "bandera": "https://flagcdn.com/w40/in.png",
-      "texto": "La disputa previa en patios de vacíos de Mundra concluyó, pero cada retiro y cita depende de equipo y depot. El calendario de Nhava Sheva señala Dussehra el 20 de octubre. Comprobar conexiones vía Colombo y recargos aplicables."
+      "texto": "Avisos de omisiones de escala de CMA CGM y congestión de conexiones vía Colombo o Singapur. Validar booking, servicios y cargos; considerar Dussehra alrededor del 19–20 de octubre."
     },
     {
-      "titulo": "Aeropuertos | Puerto Vallarta y Manzanillo",
-      "bandera": "https://flagcdn.com/w40/mx.png",
-      "texto": "Se reportaron suspensiones relacionadas con Simón. Los horarios de cierre o reapertura publicados pueden variar: verificar NOTAM, aerolínea y confirmación de aceptación de carga antes de movilizar embarques."
+      "titulo": "Brasil | Reefer y cargos",
+      "bandera": "https://flagcdn.com/w40/br.png",
+      "texto": "Alzas indicativas de US$300–600 por contenedor reefer en algunas rutas; posibles ajustes OHC/DHC de Maersk desde el 1 de noviembre, sujetos a tarifas vigentes."
+    },
+    {
+      "titulo": "EE. UU. y Brasil | Recuperación tras feriados",
+      "bandera": "https://flagcdn.com/w40/us.png",
+      "texto": "Tras Columbus Day y Nossa Senhora Aparecida del 12 de octubre, revisar horarios administrativos, citas y documentación."
     }
   ],
   "metricas": [
     {
-      "indicador": "Manzanillo, MX",
-      "valor": "Sin estimación",
-      "tendencia": "Demoras asociadas a Simón: confirmar terminal y cita"
+      "indicador": "México · Simón",
+      "valor": "Alto",
+      "tendencia": "Verificar navegación, terminales y vuelos"
     },
     {
-      "indicador": "Lázaro Cárdenas, MX",
-      "valor": "Sin estimación",
-      "tendencia": "Restricción a navegación; validar operación"
+      "indicador": "Arabia Saudita · Riad",
+      "valor": "17 oct.",
+      "tendencia": "Cierre reportado hasta al menos esa fecha"
     },
     {
-      "indicador": "Shanghai, CN",
-      "valor": "0.6 d / 7–10 d",
-      "tendencia": "Mediana general vs. reportes de terminales afectadas"
+      "indicador": "Asia · Congestión",
+      "valor": "Hasta 10 d",
+      "tendencia": "Solo rutas/terminales afectadas; cifra indicativa"
     },
     {
-      "indicador": "Ningbo, CN",
-      "valor": "2–4 días",
-      "tendencia": "Referencia por terminal tras Golden Week"
+      "indicador": "Bélgica · Amberes",
+      "valor": "No confirmado",
+      "tendencia": "La ventana 13–15 oct. requiere validación 2026"
     },
     {
-      "indicador": "Rotterdam, NL",
-      "valor": "43 horas",
-      "tendencia": "Espera de barcazas; buques: mediana 0.08 días"
+      "indicador": "Europa · Rin",
+      "valor": "Variable",
+      "tendencia": "Confirmar calado según tramo"
     },
     {
-      "indicador": "Amberes, BE",
-      "valor": "44 horas",
-      "tendencia": "Espera de barcazas / conexión interior"
+      "indicador": "EE. UU. · Golfo",
+      "valor": "Recuperación",
+      "tendencia": "Consultar estado por puerto"
     },
     {
-      "indicador": "Navegantes, BR",
-      "valor": "≈5 días",
-      "tendencia": "Promedio móvil 30 sep.–6 oct., no dato en vivo"
+      "indicador": "India · Escalas",
+      "valor": "Reconfirmar",
+      "tendencia": "Según servicio y conexión"
     },
     {
-      "indicador": "Mundra, IN",
-      "valor": "≈1 hora",
-      "tendencia": "Fondeo de buques; no incluye patio ni aduana"
+      "indicador": "Brasil · Reefer",
+      "valor": "US$300–600",
+      "tendencia": "Rango anunciado; sujeto a cotización"
     }
   ],
   "recomendaciones": [
-    "Prioridad máxima: confirmar cierres, aceptación de carga y nuevas citas en Manzanillo, Lázaro Cárdenas y aeropuertos PVR/ZLO.",
-    "Revalidar rutas terrestres del Pacífico mexicano y del Golfo estadounidense; no asumir tiempos habituales tras Simón e Isaías.",
-    "Considerar Columbus Day en EE. UU., el feriado brasileño y las afectaciones ferroviarias en Bélgica al programar conexiones.",
-    "Reconfirmar tarifas y espacios Asia–Europa para salidas desde el 19 de octubre; verificar cargos de Brasil previstos desde el 1 de noviembre."
+    "Prioridad 1: validar cierres, navegación, terminales, carreteras y aeropuertos del Pacífico mexicano antes de prometer ETAs.",
+    "Prioridad 2: reconfirmar toda carga aérea vía Riad y los servicios marítimos con transbordo asiático.",
+    "No publicar la huelga de Amberes como confirmada para el 13–15 de octubre de 2026 sin aviso oficial actualizado.",
+    "Revisar caudal del Rin, puertos del Golfo estadounidense, conexiones por Panamá, condiciones en Argentina e India y aumentos tarifarios en Brasil."
   ]
 };
 
@@ -233,7 +253,7 @@ export default function Home() {
               <div className="relative h-48 w-full overflow-hidden bg-gray-100">
                 <img
                   src={item.imagen}
-                  alt={item.region === "MÉXICO" ? "Imagen satelital ilustrativa de un huracán (no corresponde a Simón)" : item.region === "ESTADOS UNIDOS" ? "Desfile de Columbus Day de 2019, imagen ilustrativa" : item.titular}
+                  alt={item.region === "MÉXICO" ? "Imagen satelital ilustrativa de un huracán; no corresponde a Simón" : item.region === "ESTADOS UNIDOS" ? "Desfile de Columbus Day de 2019, imagen ilustrativa" : item.titular}
                   className="h-full w-full object-cover"
                   loading="lazy"
                 />
@@ -330,7 +350,7 @@ export default function Home() {
       </section>
 
       {/* TABLA DE RETRASOS PORTUARIOS */}
-      <section className="bg-white"><div className="mx-auto max-w-7xl px-6 py-14 md:px-10"><p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">RETRASOS PORTUARIOS · 12 DE OCTUBRE</p><h2 className="mt-3 text-3xl font-bold text-[#003C6F]">Tiempos de espera reportados</h2><p className="mt-3 max-w-4xl text-sm leading-6 text-gray-600">Referencias recientes de buques o conexiones, no demora asegurada de cada contenedor. Los puertos afectados por Simón carecen de una estimación confiable mientras duren las suspensiones.</p><div className="mt-7 overflow-x-auto rounded-2xl border border-gray-200"><table className="w-full min-w-[760px] text-left text-sm"><thead className="bg-[#003C6F] text-white"><tr><th className="p-4">País / puerto</th><th className="p-4">Tiempo reportado</th><th className="p-4">Estado e interpretación</th></tr></thead><tbody>{retrasos.map((r,i)=><tr key={r.puerto} className={i%2===0?"bg-[#F3F5F7]":"bg-white"}><td className="p-4 font-bold text-[#003C6F]">{r.puerto}</td><td className="p-4 font-semibold">{r.tiempo}</td><td className="p-4 text-gray-600">{r.estado}</td></tr>)}</tbody></table></div></div></section>
+      <section className="bg-white"><div className="mx-auto max-w-7xl px-6 py-14 md:px-10"><p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">RETRASOS PORTUARIOS · 13 DE OCTUBRE</p><h2 className="mt-3 text-3xl font-bold text-[#003C6F]">Tiempos de espera reportados</h2><p className="mt-3 max-w-4xl text-sm leading-6 text-gray-600">Referencias recientes de buques o conexiones, no demora asegurada de cada contenedor. Los puertos afectados por Simón carecen de una estimación confiable mientras duren las suspensiones.</p><div className="mt-7 overflow-x-auto rounded-2xl border border-gray-200"><table className="w-full min-w-[760px] text-left text-sm"><thead className="bg-[#003C6F] text-white"><tr><th className="p-4">País / puerto</th><th className="p-4">Tiempo reportado</th><th className="p-4">Estado e interpretación</th></tr></thead><tbody>{retrasos.map((r,i)=><tr key={r.puerto} className={i%2===0?"bg-[#F3F5F7]":"bg-white"}><td className="p-4 font-bold text-[#003C6F]">{r.puerto}</td><td className="p-4 font-semibold">{r.tiempo}</td><td className="p-4 text-gray-600">{r.estado}</td></tr>)}</tbody></table></div></div></section>
 
       {/* MÉTRICAS CLAVE */}
       <section className="bg-[#F3F5F7]">
@@ -441,8 +461,7 @@ export default function Home() {
           </div>
 
           <span className="max-w-xl text-white/60 md:text-right">
-            Corte informativo del 12 de octubre de 2026. Fuentes: Reuters, AP y referencias sectoriales facilitadas; cifras sujetas a confirmación directa con autoridades, terminales y navieras.
-          </span>
+            Corte informativo del 13 de octubre de 2026. Fuentes: Reuters, AP, SMN y reportes operativos; cifras indicativas sujetas a confirmación directa con autoridades, terminales, aerolíneas y navieras.</span>
         </div>
       </footer>
     </main>
