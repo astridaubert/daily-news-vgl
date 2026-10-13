@@ -7,7 +7,7 @@ import Image from "next/image";
 const brief = {
   "fecha": "martes 13 de octubre de 2026",
   "titulo": "Vector Global Logistics | Radar Logístico Global",
-  "subtitulo": "Prioridad alta: Simón mantiene riesgos para la carga del Pacífico mexicano, Riad sufre cierre aeroportuario hasta el 17 de octubre y la congestión asiática presiona conexiones. La supuesta huelga en Amberes del 13–15 de octubre aún NO está confirmada para 2026. Reconfirmar cada operación antes de comprometer fechas.",
+  "subtitulo": "Prioridad alta: Simón mantiene riesgos para la carga del Pacífico mexicano, las afectaciones aéreas en Medio Oriente requieren revisar conexiones y los ajustes de tarifas para carga refrigerada en Brasil pueden modificar costos. Reconfirmar operaciones y cotizaciones antes de comprometer fechas.",
   "noticias": [
     {
       "region": "MÉXICO",
@@ -22,25 +22,30 @@ const brief = {
     {
       "region": "MEDIO ORIENTE",
       "modo": "ALTO · TRANSPORTE AÉREO",
-      "imagen": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200",
+      "imagen": "https://images.unsplash.com/photo-1474302770737-173ee21bab63?w=1200",
       "bandera": "https://flagcdn.com/w40/sa.png",
-      "titular": "Aeropuerto de Riad cerrado hasta el 17 de octubre",
+      "titular": "Restricciones aéreas en Medio Oriente: revisar conexiones por Riad",
       "dato": "Los ataques recientes generaron el cierre del aeropuerto internacional Rey Khalid en Riad hasta al menos el 17 de octubre y cancelaciones de varias aerolíneas. Fuente: Reuters, 12 de octubre de 2026.",
       "impacto": "Menor capacidad aérea, desvíos, cancelaciones y riesgos para conexiones regionales.",
       "accion": "Reconfirmar itinerarios y disponibilidad vuelo por vuelo; valorar hubs alternativos y coberturas de seguro."
     },
     {
-      "region": "ASIA",
-      "modo": "ALTO · CONGESTIÓN MARÍTIMA",
-      "imagen": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1200",
-      "bandera": "https://flagcdn.com/w40/cn.png",
-      "titular": "Congestión en Asia afecta transbordos y capacidad",
-      "dato": "Reportes operativos apuntan a esperas de hasta 10 días en determinadas terminales o itinerarios de Shanghai y Ningbo después de Golden Week. Es un máximo indicativo, no el promedio de todos los buques; debe contrastarse con la naviera.",
-      "impacto": "Mayor incertidumbre en ETD/ETA, conexiones, equipo y espacio transpacífico.",
-      "accion": "Anticipar reservas y reconfirmar cut-offs, transbordos, terminales y puertos alternos."
+      "region": "BRASIL",
+      "modo": "MEDIO · TARIFAS Y CARGA REFRIGERADA",
+      "imagen": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?w=1200",
+      "bandera": "https://flagcdn.com/w40/br.png",
+      "titular": "Brasil: ajustes de tarifas para contenedores refrigerados",
+      "dato": "Se reportan incrementos indicativos de US$300–600 por contenedor reefer brasileño, según ruta y destino, y ajustes de cargos OHC/DHC de Maersk a partir del 1 de noviembre. Los montos dependen de naviera, contrato y vigencia.",
+      "impacto": "Posibles aumentos del costo logístico para exportadores e importadores de carga refrigerada y necesidad de revisar vigencias de tarifas.",
+      "accion": "Solicitar cotización actualizada, confirmar cargos locales y vigencia antes de cerrar precios o reservar espacio."
     }
   ],
   "vigilancia": [
+    {
+      "titulo": "Asia | Congestión y transbordos",
+      "bandera": "https://flagcdn.com/w40/cn.png",
+      "texto": "Reportes puntuales señalan demoras de hasta 10 días en rutas o terminales afectadas tras Golden Week; reconfirmar conexiones, booking y cut-offs. No equivale al promedio de todos los puertos."
+    },
     {
       "titulo": "Bélgica | Amberes: huelga pendiente de confirmar",
       "bandera": "https://flagcdn.com/w40/be.png",
@@ -75,11 +80,6 @@ const brief = {
       "titulo": "India | Omisiones de escala",
       "bandera": "https://flagcdn.com/w40/in.png",
       "texto": "Avisos de omisiones de escala de CMA CGM y congestión de conexiones vía Colombo o Singapur. Validar booking, servicios y cargos; considerar Dussehra alrededor del 19–20 de octubre."
-    },
-    {
-      "titulo": "Brasil | Reefer y cargos",
-      "bandera": "https://flagcdn.com/w40/br.png",
-      "texto": "Alzas indicativas de US$300–600 por contenedor reefer en algunas rutas; posibles ajustes OHC/DHC de Maersk desde el 1 de noviembre, sujetos a tarifas vigentes."
     },
     {
       "titulo": "EE. UU. y Brasil | Recuperación tras feriados",
@@ -131,7 +131,7 @@ const brief = {
   ],
   "recomendaciones": [
     "Prioridad 1: validar cierres, navegación, terminales, carreteras y aeropuertos del Pacífico mexicano antes de prometer ETAs.",
-    "Prioridad 2: reconfirmar toda carga aérea vía Riad y los servicios marítimos con transbordo asiático.",
+    "Prioridad 2: reconfirmar carga aérea vía Medio Oriente, costos de contenedores reefer en Brasil y servicios con transbordo asiático.",
     "No publicar la huelga de Amberes como confirmada para el 13–15 de octubre de 2026 sin aviso oficial actualizado.",
     "Revisar caudal del Rin, puertos del Golfo estadounidense, conexiones por Panamá, condiciones en Argentina e India y aumentos tarifarios en Brasil."
   ]
