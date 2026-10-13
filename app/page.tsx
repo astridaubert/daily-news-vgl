@@ -140,43 +140,38 @@ const brief = {
 const retrasos = [
   {
     "puerto": "México · Manzanillo",
-    "tiempo": "Sin estimación confirmada",
-    "estado": "Citas y operación afectadas por Simón; validar terminal/naviera."
+    "tiempo": "Por confirmar",
+    "estado": "Verificar navegación, puerta de terminal y citas después de Simón."
   },
   {
     "puerto": "México · Lázaro Cárdenas",
-    "tiempo": "Sin estimación confirmada",
-    "estado": "Cierre a navegación reportado; verificar actualización oficial."
+    "tiempo": "Por confirmar",
+    "estado": "Validar capitanía, atraques y apertura de terminal antes de programar."
   },
   {
     "puerto": "China · Shanghai",
-    "tiempo": "0.6 días mediana; 7–10 días en áreas afectadas",
-    "estado": "Fuentes y metodologías distintas; rango alto no es promedio del puerto."
+    "tiempo": "Hasta 10 días en reportes puntuales",
+    "estado": "No es promedio del puerto; validar buque y terminal."
   },
   {
     "puerto": "China · Ningbo",
-    "tiempo": "2–4 días",
-    "estado": "Depende de terminal y atraque específico."
-  },
-  {
-    "puerto": "Países Bajos · Rotterdam",
-    "tiempo": "0.08 días buques; 43 h barcazas",
-    "estado": "Modalidades distintas; no comparar directamente."
+    "tiempo": "Variable según terminal",
+    "estado": "Consultar ETD/ETA y transbordos concretos."
   },
   {
     "puerto": "Bélgica · Amberes",
-    "tiempo": "44 horas (barcazas)",
-    "estado": "Puede afectar conexiones con el interior."
+    "tiempo": "No confirmado",
+    "estado": "No afirmar cierre 13–15 oct. 2026 sin comunicado oficial."
   },
   {
-    "puerto": "Brasil · Navegantes",
-    "tiempo": "≈5 días",
-    "estado": "Referencia 30 sep.–6 oct.; no es medición en vivo."
+    "puerto": "Alemania / Países Bajos · Rin",
+    "tiempo": "Variable según calado",
+    "estado": "Revisar limitaciones de barcazas y alternativa intermodal."
   },
   {
-    "puerto": "India · Mundra",
-    "tiempo": "≈1 hora (fondeo)",
-    "estado": "No incluye disponibilidad de vacíos, citas ni aduana."
+    "puerto": "India · Escalas",
+    "tiempo": "Variable según servicio",
+    "estado": "Consultar omisiones, feeders y booking."
   }
 ];
 
@@ -350,7 +345,7 @@ export default function Home() {
       </section>
 
       {/* TABLA DE RETRASOS PORTUARIOS */}
-      <section className="bg-white"><div className="mx-auto max-w-7xl px-6 py-14 md:px-10"><p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">RETRASOS PORTUARIOS · 13 DE OCTUBRE</p><h2 className="mt-3 text-3xl font-bold text-[#003C6F]">Tiempos de espera reportados</h2><p className="mt-3 max-w-4xl text-sm leading-6 text-gray-600">Referencias recientes de buques o conexiones, no demora asegurada de cada contenedor. Los puertos afectados por Simón carecen de una estimación confiable mientras duren las suspensiones.</p><div className="mt-7 overflow-x-auto rounded-2xl border border-gray-200"><table className="w-full min-w-[760px] text-left text-sm"><thead className="bg-[#003C6F] text-white"><tr><th className="p-4">País / puerto</th><th className="p-4">Tiempo reportado</th><th className="p-4">Estado e interpretación</th></tr></thead><tbody>{retrasos.map((r,i)=><tr key={r.puerto} className={i%2===0?"bg-[#F3F5F7]":"bg-white"}><td className="p-4 font-bold text-[#003C6F]">{r.puerto}</td><td className="p-4 font-semibold">{r.tiempo}</td><td className="p-4 text-gray-600">{r.estado}</td></tr>)}</tbody></table></div></div></section>
+      <section className="bg-white"><div className="mx-auto max-w-7xl px-6 py-14 md:px-10"><p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">RETRASOS PORTUARIOS · 13 DE OCTUBRE</p><h2 className="mt-3 text-3xl font-bold text-[#003C6F]">Estado operativo y demoras por verificar</h2><p className="mt-3 max-w-4xl text-sm leading-6 text-gray-600">No se dispone de tiempos en vivo comparables en todos los puertos. Las cifras indicativas y restricciones deben validarse con terminal y naviera antes de comprometer ETA.</p><div className="mt-7 overflow-x-auto rounded-2xl border border-gray-200"><table className="w-full min-w-[760px] text-left text-sm"><thead className="bg-[#003C6F] text-white"><tr><th className="p-4">País / puerto</th><th className="p-4">Tiempo reportado</th><th className="p-4">Estado e interpretación</th></tr></thead><tbody>{retrasos.map((r,i)=><tr key={r.puerto} className={i%2===0?"bg-[#F3F5F7]":"bg-white"}><td className="p-4 font-bold text-[#003C6F]">{r.puerto}</td><td className="p-4 font-semibold">{r.tiempo}</td><td className="p-4 text-gray-600">{r.estado}</td></tr>)}</tbody></table></div></div></section>
 
       {/* MÉTRICAS CLAVE */}
       <section className="bg-[#F3F5F7]">
