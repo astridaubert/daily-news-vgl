@@ -405,7 +405,7 @@ export default function Home() {
             </div>
 
             <a
-              href="https://vectorgl.com"
+              href="https://vectorgl.com/contact-us/"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-8 inline-flex rounded-full bg-[#FF3E32] px-7 py-4 font-bold text-white transition hover:opacity-90"
