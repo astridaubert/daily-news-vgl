@@ -7,7 +7,7 @@ import Image from "next/image";
 const brief = {
   "fecha": "miércoles 14 de octubre de 2026",
   "titulo": "Vector Global Logistics | Radar Logístico Global",
-  "subtitulo": "Actualización 14 de octubre: mayor presión de capacidad en cruces México–EE. UU., vigilancia por Trudy y Simón en el Pacífico mexicano, ataques contra navegación cerca de Ormuz y riesgos en el Mar Negro. En Panamá, el Canal sigue operativo; verificar restricciones regionales antes de confirmar itinerarios.",
+  "subtitulo": "Actualización 14 de octubre: menor capacidad transfronteriza México–EE. UU. por visas B-1, vigilancia por Trudy en el Pacífico mexicano y ataques a buques cerca del estrecho de Ormuz. Confirmar documentación, rutas, escalas y cobertura de seguro antes de comprometer entregas.",
   "noticias": [
     {
       "region": "MÉXICO–EE. UU.",
@@ -28,16 +28,6 @@ const brief = {
       "dato": "El NHC informó el 14 oct. a las 09:00 CST que Trudy tenía vientos de 60 mph (95 km/h), estaba a unos 600 km al sur de Acapulco y podría convertirse en huracán esta noche. No había alertas costeras vigentes en ese boletín. Imagen ilustrativa de un ciclón, no de Trudy. Fuente: NHC, aviso 5.",
       "impacto": "Posibles alteraciones posteriores por oleaje, lluvias o viento en puertos, carreteras costeras y conexiones aéreas; la intensidad y el acercamiento aún están sujetos al pronóstico.",
       "accion": "Dar seguimiento al NHC, SMN y capitanías; reconfirmar Manzanillo, Lázaro Cárdenas, Acapulco y Puerto Vallarta por separado. Planear contingencias sin anunciar cierres aún no confirmados."
-    },
-    {
-      "region": "PANAMÁ",
-      "modo": "ALTO · INFRAESTRUCTURA PORTUARIA",
-      "imagen": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?w=1200",
-      "bandera": "https://flagcdn.com/w40/pa.png",
-      "titular": "Sismo de 7.7: Canal operativo, vigilancia en puertos",
-      "dato": "El terremoto del 9 de octubre ocasionó daños e inspecciones de infraestructura. Reuters y AP reportaron que el Canal de Panamá permaneció operativo. Se reportan restricciones de actividad en puertos estatales regionales, que deben confirmarse con la Autoridad Marítima antes de gestionar cargas.",
-      "impacto": "Posibles demoras locales, inspecciones y cambios en autorizaciones portuarias. No existe un cierre general del Canal confirmado por las fuentes consultadas.",
-      "accion": "Consultar la Autoridad del Canal y la Autoridad Marítima; verificar terminal y reserva específica. No extender restricciones de puertos regionales a Balboa o Cristóbal sin aviso oficial."
     },
     {
       "region": "MEDIO ORIENTE",
