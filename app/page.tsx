@@ -7,7 +7,7 @@ import Image from "next/image";
 const brief = {
   "fecha": "miércoles 14 de octubre de 2026",
   "titulo": "Vector Global Logistics | Radar Logístico Global",
-  "subtitulo": "Tres focos prioritarios: menor disponibilidad de operadores en cruces México–EE. UU. por revocaciones de visas B-1, evolución de la tormenta tropical Trudy frente al Pacífico mexicano y restricciones puntuales en puertos regionales de Panamá tras el sismo. El Canal de Panamá continúa operativo. Confirmar capacidad, rutas y citas antes de comprometer entregas.",
+  "subtitulo": "Actualización 14 de octubre: mayor presión de capacidad en cruces México–EE. UU., vigilancia por Trudy y Simón en el Pacífico mexicano, ataques contra navegación cerca de Ormuz y riesgos en el Mar Negro. En Panamá, el Canal sigue operativo; verificar restricciones regionales antes de confirmar itinerarios.",
   "noticias": [
     {
       "region": "MÉXICO–EE. UU.",
@@ -40,56 +40,26 @@ const brief = {
       "accion": "Consultar la Autoridad del Canal y la Autoridad Marítima; verificar terminal y reserva específica. No extender restricciones de puertos regionales a Balboa o Cristóbal sin aviso oficial."
     },
     {
-      "region": "BRASIL",
-      "modo": "MEDIO · COSTOS REEFER",
-      "imagen": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?w=1200",
-      "bandera": "https://flagcdn.com/w40/br.png",
-      "titular": "Brasil: revisar cargos para contenedores refrigerados",
-      "dato": "Persisten reportes de ajustes tarifarios indicativos para carga reefer. Los importes y su vigencia dependen de la naviera, ruta y contrato; corroborar directamente antes de comunicarlos al cliente.",
-      "impacto": "Variación de costos de transporte marítimo y cargos locales en mercancía refrigerada.",
-      "accion": "Solicitar tarifas actualizadas y confirmar cargos OHC/DHC, recargos y fecha de aplicación por servicio."
+      "region": "MEDIO ORIENTE",
+      "modo": "ALTO · SEGURIDAD MARÍTIMA",
+      "imagen": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1200",
+      "bandera": "https://flagcdn.com/w40/om.png",
+      "titular": "Ormuz: ataques a buques presionan rutas y costos",
+      "dato": "Financial Times informó el 13 de octubre de una intensificación de ataques contra buques en el estrecho de Ormuz: 24 embarcaciones atacadas durante las dos semanas anteriores al 11 de octubre. Los desvíos y transbordos están incrementando la demanda de buques tanque. Fuente: Financial Times, 13 oct. 2026.",
+      "impacto": "Riesgo para tránsitos, seguridad de tripulaciones, costos de flete y disponibilidad de buques; impactos distintos según carga y corredor.",
+      "accion": "Confirmar itinerario, exposición a zona de riesgo, condiciones de seguro y alternativas con naviera antes de comprometer plazos."
     }
   ],
   "vigilancia": [
     {
-      "titulo": "México | Simón y lluvias en el Pacífico",
+      "titulo": "México | Simón se debilita, pero persiste vigilancia",
       "bandera": "https://flagcdn.com/w40/mx.png",
-      "texto": "Continúan los riesgos hidrometeorológicos en el occidente mexicano. Consultar situación oficial de cada puerto y carretera antes de programar citas."
+      "texto": "El NHC informó el 14 de octubre a las 08:00 MST que Simón bajó a 90 mph y se desplazaba lentamente al suroeste frente a Cabo Corrientes. Revisar avisos para operaciones portuarias y enlaces terrestres del occidente mexicano; no asumir cierres generalizados."
     },
     {
-      "titulo": "Panamá | Puertos regionales",
-      "bandera": "https://flagcdn.com/w40/pa.png",
-      "texto": "Se han difundido restricciones en Puerto Mutis, Búcaro, El Agallito y Almirante; confirmar estatus actual con AMP. Balboa y Cristóbal no deben tratarse como cerrados por el sismo."
-    },
-    {
-      "titulo": "Medio Oriente | Conexiones aéreas",
-      "bandera": "https://flagcdn.com/w40/sa.png",
-      "texto": "Confirmar por aerolínea y aeropuerto cualquier restricción o cambio de itinerario; evitar generalizaciones regionales."
-    },
-    {
-      "titulo": "Europa | Niveles del Rin",
-      "bandera": "https://flagcdn.com/w40/de.png",
-      "texto": "Las condiciones de calado pueden limitar cargas de barcazas por tramo. Validar capacidad y alternativas intermodales."
-    },
-    {
-      "titulo": "Asia | Escalas y transbordos",
-      "bandera": "https://flagcdn.com/w40/cn.png",
-      "texto": "Tras Golden Week, revisar transbordos, cut-offs y reservas individualmente. Los retrasos varían entre terminales."
-    },
-    {
-      "titulo": "EE. UU. | Recuperación del Golfo",
-      "bandera": "https://flagcdn.com/w40/us.png",
-      "texto": "Seguimiento a recuperación posterior a Isaías. Confirmar terminal, acceso terrestre y conexiones caso por caso."
-    },
-    {
-      "titulo": "India | Omisiones de escala",
-      "bandera": "https://flagcdn.com/w40/in.png",
-      "texto": "Revisar avisos de navieras, feeders y espacio disponible antes de ajustar itinerarios."
-    },
-    {
-      "titulo": "Bélgica | Amberes",
-      "bandera": "https://flagcdn.com/w40/be.png",
-      "texto": "Cualquier interrupción por medidas laborales requiere aviso oficial actualizado de 2026; no asumir cierre general."
+      "titulo": "Mar Negro | Ataques a buques cerca de Bulgaria",
+      "bandera": "https://flagcdn.com/w40/bg.png",
+      "texto": "Reuters reportó el 13 de octubre que un ataque con drones hundió un buque mercante cerca de Krapets, Bulgaria, y que otra nave también resultó afectada. Verificar escalas, restricciones, cobertura de seguro y seguridad de la ruta antes de embarcar."
     }
   ],
   "metricas": [
@@ -129,16 +99,21 @@ const brief = {
       "tendencia": "Verificar reservas y avisos de ACP"
     },
     {
-      "indicador": "Brasil · Reefer",
-      "valor": "Revisar",
-      "tendencia": "Cotización y recargos por servicio"
+      "indicador": "Simón · 14 oct.",
+      "valor": "90 mph",
+      "tendencia": "Vientos sostenidos a las 08:00 MST, NHC"
+    },
+    {
+      "indicador": "Ormuz · Ataques a buques",
+      "valor": "24",
+      "tendencia": "En dos semanas al 11 oct.; Financial Times"
     }
   ],
   "recomendaciones": [
-    "Prioridad 1: confirmar operador con documentación válida y capacidad real en cruces México–EE. UU.; revisar tarifas spot antes de cerrar propuestas.",
-    "Prioridad 2: seguir boletines del NHC y SMN sobre Trudy; validar estado de cada puerto, carretera y vuelo del Pacífico mexicano.",
-    "Prioridad 3: verificar restricciones puntuales en puertos regionales panameños; el Canal continúa operativo, pero las reservas y terminales requieren confirmación.",
-    "Revisar cargos reefer de Brasil y cambios en conexiones aéreas o marítimas; comunicar a clientes solo impactos verificados."
+    "Priorizar documentación del operador y capacidad real en cruces México–EE. UU.; revisar tarifas de los corredores afectados.",
+    "Seguir boletines del NHC para Trudy y Simón. Confirmar operación de terminales, carreteras y vuelos sin presuponer cierres.",
+    "Consultar seguridad marítima y seguros antes de programar cargas expuestas a Ormuz o al Mar Negro; evaluar rutas alternativas.",
+    "En Panamá, confirmar autorizaciones específicas de puertos regionales y reservas de tránsito del Canal, que permanece operativo según los reportes disponibles."
   ]
 };
 
@@ -460,7 +435,7 @@ export default function Home() {
           </div>
 
           <span className="max-w-xl text-white/60 md:text-right">
-            Corte informativo del 14 de octubre de 2026. Fuentes: FreightWaves, NHC, Reuters y AP. Pronósticos y restricciones sujetos a cambios y a confirmación con autoridades, terminales, aerolíneas y navieras.</span>
+            Corte informativo del 14 de octubre de 2026. Fuentes: FreightWaves, NHC, Reuters, AP y Financial Times. Pronósticos y restricciones sujetos a cambios y a confirmación con autoridades, terminales, aerolíneas y navieras.</span>
         </div>
       </footer>
     </main>
