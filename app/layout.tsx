@@ -27,14 +27,14 @@ export const metadata: Metadata = {
     siteName: "Vector Global Logistics",
     title: "Radar Logístico Global | Vector Global Logistics",
     description: "Actualización logística: riesgos, impacto en operaciones y acciones recomendadas.",
-    images: [{ url: "/Vector Logo White (1).png", alt: "Vector Global Logistics" }],
+    images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "Vector Global Logistics | Radar Logístico Global" }],
     locale: "es_MX",
   },
   twitter: {
     card: "summary_large_image",
     title: "Radar Logístico Global | Vector Global Logistics",
     description: "Noticias y riesgos logísticos globales.",
-    images: ["/Vector Logo White (1).png"],
+    images: ["/opengraph-image"],
   },
 };
 
