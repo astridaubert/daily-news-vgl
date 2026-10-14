@@ -5,135 +5,140 @@ import Image from "next/image";
 // ======================================================
 
 const brief = {
-  "fecha": "martes 13 de octubre de 2026",
+  "fecha": "miércoles 14 de octubre de 2026",
   "titulo": "Vector Global Logistics | Radar Logístico Global",
-  "subtitulo": "Prioridad alta: Simón mantiene riesgos para la carga del Pacífico mexicano, las afectaciones aéreas en Medio Oriente requieren revisar conexiones y los ajustes de tarifas para carga refrigerada en Brasil pueden modificar costos. Reconfirmar operaciones y cotizaciones antes de comprometer fechas.",
+  "subtitulo": "Tres focos prioritarios: menor disponibilidad de operadores en cruces México–EE. UU. por revocaciones de visas B-1, evolución de la tormenta tropical Trudy frente al Pacífico mexicano y restricciones puntuales en puertos regionales de Panamá tras el sismo. El Canal de Panamá continúa operativo. Confirmar capacidad, rutas y citas antes de comprometer entregas.",
   "noticias": [
     {
-      "region": "MÉXICO",
-      "modo": "ALTO · CLIMA Y PUERTOS",
-      "imagen": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Hurricane_Melissa_at_landfall_true_color.png",
+      "region": "MÉXICO–EE. UU.",
+      "modo": "ALTO · CRUCE FRONTERIZO",
+      "imagen": "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=1200",
       "bandera": "https://flagcdn.com/w40/mx.png",
-      "titular": "Simón: riesgo para el Pacífico mexicano",
-      "dato": "Continúan las afectaciones por lluvia, oleaje e inundaciones en el Pacífico mexicano. Se han comunicado cierres preventivos y afectaciones en el entorno de Manzanillo, Lázaro Cárdenas y Puerto Vallarta; cada puerto y terminal requiere confirmación actualizada. Fuentes: Servicio Meteorológico Nacional, AP y Reuters.",
-      "impacto": "Posibles restricciones de navegación, demoras en atraques, citas, carga terrestre y vuelos.",
-      "accion": "Verificar estatus oficial de puerto, terminal, naviera, carreteras y cada vuelo antes de confirmar fechas; considerar holgura de 1–2 días según ruta."
+      "titular": "Visas B-1: presión sobre capacidad transfronteriza",
+      "dato": "FreightWaves (13 oct.) reporta alrededor de 25,000 visas B-1 revocadas a transportistas mexicanos. Tarifas spot interanuales: San Diego–Phoenix +57%, Laredo–Dallas +43% y Laredo–Chicago +35%. Fuente: FreightWaves, 13 oct. 2026.",
+      "impacto": "Menor disponibilidad de operadores, más rechazos de cargas y mayores costos en corredores México–Estados Unidos.",
+      "accion": "Verificar vigencia de documentos del operador, capacidad confirmada, cruce y ruta; reservar margen de tiempo y actualizar tarifas antes de cotizar."
     },
     {
-      "region": "MEDIO ORIENTE",
-      "modo": "ALTO · TRANSPORTE AÉREO",
-      "imagen": "https://images.unsplash.com/photo-1474302770737-173ee21bab63?w=1200",
-      "bandera": "https://flagcdn.com/w40/sa.png",
-      "titular": "Restricciones aéreas en Medio Oriente: revisar conexiones por Riad",
-      "dato": "Los ataques recientes generaron el cierre del aeropuerto internacional Rey Khalid en Riad hasta al menos el 17 de octubre y cancelaciones de varias aerolíneas. Fuente: Reuters, 12 de octubre de 2026.",
-      "impacto": "Menor capacidad aérea, desvíos, cancelaciones y riesgos para conexiones regionales.",
-      "accion": "Reconfirmar itinerarios y disponibilidad vuelo por vuelo; valorar hubs alternativos y coberturas de seguro."
+      "region": "MÉXICO",
+      "modo": "ALTO · CICLÓN TROPICAL",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Hurricane_Melissa_at_landfall_true_color.png",
+      "bandera": "https://flagcdn.com/w40/mx.png",
+      "titular": "Trudy: nuevo riesgo para el Pacífico mexicano",
+      "dato": "El NHC informó el 14 oct. a las 09:00 CST que Trudy tenía vientos de 60 mph (95 km/h), estaba a unos 600 km al sur de Acapulco y podría convertirse en huracán esta noche. No había alertas costeras vigentes en ese boletín. Imagen ilustrativa de un ciclón, no de Trudy. Fuente: NHC, aviso 5.",
+      "impacto": "Posibles alteraciones posteriores por oleaje, lluvias o viento en puertos, carreteras costeras y conexiones aéreas; la intensidad y el acercamiento aún están sujetos al pronóstico.",
+      "accion": "Dar seguimiento al NHC, SMN y capitanías; reconfirmar Manzanillo, Lázaro Cárdenas, Acapulco y Puerto Vallarta por separado. Planear contingencias sin anunciar cierres aún no confirmados."
+    },
+    {
+      "region": "PANAMÁ",
+      "modo": "ALTO · INFRAESTRUCTURA PORTUARIA",
+      "imagen": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?w=1200",
+      "bandera": "https://flagcdn.com/w40/pa.png",
+      "titular": "Sismo de 7.7: Canal operativo, vigilancia en puertos",
+      "dato": "El terremoto del 9 de octubre ocasionó daños e inspecciones de infraestructura. Reuters y AP reportaron que el Canal de Panamá permaneció operativo. Se reportan restricciones de actividad en puertos estatales regionales, que deben confirmarse con la Autoridad Marítima antes de gestionar cargas.",
+      "impacto": "Posibles demoras locales, inspecciones y cambios en autorizaciones portuarias. No existe un cierre general del Canal confirmado por las fuentes consultadas.",
+      "accion": "Consultar la Autoridad del Canal y la Autoridad Marítima; verificar terminal y reserva específica. No extender restricciones de puertos regionales a Balboa o Cristóbal sin aviso oficial."
     },
     {
       "region": "BRASIL",
-      "modo": "MEDIO · TARIFAS Y CARGA REFRIGERADA",
+      "modo": "MEDIO · COSTOS REEFER",
       "imagen": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?w=1200",
       "bandera": "https://flagcdn.com/w40/br.png",
-      "titular": "Brasil: ajustes de tarifas para contenedores refrigerados",
-      "dato": "Se reportan incrementos indicativos de US$300–600 por contenedor reefer brasileño, según ruta y destino, y ajustes de cargos OHC/DHC de Maersk a partir del 1 de noviembre. Los montos dependen de naviera, contrato y vigencia.",
-      "impacto": "Posibles aumentos del costo logístico para exportadores e importadores de carga refrigerada y necesidad de revisar vigencias de tarifas.",
-      "accion": "Solicitar cotización actualizada, confirmar cargos locales y vigencia antes de cerrar precios o reservar espacio."
+      "titular": "Brasil: revisar cargos para contenedores refrigerados",
+      "dato": "Persisten reportes de ajustes tarifarios indicativos para carga reefer. Los importes y su vigencia dependen de la naviera, ruta y contrato; corroborar directamente antes de comunicarlos al cliente.",
+      "impacto": "Variación de costos de transporte marítimo y cargos locales en mercancía refrigerada.",
+      "accion": "Solicitar tarifas actualizadas y confirmar cargos OHC/DHC, recargos y fecha de aplicación por servicio."
     }
   ],
   "vigilancia": [
     {
-      "titulo": "Asia | Congestión y transbordos",
-      "bandera": "https://flagcdn.com/w40/cn.png",
-      "texto": "Reportes puntuales señalan demoras de hasta 10 días en rutas o terminales afectadas tras Golden Week; reconfirmar conexiones, booking y cut-offs. No equivale al promedio de todos los puertos."
+      "titulo": "México | Simón y lluvias en el Pacífico",
+      "bandera": "https://flagcdn.com/w40/mx.png",
+      "texto": "Continúan los riesgos hidrometeorológicos en el occidente mexicano. Consultar situación oficial de cada puerto y carretera antes de programar citas."
     },
     {
-      "titulo": "Bélgica | Amberes: huelga pendiente de confirmar",
-      "bandera": "https://flagcdn.com/w40/be.png",
-      "texto": "El horario difundido 13 oct. 19:30–15 oct. 07:30 aparece vinculado a información del año anterior; NO hay confirmación suficiente de cierre para 2026. Verificar con puerto, naviera y agentes antes de anunciar bloqueos o desvíos."
+      "titulo": "Panamá | Puertos regionales",
+      "bandera": "https://flagcdn.com/w40/pa.png",
+      "texto": "Se han difundido restricciones en Puerto Mutis, Búcaro, El Agallito y Almirante; confirmar estatus actual con AMP. Balboa y Cristóbal no deben tratarse como cerrados por el sismo."
     },
     {
-      "titulo": "Europa | Caudal bajo en el Rin",
+      "titulo": "Medio Oriente | Conexiones aéreas",
+      "bandera": "https://flagcdn.com/w40/sa.png",
+      "texto": "Confirmar por aerolínea y aeropuerto cualquier restricción o cambio de itinerario; evitar generalizaciones regionales."
+    },
+    {
+      "titulo": "Europa | Niveles del Rin",
       "bandera": "https://flagcdn.com/w40/de.png",
-      "texto": "Las restricciones por caudal pueden limitar carga de barcazas en determinados tramos. Verificar calado, capacidad y alternativas ferroviarias o terrestres."
+      "texto": "Las condiciones de calado pueden limitar cargas de barcazas por tramo. Validar capacidad y alternativas intermodales."
+    },
+    {
+      "titulo": "Asia | Escalas y transbordos",
+      "bandera": "https://flagcdn.com/w40/cn.png",
+      "texto": "Tras Golden Week, revisar transbordos, cut-offs y reservas individualmente. Los retrasos varían entre terminales."
     },
     {
       "titulo": "EE. UU. | Recuperación del Golfo",
       "bandera": "https://flagcdn.com/w40/us.png",
-      "texto": "Persisten consecuencias del huracán Isaías en Florida y Alabama. Validar cada terminal, canal, horario de cita y acceso terrestre; no asumir que todos los puertos tienen la misma situación."
-    },
-    {
-      "titulo": "Panamá | Presión sobre tránsitos",
-      "bandera": "https://flagcdn.com/w40/pa.png",
-      "texto": "Los tiempos de espera pueden variar por tipo de buque y reserva. Comprobar itinerarios, costos y opciones intermodales antes de añadir una demora generalizada."
-    },
-    {
-      "titulo": "Argentina | Posible afectación laboral marítima",
-      "bandera": "https://flagcdn.com/w40/ar.png",
-      "texto": "Se reportan medidas laborales de 48 horas; confirmar vigencia, servicio y terminal antes de ajustar rutas por Montevideo o Brasil."
-    },
-    {
-      "titulo": "Bangladesh | Chittagong",
-      "bandera": "https://flagcdn.com/w40/bd.png",
-      "texto": "Protestas laborales y amenaza de medidas adicionales desde el 19 de octubre. Confirmar actividad de terminal y citas; no tratar la amenaza como huelga total vigente."
+      "texto": "Seguimiento a recuperación posterior a Isaías. Confirmar terminal, acceso terrestre y conexiones caso por caso."
     },
     {
       "titulo": "India | Omisiones de escala",
       "bandera": "https://flagcdn.com/w40/in.png",
-      "texto": "Avisos de omisiones de escala de CMA CGM y congestión de conexiones vía Colombo o Singapur. Validar booking, servicios y cargos; considerar Dussehra alrededor del 19–20 de octubre."
+      "texto": "Revisar avisos de navieras, feeders y espacio disponible antes de ajustar itinerarios."
     },
     {
-      "titulo": "EE. UU. y Brasil | Recuperación tras feriados",
-      "bandera": "https://flagcdn.com/w40/us.png",
-      "texto": "Tras Columbus Day y Nossa Senhora Aparecida del 12 de octubre, revisar horarios administrativos, citas y documentación."
+      "titulo": "Bélgica | Amberes",
+      "bandera": "https://flagcdn.com/w40/be.png",
+      "texto": "Cualquier interrupción por medidas laborales requiere aviso oficial actualizado de 2026; no asumir cierre general."
     }
   ],
   "metricas": [
     {
-      "indicador": "México · Simón",
-      "valor": "Alto",
-      "tendencia": "Verificar navegación, terminales y vuelos"
+      "indicador": "México–EE. UU. · Visas B-1",
+      "valor": "~25,000",
+      "tendencia": "Revocaciones reportadas por FreightWaves"
     },
     {
-      "indicador": "Arabia Saudita · Riad",
-      "valor": "17 oct.",
-      "tendencia": "Cierre reportado hasta al menos esa fecha"
+      "indicador": "San Diego–Phoenix",
+      "valor": "+57%",
+      "tendencia": "Tarifa spot interanual reportada"
     },
     {
-      "indicador": "Asia · Congestión",
-      "valor": "Hasta 10 d",
-      "tendencia": "Solo rutas/terminales afectadas; cifra indicativa"
+      "indicador": "Laredo–Dallas",
+      "valor": "+43%",
+      "tendencia": "Tarifa spot interanual reportada"
     },
     {
-      "indicador": "Bélgica · Amberes",
-      "valor": "No confirmado",
-      "tendencia": "La ventana 13–15 oct. requiere validación 2026"
+      "indicador": "Laredo–Chicago",
+      "valor": "+35%",
+      "tendencia": "Tarifa spot interanual reportada"
     },
     {
-      "indicador": "Europa · Rin",
-      "valor": "Variable",
-      "tendencia": "Confirmar calado según tramo"
+      "indicador": "Trudy · 14 oct., 09:00 CST",
+      "valor": "60 mph",
+      "tendencia": "Vientos sostenidos; NHC aviso 5"
     },
     {
-      "indicador": "EE. UU. · Golfo",
-      "valor": "Recuperación",
-      "tendencia": "Consultar estado por puerto"
+      "indicador": "Panamá · Sismo 9 oct.",
+      "valor": "M 7.7",
+      "tendencia": "Canal operativo según Reuters/AP"
     },
     {
-      "indicador": "India · Escalas",
-      "valor": "Reconfirmar",
-      "tendencia": "Según servicio y conexión"
+      "indicador": "Canal de Panamá",
+      "valor": "Operativo",
+      "tendencia": "Verificar reservas y avisos de ACP"
     },
     {
       "indicador": "Brasil · Reefer",
-      "valor": "US$300–600",
-      "tendencia": "Rango anunciado; sujeto a cotización"
+      "valor": "Revisar",
+      "tendencia": "Cotización y recargos por servicio"
     }
   ],
   "recomendaciones": [
-    "Prioridad 1: validar cierres, navegación, terminales, carreteras y aeropuertos del Pacífico mexicano antes de prometer ETAs.",
-    "Prioridad 2: reconfirmar carga aérea vía Medio Oriente, costos de contenedores reefer en Brasil y servicios con transbordo asiático.",
-    "No publicar la huelga de Amberes como confirmada para el 13–15 de octubre de 2026 sin aviso oficial actualizado.",
-    "Revisar caudal del Rin, puertos del Golfo estadounidense, conexiones por Panamá, condiciones en Argentina e India y aumentos tarifarios en Brasil."
+    "Prioridad 1: confirmar operador con documentación válida y capacidad real en cruces México–EE. UU.; revisar tarifas spot antes de cerrar propuestas.",
+    "Prioridad 2: seguir boletines del NHC y SMN sobre Trudy; validar estado de cada puerto, carretera y vuelo del Pacífico mexicano.",
+    "Prioridad 3: verificar restricciones puntuales en puertos regionales panameños; el Canal continúa operativo, pero las reservas y terminales requieren confirmación.",
+    "Revisar cargos reefer de Brasil y cambios en conexiones aéreas o marítimas; comunicar a clientes solo impactos verificados."
   ]
 };
 
@@ -141,43 +146,42 @@ const retrasos = [
   {
     "puerto": "México · Manzanillo",
     "tiempo": "Por confirmar",
-    "estado": "Verificar navegación, puerta de terminal y citas después de Simón."
+    "estado": "Vigilancia por Trudy y condiciones previas; consultar capitanía y terminal."
   },
   {
     "puerto": "México · Lázaro Cárdenas",
     "tiempo": "Por confirmar",
-    "estado": "Validar capitanía, atraques y apertura de terminal antes de programar."
+    "estado": "Consultar estado operativo y pronóstico antes de reservar citas."
   },
   {
-    "puerto": "China · Shanghai",
-    "tiempo": "Hasta 10 días en reportes puntuales",
-    "estado": "No es promedio del puerto; validar buque y terminal."
+    "puerto": "México · Acapulco",
+    "tiempo": "Por confirmar",
+    "estado": "Monitorear trayectoria de Trudy; sin afirmar cierre."
   },
   {
-    "puerto": "China · Ningbo",
-    "tiempo": "Variable según terminal",
-    "estado": "Consultar ETD/ETA y transbordos concretos."
+    "puerto": "Panamá · Canal",
+    "tiempo": "Operativo",
+    "estado": "Reuters/AP no reportan suspensión por sismo; confirmar tránsito reservado."
   },
   {
-    "puerto": "Bélgica · Amberes",
-    "tiempo": "No confirmado",
-    "estado": "No afirmar cierre 13–15 oct. 2026 sin comunicado oficial."
+    "puerto": "Panamá · Puertos regionales",
+    "tiempo": "Restricciones por validar",
+    "estado": "Consultar AMP para Puerto Mutis, Búcaro, El Agallito y Almirante."
   },
   {
-    "puerto": "Alemania / Países Bajos · Rin",
-    "tiempo": "Variable según calado",
-    "estado": "Revisar limitaciones de barcazas y alternativa intermodal."
+    "puerto": "Panamá · Balboa/Cristóbal",
+    "tiempo": "Sin cierre confirmado",
+    "estado": "Verificar avisos oficiales y operativa de terminal."
   },
   {
-    "puerto": "India · Escalas",
-    "tiempo": "Variable según servicio",
-    "estado": "Consultar omisiones, feeders y booking."
+    "puerto": "Europa · Rin",
+    "tiempo": "Variable",
+    "estado": "Confirmar calado y carga posible en tramo específico."
   }
 ];
 
-// Referencias proporcionadas para este corte: FreshPlaza (congestión portuaria);
-// PNJ (retrasos de vuelos en Florida); Daily Mirror (Colombo).
-// Las cifras son indicativas y no representan monitoreo en vivo.
+// Fuentes: FreightWaves (13 oct.), NHC aviso 5 (14 oct.), Reuters y AP (9 oct.).
+// Las condiciones operativas varían y deben verificarse con fuentes oficiales.
 
 // ======================================================
 // NO EDITAR DEBAJO DE ESTA LÍNEA
@@ -248,7 +252,7 @@ export default function Home() {
               <div className="relative h-48 w-full overflow-hidden bg-gray-100">
                 <img
                   src={item.imagen}
-                  alt={item.region === "MÉXICO" ? "Imagen satelital ilustrativa de un huracán; no corresponde a Simón" : item.region === "ESTADOS UNIDOS" ? "Desfile de Columbus Day de 2019, imagen ilustrativa" : item.titular}
+                  alt={item.titular + " · imagen ilustrativa"}
                   className="h-full w-full object-cover"
                   loading="lazy"
                 />
@@ -345,7 +349,7 @@ export default function Home() {
       </section>
 
       {/* TABLA DE RETRASOS PORTUARIOS */}
-      <section className="bg-white"><div className="mx-auto max-w-7xl px-6 py-14 md:px-10"><p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">RETRASOS PORTUARIOS · 13 DE OCTUBRE</p><h2 className="mt-3 text-3xl font-bold text-[#003C6F]">Estado operativo y demoras por verificar</h2><p className="mt-3 max-w-4xl text-sm leading-6 text-gray-600">No se dispone de tiempos en vivo comparables en todos los puertos. Las cifras indicativas y restricciones deben validarse con terminal y naviera antes de comprometer ETA.</p><div className="mt-7 overflow-x-auto rounded-2xl border border-gray-200"><table className="w-full min-w-[760px] text-left text-sm"><thead className="bg-[#003C6F] text-white"><tr><th className="p-4">País / puerto</th><th className="p-4">Tiempo reportado</th><th className="p-4">Estado e interpretación</th></tr></thead><tbody>{retrasos.map((r,i)=><tr key={r.puerto} className={i%2===0?"bg-[#F3F5F7]":"bg-white"}><td className="p-4 font-bold text-[#003C6F]">{r.puerto}</td><td className="p-4 font-semibold">{r.tiempo}</td><td className="p-4 text-gray-600">{r.estado}</td></tr>)}</tbody></table></div></div></section>
+      <section className="bg-white"><div className="mx-auto max-w-7xl px-6 py-14 md:px-10"><p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">RETRASOS PORTUARIOS · 14 DE OCTUBRE</p><h2 className="mt-3 text-3xl font-bold text-[#003C6F]">Estado operativo y demoras por verificar</h2><p className="mt-3 max-w-4xl text-sm leading-6 text-gray-600">No se dispone de tiempos en vivo comparables en todos los puertos. Las cifras indicativas y restricciones deben validarse con terminal y naviera antes de comprometer ETA.</p><div className="mt-7 overflow-x-auto rounded-2xl border border-gray-200"><table className="w-full min-w-[760px] text-left text-sm"><thead className="bg-[#003C6F] text-white"><tr><th className="p-4">País / puerto</th><th className="p-4">Tiempo reportado</th><th className="p-4">Estado e interpretación</th></tr></thead><tbody>{retrasos.map((r,i)=><tr key={r.puerto} className={i%2===0?"bg-[#F3F5F7]":"bg-white"}><td className="p-4 font-bold text-[#003C6F]">{r.puerto}</td><td className="p-4 font-semibold">{r.tiempo}</td><td className="p-4 text-gray-600">{r.estado}</td></tr>)}</tbody></table></div></div></section>
 
       {/* MÉTRICAS CLAVE */}
       <section className="bg-[#F3F5F7]">
@@ -456,7 +460,7 @@ export default function Home() {
           </div>
 
           <span className="max-w-xl text-white/60 md:text-right">
-            Corte informativo del 13 de octubre de 2026. Fuentes: Reuters, AP, SMN y reportes operativos; cifras indicativas sujetas a confirmación directa con autoridades, terminales, aerolíneas y navieras.</span>
+            Corte informativo del 14 de octubre de 2026. Fuentes: FreightWaves, NHC, Reuters y AP. Pronósticos y restricciones sujetos a cambios y a confirmación con autoridades, terminales, aerolíneas y navieras.</span>
         </div>
       </footer>
     </main>
