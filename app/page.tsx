@@ -32,7 +32,7 @@ const brief = {
     {
       region: "ASIA → MÉXICO",
       modo: "ALTO · TARIFAS MARÍTIMAS",
-      imagen: "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?w=1200",
+      imagen: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Berlin%20Express%20-%20Hapag-Lloyd.jpg",
       bandera: "https://flagcdn.com/w40/cn.png",
       titular: "Hapag-Lloyd incrementa US$1,000 por contenedor en rutas Asia–México",
       dato: "Desde el 15 de octubre, Hapag-Lloyd aplica un incremento general de tarifas (GRI) de US$1,000 por contenedor en rutas del Lejano Oriente hacia la costa oeste de México, para equipos 20' Dry, 40' Dry y 40' NOR. Como referencia, la tarifa publicada para 40' Dry pasa de US$5,100 a US$6,100. Fuente: comunicado de Hapag-Lloyd.",
