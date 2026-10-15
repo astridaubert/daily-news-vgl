@@ -73,14 +73,14 @@ const brief = {
     }
   ],
   metricas: [
-    { indicador: "Trudy · 15 oct. 03:00 CST", valor: "120 km/h", tendencia: "Viento sostenido · NHC aviso 8" },
-    { indicador: "Trudy · rumbo a Manzanillo", valor: "735 km", tendencia: "Al sur-sureste · NHC" },
-    { indicador: "GRI Asia–México · 15 oct.", valor: "+US$1,000", tendencia: "Por contenedor aplicable · Hapag-Lloyd" },
-    { indicador: "40' Dry · Asia–Oeste México", valor: "US$6,100", tendencia: "Nueva tarifa publicada · Hapag-Lloyd" },
-    { indicador: "Nasdaq · cierre 14 oct.", valor: "−1.88%", tendencia: "Reuters" },
-    { indicador: "S&P 500 · cierre 14 oct.", valor: "−1.11%", tendencia: "Reuters" },
-    { indicador: "Dow · cierre 14 oct.", valor: "−0.09%", tendencia: "Reuters" },
-    { indicador: "Amberes · operación", valor: "Validar", tendencia: "Confirmar por buque y terminal" }
+    { indicador: "Huracán Trudy · Intensidad", valor: "120 km/h", tendencia: "Vientos sostenidos registrados el 15 oct. · NHC" },
+    { indicador: "Trudy · Distancia a Manzanillo", valor: "735 km", tendencia: "Al sur-sureste; posición reportada, no distancia de impacto" },
+    { indicador: "Hapag-Lloyd · Alza de flete", valor: "+US$1,000", tendencia: "Incremento anunciado por contenedor aplicable Asia–Oeste de México desde el 15 oct." },
+    { indicador: "Hapag-Lloyd · Tarifa 40' Dry", valor: "US$6,100", tendencia: "Tarifa base publicada para ruta aplicable; verificar recargos y condiciones" },
+    { indicador: "Nasdaq · Bolsa de EE. UU.", valor: "−1.88%", tendencia: "Variación al cierre del 14 oct.; indicador financiero, no retraso logístico" },
+    { indicador: "S&P 500 · Bolsa de EE. UU.", valor: "−1.11%", tendencia: "Variación al cierre del 14 oct.; posible señal de incertidumbre económica" },
+    { indicador: "Dow Jones · Bolsa de EE. UU.", valor: "−0.09%", tendencia: "Variación al cierre del 14 oct.; no mide movimiento de carga" },
+    { indicador: "Puerto de Amberes · Operación", valor: "Por confirmar", tendencia: "Validar reanudación, ETA y atraque por buque y terminal tras la huelga" }
   ],
   recomendaciones: [
     "Prioridad 1 — Trudy (16–18 oct.): verificar alertas NHC/SMN, puertos, citas terrestres y vuelos; activar rutas alternas únicamente cuando sea necesario.",
