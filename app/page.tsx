@@ -217,11 +217,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* PRINCIPALES DESARROLLOS */}
+      {/* PRINCIPALES NOTICIAS */}
       <section className="mx-auto max-w-7xl px-6 py-14 md:px-10">
         <div className="mb-8">
           <p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">
-            PRINCIPALES DESARROLLOS
+            PRINCIPALES NOTICIAS
           </p>
 
           <h2 className="mt-3 text-3xl font-bold text-[#003C6F]">
