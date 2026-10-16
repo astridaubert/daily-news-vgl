@@ -5,106 +5,169 @@ import Image from "next/image";
 // ======================================================
 
 const brief = {
-  fecha: "jueves 15 de octubre de 2026",
-  titulo: "Vector Global Logistics | Radar Logístico Global",
-  subtitulo: "15 de octubre: riesgo alto por el huracán Trudy en el Pacífico mexicano y afectaciones marítimas en Amberes; alzas de fletes Asia–México, congestión en conexiones asiáticas y mayor volatilidad financiera. Confirmar condiciones por terminal, ruta y naviera antes de comprometer entregas.",
-  noticias: [
+  "fecha": "viernes 16 de octubre de 2026",
+  "titulo": "Vector Global Logistics | Radar Logístico Global",
+  "subtitulo": "16 de octubre: Trudy alcanza categoría 3 y eleva el riesgo en puertos y accesos del Pacífico mexicano. El riesgo de suministro de diésel presiona la planeación terrestre, dos buques se hundieron cerca de Ormuz y un paro de autotransporte afecta Sicilia. Revisar itinerarios, costos, seguros y disponibilidad antes de comprometer entregas.",
+  "noticias": [
     {
-      region: "MÉXICO",
-      modo: "ALTO · HURACÁN TRUDY",
-      imagen: "https://upload.wikimedia.org/wikipedia/commons/0/04/Hurricane_Isabel_from_ISS.jpg",
-      bandera: "https://flagcdn.com/w40/mx.png",
-      titular: "Trudy alcanza categoría 1: vigilar operaciones en el Pacífico",
-      dato: "El NHC confirmó el 15 oct. a las 03:00 CST vientos de 120 km/h y ubicación a 735 km al sur-sureste de Manzanillo. Pronostica intensificación a huracán mayor el viernes. No había avisos costeros activos en el boletín. Fuente: NHC, aviso 8 (15 oct.).",
-      impacto: "Posibles reprogramaciones de buques, vuelos y transporte terrestre en Manzanillo, Lázaro Cárdenas y rutas costeras conforme evolucione la trayectoria. Simón se debilitó a tormenta tropical.",
-      accion: "Consultar NHC, SMN y avisos de capitanías y terminales; validar puertos, citas, carreteras y vuelos individualmente. No anunciar cierres sin confirmación."
+      "region": "MÉXICO",
+      "modo": "ALTO · HURACÁN Y TRANSPORTE",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/0/04/Hurricane_Isabel_from_ISS.jpg",
+      "bandera": "https://flagcdn.com/w40/mx.png",
+      "titular": "Trudy alcanza categoría 3: vigilar puertos y carreteras del Pacífico",
+      "dato": "El 16 de octubre, AP y Reuters reportaron que Trudy alcanzó categoría 3, con vientos cercanos a 195 km/h. Las lluvias previstas elevan el riesgo de inundaciones y deslaves en Colima, Jalisco y Michoacán. No se verificó un listado confiable de cierres carreteros activos por tramo. Imagen ilustrativa, no corresponde a Trudy. Fuentes: AP y Reuters (16 oct.).",
+      "impacto": "Posibles interrupciones de acceso a Manzanillo, Lázaro Cárdenas, centros de distribución y rutas terrestres costeras; las afectaciones concretas dependerán de cada tramo y terminal.",
+      "accion": "Consultar SMN, NHC, SICT, CAPUFE y autoridades estatales; verificar carretera, terminal, citas y vuelos antes de despachar. No reportar cierres sin confirmación."
     },
     {
-      region: "EUROPA",
-      modo: "ALTO · OPERACIÓN PORTUARIA",
-      imagen: "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1200",
-      bandera: "https://flagcdn.com/w40/be.png",
-      titular: "Amberes: recuperar conexiones tras interrupciones por huelga",
-      dato: "Se reportaron restricciones al tráfico marítimo en Amberes del 13 al 15 de octubre por conflicto laboral. El restablecimiento efectivo y los buques pendientes requieren confirmación directamente con puerto, terminal y naviera; no asumir normalidad inmediata.",
-      impacto: "Riesgo de acumulación de escalas, retrasos de atraque, conexiones perdidas y arrastres logísticos con Rotterdam y rutas interiores.",
-      accion: "Reconfirmar ETA y ventana de atraque de cada buque; añadir margen de tránsito y evaluar puerto alternativo si resulta viable."
+      "region": "MEDIO ORIENTE",
+      "modo": "ALTO · SEGURIDAD MARÍTIMA",
+      "imagen": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1200",
+      "bandera": "https://flagcdn.com/w40/om.png",
+      "titular": "Dos buques se hunden cerca de Ormuz: riesgo para rutas y seguros",
+      "dato": "Reuters informó el 14 de octubre el hundimiento del portacontenedores GFS Pride, con bandera de Singapur, y del granelero Cape Dao cerca de Ormuz, tras ataques. La Autoridad Marítima de Singapur confirmó el hundimiento de GFS Pride y que GFS Giselle sufrió daños pero no se hundió. Fuentes: Reuters y MPA Singapur (14 oct.).",
+      "impacto": "La mayor exposición a incidentes marítimos puede modificar itinerarios, primas de seguro, costos de combustible y opciones de transbordo en rutas vinculadas con el Golfo.",
+      "accion": "Validar recorrido, restricciones de naviera, coberturas de seguro, escalas y alternativas de puerto antes de confirmar nuevas cargas."
     },
     {
-      region: "ASIA → MÉXICO",
-      modo: "ALTO · TARIFAS MARÍTIMAS",
-      imagen: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Berlin%20Express%20-%20Hapag-Lloyd.jpg",
-      bandera: "https://flagcdn.com/w40/cn.png",
-      titular: "Hapag-Lloyd incrementa US$1,000 por contenedor en rutas Asia–México",
-      dato: "Desde el 15 de octubre, Hapag-Lloyd aplica un incremento general de tarifas (GRI) de US$1,000 por contenedor en rutas del Lejano Oriente hacia la costa oeste de México, para equipos 20' Dry, 40' Dry y 40' NOR. Como referencia, la tarifa publicada para 40' Dry pasa de US$5,100 a US$6,100. Fuente: comunicado de Hapag-Lloyd.",
-      impacto: "El alza presiona los presupuestos de importación y puede afectar cotizaciones y márgenes. El costo final depende de la ruta, los acuerdos comerciales, el equipo y los recargos aplicables.",
-      accion: "Recalcular cotizaciones y confirmar con la naviera tarifa total, recargos, disponibilidad de espacio y vigencia antes de reservar o comprometer precios."
+      "region": "ITALIA",
+      "modo": "ALTO · PARO DE AUTOTRANSPORTE",
+      "imagen": "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=1200",
+      "bandera": "https://flagcdn.com/w40/it.png",
+      "titular": "Paro de transportistas en Sicilia del 16 al 20 de octubre",
+      "dato": "El calendario oficial de huelgas del Ministerio de Transportes italiano registra una paralización regional del transporte de mercancías por cuenta de terceros del 16 al 20 de octubre en Sicilia; ANSA confirma el llamado al paro por altos costos del combustible. Fuente: Ministerio de Transportes de Italia y ANSA.",
+      "impacto": "Riesgo de menor capacidad de recolección y entrega, acumulación de contenedores y retrasos de conexiones portuarias y terrestres en Sicilia.",
+      "accion": "Confirmar disponibilidad real de transporte, retiro de unidades, patios y ventanas de conexión antes de despachar."
     }
   ],
-  vigilancia: [
+  "vigilancia": [
     {
-      titulo: "Estados Unidos | drayage, importaciones y costos",
-      bandera: "https://flagcdn.com/w40/us.png",
-      texto: "Vigilar disponibilidad de chasises, operadores y citas en gateways marítimos y rampas interiores. La incertidumbre arancelaria puede alterar reservas y provocar adelanto de importaciones; confirmar por corredor y transportista."
+      "titulo": "México | Diésel: riesgo condicionado, no desabasto confirmado",
+      "bandera": "https://flagcdn.com/w40/mx.png",
+      "texto": "Una eventual restricción estadounidense de exportaciones de diésel podría presionar costos y disponibilidad para el autotransporte mexicano. Especialistas citan inventarios equivalentes a unos 13 días y dependencia relevante de importaciones; CANACAR ha estimado impactos económicos en un escenario de interrupción. No se confirma una suspensión vigente de exportaciones. Fuentes: El Economista, El Financiero y reportes del sector, septiembre-octubre de 2026."
     },
     {
-      titulo: "Asia | conexiones post-Golden Week",
-      bandera: "https://flagcdn.com/w40/sg.png",
-      texto: "Revisar itinerarios de Shanghái, Singapur y Colombo, disponibilidad de feeders y rollover. Las cifras de 7–10 días en Shanghái y ocupación de patio superior a 130% en Colombo requieren reconfirmación por terminal."
+      "titulo": "México | Autopartes: suspensión de arancel",
+      "bandera": "https://flagcdn.com/w40/mx.png",
+      "texto": "El País reportó el 16 de octubre la suspensión por cinco años del arancel mexicano del 10% sobre determinadas importaciones de autopartes destinadas al ensamblaje de vehículos. Verificar fracciones, reglas y publicación normativa antes de aplicar el beneficio a un embarque."
     },
     {
-      titulo: "India | Mundra, Nhava Sheva y escalas",
-      bandera: "https://flagcdn.com/w40/in.png",
-      texto: "Reconfirmar reservas y escalas de servicios sujetos a omisiones, especialmente EPIC2, así como conexiones vía Colombo y Singapur. Prever disponibilidad variable por Dussehra según localidad."
+      "titulo": "China | Congestión y tarifas",
+      "bandera": "https://flagcdn.com/w40/cn.png",
+      "texto": "Monitorear presión de capacidad tras Golden Week, tiempos por terminal en Shanghái y Ningbo y posibles ajustes de tarifas. Las cifras difundidas de +6% semanal y esperas de 78/77 horas no pudieron confirmarse suficientemente para todas las terminales, por lo que deben verificarse antes de cotizar."
     },
     {
-      titulo: "Brasil | cargos futuros y ajustes operativos",
-      bandera: "https://flagcdn.com/w40/br.png",
-      texto: "Dar seguimiento a cargos OHC/DHC anunciados para noviembre y a condiciones de terminal en Santos, Itajaí y Navegantes. El feriado de Nossa Senhora Aparecida fue el lunes 12 de octubre, no el 14."
+      "titulo": "Brasil | Mayor presión sobre costos",
+      "bandera": "https://flagcdn.com/w40/br.png",
+      "texto": "Se reportan alzas en fletes marítimos y transporte interior, aunque los rangos de US$300–600 por contenedor y R$28,000–32,000 por viaje no pudieron verificarse como referencias generales. Solicitar tarifa por ruta, fecha, equipo y proveedor; considerar cargos anunciados para noviembre."
     },
     {
-      titulo: "Mercados | inflación, tasas y cadenas de suministro",
-      bandera: "https://flagcdn.com/w40/us.png",
-      texto: "El 14 oct. el Nasdaq cayó 1.88%, el S&P 500 1.11% y el Dow 0.09% tras inflación estadounidense superior a la prevista. El efecto logístico es un riesgo prospectivo sobre financiamiento, inversión y demanda, no evidencia de interrupción del comercio. Fuentes: Reuters y AP, 14 oct."
+      "titulo": "India | Tarifas hacia Europa y transbordos",
+      "bandera": "https://flagcdn.com/w40/in.png",
+      "texto": "El mercado India–Europa sigue sujeto a condiciones variables de tarifa, capacidad y conexiones por Colombo y Singapur. Validar booking, escala, feeder y transbordo por servicio; no generalizar una tendencia uniforme a todas las rutas."
     },
     {
-      titulo: "Medio Oriente | seguridad y seguros",
-      bandera: "https://flagcdn.com/w40/om.png",
-      texto: "Mantener seguimiento a riesgos marítimos y cláusulas de seguro en rutas expuestas a Ormuz; reconfirmar escalas, primas de riesgo y costos de combustible con proveedor."
+      "titulo": "Italia | Otros paros de transporte",
+      "bandera": "https://flagcdn.com/w40/it.png",
+      "texto": "El registro oficial italiano también incluye paros regionales de autotransporte en Calabria del 16 al 20 de octubre y una huelga portuaria en Nápoles/Salerno del 15 al 16; confirmar afectaciones por operador y terminal."
     }
   ],
-  metricas: [
-    { indicador: "Huracán Trudy · Intensidad", valor: "120 km/h", tendencia: "Vientos sostenidos registrados el 15 oct. · NHC" },
-    { indicador: "Trudy · Distancia a Manzanillo", valor: "735 km", tendencia: "Al sur-sureste; posición reportada, no distancia de impacto" },
-    { indicador: "Hapag-Lloyd · Alza de flete", valor: "+US$1,000", tendencia: "Incremento anunciado por contenedor aplicable Asia–Oeste de México desde el 15 oct." },
-    { indicador: "Hapag-Lloyd · Tarifa 40' Dry", valor: "US$6,100", tendencia: "Tarifa base publicada para ruta aplicable; verificar recargos y condiciones" },
-    { indicador: "Nasdaq · Bolsa de EE. UU.", valor: "−1.88%", tendencia: "Variación al cierre del 14 oct.; indicador financiero, no retraso logístico" },
-    { indicador: "S&P 500 · Bolsa de EE. UU.", valor: "−1.11%", tendencia: "Variación al cierre del 14 oct.; posible señal de incertidumbre económica" },
-    { indicador: "Dow Jones · Bolsa de EE. UU.", valor: "−0.09%", tendencia: "Variación al cierre del 14 oct.; no mide movimiento de carga" },
-    { indicador: "Puerto de Amberes · Operación", valor: "Por confirmar", tendencia: "Validar reanudación, ETA y atraque por buque y terminal tras la huelga" }
+  "metricas": [
+    {
+      "indicador": "Trudy · Intensidad 16 oct.",
+      "valor": "Cat. 3",
+      "tendencia": "Vientos cercanos a 195 km/h · AP / Reuters"
+    },
+    {
+      "indicador": "Trudy · Lluvias previstas",
+      "valor": "Hasta 30 cm",
+      "tendencia": "Máximos puntuales reportados en zonas de riesgo · Reuters"
+    },
+    {
+      "indicador": "Diésel México · Inventarios estimados",
+      "valor": "13 días",
+      "tendencia": "Escenario de referencia citado por especialista; no desabasto confirmado"
+    },
+    {
+      "indicador": "Diésel México · Dependencia externa",
+      "valor": "30–50%",
+      "tendencia": "Porción aproximada del consumo abastecida vía importaciones, según especialistas"
+    },
+    {
+      "indicador": "Ormuz · Buques hundidos",
+      "valor": "2",
+      "tendencia": "Eventos reportados cerca del estrecho · Reuters, 14 oct."
+    },
+    {
+      "indicador": "Sicilia · Paro transporte",
+      "valor": "5 días",
+      "tendencia": "Del 16 al 20 oct. · registro oficial de Italia"
+    },
+    {
+      "indicador": "Autopartes México · Arancel",
+      "valor": "10%",
+      "tendencia": "Suspensión reportada para importaciones elegibles; validar regulación"
+    },
+    {
+      "indicador": "Carreteras Pacífico MX",
+      "valor": "Verificar",
+      "tendencia": "Sin cierres por tramo confirmados; consultar SICT/CAPUFE antes de salida"
+    }
   ],
-  recomendaciones: [
-    "Prioridad 1 — Trudy (16–18 oct.): verificar alertas NHC/SMN, puertos, citas terrestres y vuelos; activar rutas alternas únicamente cuando sea necesario.",
-    "Prioridad 2 — Amberes: reconfirmar atraque y conexiones tras la interrupción de tráfico; añadir holgura a los itinerarios críticos.",
-    "Prioridad 3 — Asia–México: incorporar GRI vigente desde el 15 oct. y cotejar tarifa completa y recargos con la naviera.",
-    "Asia e India: confirmar transbordos, feeder y posibles omisiones de escala por booking; no generalizar retrasos a todos los puertos.",
-    "Brasil: anticipar cargos de noviembre y consultar las condiciones particulares de terminales; el feriado nacional ocurrió el 12 de octubre.",
-    "Riesgo financiero: monitorear tasas, combustible y demanda de electrónica sin presentar la caída bursátil como interrupción operativa."
+  "recomendaciones": [
+    "Prioridad 1 — Trudy: consultar alertas oficiales, confirmar ruta y operación de puerto, terminal y aeropuerto antes de despachar; no asumir cierres sin reporte por tramo.",
+    "Prioridad 2 — Ormuz: verificar coberturas de seguro, rutas, escalas y puertos alternativos para embarques expuestos.",
+    "Prioridad 3 — Sicilia y Calabria: comprobar disponibilidad de camiones del 16 al 20 de octubre y reprogramar conexiones sensibles.",
+    "México — Diésel: analizar sensibilidad de tarifas terrestres a restricciones potenciales, sin presentar el escenario como desabasto actual.",
+    "China, India y Brasil: reconfirmar tarifas por ruta y reserva, espacio, conexión y cargos vigentes antes de comprometer precios.",
+    "Automotriz México: revisar con el agente aduanal la elegibilidad de autopartes ante el cambio arancelario reportado."
   ]
 };
 
 const retrasos = [
-  { puerto: "México · Manzanillo", tiempo: "Por confirmar", estado: "Vigilancia por Trudy; confirmar capitanía, terminal y cita." },
-  { puerto: "México · Lázaro Cárdenas", tiempo: "Por confirmar", estado: "Evaluar meteorología, accesos y operación por terminal." },
-  { puerto: "México · Puerto Vallarta", tiempo: "Por confirmar", estado: "Validar vuelos y accesos ante evolución del temporal." },
-  { puerto: "Bélgica · Amberes", tiempo: "Variable", estado: "Confirmar recuperación tras huelga y atraque de cada buque." },
-  { puerto: "China · Shanghái", tiempo: "Variable", estado: "Confirmar cola por terminal y reserva post-Golden Week." },
-  { puerto: "Singapur / Colombo", tiempo: "Variable", estado: "Validar conexiones, rollovers y feeders." },
-  { puerto: "India · Mundra / Nhava Sheva", tiempo: "Variable", estado: "Confirmar omisiones y escala por servicio y buque." },
-  { puerto: "Europa · Rin", tiempo: "Variable", estado: "Confirmar calado y capacidad de barcazas según tramo." }
+  {
+    "puerto": "México · Manzanillo",
+    "tiempo": "Por confirmar",
+    "estado": "Vigilancia por Trudy; validar terminal, accesos y autorizaciones de capitanía."
+  },
+  {
+    "puerto": "México · Lázaro Cárdenas",
+    "tiempo": "Por confirmar",
+    "estado": "Validar rutas de acceso, condiciones de lluvia y estado por terminal."
+  },
+  {
+    "puerto": "México · Carreteras Pacífico",
+    "tiempo": "Sin cierre confirmado",
+    "estado": "Consultar SICT y CAPUFE por tramo; riesgo de inundación y deslaves."
+  },
+  {
+    "puerto": "Italia · Sicilia",
+    "tiempo": "16–20 oct.",
+    "estado": "Paro regional de autotransporte; confirmar retiro y entrega de carga."
+  },
+  {
+    "puerto": "Italia · Calabria",
+    "tiempo": "16–20 oct.",
+    "estado": "Paro de transportistas anunciado; confirmar proveedores afectados."
+  },
+  {
+    "puerto": "Italia · Nápoles / Salerno",
+    "tiempo": "15–16 oct.",
+    "estado": "Huelga portuaria territorial registrada; verificar terminal y servicio."
+  },
+  {
+    "puerto": "China · Shanghái / Ningbo",
+    "tiempo": "Variable",
+    "estado": "Consultar esperas por terminal y naviera; no hay cifra única verificada."
+  },
+  {
+    "puerto": "India · Conexiones Europa",
+    "tiempo": "Variable",
+    "estado": "Confirmar itinerario, feeders y omisiones de escala."
+  }
 ];
 
-// Fuentes: NHC aviso 8 (15 oct.); Hapag-Lloyd GRI efectivo 15 oct.; Reuters/AP (14 oct.).
-// Los datos no confirmados en tiempo real se presentan como riesgos sujetos a verificación.
+// Actualización 16 oct. 2026: fuentes AP, Reuters, MPA Singapore, MIT Italia, ANSA, El País, El Financiero y El Economista.
 
 // ======================================================
 // NO EDITAR DEBAJO DE ESTA LÍNEA
@@ -272,7 +335,7 @@ export default function Home() {
       </section>
 
       {/* TABLA DE RETRASOS PORTUARIOS */}
-      <section className="bg-white"><div className="mx-auto max-w-7xl px-6 py-14 md:px-10"><p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">RETRASOS PORTUARIOS · 15 DE OCTUBRE</p><h2 className="mt-3 text-3xl font-bold text-[#003C6F]">Estado operativo y demoras por verificar</h2><p className="mt-3 max-w-4xl text-sm leading-6 text-gray-600">No se dispone de tiempos en vivo comparables en todos los puertos. Las cifras indicativas y restricciones deben validarse con terminal y naviera antes de comprometer ETA.</p><div className="mt-7 overflow-x-auto rounded-2xl border border-gray-200"><table className="w-full min-w-[760px] text-left text-sm"><thead className="bg-[#003C6F] text-white"><tr><th className="p-4">País / puerto</th><th className="p-4">Tiempo reportado</th><th className="p-4">Estado e interpretación</th></tr></thead><tbody>{retrasos.map((r,i)=><tr key={r.puerto} className={i%2===0?"bg-[#F3F5F7]":"bg-white"}><td className="p-4 font-bold text-[#003C6F]">{r.puerto}</td><td className="p-4 font-semibold">{r.tiempo}</td><td className="p-4 text-gray-600">{r.estado}</td></tr>)}</tbody></table></div></div></section>
+      <section className="bg-white"><div className="mx-auto max-w-7xl px-6 py-14 md:px-10"><p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">RETRASOS PORTUARIOS · 16 DE OCTUBRE</p><h2 className="mt-3 text-3xl font-bold text-[#003C6F]">Estado operativo y demoras por verificar</h2><p className="mt-3 max-w-4xl text-sm leading-6 text-gray-600">No se dispone de tiempos en vivo comparables en todos los puertos. Las cifras indicativas y restricciones deben validarse con terminal y naviera antes de comprometer ETA.</p><div className="mt-7 overflow-x-auto rounded-2xl border border-gray-200"><table className="w-full min-w-[760px] text-left text-sm"><thead className="bg-[#003C6F] text-white"><tr><th className="p-4">País / puerto</th><th className="p-4">Tiempo reportado</th><th className="p-4">Estado e interpretación</th></tr></thead><tbody>{retrasos.map((r,i)=><tr key={r.puerto} className={i%2===0?"bg-[#F3F5F7]":"bg-white"}><td className="p-4 font-bold text-[#003C6F]">{r.puerto}</td><td className="p-4 font-semibold">{r.tiempo}</td><td className="p-4 text-gray-600">{r.estado}</td></tr>)}</tbody></table></div></div></section>
 
       {/* MÉTRICAS CLAVE */}
       <section className="bg-[#F3F5F7]">
@@ -383,7 +446,7 @@ export default function Home() {
           </div>
 
           <span className="max-w-xl text-white/60 md:text-right">
-            Corte informativo del 15 de octubre de 2026. Fuentes: NHC, Hapag-Lloyd, Reuters y AP. Pronósticos y restricciones sujetos a cambios y a confirmación con autoridades, terminales, aerolíneas y navieras.</span>
+            Corte informativo del 16 de octubre de 2026. Fuentes: AP, Reuters, Autoridad Marítima de Singapur, Ministerio de Transportes de Italia, ANSA, El País, El Financiero y El Economista. Riesgos sujetos a validación por autoridad, terminal y proveedor.</span>
         </div>
       </footer>
     </main>
