@@ -7,7 +7,7 @@ import Image from "next/image";
 const brief = {
   "fecha": "viernes 16 de octubre de 2026",
   "titulo": "Vector Global Logistics | Radar Logístico Global",
-  "subtitulo": "16 de octubre: Trudy alcanza categoría 3 y eleva el riesgo en puertos y accesos del Pacífico mexicano. El riesgo de suministro de diésel presiona la planeación terrestre, dos buques se hundieron cerca de Ormuz y un paro de autotransporte afecta Sicilia. Revisar itinerarios, costos, seguros y disponibilidad antes de comprometer entregas.",
+  "subtitulo": "16 de octubre: Trudy alcanza categoría 3 y eleva el riesgo en puertos y accesos del Pacífico mexicano. El riesgo de suministro de diésel presiona la planeación terrestre, Durga Puja puede reducir la disponibilidad logística regional en India y un paro de autotransporte afecta Sicilia. Revisar itinerarios, costos, seguros y disponibilidad antes de comprometer entregas.",
   "noticias": [
     {
       "region": "MÉXICO",
@@ -20,14 +20,14 @@ const brief = {
       "accion": "Consultar SMN, NHC, SICT, CAPUFE y autoridades estatales; verificar carretera, terminal, citas y vuelos antes de despachar. No reportar cierres sin confirmación."
     },
     {
-      "region": "MEDIO ORIENTE",
-      "modo": "ALTO · SEGURIDAD MARÍTIMA",
-      "imagen": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1200",
-      "bandera": "https://flagcdn.com/w40/om.png",
-      "titular": "Dos buques se hunden cerca de Ormuz: riesgo para rutas y seguros",
-      "dato": "Reuters informó el 14 de octubre el hundimiento del portacontenedores GFS Pride, con bandera de Singapur, y del granelero Cape Dao cerca de Ormuz, tras ataques. La Autoridad Marítima de Singapur confirmó el hundimiento de GFS Pride y que GFS Giselle sufrió daños pero no se hundió. Fuentes: Reuters y MPA Singapur (14 oct.).",
-      "impacto": "La mayor exposición a incidentes marítimos puede modificar itinerarios, primas de seguro, costos de combustible y opciones de transbordo en rutas vinculadas con el Golfo.",
-      "accion": "Validar recorrido, restricciones de naviera, coberturas de seguro, escalas y alternativas de puerto antes de confirmar nuevas cargas."
+      "region": "INDIA",
+      "modo": "PREVENTIVO · DURGA PUJA 17–21 OCT.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Maa%20Durga%20Pandal%201.0.jpg",
+      "bandera": "https://flagcdn.com/w40/in.png",
+      "titular": "Durga Puja: anticipar embarques y recolecciones en India",
+      "dato": "Del 17 al 21 de octubre de 2026 se celebra Durga Puja, especialmente importante en Bengala Occidental y Kolkata. Los días no laborables varían por estado y empresa; no implica un cierre nacional de puertos o aduanas. Fuentes: Gobierno de Bengala Occidental, calendario de festividades y feriados 2026.",
+      "impacto": "Pueden presentarse horarios reducidos y menor disponibilidad de proveedores, transportistas, documentación y recolecciones, especialmente en operaciones vinculadas con Kolkata.",
+      "accion": "Confirmar horarios con proveedor, transportista, agente aduanal y terminal; adelantar documentación y reservas y contemplar margen para embarques urgentes."
     },
     {
       "region": "ITALIA",
