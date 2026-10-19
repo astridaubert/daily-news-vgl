@@ -4,37 +4,37 @@ import Image from "next/image";
 const brief = {
   "fecha": "lunes 19 de octubre de 2026",
   "titulo": "Vector Global Logistics | Radar Logístico Global",
-  "subtitulo": "19 de octubre: Manzanillo reprograma operaciones tras el huracán Trudy; navieras anuncian 44 blank sailings en rutas Este–Oeste y el diésel mantiene presión sobre el autotransporte mexicano. Monitorear disponibilidad de unidades, conexiones, costos y ventanas de recepción antes de confirmar entregas.",
+  "subtitulo": "Tres alertas para hoy: ajustes operativos en Manzanillo, 44 salidas marítimas canceladas y presión del diésel sobre los fletes. Antes de despachar, confirma citas, espacio y tarifas.",
   "noticias": [
     {
       "region": "MÉXICO",
       "modo": "ALTO · MANZANILLO / TRUDY",
       "imagen": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1200",
       "bandera": "https://flagcdn.com/w40/mx.png",
-      "titular": "Manzanillo: reprogramación de citas y servicios tras Trudy",
-      "dato": "Avisos de terminales emitidos el 16–17 oct.: SSA suspendió recepción de vacíos/exportaciones desde el 17, hasta nuevo aviso; TIMSA movió citas del 17 al lunes 19; Contecon habilitó citas del 19 después de las 12:00 y previos a partir del 20. El huracán se debilitó el 18 y los avisos meteorológicos costeros fueron levantados; confirmar la reapertura efectiva por instalación. Fuentes: COPOMA/SSA, GOMSA, Contecon y Reuters (18 oct.). https://copoma.com.mx/copoma/index.php/comunicados/ssa-marine-mexico-actualizacion-de-operaciones-por-el-huracan-trudy",
-      "impacto": "Acumulación temporal de citas, posibles demoras de importación/exportación, patios y entregas en puerto; el estado varía por terminal.",
-      "accion": "Contactar SSA, TIMSA, Contecon y naviera; confirmar turno, liberación documental, recepción de vacíos y accesos antes del despacho."
+      "titular": "Manzanillo ajusta operaciones tras Trudy",
+      "dato": "SSA anunció restricciones a vacíos y exportaciones; TIMSA reprogramó citas al 19 de octubre y Contecon previó retomar citas desde el mediodía del 19. La operación debe confirmarse por terminal.",
+      "impacto": "Posibles retrasos en entregas, retiros y exportaciones.",
+      "accion": "Confirmar citas, accesos y recepción de carga antes de enviar unidades."
     },
     {
       "region": "ASIA / GLOBAL",
       "modo": "ALTO · 44 SALIDAS CANCELADAS",
       "imagen": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?w=1200",
       "bandera": "https://flagcdn.com/w40/cn.png",
-      "titular": "44 blank sailings entre el 19 de octubre y el 22 de noviembre",
-      "dato": "Drewry prevé 44 cancelaciones de 713 salidas programadas (6%) en las rutas Este–Oeste durante las semanas 43–47. El 44% de las cancelaciones se concentra en Asia–Norte de Europa/Mediterráneo, el 36% en transpacífico este y el 20% en transatlántico. Fuente: Drewry, Cancelled Sailings Tracker, 16 oct. https://www.drewry.co.uk/maritime-research-opinion-browser/cancelled-sailings-tracker",
-      "impacto": "Mayor riesgo de rolados, cambios de conexión y menor confiabilidad de itinerarios en embarques que dependan de servicios cancelados.",
-      "accion": "Reconfirmar buque y salida efectiva con naviera; reservar con anticipación y evaluar itinerarios o transbordos alternativos."
+      "titular": "44 salidas marítimas canceladas en cinco semanas",
+      "dato": "Drewry reporta 44 cancelaciones de 713 salidas previstas del 19 de octubre al 22 de noviembre. Asia–Europa/Mediterráneo concentra el 44% de las cancelaciones.",
+      "impacto": "Cambios de itinerario y riesgo de retrasos por falta de espacio.",
+      "accion": "Reconfirmar salida y conexión; reservar alternativas con anticipación."
     },
     {
       "region": "MÉXICO",
       "modo": "ALTO · COSTO DE DIÉSEL",
       "imagen": "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=1200",
       "bandera": "https://flagcdn.com/w40/mx.png",
-      "titular": "Diésel: estímulo complementario sube a $2.35 por litro",
-      "dato": "Del 17 al 23 de octubre, Hacienda aplica apoyo complementario de $2.35 MXN/litro al diésel, además del estímulo de 100% sobre la cuota IEPS; el precio promedio nacional citado por PETROIntelligence es de aproximadamente $27.01/litro. No equivale a un desabasto confirmado. Fuentes: DOF/SHCP, El Economista (18 oct.). https://www.eleconomista.com.mx/economia/aumentan-2-35-pesos-litro-subsidio-diesel-mayor-nivel-ano-20261018-839258.html",
-      "impacto": "Presión potencial sobre tarifas terrestres y liquidez de transportistas, aun con apoyos fiscales vigentes.",
-      "accion": "Revisar vigencia de cotizaciones, recargos por combustible y capacidad comprometida con proveedores terrestres."
+      "titular": "Diésel presiona los costos del transporte en México",
+      "dato": "Del 17 al 23 de octubre se aplica un apoyo adicional de $2.35 por litro de diésel. El precio promedio nacional citado es de $27.01 por litro.",
+      "impacto": "Posibles ajustes de tarifas y presión financiera para transportistas.",
+      "accion": "Verificar recargos por combustible y disponibilidad de unidades."
     }
   ],
   "vigilancia": [
@@ -86,46 +86,46 @@ const brief = {
   ],
   "metricas": [
     {
-      "indicador": "Manzanillo · Contecon",
-      "valor": "19 oct. 12:00+",
-      "tendencia": "Citas previstas después del mediodía; confirmar operación vigente"
+        "indicador": "Manzanillo · Contecon",
+        "valor": "19 oct.",
+        "tendencia": "Citas previstas desde las 12:00; confirmar con la terminal."
     },
     {
-      "indicador": "Manzanillo · Previos",
-      "valor": "20 oct.",
-      "tendencia": "Reanudación programada por Contecon"
+        "indicador": "Manzanillo · Previos",
+        "valor": "20 oct.",
+        "tendencia": "Fecha prevista de reanudación de inspecciones previas."
     },
     {
-      "indicador": "Blank sailings · Este–Oeste",
-      "valor": "44",
-      "tendencia": "19 oct.–22 nov. · Drewry"
+        "indicador": "Salidas marítimas canceladas",
+        "valor": "44",
+        "tendencia": "De 713 salidas previstas entre el 19 oct. y el 22 nov."
     },
     {
-      "indicador": "Salidas previstas canceladas",
-      "valor": "6%",
-      "tendencia": "44 de 713 servicios · Drewry"
+        "indicador": "Porcentaje de salidas canceladas",
+        "valor": "6%",
+        "tendencia": "Proporción del total de servicios Este–Oeste programados."
     },
     {
-      "indicador": "Asia–Europa/Med",
-      "valor": "44%",
-      "tendencia": "Participación de blank sailings · Drewry"
+        "indicador": "Asia–Europa · Peso de las cancelaciones",
+        "valor": "44%",
+        "tendencia": "De las 44 cancelaciones, esta ruta concentra casi la mitad."
     },
     {
-      "indicador": "Diésel · Apoyo adicional",
-      "valor": "$2.35/L",
-      "tendencia": "México · 17–23 oct. · SHCP"
+        "indicador": "México · Apoyo adicional al diésel",
+        "valor": "$2.35/L",
+        "tendencia": "Subsidio adicional por litro vigente del 17 al 23 oct."
     },
     {
-      "indicador": "Diésel · Precio promedio",
-      "valor": "$27.01/L",
-      "tendencia": "Referencia PETROIntelligence citada el 18 oct."
+        "indicador": "México · Precio promedio del diésel",
+        "valor": "$27.01/L",
+        "tendencia": "Precio nacional de referencia citado el 18 oct.; no es el subsidio."
     },
     {
-      "indicador": "CANACAR · Paro nacional",
-      "valor": "Sin confirmar",
-      "tendencia": "Comunicado oficial localizado trata de estímulos fiscales"
+        "indicador": "Paro nacional de CANACAR",
+        "valor": "No confirmado",
+        "tendencia": "Verificar con transportistas antes de asumir suspensión de unidades."
     }
-  ],
+],
   "recomendaciones": [
     "Prioridad 1 — Manzanillo: confirmar con cada terminal si ya opera la recepción de vacíos/exportación; validar citas del 19, previos del 20 y accesos antes de despachar.",
     "Prioridad 2 — Rutas Asia–Europa: identificar reservas expuestas a los 44 blank sailings; reconfirmar zarpe, escala, conexión y ETA con naviera.",
@@ -252,7 +252,7 @@ export default function Home() {
               </div>
 
               <div className="p-7">
-                <div className="mb-7 flex items-start justify-between gap-4">
+                <div className="mb-4 flex items-start justify-between gap-4">
                   <div>
                     <p className="flex items-center gap-1.5 text-xs font-bold tracking-[0.16em] text-[#FF3E32]">
                       {"bandera" in item && item.bandera ? (
@@ -279,11 +279,11 @@ export default function Home() {
                   {item.titular}
                 </h3>
 
-                <p className="mt-5 leading-7 text-gray-600">{item.dato}</p>
+                <p className="mt-4 text-sm leading-6 text-gray-600">{item.dato}</p>
 
-                <div className="mt-7 border-t border-gray-200 pt-6">
+                <div className="mt-5 border-t border-gray-200 pt-4">
                   <p className="text-xs font-bold tracking-[0.14em] text-[#003C6F]">
-                    IMPACTO POTENCIAL
+                    POR QUÉ IMPORTA
                   </p>
 
                   <p className="mt-2 text-sm leading-6 text-gray-700">
@@ -291,7 +291,7 @@ export default function Home() {
                   </p>
                 </div>
 
-                <div className="mt-5 rounded-xl bg-[#F3F5F7] p-4">
+                <div className="mt-4 rounded-xl bg-[#F3F5F7] p-4">
                   <p className="text-xs font-bold tracking-[0.14em] text-[#FF3E32]">
                     ACCIÓN RECOMENDADA
                   </p>
@@ -314,7 +314,7 @@ export default function Home() {
           </p>
 
           <h2 className="mt-3 text-3xl font-bold text-[#003C6F]">
-            Otros riesgos en el radar
+            Qué más estamos vigilando
           </h2>
 
           <div className="mt-8 grid gap-5 md:grid-cols-2">
@@ -334,7 +334,7 @@ export default function Home() {
                   <span>{item.titulo}</span>
                 </h3>
 
-                <p className="mt-3 leading-7 text-gray-600">{item.texto}</p>
+                <p className="mt-3 text-sm leading-6 text-gray-600">{item.texto}</p>
               </div>
             ))}
           </div>
@@ -342,7 +342,7 @@ export default function Home() {
       </section>
 
       {/* TABLA DE RETRASOS PORTUARIOS */}
-      <section className="bg-white"><div className="mx-auto max-w-7xl px-6 py-14 md:px-10"><p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">OPERACIÓN PORTUARIA · 19 DE OCTUBRE</p><h2 className="mt-3 text-3xl font-bold text-[#003C6F]">Estado operativo y demoras por verificar</h2><p className="mt-3 max-w-4xl text-sm leading-6 text-gray-600">No se dispone de tiempos en vivo comparables en todos los puertos. Las cifras indicativas y restricciones deben validarse con terminal y naviera antes de comprometer ETA.</p><div className="mt-7 overflow-x-auto rounded-2xl border border-gray-200"><table className="w-full min-w-[760px] text-left text-sm"><thead className="bg-[#003C6F] text-white"><tr><th className="p-4">País / puerto</th><th className="p-4">Tiempo reportado</th><th className="p-4">Estado e interpretación</th></tr></thead><tbody>{retrasos.map((r,i)=><tr key={r.puerto} className={i%2===0?"bg-[#F3F5F7]":"bg-white"}><td className="p-4 font-bold text-[#003C6F]">{r.puerto}</td><td className="p-4 font-semibold">{r.tiempo}</td><td className="p-4 text-gray-600">{r.estado}</td></tr>)}</tbody></table></div></div></section>
+      <section className="bg-white"><div className="mx-auto max-w-7xl px-6 py-14 md:px-10"><p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">OPERACIÓN PORTUARIA · 19 DE OCTUBRE</p><h2 className="mt-3 text-3xl font-bold text-[#003C6F]">Estado de puertos y conexiones</h2><p className="mt-3 max-w-4xl text-sm leading-6 text-gray-600">No se dispone de tiempos en vivo comparables en todos los puertos. Las cifras indicativas y restricciones deben validarse con terminal y naviera antes de comprometer ETA.</p><div className="mt-7 overflow-x-auto rounded-2xl border border-gray-200"><table className="w-full min-w-[760px] text-left text-sm"><thead className="bg-[#003C6F] text-white"><tr><th className="p-4">País / puerto</th><th className="p-4">Fecha o dato</th><th className="p-4">Estado e interpretación</th></tr></thead><tbody>{retrasos.map((r,i)=><tr key={r.puerto} className={i%2===0?"bg-[#F3F5F7]":"bg-white"}><td className="p-4 font-bold text-[#003C6F]">{r.puerto}</td><td className="p-4 font-semibold">{r.tiempo}</td><td className="p-4 text-gray-600">{r.estado}</td></tr>)}</tbody></table></div></div></section>
 
       {/* MÉTRICAS CLAVE */}
       <section className="bg-[#F3F5F7]">
@@ -352,7 +352,7 @@ export default function Home() {
           </p>
 
           <h2 className="mt-3 text-3xl font-bold text-[#003C6F]">
-            Señales a seguir hoy
+            Los números, explicados
           </h2>
 
           <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
