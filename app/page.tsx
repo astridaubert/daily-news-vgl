@@ -80,7 +80,7 @@ const brief = {
     },
     {
       "titulo": "Calendario | Festivos que impactan operación",
-      "bandera": "https://flagcdn.com/w40/in.png",
+      "bandera": "",
       "texto": "Próximos hitos a planear: 1 nov. Todos los Santos (según país), 2 nov. Día de Muertos en México, 8 nov. Diwali en India, 16 nov. conmemoración de Revolución Mexicana, 20 nov. Consciência Negra en Brasil y 26 nov. Thanksgiving en EE. UU. Confirmar calendarios laborales locales."
     }
   ],
@@ -324,7 +324,9 @@ export default function Home() {
                 className="rounded-xl border border-gray-200 p-6"
               >
                 <h3 className="flex items-center gap-2 font-bold text-[#003C6F]">
-                  {"bandera" in item && item.bandera ? (
+                  {item.titulo.startsWith("Calendario |") ? (
+                    <span role="img" aria-label="Calendario global" className="text-lg">🌍</span>
+                  ) : "bandera" in item && item.bandera ? (
                     <img
                       src={item.bandera}
                       alt=""
