@@ -1,173 +1,180 @@
 import Image from "next/image";
 
-// ======================================================
-// EDITAR AQUÍ CADA DÍA
-// ======================================================
-
+// DATOS EDITABLES — 19 OCTUBRE 2026
 const brief = {
-  "fecha": "viernes 16 de octubre de 2026",
+  "fecha": "lunes 19 de octubre de 2026",
   "titulo": "Vector Global Logistics | Radar Logístico Global",
-  "subtitulo": "16 de octubre: Trudy alcanza categoría 3 y eleva el riesgo en puertos y accesos del Pacífico mexicano. El riesgo de suministro de diésel presiona la planeación terrestre, Durga Puja puede reducir la disponibilidad logística regional en India y un paro de autotransporte afecta Sicilia. Revisar itinerarios, costos, seguros y disponibilidad antes de comprometer entregas.",
+  "subtitulo": "19 de octubre: Manzanillo reprograma operaciones tras el huracán Trudy; navieras anuncian 44 blank sailings en rutas Este–Oeste y el diésel mantiene presión sobre el autotransporte mexicano. Monitorear disponibilidad de unidades, conexiones, costos y ventanas de recepción antes de confirmar entregas.",
   "noticias": [
     {
       "region": "MÉXICO",
-      "modo": "ALTO · HURACÁN Y TRANSPORTE",
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/0/04/Hurricane_Isabel_from_ISS.jpg",
+      "modo": "ALTO · MANZANILLO / TRUDY",
+      "imagen": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1200",
       "bandera": "https://flagcdn.com/w40/mx.png",
-      "titular": "Trudy alcanza categoría 3: vigilar puertos y carreteras del Pacífico",
-      "dato": "El 16 de octubre, AP y Reuters reportaron que Trudy alcanzó categoría 3, con vientos cercanos a 195 km/h. Las lluvias previstas elevan el riesgo de inundaciones y deslaves en Colima, Jalisco y Michoacán. No se verificó un listado confiable de cierres carreteros activos por tramo. Imagen ilustrativa, no corresponde a Trudy. Fuentes: AP y Reuters (16 oct.).",
-      "impacto": "Posibles interrupciones de acceso a Manzanillo, Lázaro Cárdenas, centros de distribución y rutas terrestres costeras; las afectaciones concretas dependerán de cada tramo y terminal.",
-      "accion": "Consultar SMN, NHC, SICT, CAPUFE y autoridades estatales; verificar carretera, terminal, citas y vuelos antes de despachar. No reportar cierres sin confirmación."
+      "titular": "Manzanillo: reprogramación de citas y servicios tras Trudy",
+      "dato": "Avisos de terminales emitidos el 16–17 oct.: SSA suspendió recepción de vacíos/exportaciones desde el 17, hasta nuevo aviso; TIMSA movió citas del 17 al lunes 19; Contecon habilitó citas del 19 después de las 12:00 y previos a partir del 20. El huracán se debilitó el 18 y los avisos meteorológicos costeros fueron levantados; confirmar la reapertura efectiva por instalación. Fuentes: COPOMA/SSA, GOMSA, Contecon y Reuters (18 oct.). https://copoma.com.mx/copoma/index.php/comunicados/ssa-marine-mexico-actualizacion-de-operaciones-por-el-huracan-trudy",
+      "impacto": "Acumulación temporal de citas, posibles demoras de importación/exportación, patios y entregas en puerto; el estado varía por terminal.",
+      "accion": "Contactar SSA, TIMSA, Contecon y naviera; confirmar turno, liberación documental, recepción de vacíos y accesos antes del despacho."
     },
     {
-      "region": "INDIA",
-      "modo": "PREVENTIVO · DURGA PUJA 17–21 OCT.",
-      "imagen": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Maa%20Durga%20Pandal%201.0.jpg",
-      "bandera": "https://flagcdn.com/w40/in.png",
-      "titular": "Durga Puja: anticipar embarques y recolecciones en India",
-      "dato": "Del 17 al 21 de octubre de 2026 se celebra Durga Puja, especialmente importante en Bengala Occidental y Kolkata. Los días no laborables varían por estado y empresa; no implica un cierre nacional de puertos o aduanas. Fuentes: Gobierno de Bengala Occidental, calendario de festividades y feriados 2026.",
-      "impacto": "Pueden presentarse horarios reducidos y menor disponibilidad de proveedores, transportistas, documentación y recolecciones, especialmente en operaciones vinculadas con Kolkata.",
-      "accion": "Confirmar horarios con proveedor, transportista, agente aduanal y terminal; adelantar documentación y reservas y contemplar margen para embarques urgentes."
+      "region": "ASIA / GLOBAL",
+      "modo": "ALTO · 44 SALIDAS CANCELADAS",
+      "imagen": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?w=1200",
+      "bandera": "https://flagcdn.com/w40/cn.png",
+      "titular": "44 blank sailings entre el 19 de octubre y el 22 de noviembre",
+      "dato": "Drewry prevé 44 cancelaciones de 713 salidas programadas (6%) en las rutas Este–Oeste durante las semanas 43–47. El 44% de las cancelaciones se concentra en Asia–Norte de Europa/Mediterráneo, el 36% en transpacífico este y el 20% en transatlántico. Fuente: Drewry, Cancelled Sailings Tracker, 16 oct. https://www.drewry.co.uk/maritime-research-opinion-browser/cancelled-sailings-tracker",
+      "impacto": "Mayor riesgo de rolados, cambios de conexión y menor confiabilidad de itinerarios en embarques que dependan de servicios cancelados.",
+      "accion": "Reconfirmar buque y salida efectiva con naviera; reservar con anticipación y evaluar itinerarios o transbordos alternativos."
     },
     {
-      "region": "ITALIA",
-      "modo": "ALTO · PARO DE AUTOTRANSPORTE",
+      "region": "MÉXICO",
+      "modo": "ALTO · COSTO DE DIÉSEL",
       "imagen": "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=1200",
-      "bandera": "https://flagcdn.com/w40/it.png",
-      "titular": "Paro de transportistas en Sicilia del 16 al 20 de octubre",
-      "dato": "El calendario oficial de huelgas del Ministerio de Transportes italiano registra una paralización regional del transporte de mercancías por cuenta de terceros del 16 al 20 de octubre en Sicilia; ANSA confirma el llamado al paro por altos costos del combustible. Fuente: Ministerio de Transportes de Italia y ANSA.",
-      "impacto": "Riesgo de menor capacidad de recolección y entrega, acumulación de contenedores y retrasos de conexiones portuarias y terrestres en Sicilia.",
-      "accion": "Confirmar disponibilidad real de transporte, retiro de unidades, patios y ventanas de conexión antes de despachar."
+      "bandera": "https://flagcdn.com/w40/mx.png",
+      "titular": "Diésel: estímulo complementario sube a $2.35 por litro",
+      "dato": "Del 17 al 23 de octubre, Hacienda aplica apoyo complementario de $2.35 MXN/litro al diésel, además del estímulo de 100% sobre la cuota IEPS; el precio promedio nacional citado por PETROIntelligence es de aproximadamente $27.01/litro. No equivale a un desabasto confirmado. Fuentes: DOF/SHCP, El Economista (18 oct.). https://www.eleconomista.com.mx/economia/aumentan-2-35-pesos-litro-subsidio-diesel-mayor-nivel-ano-20261018-839258.html",
+      "impacto": "Presión potencial sobre tarifas terrestres y liquidez de transportistas, aun con apoyos fiscales vigentes.",
+      "accion": "Revisar vigencia de cotizaciones, recargos por combustible y capacidad comprometida con proveedores terrestres."
     }
   ],
   "vigilancia": [
     {
-      "titulo": "México | Diésel: riesgo condicionado, no desabasto confirmado",
+      "titulo": "México | CANACAR: tensión por estímulos; paro no confirmado",
       "bandera": "https://flagcdn.com/w40/mx.png",
-      "texto": "Una eventual restricción estadounidense de exportaciones de diésel podría presionar costos y disponibilidad para el autotransporte mexicano. Especialistas citan inventarios equivalentes a unos 13 días y dependencia relevante de importaciones; CANACAR ha estimado impactos económicos en un escenario de interrupción. No se confirma una suspensión vigente de exportaciones. Fuentes: El Economista, El Financiero y reportes del sector, septiembre-octubre de 2026."
+      "texto": "CANACAR publicó el 15 de octubre un posicionamiento por cambios al estímulo fiscal para acreditamiento de casetas y pidió diálogo. No se localizó un comunicado oficial que confirme un paro nacional de unidades el 19 de octubre. Verificar capacidad directamente con transportistas sin anunciar cierre generalizado. Fuente: https://canacar.com.mx/category/comunicados/"
     },
     {
-      "titulo": "México | Autopartes: suspensión de arancel",
-      "bandera": "https://flagcdn.com/w40/mx.png",
-      "texto": "El País reportó el 16 de octubre la suspensión por cinco años del arancel mexicano del 10% sobre determinadas importaciones de autopartes destinadas al ensamblaje de vehículos. Verificar fracciones, reglas y publicación normativa antes de aplicar el beneficio a un embarque."
+      "titulo": "Global | Ormuz, seguros y combustibles",
+      "bandera": "https://flagcdn.com/w40/us.png",
+      "texto": "La tensión en Oriente Medio mantiene exposición a cambios de rutas, primas de riesgo y precios energéticos. Confirmar con naviera y aseguradora cualquier impacto en tránsito o cobertura; no dar por confirmado un cierre total del estrecho ni incidentes específicos sin parte oficial."
     },
     {
-      "titulo": "China | Congestión y tarifas",
-      "bandera": "https://flagcdn.com/w40/cn.png",
-      "texto": "Monitorear presión de capacidad tras Golden Week, tiempos por terminal en Shanghái y Ningbo y posibles ajustes de tarifas. Las cifras difundidas de +6% semanal y esperas de 78/77 horas no pudieron confirmarse suficientemente para todas las terminales, por lo que deben verificarse antes de cotizar."
+      "titulo": "Europa | Le Havre, Francia y conexiones terrestres",
+      "bandera": "https://flagcdn.com/w40/fr.png",
+      "texto": "En Le Havre constan restricciones viales puntuales en accesos al área portuaria durante octubre. Otras alertas recibidas sobre huelgas en Francia, Bélgica, Países Bajos y niveles del Rin requieren validación local antes de atribuir demoras de 2–5 días a todos los servicios. Fuente: https://escales.haropaport.com/le-havre/accueil/"
     },
     {
-      "titulo": "Brasil | Mayor presión sobre costos",
-      "bandera": "https://flagcdn.com/w40/br.png",
-      "texto": "Se reportan alzas en fletes marítimos y transporte interior, aunque los rangos de US$300–600 por contenedor y R$28,000–32,000 por viaje no pudieron verificarse como referencias generales. Solicitar tarifa por ruta, fecha, equipo y proveedor; considerar cargos anunciados para noviembre."
-    },
-    {
-      "titulo": "India | Tarifas hacia Europa y transbordos",
+      "titulo": "India | Nhava Sheva / JNPA y conexión a Europa",
       "bandera": "https://flagcdn.com/w40/in.png",
-      "texto": "El mercado India–Europa sigue sujeto a condiciones variables de tarifa, capacidad y conexiones por Colombo y Singapur. Validar booking, escala, feeder y transbordo por servicio; no generalizar una tendencia uniforme a todas las rutas."
+      "texto": "Se reporta congestión de contenedores y posibles ajustes de servicios en Nhava Sheva; no se confirmó en esta revisión un aviso vigente específico de exenciones de almacenaje. Validar por terminal la situación de recepción, almacenaje, transbordos y escalas antes de reservar."
     },
     {
-      "titulo": "Italia | Otros paros de transporte",
-      "bandera": "https://flagcdn.com/w40/it.png",
-      "texto": "El registro oficial italiano también incluye paros regionales de autotransporte en Calabria del 16 al 20 de octubre y una huelga portuaria en Nápoles/Salerno del 15 al 16; confirmar afectaciones por operador y terminal."
+      "titulo": "México | Carreteras y capacidad terrestre",
+      "bandera": "https://flagcdn.com/w40/mx.png",
+      "texto": "Dar seguimiento a incidencias señaladas en México–Cuernavaca km 24, La Tinaja–Isla km 97, Durango–Mazatlán y Nuevo Teapa–Cosoleacaque. Su vigencia al corte no pudo corroborarse tramo por tramo; verificar con CAPUFE, Guardia Nacional y operador antes de liberar unidades."
+    },
+    {
+      "titulo": "Estados Unidos | Frontera y Thanksgiving",
+      "bandera": "https://flagcdn.com/w40/us.png",
+      "texto": "Verificar tiempos reales de cruce y cumplimiento regulatorio de autotransporte México–EE. UU. Thanksgiving será el jueves 26 de noviembre: coordinar cierres de almacén, tránsito y entregas con clientes y carriers."
+    },
+    {
+      "titulo": "Brasil | Transporte y temporada alta",
+      "bandera": "https://flagcdn.com/w40/br.png",
+      "texto": "Monitorear disponibilidad de buques para exportación de perecederos y conexiones aéreas en Río de Janeiro; el presunto paro de 24 horas y el incidente con buque Maersk requieren confirmación actualizada con operadores. El 20 de noviembre es feriado nacional (Consciência Negra)."
+    },
+    {
+      "titulo": "Asia | Tifón, espacio marítimo y aviación",
+      "bandera": "https://flagcdn.com/w40/cn.png",
+      "texto": "Supervisar sistemas tropicales en el Pacífico occidental, conexiones aéreas y posibles cambios de itinerario. No se reprodujeron cifras de cancelaciones aéreas ni atribuciones a ataques sin evidencia suficiente. Solicitar estatus de vuelo o nave específicos."
+    },
+    {
+      "titulo": "Calendario | Festivos que impactan operación",
+      "bandera": "https://flagcdn.com/w40/in.png",
+      "texto": "Próximos hitos a planear: 1 nov. Todos los Santos (según país), 2 nov. Día de Muertos en México, 8 nov. Diwali en India, 16 nov. conmemoración de Revolución Mexicana, 20 nov. Consciência Negra en Brasil y 26 nov. Thanksgiving en EE. UU. Confirmar calendarios laborales locales."
     }
   ],
   "metricas": [
     {
-      "indicador": "Trudy · Intensidad 16 oct.",
-      "valor": "Cat. 3",
-      "tendencia": "Vientos cercanos a 195 km/h · AP / Reuters"
+      "indicador": "Manzanillo · Contecon",
+      "valor": "19 oct. 12:00+",
+      "tendencia": "Citas previstas después del mediodía; confirmar operación vigente"
     },
     {
-      "indicador": "Trudy · Lluvias previstas",
-      "valor": "Hasta 30 cm",
-      "tendencia": "Máximos puntuales reportados en zonas de riesgo · Reuters"
+      "indicador": "Manzanillo · Previos",
+      "valor": "20 oct.",
+      "tendencia": "Reanudación programada por Contecon"
     },
     {
-      "indicador": "Diésel México · Inventarios estimados",
-      "valor": "13 días",
-      "tendencia": "Escenario de referencia citado por especialista; no desabasto confirmado"
+      "indicador": "Blank sailings · Este–Oeste",
+      "valor": "44",
+      "tendencia": "19 oct.–22 nov. · Drewry"
     },
     {
-      "indicador": "Diésel México · Dependencia externa",
-      "valor": "30–50%",
-      "tendencia": "Porción aproximada del consumo abastecida vía importaciones, según especialistas"
+      "indicador": "Salidas previstas canceladas",
+      "valor": "6%",
+      "tendencia": "44 de 713 servicios · Drewry"
     },
     {
-      "indicador": "Ormuz · Buques hundidos",
-      "valor": "2",
-      "tendencia": "Eventos reportados cerca del estrecho · Reuters, 14 oct."
+      "indicador": "Asia–Europa/Med",
+      "valor": "44%",
+      "tendencia": "Participación de blank sailings · Drewry"
     },
     {
-      "indicador": "Sicilia · Paro transporte",
-      "valor": "5 días",
-      "tendencia": "Del 16 al 20 oct. · registro oficial de Italia"
+      "indicador": "Diésel · Apoyo adicional",
+      "valor": "$2.35/L",
+      "tendencia": "México · 17–23 oct. · SHCP"
     },
     {
-      "indicador": "Autopartes México · Arancel",
-      "valor": "10%",
-      "tendencia": "Suspensión reportada para importaciones elegibles; validar regulación"
+      "indicador": "Diésel · Precio promedio",
+      "valor": "$27.01/L",
+      "tendencia": "Referencia PETROIntelligence citada el 18 oct."
     },
     {
-      "indicador": "Carreteras Pacífico MX",
-      "valor": "Verificar",
-      "tendencia": "Sin cierres por tramo confirmados; consultar SICT/CAPUFE antes de salida"
+      "indicador": "CANACAR · Paro nacional",
+      "valor": "Sin confirmar",
+      "tendencia": "Comunicado oficial localizado trata de estímulos fiscales"
     }
   ],
   "recomendaciones": [
-    "Prioridad 1 — Trudy: consultar alertas oficiales, confirmar ruta y operación de puerto, terminal y aeropuerto antes de despachar; no asumir cierres sin reporte por tramo.",
-    "Prioridad 2 — Ormuz: verificar coberturas de seguro, rutas, escalas y puertos alternativos para embarques expuestos.",
-    "Prioridad 3 — Sicilia y Calabria: comprobar disponibilidad de camiones del 16 al 20 de octubre y reprogramar conexiones sensibles.",
-    "México — Diésel: analizar sensibilidad de tarifas terrestres a restricciones potenciales, sin presentar el escenario como desabasto actual.",
-    "China, India y Brasil: reconfirmar tarifas por ruta y reserva, espacio, conexión y cargos vigentes antes de comprometer precios.",
-    "Automotriz México: revisar con el agente aduanal la elegibilidad de autopartes ante el cambio arancelario reportado."
+    "Prioridad 1 — Manzanillo: confirmar con cada terminal si ya opera la recepción de vacíos/exportación; validar citas del 19, previos del 20 y accesos antes de despachar.",
+    "Prioridad 2 — Rutas Asia–Europa: identificar reservas expuestas a los 44 blank sailings; reconfirmar zarpe, escala, conexión y ETA con naviera.",
+    "Prioridad 3 — Autotransporte México: reconfirmar disponibilidad de unidades y recargos de diésel; el paro nacional referido debe verificarse antes de comunicarlo como hecho.",
+    "Prioridad 4 — Ormuz y combustibles: revisar seguros, rutas alternas y sensibilidad de fletes a volatilidad energética sin afirmar cierre o desabasto no comprobados.",
+    "Prioridad 5 — Europa e India: validar afectaciones por terminal, restricciones de acceso, conexiones y almacenaje directamente con operadores; evitar demoras estándar sin evidencia.",
+    "Próximos cortes operativos: coordinar embarques antes de Diwali (8 nov.), México (16 nov.), Brasil (20 nov.) y Thanksgiving (26 nov.)."
   ]
 };
 
 const retrasos = [
   {
-    "puerto": "México · Manzanillo",
+    "puerto": "México · Manzanillo / SSA",
+    "tiempo": "Hasta nuevo aviso",
+    "estado": "Suspensión anunciada de vacíos y exportaciones desde el 17 oct.; verificar reanudación con terminal."
+  },
+  {
+    "puerto": "México · Manzanillo / TIMSA",
+    "tiempo": "19 oct.",
+    "estado": "Citas del sábado 17 reprogramadas al lunes 19; verificar turnos asignados."
+  },
+  {
+    "puerto": "México · Manzanillo / Contecon",
+    "tiempo": "19 oct. >12:00",
+    "estado": "Citas planificadas desde mediodía; previos previstos a partir del 20 oct."
+  },
+  {
+    "puerto": "Asia–Europa / Mediterráneo",
+    "tiempo": "44% de 44",
+    "estado": "Proporción de blank sailings programados del 19 oct. al 22 nov. · Drewry."
+  },
+  {
+    "puerto": "Transpacífico este",
+    "tiempo": "36% de 44",
+    "estado": "Porción de cancelaciones anunciadas; confirmar cada servicio y naviera."
+  },
+  {
+    "puerto": "Francia · Le Havre",
+    "tiempo": "Por terminal",
+    "estado": "Restricciones viales de acceso identificadas; demoras marítimas no cuantificadas de forma general."
+  },
+  {
+    "puerto": "India · Nhava Sheva/JNPA",
     "tiempo": "Por confirmar",
-    "estado": "Vigilancia por Trudy; validar terminal, accesos y autorizaciones de capitanía."
-  },
-  {
-    "puerto": "México · Lázaro Cárdenas",
-    "tiempo": "Por confirmar",
-    "estado": "Validar rutas de acceso, condiciones de lluvia y estado por terminal."
-  },
-  {
-    "puerto": "México · Carreteras Pacífico",
-    "tiempo": "Sin cierre confirmado",
-    "estado": "Consultar SICT y CAPUFE por tramo; riesgo de inundación y deslaves."
-  },
-  {
-    "puerto": "Italia · Sicilia",
-    "tiempo": "16–20 oct.",
-    "estado": "Paro regional de autotransporte; confirmar retiro y entrega de carga."
-  },
-  {
-    "puerto": "Italia · Calabria",
-    "tiempo": "16–20 oct.",
-    "estado": "Paro de transportistas anunciado; confirmar proveedores afectados."
-  },
-  {
-    "puerto": "Italia · Nápoles / Salerno",
-    "tiempo": "15–16 oct.",
-    "estado": "Huelga portuaria territorial registrada; verificar terminal y servicio."
-  },
-  {
-    "puerto": "China · Shanghái / Ningbo",
-    "tiempo": "Variable",
-    "estado": "Consultar esperas por terminal y naviera; no hay cifra única verificada."
-  },
-  {
-    "puerto": "India · Conexiones Europa",
-    "tiempo": "Variable",
-    "estado": "Confirmar itinerario, feeders y omisiones de escala."
+    "estado": "Validar congestión, cobros, patios y feeder directamente con terminal."
   }
 ];
 
-// Actualización 16 oct. 2026: fuentes AP, Reuters, MPA Singapore, MIT Italia, ANSA, El País, El Financiero y El Economista.
+// Fuentes principales: SSA/COPOMA (16 oct.), GOMSA (17 oct.), Reuters (18 oct.), Drewry (16 oct.), SHCP/El Economista (18 oct.), CANACAR (15 oct.).
 
 // ======================================================
 // NO EDITAR DEBAJO DE ESTA LÍNEA
@@ -238,7 +245,7 @@ export default function Home() {
               <div className="relative h-48 w-full overflow-hidden bg-gray-100">
                 <img
                   src={item.imagen}
-                  alt={item.region === "MÉXICO" ? "Imagen ilustrativa del huracán Isabel, no de Trudy" : item.titular + " · imagen ilustrativa"}
+                  alt={item.titular + " · imagen ilustrativa"}
                   className="h-full w-full object-cover"
                   loading="lazy"
                 />
@@ -335,7 +342,7 @@ export default function Home() {
       </section>
 
       {/* TABLA DE RETRASOS PORTUARIOS */}
-      <section className="bg-white"><div className="mx-auto max-w-7xl px-6 py-14 md:px-10"><p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">RETRASOS PORTUARIOS · 16 DE OCTUBRE</p><h2 className="mt-3 text-3xl font-bold text-[#003C6F]">Estado operativo y demoras por verificar</h2><p className="mt-3 max-w-4xl text-sm leading-6 text-gray-600">No se dispone de tiempos en vivo comparables en todos los puertos. Las cifras indicativas y restricciones deben validarse con terminal y naviera antes de comprometer ETA.</p><div className="mt-7 overflow-x-auto rounded-2xl border border-gray-200"><table className="w-full min-w-[760px] text-left text-sm"><thead className="bg-[#003C6F] text-white"><tr><th className="p-4">País / puerto</th><th className="p-4">Tiempo reportado</th><th className="p-4">Estado e interpretación</th></tr></thead><tbody>{retrasos.map((r,i)=><tr key={r.puerto} className={i%2===0?"bg-[#F3F5F7]":"bg-white"}><td className="p-4 font-bold text-[#003C6F]">{r.puerto}</td><td className="p-4 font-semibold">{r.tiempo}</td><td className="p-4 text-gray-600">{r.estado}</td></tr>)}</tbody></table></div></div></section>
+      <section className="bg-white"><div className="mx-auto max-w-7xl px-6 py-14 md:px-10"><p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">OPERACIÓN PORTUARIA · 19 DE OCTUBRE</p><h2 className="mt-3 text-3xl font-bold text-[#003C6F]">Estado operativo y demoras por verificar</h2><p className="mt-3 max-w-4xl text-sm leading-6 text-gray-600">No se dispone de tiempos en vivo comparables en todos los puertos. Las cifras indicativas y restricciones deben validarse con terminal y naviera antes de comprometer ETA.</p><div className="mt-7 overflow-x-auto rounded-2xl border border-gray-200"><table className="w-full min-w-[760px] text-left text-sm"><thead className="bg-[#003C6F] text-white"><tr><th className="p-4">País / puerto</th><th className="p-4">Tiempo reportado</th><th className="p-4">Estado e interpretación</th></tr></thead><tbody>{retrasos.map((r,i)=><tr key={r.puerto} className={i%2===0?"bg-[#F3F5F7]":"bg-white"}><td className="p-4 font-bold text-[#003C6F]">{r.puerto}</td><td className="p-4 font-semibold">{r.tiempo}</td><td className="p-4 text-gray-600">{r.estado}</td></tr>)}</tbody></table></div></div></section>
 
       {/* MÉTRICAS CLAVE */}
       <section className="bg-[#F3F5F7]">
@@ -446,7 +453,7 @@ export default function Home() {
           </div>
 
           <span className="max-w-xl text-white/60 md:text-right">
-            Corte informativo del 16 de octubre de 2026. Fuentes: AP, Reuters, Autoridad Marítima de Singapur, Ministerio de Transportes de Italia, ANSA, El País, El Financiero y El Economista. Riesgos sujetos a validación por autoridad, terminal y proveedor.</span>
+            Corte informativo del 19 de octubre de 2026. Fuentes: COPOMA/SSA, GOMSA, Contecon, Reuters, Drewry, SHCP, El Economista y CANACAR. Operaciones sujetas a validación por terminal, naviera y proveedor.</span>
         </div>
       </footer>
     </main>
