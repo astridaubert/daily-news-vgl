@@ -1,57 +1,185 @@
 import Image from "next/image";
 
-// DATOS EDITABLES — 20 OCTUBRE 2026
+// DATOS EDITABLES — 21 OCTUBRE 2026
 const brief = {
- "fecha":"martes 20 de octubre de 2026",
- "titulo":"Vector Global Logistics | Radar Logístico Global",
- "subtitulo":"Cierres por frente frío en el Golfo de México, restricciones en Le Havre y retrasos ferroviarios en EE. UU. Revisa el estatus de terminales y rutas antes de despachar.",
- "noticias":[
-  {"region":"MÉXICO","modo":"ALTO · FRENTE FRÍO 2","imagen":"https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1200","bandera":"https://flagcdn.com/w40/mx.png","titular":"Cierres portuarios en el Golfo de México","dato":"El reporte de SEMAR difundido el 19 de octubre informó cierre a toda navegación en Coatzacoalcos, Alvarado, Dos Bocas, Frontera y Sánchez Magallanes, además de puertos de Campeche. Hoy se reporta suspensión de lanchas y transbordador en Coatzacoalcos. La reapertura debe comprobarse por Capitanía.","impacto":"Posibles cambios de escala y demoras en accesos, maniobras y enlaces terrestres.","accion":"Consultar el mapa de apertura de puertos de SEMAR y confirmar cada escala con agente y terminal."},
-  {"region":"EUROPA · FRANCIA","modo":"ALTO · LE HAVRE","imagen":"https://images.unsplash.com/photo-1494412519320-aa613dfb7738?w=1200","bandera":"https://flagcdn.com/w40/fr.png","titular":"Terminal TNMSC de Le Havre sigue cerrada","dato":"Kuehne+Nagel reporta el 20 de octubre que la terminal TNMSC continúa sin recepción ni entrega de contenedores tras un ciberataque, sin fecha confirmada de reapertura; algunos movimientos de vacíos siguen disponibles en depósitos privados.","impacto":"Acumulación de carga y posibles retrasos de exportación e importación.","accion":"Confirmar terminal de escala y alternativas de depósito con la naviera antes de programar transporte."},
-  {"region":"MÉXICO · CARRETERAS","modo":"ALTO · MONTERREY–NUEVO LAREDO","imagen":"https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=1200","bandera":"https://flagcdn.com/w40/mx.png","titular":"Accidente provoca cierre parcial rumbo a Ciénega de Flores","dato":"Reporte de las 07:05 del 20 de octubre indica cierre parcial cerca del km 87+900 de la carretera Monterrey–Nuevo Laredo. La situación puede cambiar durante el día; no equivale a cierre total de la ruta.","impacto":"Variabilidad en tiempos de entrega y cruce hacia Laredo.","accion":"Consultar Guardia Nacional Carreteras y confirmar tiempos con conductor antes de liberar unidades."}
- ],
- "vigilancia":[
-  {"titulo":"México | Puertos, Trudy y Manzanillo","bandera":"https://flagcdn.com/w40/mx.png","texto":"Manzanillo registra 2.41 días de espera promedio de buques (7 días), según Kuehne+Nagel al 20 de octubre; tormentas recientes, aduana y accesos afectan desempeño. Trudy se alejó de la costa y las alertas de huracán fueron levantadas, por lo que no debe difundirse un cierre generalizado sin actualización de terminal. Fuentes: https://mykn.kuehne-nagel.com/news/article/port-operational-updates-from-20-10-2026 · https://www.reuters.com/business/environment/hurricane-trudy-lashes-mexicos-pacific-coast-is-set-weaken-tonight-2026-10-18/"},
-  {"titulo":"México | Rutas carreteras y frontera","bandera":"https://flagcdn.com/w40/mx.png","texto":"Accidente con cierre parcial en Monterrey–Nuevo Laredo km 87+900 reportado a las 07:05. Para Monterrey–Saltillo, Cumbres de Maltrata y Nuevo Teapa–Cosoleacaque verificar vigencia de cada bloqueo o accidente con Guardia Nacional/CAPUFE; no considerar un paro general sin comunicado. Alternativas a Nuevo Laredo: revisar carretera libre/autopista según incidente y capacidad disponible, sin desviar la unidad antes de obtener confirmación del operador. Fuente: https://comova.mx/aviso/accidente-con-cierre-parcial-en-monterrey-nuevo-laredo-km-87/"},
-  {"titulo":"México | Diésel y tarifas terrestres","bandera":"https://flagcdn.com/w40/mx.png","texto":"Del 17 al 23 de octubre aplica estímulo complementario al diésel de $2.3533 MXN/L; es apoyo fiscal, NO incremento del precio ni tarifa del transporte. Referencia promedio nacional del diésel: $27.01 MXN/L según reporte publicado el 18 de octubre. Validar recargos particulares. Fuente: https://www.eleconomista.com.mx/economia/aumentan-2-35-pesos-litro-subsidio-diesel-mayor-nivel-ano-20261018-839258.html"},
-  {"titulo":"Estados Unidos | Puertos, ferrocarril y aduanas","bandera":"https://flagcdn.com/w40/us.png","texto":"Los Ángeles y Long Beach promedian cerca de 1 día de espera de buques, pero el dwell ferroviario referencial es 8 y 10 días, respectivamente, según Kuehne+Nagel. Validar operación de CBP y tiempos reales en cada cruce fronterizo; no se corroboró cierre general de aduanas. Thanksgiving: 26 de noviembre. Fuente: https://mykn.kuehne-nagel.com/news/article/port-operational-updates-from-20-10-2026"},
-  {"titulo":"Brasil | Santos, aduanas y capacidad","bandera":"https://flagcdn.com/w40/br.png","texto":"Santos registra 1.45 días de espera promedio semanal de buques, con presión por carga agrícola, contenedores y transporte interior. No se confirmó hoy una huelga aduanal indefinida a escala nacional ni un cierre aéreo general de Río: verificar avisos del operador antes de comunicarlo como hecho. Feriado nacional: 20 de noviembre (Consciência Negra). Fuente: https://mykn.kuehne-nagel.com/news/article/port-operational-updates-from-20-10-2026"},
-  {"titulo":"India | Nhava Sheva, Mundra y clima","bandera":"https://flagcdn.com/w40/in.png","texto":"Nhava Sheva promedia 1.87 días de espera de buques y Mundra 1.5 días, en el informe del 20 de octubre. Confirmar disponibilidad terrestre, conexiones feeder y capacidad aérea antes de reservar; alertas sobre cancelaciones por ataques o cierre del aeropuerto de Mumbai necesitan comprobación adicional. Diwali: 8 de noviembre. Fuente: https://mykn.kuehne-nagel.com/news/article/port-operational-updates-from-20-10-2026"},
-  {"titulo":"Asia | China, Vietnam y rutas marítimas","bandera":"https://flagcdn.com/w40/cn.png","texto":"Shanghái: 2.14 días de espera media (7 días), menor que la cifra anterior de 3.51. Ningbo: 1.95 días; densidad de patios alta en Shekou. En Vietnam, Vung Tau reporta hasta 4 días para buques fuera de ventana. Reconfirmar cut-off, transbordo y espacio en servicios Asia–América/Europa. Fuente: https://mykn.kuehne-nagel.com/news/article/port-operational-updates-from-20-10-2026"},
-  {"titulo":"Europa | Rotterdam, Amberes y huelgas","bandera":"https://flagcdn.com/w40/nl.png","texto":"Rotterdam promedia 1.18 días de espera de buques, pero presenta demoras de 12–72 horas en barcazas/feeder en ciertas terminales. Amberes promedia 1.26 días. En el sur de Italia hay protestas por costos de combustible que afectan movimientos de carga. Huelgas aéreas francesas y belgas deben confirmarse por aeropuerto y franja antes de dar porcentajes de vuelos cancelados. Fuente: https://mykn.kuehne-nagel.com/news/article/port-operational-updates-from-20-10-2026"},
-  {"titulo":"Calendario | Próximos festivos","bandera":"","texto":"1 nov. Todos los Santos (según país); 2 nov. Día de Muertos (México, no descanso federal obligatorio); 8 nov. Diwali (India); 16 nov. Revolución Mexicana (descanso oficial); 20 nov. Consciência Negra (Brasil); 24 nov. Guru Nanak Jayanti (India); 26 nov. Thanksgiving (EE. UU.). Validar jornadas locales de aduanas, almacenes y transportistas."}
- ],
- "metricas":[
-  {"indicador":"Manzanillo · espera buques (7 días)","valor":"2.41 días","tendencia":"Promedio móvil reportado el 20 oct.; no es cierre de puerto."},
-  {"indicador":"Shanghái · espera buques (7 días)","valor":"2.14 días","tendencia":"Promedio semanal; congestión menor que en reporte anterior."},
-  {"indicador":"Rotterdam · espera buques (7 días)","valor":"1.18 días","tendencia":"Promedio semanal; barcazas y feeder pueden tardar 12–72 h."},
-  {"indicador":"Nhava Sheva · espera buques (7 días)","valor":"1.87 días","tendencia":"Promedio semanal; verificar retrasos en puerta y transbordo."},
-  {"indicador":"Santos · espera buques (7 días)","valor":"1.45 días","tendencia":"Promedio semanal; presión por volumen y transporte terrestre."},
-  {"indicador":"Le Havre · terminal TNMSC","valor":"Cerrada","tendencia":"Sin gate-in/gate-out según actualización del 20 oct."},
-  {"indicador":"México · estímulo extra al diésel","valor":"$2.35/L","tendencia":"Apoyo fiscal vigente 17–23 oct.; NO aumento del combustible."},
-  {"indicador":"México · diésel promedio de referencia","valor":"$27.01/L","tendencia":"Precio nacional reportado el 18 oct.; puede variar por zona."}
- ],
- "recomendaciones":[
-  "México: consultar SEMAR para reapertura de puertos del Golfo y validar con agente marítimo cada llegada o salida.",
-  "Monterrey–Nuevo Laredo: confirmar continuidad de circulación y demoras cerca del km 87+900 antes de despachar; alternativas solo con validación del transportista.",
-  "Europa: no programar gate-in/gate-out en TNMSC Le Havre sin confirmación de reactivación; sumar margen de conexión en Rotterdam para feeders.",
-  "Asia e India: verificar itinerarios y espacio en Shanghái, Ningbo, Nhava Sheva y Mundra con los nuevos promedios semanales.",
-  "EE. UU.: revisar dwell ferroviario en Los Ángeles y Long Beach y operación de cada aduana fronteriza; no confundir espera de buques con permanencia ferroviaria.",
-  "Temporada alta: anticipar despachos afectados por Diwali (8 nov.), puente de México (16 nov.), Brasil (20 nov.) y Thanksgiving (26 nov.)."
- ]
+  "fecha": "miércoles 21 de octubre de 2026",
+  "titulo": "Vector Global Logistics | Radar Logístico Global",
+  "subtitulo": "Clima y restricciones portuarias en México, riesgos de conexión en Europa y recargos de combustible en carga aérea. Valida el estado de cada ruta antes de despachar.",
+  "noticias": [
+    {
+      "region": "MÉXICO",
+      "modo": "ALTO · PUERTOS DEL GOLFO",
+      "imagen": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1200",
+      "bandera": "https://flagcdn.com/w40/mx.png",
+      "titular": "Frente frío mantiene en alerta a los puertos del Golfo",
+      "dato": "Las lluvias del frente frío 2 han afectado el sur de Veracruz. Se reportaron cierres marítimos en el Golfo; el estatus de cada capitanía puede cambiar durante el día. Consulta: https://meteorologia.semar.gob.mx/puertos/",
+      "impacto": "Posibles restricciones de navegación, cambios de escala y retrasos en conexiones terrestres.",
+      "accion": "Confirmar apertura para el tipo de embarcación, con SEMAR, agente naviero y terminal antes de programar carga."
+    },
+    {
+      "region": "GLOBAL · CARGA AÉREA",
+      "modo": "ATENCIÓN · COMBUSTIBLE",
+      "imagen": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200",
+      "bandera": "",
+      "titular": "El combustible presiona cotizaciones y recargos aéreos",
+      "dato": "WorldACD reportó para la semana 41 tarifas globales promedio de US$3.13/kg (contrato + spot) y spot de US$3.55/kg, ambas estables frente a la semana anterior. El combustible sigue presionando los recargos. Fuente: https://rutair.com/news/first-fortnight-of-october-sees-rates-hold-steady/",
+      "impacto": "Las tarifas base no suben igual en todas las rutas, pero la vigencia de cotizaciones y los fuel surcharges requieren vigilancia.",
+      "accion": "Pedir tarifa total y vigencia escrita, confirmar recargos y reservar capacidad para embarques críticos."
+    },
+    {
+      "region": "EUROPA · FRANCIA",
+      "modo": "ALTO · LE HAVRE",
+      "imagen": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?w=1200",
+      "bandera": "https://flagcdn.com/w40/fr.png",
+      "titular": "Verificar operación de terminales en Le Havre",
+      "dato": "El reporte operativo del 20 de octubre de Kuehne+Nagel señalaba problemas en la terminal TNMSC tras un incidente informático. La reapertura y restricciones específicas requieren confirmación actualizada. Fuente: https://mykn.kuehne-nagel.com/news/article/port-operational-updates-from-20-10-2026",
+      "impacto": "Riesgo de citas reprogramadas, acumulación de contenedores y enlaces terrestres tardíos.",
+      "accion": "Validar gate-in/gate-out, terminal concreta y depósitos alternos directamente con naviera y operador."
+    }
+  ],
+  "vigilancia": [
+    {
+      "titulo": "México | Manzanillo y accesos",
+      "bandera": "https://flagcdn.com/w40/mx.png",
+      "texto": "Tras el paso de Trudy se reportaron suspensiones puntuales y reprogramación de citas, pero no hay base para anunciar un cierre general del puerto hoy. Confirmar ventanas en Contecon, SSA, TIMSA y otras terminales. Reuters informó que se levantaron las alertas ciclónicas. https://www.reuters.com/business/environment/hurricane-trudy-lashes-mexicos-pacific-coast-is-set-weaken-tonight-2026-10-18/"
+    },
+    {
+      "titulo": "México | Carreteras y cruces",
+      "bandera": "https://flagcdn.com/w40/mx.png",
+      "texto": "Verificar incidencias vigentes en Monterrey–Saltillo, Monterrey–Nuevo Laredo, Nuevo Teapa–Cosoleacaque y Cumbres de Maltrata; no presentar bloqueos anteriores como activos sin reporte reciente. En frontera, revisar inspecciones, documentación y disponibilidad de operadores. https://www.freshplaza.com/latin-america/article/9884677/stricter-u-s-trucking-rules-raise-concerns-over-freight-delays-with-mexico/"
+    },
+    {
+      "titulo": "México | Diésel",
+      "bandera": "https://flagcdn.com/w40/mx.png",
+      "texto": "Estímulo complementario fiscal de aproximadamente $2.35 MXN/L vigente del 17 al 23 de octubre. No equivale a aumento de precio de bomba. Validar ajustes de combustible por transportista. https://www.eleconomista.com.mx/economia/aumentan-2-35-pesos-litro-subsidio-diesel-mayor-nivel-ano-20261018-839258.html"
+    },
+    {
+      "titulo": "Estados Unidos | Puertos y frontera",
+      "bandera": "https://flagcdn.com/w40/us.png",
+      "texto": "La referencia del 20 de octubre indica espera cercana a un día para buques en Los Ángeles, pero los flujos ferroviarios e interiores pueden añadir tiempo. Revisar cruce y disponibilidad de camiones entre México y EE. UU.; Thanksgiving será el 26 de noviembre. https://mykn.kuehne-nagel.com/news/article/port-operational-updates-from-20-10-2026"
+    },
+    {
+      "titulo": "Brasil | Navegantes y aduanas",
+      "bandera": "https://flagcdn.com/w40/br.png",
+      "texto": "La congestión reportada en Navegantes exige validar tiempos de espera y capacidad de patio antes de confirmar ETA. Los avisos sobre huelga aduanal nacional y cierres aeroportuarios necesitan confirmación específica; no se tratan como cierres generales verificados. Feriado: 20 de noviembre."
+    },
+    {
+      "titulo": "India | Nhava Sheva y Mumbai",
+      "bandera": "https://flagcdn.com/w40/in.png",
+      "texto": "Revisar congestión terrestre en Nhava Sheva y disponibilidad de conexiones aéreas por Mumbai. No se confirman aquí las supuestas cancelaciones generalizadas de Air India/IndiGo; validar vuelos con la aerolínea. Diwali: 8 de noviembre; Guru Nanak Jayanti: 24 de noviembre."
+    },
+    {
+      "titulo": "Asia | Shanghái y rutas",
+      "bandera": "https://flagcdn.com/w40/cn.png",
+      "texto": "La última referencia semanal disponible (20 oct.) indica 2.14 días de espera media de buques en Shanghái. Confirmar ventanas, omisiones de escala, cut-offs y rutas vía Oriente Medio; las interrupciones por combustible dependen de aerolínea y aeropuerto. https://mykn.kuehne-nagel.com/news/article/port-operational-updates-from-20-10-2026"
+    },
+    {
+      "titulo": "Europa | Rotterdam, Bélgica, Italia",
+      "bandera": "https://flagcdn.com/w40/nl.png",
+      "texto": "Rotterdam estaba en recuperación tras acciones laborales, aunque persistían demoras en barcazas y feeders. Revisar limitaciones de pilotaje en Amberes/Zeebrugge y convocatorias laborales por localidad en Francia e Italia; no asumir que todos los puertos o vuelos están suspendidos. https://mykn.kuehne-nagel.com/news/article/port-operational-updates-from-20-10-2026"
+    },
+    {
+      "titulo": "Carga aérea | Tarifas y fuel surcharge",
+      "bandera": "",
+      "texto": "Semana 41 (5–11 octubre): tarifa mundial media US$3.13/kg; spot US$3.55/kg, sin alza semanal general. Volumen global +9% interanual. Combustible y cambios de rutas pueden elevar recargos individuales: pedir cotización todo incluido, ruta y vigencia. https://rutair.com/news/first-fortnight-of-october-sees-rates-hold-steady/"
+    },
+    {
+      "titulo": "Calendario | Próximos festivos",
+      "bandera": "",
+      "texto": "1 nov. Todos los Santos (según país); 2 nov. Día de Muertos (México, no descanso federal obligatorio); 8 nov. Diwali (India); 16 nov. Revolución Mexicana; 20 nov. Consciência Negra (Brasil); 24 nov. Guru Nanak Jayanti (India); 26 nov. Thanksgiving (EE. UU.). Confirmar horarios de proveedores."
+    }
+  ],
+  "metricas": [
+    {
+      "indicador": "Aéreo mundial · tarifa media",
+      "valor": "US$3.13/kg",
+      "tendencia": "Contrato + spot; semana 41 (5–11 oct.), WorldACD; estable semanalmente."
+    },
+    {
+      "indicador": "Aéreo mundial · tarifa spot",
+      "valor": "US$3.55/kg",
+      "tendencia": "Promedio mundial semana 41; no es precio por ruta."
+    },
+    {
+      "indicador": "Carga aérea · volumen mundial",
+      "valor": "+9% interanual",
+      "tendencia": "Tonelaje semana 41 frente al mismo periodo de 2025."
+    },
+    {
+      "indicador": "Shanghái · espera de buques",
+      "valor": "2.14 días",
+      "tendencia": "Referencia semanal publicada el 20 oct.; no es dato en vivo."
+    },
+    {
+      "indicador": "Rotterdam · espera de buques",
+      "valor": "1.18 días",
+      "tendencia": "Referencia semanal del 20 oct.; feeder puede tardar más."
+    },
+    {
+      "indicador": "Manzanillo · espera de buques",
+      "valor": "2.41 días",
+      "tendencia": "Referencia del 20 oct.; no implica cierre general."
+    },
+    {
+      "indicador": "México · apoyo fiscal al diésel",
+      "valor": "$2.35 MXN/L",
+      "tendencia": "Estímulo del 17 al 23 oct.; no representa aumento de precio."
+    },
+    {
+      "indicador": "India · Nhava Sheva",
+      "valor": "1.87 días",
+      "tendencia": "Referencia semanal del 20 oct.; verificar puerta y terminal."
+    }
+  ],
+  "recomendaciones": [
+    "México: revisar el mapa de Capitanías de SEMAR y citas de Manzanillo antes de despachar; no asumir cierres nacionales.",
+    "Transporte terrestre: validar bloqueos y capacidad real de cruce con operador, CAPUFE y Guardia Nacional.",
+    "Aéreo: pedir cotización total con fuel surcharge, vigencia y ruta; anticipar espacio para embarques críticos.",
+    "Europa: confirmar terminal y gate en Le Havre; añadir margen a conexiones feeder en Rotterdam y Amberes.",
+    "Asia, India y Brasil: revisar cut-offs, terminales y conexiones antes de prometer tiempos de tránsito.",
+    "Festivos: ajustar inventario y cut-offs antes de Diwali, el feriado mexicano del 16 de noviembre y Thanksgiving."
+  ]
 };
 
 const retrasos = [
- {"puerto":"México · Golfo: Coatzacoalcos / Alvarado / Dos Bocas","tiempo":"Verificar reapertura","estado":"Cierre a toda navegación reportado por SEMAR el 19 oct.; consultar estado actualizado por Capitanía."},
- {"puerto":"México · Manzanillo","tiempo":"2.41 días","estado":"Promedio semanal de espera de buques, 20 oct. · Kuehne+Nagel."},
- {"puerto":"Francia · Le Havre / TNMSC","tiempo":"Terminal cerrada","estado":"Sin gate-in/gate-out tras ciberataque; reapertura sin fecha confirmada."},
- {"puerto":"Países Bajos · Rotterdam","tiempo":"1.18 días","estado":"Espera de buques; feeder/barcazas con demoras 12–72 h en ciertas terminales."},
- {"puerto":"China · Shanghái","tiempo":"2.14 días","estado":"Promedio semanal de espera de buques, 20 oct."},
- {"puerto":"India · Nhava Sheva","tiempo":"1.87 días","estado":"Promedio semanal de espera; capacidad en rutas selectas presionada."},
- {"puerto":"Brasil · Santos","tiempo":"1.45 días","estado":"Promedio semanal de espera de buques; presión de conexiones terrestres."}
+  {
+    "puerto": "México · Golfo (puerto por puerto)",
+    "tiempo": "Verificar SEMAR",
+    "estado": "Cierres recientes por frente frío; estatus vigente sujeto a cada Capitanía."
+  },
+  {
+    "puerto": "México · Manzanillo",
+    "tiempo": "2.41 días",
+    "estado": "Promedio semanal de buques publicado el 20 oct.; citas por confirmar."
+  },
+  {
+    "puerto": "Francia · Le Havre / TNMSC",
+    "tiempo": "Validar gate",
+    "estado": "Restricciones reportadas el 20 oct.; solicitar actualización a terminal."
+  },
+  {
+    "puerto": "Países Bajos · Rotterdam",
+    "tiempo": "1.18 días",
+    "estado": "Promedio buques 20 oct.; demoras independientes en feeder/barcazas."
+  },
+  {
+    "puerto": "China · Shanghái",
+    "tiempo": "2.14 días",
+    "estado": "Promedio semanal de espera de buques del 20 oct."
+  },
+  {
+    "puerto": "India · Nhava Sheva",
+    "tiempo": "1.87 días",
+    "estado": "Promedio semanal del 20 oct.; confirmar cola terrestre."
+  },
+  {
+    "puerto": "Brasil · Navegantes",
+    "tiempo": "Consultar terminal",
+    "estado": "Congestión reportada; sin tiempo en vivo comparable verificado."
+  }
 ];
 
-// Fuentes: Kuehne+Nagel 20 oct., SEMAR 19 oct., N+ 20 oct., ComoVa/GN 20 oct., DOF 16 oct., Reuters 18 oct.
+// Datos portuarios: última referencia publicada 20 oct.; carga aérea WorldACD semana 41.
 
 // ======================================================
 // NO EDITAR DEBAJO DE ESTA LÍNEA
@@ -221,7 +349,7 @@ export default function Home() {
       </section>
 
       {/* TABLA DE RETRASOS PORTUARIOS */}
-      <section className="bg-white"><div className="mx-auto max-w-7xl px-6 py-14 md:px-10"><p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">OPERACIÓN PORTUARIA · 20 DE OCTUBRE</p><h2 className="mt-3 text-3xl font-bold text-[#003C6F]">Estado de puertos y conexiones</h2><p className="mt-3 max-w-4xl text-sm leading-6 text-gray-600">No se dispone de tiempos en vivo comparables en todos los puertos. Las cifras indicativas y restricciones deben validarse con terminal y naviera antes de comprometer ETA.</p><div className="mt-7 overflow-x-auto rounded-2xl border border-gray-200"><table className="w-full min-w-[760px] text-left text-sm"><thead className="bg-[#003C6F] text-white"><tr><th className="p-4">País / puerto</th><th className="p-4">Fecha o dato</th><th className="p-4">Estado e interpretación</th></tr></thead><tbody>{retrasos.map((r,i)=><tr key={r.puerto} className={i%2===0?"bg-[#F3F5F7]":"bg-white"}><td className="p-4 font-bold text-[#003C6F]">{r.puerto}</td><td className="p-4 font-semibold">{r.tiempo}</td><td className="p-4 text-gray-600">{r.estado}</td></tr>)}</tbody></table></div></div></section>
+      <section className="bg-white"><div className="mx-auto max-w-7xl px-6 py-14 md:px-10"><p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">OPERACIÓN PORTUARIA · CORTE 21 DE OCTUBRE (REFERENCIAS 20 OCT.)</p><h2 className="mt-3 text-3xl font-bold text-[#003C6F]">Estado de puertos y conexiones</h2><p className="mt-3 max-w-4xl text-sm leading-6 text-gray-600">No se dispone de tiempos en vivo comparables en todos los puertos. Las cifras indicativas y restricciones deben validarse con terminal y naviera antes de comprometer ETA.</p><div className="mt-7 overflow-x-auto rounded-2xl border border-gray-200"><table className="w-full min-w-[760px] text-left text-sm"><thead className="bg-[#003C6F] text-white"><tr><th className="p-4">País / puerto</th><th className="p-4">Fecha o dato</th><th className="p-4">Estado e interpretación</th></tr></thead><tbody>{retrasos.map((r,i)=><tr key={r.puerto} className={i%2===0?"bg-[#F3F5F7]":"bg-white"}><td className="p-4 font-bold text-[#003C6F]">{r.puerto}</td><td className="p-4 font-semibold">{r.tiempo}</td><td className="p-4 text-gray-600">{r.estado}</td></tr>)}</tbody></table></div></div></section>
 
       {/* MÉTRICAS CLAVE */}
       <section className="bg-[#F3F5F7]">
@@ -332,7 +460,7 @@ export default function Home() {
           </div>
 
           <span className="max-w-xl text-white/60 md:text-right">
-            Corte informativo del 19 de octubre de 2026. Fuentes: COPOMA/SSA, GOMSA, Contecon, Reuters, Drewry, SHCP, El Economista y CANACAR. Operaciones sujetas a validación por terminal, naviera y proveedor.</span>
+            Corte informativo del 21 de octubre de 2026. Fuentes: SEMAR, WorldACD, Kuehne+Nagel, Reuters, El Economista y operadores portuarios. Operaciones sujetas a validación por terminal, naviera y proveedor.</span>
         </div>
       </footer>
     </main>
