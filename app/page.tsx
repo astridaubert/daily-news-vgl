@@ -4,8 +4,18 @@ import Image from "next/image";
 const brief = {
   "fecha": "miércoles 21 de octubre de 2026",
   "titulo": "Vector Global Logistics | Radar Logístico Global",
-  "subtitulo": "Clima y restricciones portuarias en México, riesgos de conexión en Europa y recargos de combustible en carga aérea. Valida el estado de cada ruta antes de despachar.",
+  "subtitulo": "Alerta en transporte aéreo latinoamericano: aerolíneas reportan 79% más gasto en combustible. También vigilamos restricciones portuarias en México y conexiones en Europa.",
   "noticias": [
+    {
+      "region": "LATINOAMÉRICA · CARGA AÉREA",
+      "modo": "ALERTA · COMBUSTIBLE +79%",
+      "imagen": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200",
+      "bandera": "",
+      "titular": "Alerta aérea: aerolíneas reportan 79% más gasto en combustible",
+      "dato": "Durante el ALTA Airline Leaders Forum 2026, la asociación informó que el gasto en combustible de aerolíneas latinoamericanas aumentó 79% en un año y su participación en costos operativos pasó del 28% al 38%. Es un dato de costos de aerolíneas, no un aumento equivalente de tarifas de carga. Fuente: https://volavi.co/aviacion/alta-alerta-aumento-gasto-combustible-aerolineas-latinoamerica",
+      "impacto": "La presión sobre costos operativos puede traducirse en ajustes de recargos por combustible y cotizaciones aéreas, según carrier y ruta; no implica que el flete aéreo haya subido 79%.",
+      "accion": "Solicitar tarifa total con fuel surcharge desglosado y vigencia por escrito; reservar capacidad con anticipación para carga crítica."
+    },
     {
       "region": "MÉXICO",
       "modo": "ALTO · PUERTOS DEL GOLFO",
@@ -15,16 +25,6 @@ const brief = {
       "dato": "Las lluvias del frente frío 2 han afectado el sur de Veracruz. Se reportaron cierres marítimos en el Golfo; el estatus de cada capitanía puede cambiar durante el día. Consulta: https://meteorologia.semar.gob.mx/puertos/",
       "impacto": "Posibles restricciones de navegación, cambios de escala y retrasos en conexiones terrestres.",
       "accion": "Confirmar apertura para el tipo de embarcación, con SEMAR, agente naviero y terminal antes de programar carga."
-    },
-    {
-      "region": "GLOBAL · CARGA AÉREA",
-      "modo": "ATENCIÓN · COMBUSTIBLE",
-      "imagen": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200",
-      "bandera": "",
-      "titular": "El combustible presiona cotizaciones y recargos aéreos",
-      "dato": "WorldACD reportó para la semana 41 tarifas globales promedio de US$3.13/kg (contrato + spot) y spot de US$3.55/kg, ambas estables frente a la semana anterior. El combustible sigue presionando los recargos. Fuente: https://rutair.com/news/first-fortnight-of-october-sees-rates-hold-steady/",
-      "impacto": "Las tarifas base no suben igual en todas las rutas, pero la vigencia de cotizaciones y los fuel surcharges requieren vigilancia.",
-      "accion": "Pedir tarifa total y vigencia escrita, confirmar recargos y reservar capacidad para embarques críticos."
     },
     {
       "region": "EUROPA · FRANCIA",
@@ -81,7 +81,7 @@ const brief = {
     {
       "titulo": "Carga aérea | Tarifas y fuel surcharge",
       "bandera": "",
-      "texto": "Semana 41 (5–11 octubre): tarifa mundial media US$3.13/kg; spot US$3.55/kg, sin alza semanal general. Volumen global +9% interanual. Combustible y cambios de rutas pueden elevar recargos individuales: pedir cotización todo incluido, ruta y vigencia. https://rutair.com/news/first-fortnight-of-october-sees-rates-hold-steady/"
+      "texto": "ALTA informó el 19 de octubre que el gasto en combustible de las aerolíneas latinoamericanas creció 79% en un año y pasó del 28% al 38% de sus costos. Es presión operativa, NO un incremento del 79% en tarifas de carga. WorldACD reportó tarifas globales semanales estables (semana 41). Verificar recargo por carrier. https://volavi.co/aviacion/alta-alerta-aumento-gasto-combustible-aerolineas-latinoamerica"
     },
     {
       "titulo": "Calendario | Próximos festivos",
@@ -90,6 +90,16 @@ const brief = {
     }
   ],
   "metricas": [
+    {
+      "indicador": "Aerolíneas LATAM · gasto en combustible",
+      "valor": "+79%",
+      "tendencia": "Aumento interanual informado por ALTA el 19 oct.; NO variación del flete aéreo."
+    },
+    {
+      "indicador": "Aerolíneas LATAM · combustible en costos",
+      "valor": "38%",
+      "tendencia": "Subió desde 28% en un año, según ALTA."
+    },
     {
       "indicador": "Aéreo mundial · tarifa media",
       "valor": "US$3.13/kg",
@@ -119,16 +129,6 @@ const brief = {
       "indicador": "Manzanillo · espera de buques",
       "valor": "2.41 días",
       "tendencia": "Referencia del 20 oct.; no implica cierre general."
-    },
-    {
-      "indicador": "México · apoyo fiscal al diésel",
-      "valor": "$2.35 MXN/L",
-      "tendencia": "Estímulo del 17 al 23 oct.; no representa aumento de precio."
-    },
-    {
-      "indicador": "India · Nhava Sheva",
-      "valor": "1.87 días",
-      "tendencia": "Referencia semanal del 20 oct.; verificar puerta y terminal."
     }
   ],
   "recomendaciones": [
