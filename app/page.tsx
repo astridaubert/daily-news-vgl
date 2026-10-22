@@ -1,181 +1,181 @@
 import Image from "next/image";
 
-// DATOS EDITABLES — 21 OCTUBRE 2026
+// DATOS EDITABLES — 22 OCTUBRE 2026
 const brief = {
-  "fecha": "miércoles 21 de octubre de 2026",
+  "fecha": "jueves 22 de octubre de 2026",
   "titulo": "Vector Global Logistics | Radar Logístico Global",
-  "subtitulo": "Alerta en transporte aéreo latinoamericano: aerolíneas reportan 79% más gasto en combustible. También vigilamos restricciones portuarias en México y conexiones en Europa.",
+  "subtitulo": "Alerta climática en el Pacífico: Vance amenaza con afectar la planificación portuaria mexicana y Champi altera vuelos en Taiwán y Japón. También vigilamos costos aéreos, congestión y huelgas.",
   "noticias": [
     {
+      "region": "MÉXICO · PACÍFICO",
+      "modo": "ALTO · TORMENTA VANCE",
+      "imagen": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?w=1200",
+      "bandera": "https://flagcdn.com/w40/mx.png",
+      "titular": "Vance se intensifica: atención preventiva a Manzanillo y Lázaro Cárdenas",
+      "dato": "El NHC reportó a las 03:00 h CST del 22 de octubre la tormenta tropical Vance, con vientos sostenidos de 85 km/h, a 820 km al sur-suroeste de Acapulco y 1,075 km al sur-sureste de Manzanillo. No había avisos costeros activos en ese corte. Fuente: https://prod-east-nhc.woc.noaa.gov/mobile/text/refresh/MIATCPEP2%2Bhtml/220847.shtml",
+      "impacto": "El oleaje y los cambios en las condiciones meteorológicas pueden alterar maniobras, navegación y programación de citas. No se ha confirmado por esta fuente un cierre portuario general.",
+      "accion": "Validar avisos NHC y Capitanías de Puerto antes de liberar carga; revisar ventanas y alternativas logísticas para embarques críticos."
+    },
+    {
+      "region": "TAIWÁN · ASIA ORIENTAL",
+      "modo": "ALTO · TIFÓN CHAMPI",
+      "imagen": "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=1200",
+      "bandera": "https://flagcdn.com/w40/tw.png",
+      "titular": "Champi afecta la conectividad aérea de Taiwán y Japón",
+      "dato": "Reuters informó el 22 de octubre alertas meteorológicas en Taiwán, 125 vuelos domésticos cancelados allí y más de 100 vuelos domésticos cancelados en Japón. El sistema, anteriormente clasificado como supertifón, continúa generando condiciones peligrosas. Fuente: https://www.reuters.com/business/environment/taiwan-issues-land-warning-ahead-arrival-powerful-typhoon-champi-2026-10-22/",
+      "impacto": "Riesgo de conexiones perdidas, reprogramación de carga aérea y desvíos o cambios de itinerario marítimos en Asia oriental.",
+      "accion": "Reconfirmar vuelos y escalas de Taiwán y Japón del 22 al 26 de octubre; solicitar planes de contingencia a aerolíneas y navieras."
+    },
+    {
       "region": "LATINOAMÉRICA · CARGA AÉREA",
-      "modo": "ALERTA · COMBUSTIBLE +79%",
+      "modo": "ALERTA · COSTO DEL COMBUSTIBLE",
       "imagen": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200",
       "bandera": "",
-      "titular": "Alerta aérea: aerolíneas reportan 79% más gasto en combustible",
-      "dato": "Durante el ALTA Airline Leaders Forum 2026, la asociación informó que el gasto en combustible de aerolíneas latinoamericanas aumentó 79% en un año y su participación en costos operativos pasó del 28% al 38%. Es un dato de costos de aerolíneas, no un aumento equivalente de tarifas de carga. Fuente: https://volavi.co/aviacion/alta-alerta-aumento-gasto-combustible-aerolineas-latinoamerica",
-      "impacto": "La presión sobre costos operativos puede traducirse en ajustes de recargos por combustible y cotizaciones aéreas, según carrier y ruta; no implica que el flete aéreo haya subido 79%.",
-      "accion": "Solicitar tarifa total con fuel surcharge desglosado y vigencia por escrito; reservar capacidad con anticipación para carga crítica."
-    },
-    {
-      "region": "MÉXICO",
-      "modo": "ALTO · PUERTOS DEL GOLFO",
-      "imagen": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1200",
-      "bandera": "https://flagcdn.com/w40/mx.png",
-      "titular": "Frente frío mantiene en alerta a los puertos del Golfo",
-      "dato": "Las lluvias del frente frío 2 han afectado el sur de Veracruz. Se reportaron cierres marítimos en el Golfo; el estatus de cada capitanía puede cambiar durante el día. Consulta: https://meteorologia.semar.gob.mx/puertos/",
-      "impacto": "Posibles restricciones de navegación, cambios de escala y retrasos en conexiones terrestres.",
-      "accion": "Confirmar apertura para el tipo de embarcación, con SEMAR, agente naviero y terminal antes de programar carga."
-    },
-    {
-      "region": "EUROPA · FRANCIA",
-      "modo": "ALTO · LE HAVRE",
-      "imagen": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?w=1200",
-      "bandera": "https://flagcdn.com/w40/fr.png",
-      "titular": "Verificar operación de terminales en Le Havre",
-      "dato": "El reporte operativo del 20 de octubre de Kuehne+Nagel señalaba problemas en la terminal TNMSC tras un incidente informático. La reapertura y restricciones específicas requieren confirmación actualizada. Fuente: https://mykn.kuehne-nagel.com/news/article/port-operational-updates-from-20-10-2026",
-      "impacto": "Riesgo de citas reprogramadas, acumulación de contenedores y enlaces terrestres tardíos.",
-      "accion": "Validar gate-in/gate-out, terminal concreta y depósitos alternos directamente con naviera y operador."
+      "titular": "Combustible aéreo presiona costos y posibles recargos",
+      "dato": "ALTA informó un aumento interanual del 79% en gasto de combustible de aerolíneas latinoamericanas y un aumento de su participación en costos desde 28% hasta 38%. No se trata de un alza equivalente en el precio del flete aéreo. Fuente: https://volavi.co/aviacion/alta-alerta-aumento-gasto-combustible-aerolineas-latinoamerica",
+      "impacto": "Posibles revisiones de fuel surcharge y cotizaciones, según aerolínea, ruta y vigencia del contrato.",
+      "accion": "Solicitar cotización todo incluido con recargo de combustible desglosado; confirmar vigencia y espacio para embarques prioritarios."
     }
   ],
   "vigilancia": [
     {
-      "titulo": "México | Manzanillo y accesos",
+      "titulo": "México | Puertos del Golfo y frente frío",
       "bandera": "https://flagcdn.com/w40/mx.png",
-      "texto": "Tras el paso de Trudy se reportaron suspensiones puntuales y reprogramación de citas, pero no hay base para anunciar un cierre general del puerto hoy. Confirmar ventanas en Contecon, SSA, TIMSA y otras terminales. Reuters informó que se levantaron las alertas ciclónicas. https://www.reuters.com/business/environment/hurricane-trudy-lashes-mexicos-pacific-coast-is-set-weaken-tonight-2026-10-18/"
+      "texto": "Se han reportado cierres por frente frío en Veracruz, Coatzacoalcos, Alvarado, Dos Bocas, Frontera y Sánchez Magallanes. No asumir que todas las restricciones continúan vigentes para toda embarcación: consultar diariamente el estado oficial de Capitanías y terminales. https://meteorologia.semar.gob.mx/puertos/"
     },
     {
-      "titulo": "México | Carreteras y cruces",
+      "titulo": "México | Manzanillo y Lázaro Cárdenas",
       "bandera": "https://flagcdn.com/w40/mx.png",
-      "texto": "Verificar incidencias vigentes en Monterrey–Saltillo, Monterrey–Nuevo Laredo, Nuevo Teapa–Cosoleacaque y Cumbres de Maltrata; no presentar bloqueos anteriores como activos sin reporte reciente. En frontera, revisar inspecciones, documentación y disponibilidad de operadores. https://www.freshplaza.com/latin-america/article/9884677/stricter-u-s-trucking-rules-raise-concerns-over-freight-delays-with-mexico/"
+      "texto": "Referencias aportadas para el corte: Manzanillo 1.4 días y Lázaro Cárdenas 3.4 días de espera de buques; cifras pendientes de confirmación comparable con terminal/naviera. Vance aumenta la necesidad de revisar citas, oleaje y rutas, pero no demuestra cierre automático. https://www.nhc.noaa.gov/"
     },
     {
-      "titulo": "México | Diésel",
+      "titulo": "México | Carreteras, CDMX y frontera",
       "bandera": "https://flagcdn.com/w40/mx.png",
-      "texto": "Estímulo complementario fiscal de aproximadamente $2.35 MXN/L vigente del 17 al 23 de octubre. No equivale a aumento de precio de bomba. Validar ajustes de combustible por transportista. https://www.eleconomista.com.mx/economia/aumentan-2-35-pesos-litro-subsidio-diesel-mayor-nivel-ano-20261018-839258.html"
+      "texto": "Se reportó reapertura de México–Toluca tras bloqueo; verificar operación actual con CAPUFE. En CDMX pueden presentarse marchas y cierres puntuales en corredores clave; confirmar ruta y hora antes de despachar. En cruces EE. UU.–México, validar documentación e inspecciones con agente aduanal y transportista."
     },
     {
-      "titulo": "Estados Unidos | Puertos y frontera",
+      "titulo": "Estados Unidos | Puertos y carga aérea",
       "bandera": "https://flagcdn.com/w40/us.png",
-      "texto": "La referencia del 20 de octubre indica espera cercana a un día para buques en Los Ángeles, pero los flujos ferroviarios e interiores pueden añadir tiempo. Revisar cruce y disponibilidad de camiones entre México y EE. UU.; Thanksgiving será el 26 de noviembre. https://mykn.kuehne-nagel.com/news/article/port-operational-updates-from-20-10-2026"
+      "texto": "Los Ángeles registra una espera de buques cercana a un día según referencias recientes, pero accesos ferroviarios y terrestres pueden añadir demoras. La cifra aproximada de US$6.41/kg para China–Norteamérica debe validarse por fecha, ruta y modalidad antes de usarla como tarifa actual. Thanksgiving: 26 de noviembre."
     },
     {
-      "titulo": "Brasil | Navegantes y aduanas",
+      "titulo": "Brasil | Navegantes, Itajaí y aduanas",
       "bandera": "https://flagcdn.com/w40/br.png",
-      "texto": "La congestión reportada en Navegantes exige validar tiempos de espera y capacidad de patio antes de confirmar ETA. Los avisos sobre huelga aduanal nacional y cierres aeroportuarios necesitan confirmación específica; no se tratan como cierres generales verificados. Feriado: 20 de noviembre."
+      "texto": "Referencias compartidas: Navegantes 5 días de espera y 78% de ocupación de patio; Itajaí 2 días y Manaus 1 día. Datos pendientes de actualización por terminal. Investigar avisos vigentes de Receita Federal antes de afirmar huelga indefinida nacional. Feriado: 20 de noviembre."
     },
     {
-      "titulo": "India | Nhava Sheva y Mumbai",
+      "titulo": "India | Nhava Sheva y carga aérea",
       "bandera": "https://flagcdn.com/w40/in.png",
-      "texto": "Revisar congestión terrestre en Nhava Sheva y disponibilidad de conexiones aéreas por Mumbai. No se confirman aquí las supuestas cancelaciones generalizadas de Air India/IndiGo; validar vuelos con la aerolínea. Diwali: 8 de noviembre; Guru Nanak Jayanti: 24 de noviembre."
+      "texto": "Referencia compartida de Nhava Sheva: 1.83 días de espera, pendiente de validación actual. Revisar camiones, disponibilidad de gate y conectividad aérea por Mumbai. Confirmar con cada aerolínea suspensiones hacia Arabia Saudita; no generalizar cancelaciones. Diwali: 8 de noviembre."
     },
     {
-      "titulo": "Asia | Shanghái y rutas",
-      "bandera": "https://flagcdn.com/w40/cn.png",
-      "texto": "La última referencia semanal disponible (20 oct.) indica 2.14 días de espera media de buques en Shanghái. Confirmar ventanas, omisiones de escala, cut-offs y rutas vía Oriente Medio; las interrupciones por combustible dependen de aerolínea y aeropuerto. https://mykn.kuehne-nagel.com/news/article/port-operational-updates-from-20-10-2026"
+      "titulo": "Taiwán y Asia | Champi y congestión",
+      "bandera": "https://flagcdn.com/w40/tw.png",
+      "texto": "El tifón Champi ha ocasionado cancelaciones de vuelos en Taiwán y Japón, según Reuters (22 oct.). Verificar salida de buques y vuelos de Keelung, Taichung, Kaohsiung y hubs regionales. Los promedios de Shanghái, Ningbo, Qingdao y Manila cambian diariamente; no presentar datos sin corte comprobado. https://www.reuters.com/business/environment/taiwan-issues-land-warning-ahead-arrival-powerful-typhoon-champi-2026-10-22/"
     },
     {
-      "titulo": "Europa | Rotterdam, Bélgica, Italia",
+      "titulo": "Europa | Francia, Rotterdam y Bélgica",
       "bandera": "https://flagcdn.com/w40/nl.png",
-      "texto": "Rotterdam estaba en recuperación tras acciones laborales, aunque persistían demoras en barcazas y feeders. Revisar limitaciones de pilotaje en Amberes/Zeebrugge y convocatorias laborales por localidad en Francia e Italia; no asumir que todos los puertos o vuelos están suspendidos. https://mykn.kuehne-nagel.com/news/article/port-operational-updates-from-20-10-2026"
+      "texto": "Rotterdam está en fase de recuperación tras acciones laborales; algunas conexiones de barcazas y feeder continúan con retrasos. Revisar Le Havre y Marsella–Fos, así como posibles restricciones en Amberes/Zeebrugge. La huelga aérea francesa citada terminó el 21 de octubre: verificar nuevos avisos antes de atribuir interrupciones al 22."
     },
     {
-      "titulo": "Carga aérea | Tarifas y fuel surcharge",
+      "titulo": "Combustible | Aéreo y terrestre",
       "bandera": "",
-      "texto": "ALTA informó el 19 de octubre que el gasto en combustible de las aerolíneas latinoamericanas creció 79% en un año y pasó del 28% al 38% de sus costos. Es presión operativa, NO un incremento del 79% en tarifas de carga. WorldACD reportó tarifas globales semanales estables (semana 41). Verificar recargo por carrier. https://volavi.co/aviacion/alta-alerta-aumento-gasto-combustible-aerolineas-latinoamerica"
+      "texto": "ALTA informó +79% en gasto de combustible de aerolíneas latinoamericanas, no en tarifas de carga. En México el estímulo complementario al diésel aproximado de $2.35 MXN/L para 17–23 oct. es un apoyo fiscal, no un incremento de precio. Comparar tarifas y recargos aplicables por proveedor. https://volavi.co/aviacion/alta-alerta-aumento-gasto-combustible-aerolineas-latinoamerica"
     },
     {
       "titulo": "Calendario | Próximos festivos",
       "bandera": "",
-      "texto": "1 nov. Todos los Santos (según país); 2 nov. Día de Muertos (México, no descanso federal obligatorio); 8 nov. Diwali (India); 16 nov. Revolución Mexicana; 20 nov. Consciência Negra (Brasil); 24 nov. Guru Nanak Jayanti (India); 26 nov. Thanksgiving (EE. UU.). Confirmar horarios de proveedores."
+      "texto": "1 nov. Todos los Santos (según país); 2 nov. Día de Muertos (México, no descanso federal obligatorio); 8 nov. Diwali (India); 16 nov. Revolución Mexicana; 20 nov. Consciência Negra (Brasil); 24 nov. Guru Nanak Jayanti (India); 26 nov. Thanksgiving (EE. UU.). Confirmar horarios operativos."
     }
   ],
   "metricas": [
     {
+      "indicador": "Vance · viento sostenido",
+      "valor": "85 km/h",
+      "tendencia": "NHC 22 oct., 03:00 CST; tormenta tropical, no cierre portuario confirmado."
+    },
+    {
+      "indicador": "Vance · distancia a Manzanillo",
+      "valor": "1,075 km",
+      "tendencia": "Al sur-sureste del puerto; corte NHC 22 oct., 03:00 CST."
+    },
+    {
+      "indicador": "Taiwán · vuelos cancelados",
+      "valor": "125",
+      "tendencia": "Vuelos domésticos cancelados reportados por Reuters el 22 oct.; cifra sujeta a actualización."
+    },
+    {
+      "indicador": "Japón · vuelos cancelados",
+      "valor": ">100",
+      "tendencia": "Vuelos domésticos cancelados reportados por Reuters el 22 oct."
+    },
+    {
       "indicador": "Aerolíneas LATAM · gasto en combustible",
       "valor": "+79%",
-      "tendencia": "Aumento interanual informado por ALTA el 19 oct.; NO variación del flete aéreo."
+      "tendencia": "Variación interanual reportada por ALTA; NO incremento de tarifa de carga."
     },
     {
       "indicador": "Aerolíneas LATAM · combustible en costos",
       "valor": "38%",
-      "tendencia": "Subió desde 28% en un año, según ALTA."
+      "tendencia": "Participación de costo informada por ALTA, frente a 28% anteriormente."
     },
     {
-      "indicador": "Aéreo mundial · tarifa media",
-      "valor": "US$3.13/kg",
-      "tendencia": "Contrato + spot; semana 41 (5–11 oct.), WorldACD; estable semanalmente."
+      "indicador": "México · estímulo extra al diésel",
+      "valor": "$2.35/L",
+      "tendencia": "Apoyo fiscal del 17–23 oct.; no es variación del precio al público."
     },
     {
-      "indicador": "Aéreo mundial · tarifa spot",
-      "valor": "US$3.55/kg",
-      "tendencia": "Promedio mundial semana 41; no es precio por ruta."
-    },
-    {
-      "indicador": "Carga aérea · volumen mundial",
-      "valor": "+9% interanual",
-      "tendencia": "Tonelaje semana 41 frente al mismo periodo de 2025."
-    },
-    {
-      "indicador": "Shanghái · espera de buques",
-      "valor": "2.14 días",
-      "tendencia": "Referencia semanal publicada el 20 oct.; no es dato en vivo."
-    },
-    {
-      "indicador": "Rotterdam · espera de buques",
-      "valor": "1.18 días",
-      "tendencia": "Referencia semanal del 20 oct.; feeder puede tardar más."
-    },
-    {
-      "indicador": "Manzanillo · espera de buques",
-      "valor": "2.41 días",
-      "tendencia": "Referencia del 20 oct.; no implica cierre general."
+      "indicador": "Puertos · esperas estimadas",
+      "valor": "Validar",
+      "tendencia": "Los tiempos dependen de la terminal y del corte operativo; confirmar con naviera."
     }
   ],
   "recomendaciones": [
-    "México: revisar el mapa de Capitanías de SEMAR y citas de Manzanillo antes de despachar; no asumir cierres nacionales.",
-    "Transporte terrestre: validar bloqueos y capacidad real de cruce con operador, CAPUFE y Guardia Nacional.",
-    "Aéreo: pedir cotización total con fuel surcharge, vigencia y ruta; anticipar espacio para embarques críticos.",
-    "Europa: confirmar terminal y gate en Le Havre; añadir margen a conexiones feeder en Rotterdam y Amberes.",
-    "Asia, India y Brasil: revisar cut-offs, terminales y conexiones antes de prometer tiempos de tránsito.",
-    "Festivos: ajustar inventario y cut-offs antes de Diwali, el feriado mexicano del 16 de noviembre y Thanksgiving."
+    "Pacífico mexicano: revisar los avisos de Vance y SEMAR antes de adelantar o reprogramar operaciones en Manzanillo y Lázaro Cárdenas.",
+    "Taiwán y Japón: reconfirmar vuelos y conexiones marítimas del 22 al 26 de octubre; contemplar itinerarios alternativos.",
+    "Carga aérea: confirmar fuel surcharge, tarifa final, validez y espacio disponible por ruta antes de cotizar.",
+    "Brasil e India: validar patios, demoras portuarias y despachos aduanales con operador local antes de comprometer ETA.",
+    "Europa: verificar restricciones por terminal y avisos laborales vigentes; evitar aplicar huelgas ya concluidas al día actual.",
+    "Temporada alta: planear inventarios considerando Diwali, puente de México, Consciência Negra y Thanksgiving."
   ]
 };
 
 const retrasos = [
   {
-    "puerto": "México · Golfo (puerto por puerto)",
-    "tiempo": "Verificar SEMAR",
-    "estado": "Cierres recientes por frente frío; estatus vigente sujeto a cada Capitanía."
+    "puerto": "México · Golfo (Veracruz / Coatzacoalcos y otros)",
+    "tiempo": "Consultar SEMAR",
+    "estado": "Restricciones por frente frío reportadas; comprobar apertura vigente por embarcación."
   },
   {
     "puerto": "México · Manzanillo",
-    "tiempo": "2.41 días",
-    "estado": "Promedio semanal de buques publicado el 20 oct.; citas por confirmar."
+    "tiempo": "Validar patio y gate",
+    "estado": "Precaución por Vance; no hay cierre general demostrado por el aviso NHC de las 03:00."
   },
   {
-    "puerto": "Francia · Le Havre / TNMSC",
-    "tiempo": "Validar gate",
-    "estado": "Restricciones reportadas el 20 oct.; solicitar actualización a terminal."
+    "puerto": "México · Lázaro Cárdenas",
+    "tiempo": "Validar terminal",
+    "estado": "Referencia de 3.4 días proporcionada, pendiente de confirmación de corte y operador."
   },
   {
-    "puerto": "Países Bajos · Rotterdam",
-    "tiempo": "1.18 días",
-    "estado": "Promedio buques 20 oct.; demoras independientes en feeder/barcazas."
+    "puerto": "Taiwán · Keelung / Taichung / Kaohsiung",
+    "tiempo": "Monitoreo Champi",
+    "estado": "Verificar viento, oleaje, salida de buques y avisos de terminales."
   },
   {
-    "puerto": "China · Shanghái",
-    "tiempo": "2.14 días",
-    "estado": "Promedio semanal de espera de buques del 20 oct."
-  },
-  {
-    "puerto": "India · Nhava Sheva",
-    "tiempo": "1.87 días",
-    "estado": "Promedio semanal del 20 oct.; confirmar cola terrestre."
+    "puerto": "China · Shanghái / Ningbo",
+    "tiempo": "Verificar esperas",
+    "estado": "Congestión variable; pedir promedio semanal actualizado por terminal."
   },
   {
     "puerto": "Brasil · Navegantes",
-    "tiempo": "Consultar terminal",
-    "estado": "Congestión reportada; sin tiempo en vivo comparable verificado."
+    "tiempo": "Validar ocupación",
+    "estado": "Se reportó congestión; solicitar información actual al operador."
+  },
+  {
+    "puerto": "Países Bajos · Rotterdam",
+    "tiempo": "Validar conexión",
+    "estado": "Posibles demoras adicionales de feeder/barcazas tras recuperación laboral."
   }
 ];
 
@@ -349,7 +349,7 @@ export default function Home() {
       </section>
 
       {/* TABLA DE RETRASOS PORTUARIOS */}
-      <section className="bg-white"><div className="mx-auto max-w-7xl px-6 py-14 md:px-10"><p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">OPERACIÓN PORTUARIA · CORTE 21 DE OCTUBRE (REFERENCIAS 20 OCT.)</p><h2 className="mt-3 text-3xl font-bold text-[#003C6F]">Estado de puertos y conexiones</h2><p className="mt-3 max-w-4xl text-sm leading-6 text-gray-600">No se dispone de tiempos en vivo comparables en todos los puertos. Las cifras indicativas y restricciones deben validarse con terminal y naviera antes de comprometer ETA.</p><div className="mt-7 overflow-x-auto rounded-2xl border border-gray-200"><table className="w-full min-w-[760px] text-left text-sm"><thead className="bg-[#003C6F] text-white"><tr><th className="p-4">País / puerto</th><th className="p-4">Fecha o dato</th><th className="p-4">Estado e interpretación</th></tr></thead><tbody>{retrasos.map((r,i)=><tr key={r.puerto} className={i%2===0?"bg-[#F3F5F7]":"bg-white"}><td className="p-4 font-bold text-[#003C6F]">{r.puerto}</td><td className="p-4 font-semibold">{r.tiempo}</td><td className="p-4 text-gray-600">{r.estado}</td></tr>)}</tbody></table></div></div></section>
+      <section className="bg-white"><div className="mx-auto max-w-7xl px-6 py-14 md:px-10"><p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">OPERACIÓN PORTUARIA · CORTE 22 DE OCTUBRE</p><h2 className="mt-3 text-3xl font-bold text-[#003C6F]">Estado de puertos y conexiones</h2><p className="mt-3 max-w-4xl text-sm leading-6 text-gray-600">No se dispone de tiempos en vivo comparables en todos los puertos. Las cifras indicativas y restricciones deben validarse con terminal y naviera antes de comprometer ETA.</p><div className="mt-7 overflow-x-auto rounded-2xl border border-gray-200"><table className="w-full min-w-[760px] text-left text-sm"><thead className="bg-[#003C6F] text-white"><tr><th className="p-4">País / puerto</th><th className="p-4">Fecha o dato</th><th className="p-4">Estado e interpretación</th></tr></thead><tbody>{retrasos.map((r,i)=><tr key={r.puerto} className={i%2===0?"bg-[#F3F5F7]":"bg-white"}><td className="p-4 font-bold text-[#003C6F]">{r.puerto}</td><td className="p-4 font-semibold">{r.tiempo}</td><td className="p-4 text-gray-600">{r.estado}</td></tr>)}</tbody></table></div></div></section>
 
       {/* MÉTRICAS CLAVE */}
       <section className="bg-[#F3F5F7]">
@@ -460,7 +460,7 @@ export default function Home() {
           </div>
 
           <span className="max-w-xl text-white/60 md:text-right">
-            Corte informativo del 21 de octubre de 2026. Fuentes: SEMAR, WorldACD, Kuehne+Nagel, Reuters, El Economista y operadores portuarios. Operaciones sujetas a validación por terminal, naviera y proveedor.</span>
+            Corte informativo del 22 de octubre de 2026. Fuentes: NHC, Reuters, ALTA, SEMAR y operadores logísticos. Datos sujetos a actualización y confirmación con terminal, naviera y proveedor.</span>
         </div>
       </footer>
     </main>
