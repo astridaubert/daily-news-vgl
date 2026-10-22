@@ -9,7 +9,7 @@ const brief = {
     {
       "region": "MÉXICO · PACÍFICO",
       "modo": "ALTO · TORMENTA VANCE",
-      "imagen": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?w=1200",
+      "imagen": "https://images.unsplash.com/photo-1527489377706-5bf97e608852?w=1200",
       "bandera": "https://flagcdn.com/w40/mx.png",
       "titular": "Vance se intensifica: atención preventiva a Manzanillo y Lázaro Cárdenas",
       "dato": "El NHC reportó a las 03:00 h CST del 22 de octubre la tormenta tropical Vance, con vientos sostenidos de 85 km/h, a 820 km al sur-suroeste de Acapulco y 1,075 km al sur-sureste de Manzanillo. No había avisos costeros activos en ese corte. Fuente: https://prod-east-nhc.woc.noaa.gov/mobile/text/refresh/MIATCPEP2%2Bhtml/220847.shtml",
