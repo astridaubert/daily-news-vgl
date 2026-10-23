@@ -4,17 +4,17 @@ import Image from "next/image";
 const brief = {
   "fecha": "viernes 23 de octubre de 2026",
   "titulo": "Vector Global Logistics | Radar Logístico Global",
-  "subtitulo": "Dos alertas climáticas marcan la operación: Vance se convirtió en huracán frente al Pacífico mexicano y Champi provocó 977 cancelaciones aéreas en Taiwán. Revisa riesgos, fuentes y acciones para proteger tus embarques.",
+  "subtitulo": "Alerta portuaria global: sindicatos de cuatro continentes convocan movilizaciones para el 30 de octubre. Además, Champi interrumpe vuelos en Taiwán y Vance amenaza operaciones en el Pacífico mexicano.",
   "noticias": [
     {
-      "region": "MÉXICO · PACÍFICO",
-      "modo": "ALTO · HURACÁN VANCE",
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Nora_1997-09-21_1630Z.png",
-      "bandera": "https://flagcdn.com/w40/mx.png",
-      "titular": "Vance ya es huracán: vigilar Manzanillo y Lázaro Cárdenas",
-      "dato": "El NHC confirmó el 23 de octubre a las 03:00 CST vientos de 140 km/h, ubicación a 930 km al sur-sureste de Manzanillo y desplazamiento al nor-noroeste de 9 km/h. Se prevé intensificación rápida; no había avisos costeros activos en ese corte. Fuente: https://prod-west-nhc.woc.noaa.gov/mobile/text/refresh/MIATCPEP2%2Bhtml/230859.shtml",
-      "impacto": "Oleaje y corrientes peligrosas pueden alterar navegación, ventanas de atraque y traslados costeros durante el fin de semana. Posibles cierres son un riesgo preventivo, no una suspensión general confirmada.",
-      "accion": "Confirmar Capitanía de Puerto, SEMAR y terminal antes de mover carga crítica; acordar planes alternativos para embarques del 24 al 26 de octubre."
+      "region": "GLOBAL · EUROPA, ASIA, ÁFRICA Y AMÉRICA",
+      "modo": "ALERTA · MOVILIZACIÓN PORTUARIA · 30 OCT",
+      "imagen": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1200",
+      "bandera": "",
+      "titular": "Jornada internacional portuaria el 30 de octubre: riesgo de interrupciones",
+      "dato": "Organizaciones sindicales de Europa, Asia, África y América convocaron una jornada internacional de protestas y huelgas para el 30 de octubre, relacionada con condiciones laborales, salarios, seguridad, automatización y rechazo al uso de infraestructura portuaria en operaciones militares. Un comunicado sindical del 22 de octubre señala participación de trabajadores de más de 100 puertos en cuatro continentes. Entre los puertos mencionados están Génova, Gioia Tauro, Livorno, Trieste, Ravenna, Salerno, Ancona, Civitavecchia (Italia) y El Pireo (Grecia); también hay participación sindical anunciada en Francia, España, Turquía y Marruecos. Esto no significa que todos los puertos suspenderán operaciones.",
+      "impacto": "Puede haber paros puntuales, restricciones de acceso, menor disponibilidad de turnos, reprogramación de escalas y retrasos en la liberación de contenedores. El impacto dependerá de cada terminal y del alcance efectivo de la convocatoria.",
+      "accion": "Consultar avisos oficiales de terminales y navieras para escalas cercanas al 30 de octubre; reconfirmar cut-offs, ventanas de entrega y alternativas antes de cambiar itinerarios."
     },
     {
       "region": "TAIWÁN · ASIA ORIENTAL",
@@ -27,14 +27,14 @@ const brief = {
       "accion": "Reconfirmar cada vuelo, guía aérea y conexión con origen/destino Taiwán entre el 23 y el 26 de octubre; revisar avisos de aerolínea y puerto."
     },
     {
-      "region": "GLOBAL · COMBUSTIBLE Y PUERTOS",
-      "modo": "VIGILANCIA · COSTOS Y CAPACIDAD",
-      "imagen": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200",
-      "bandera": "",
-      "titular": "Combustible, congestión y posibles acciones laborales presionan la logística",
-      "dato": "Se mantiene vigilancia sobre recargos aéreos, congestión en Brasil e India y una posible jornada internacional de protesta portuaria el 30 de octubre. La afectación de cada terminal y los indicadores de costos requieren confirmación local antes de publicarse como cierre o tarifa vigente.",
-      "impacto": "Las restricciones puntuales pueden modificar ETA, espacios de carga y cotizaciones sin implicar necesariamente un paro generalizado.",
-      "accion": "Solicitar vigencia de tarifa, recargos desglosados y confirmación de disponibilidad con naviera, aerolínea, terminal y agente local."
+      "region": "MÉXICO · PACÍFICO",
+      "modo": "ALTO · HURACÁN VANCE",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Nora_1997-09-21_1630Z.png",
+      "bandera": "https://flagcdn.com/w40/mx.png",
+      "titular": "Vance ya es huracán: vigilar Manzanillo y Lázaro Cárdenas",
+      "dato": "El NHC confirmó el 23 de octubre a las 03:00 CST vientos de 140 km/h, ubicación a 930 km al sur-sureste de Manzanillo y desplazamiento al nor-noroeste de 9 km/h. Se prevé intensificación rápida; no había avisos costeros activos en ese corte. Fuente: https://prod-west-nhc.woc.noaa.gov/mobile/text/refresh/MIATCPEP2%2Bhtml/230859.shtml",
+      "impacto": "Oleaje y corrientes peligrosas pueden alterar navegación, ventanas de atraque y traslados costeros durante el fin de semana. Posibles cierres son un riesgo preventivo, no una suspensión general confirmada.",
+      "accion": "Confirmar Capitanía de Puerto, SEMAR y terminal antes de mover carga crítica; acordar planes alternativos para embarques del 24 al 26 de octubre."
     }
   ],
   "vigilancia": [
