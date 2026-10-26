@@ -1,190 +1,195 @@
 import Image from "next/image";
 
-// DATOS EDITABLES — 23 OCTUBRE 2026
+// DATOS EDITABLES — 26 OCTUBRE 2026
 const brief = {
-  "fecha": "viernes 23 de octubre de 2026",
+  "fecha": "lunes 26 de octubre de 2026",
   "titulo": "Vector Global Logistics | Radar Logístico Global",
-  "subtitulo": "Alerta portuaria global: sindicatos de cuatro continentes convocan movilizaciones para el 30 de octubre. Además, Champi interrumpe vuelos en Taiwán y Vance amenaza operaciones en el Pacífico mexicano.",
+  "subtitulo": "México: movilizaciones del autotransporte amenazan tiempos de entrega y cruces. En el Pacífico, Vance se debilita; Taiwán y Japón recuperan operaciones tras Champi. Vigilancia portuaria para el 30 de octubre.",
   "noticias": [
     {
-      "region": "GLOBAL · EUROPA, ASIA, ÁFRICA Y AMÉRICA",
-      "modo": "ALERTA · MOVILIZACIÓN PORTUARIA · 30 OCT",
-      "imagen": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1200",
-      "bandera": "",
-      "titular": "Jornada internacional portuaria el 30 de octubre: riesgo de interrupciones",
-      "dato": "Organizaciones sindicales de Europa, Asia, África y América convocaron una jornada internacional de protestas y huelgas para el 30 de octubre, relacionada con condiciones laborales, salarios, seguridad, automatización y rechazo al uso de infraestructura portuaria en operaciones militares. Un comunicado sindical del 22 de octubre señala participación de trabajadores de más de 100 puertos en cuatro continentes. Entre los puertos mencionados están Génova, Gioia Tauro, Livorno, Trieste, Ravenna, Salerno, Ancona, Civitavecchia (Italia) y El Pireo (Grecia); también hay participación sindical anunciada en Francia, España, Turquía y Marruecos. Esto no significa que todos los puertos suspenderán operaciones.",
-      "impacto": "Puede haber paros puntuales, restricciones de acceso, menor disponibilidad de turnos, reprogramación de escalas y retrasos en la liberación de contenedores. El impacto dependerá de cada terminal y del alcance efectivo de la convocatoria.",
-      "accion": "Consultar avisos oficiales de terminales y navieras para escalas cercanas al 30 de octubre; reconfirmar cut-offs, ventanas de entrega y alternativas antes de cambiar itinerarios."
-    },
-    {
-      "region": "TAIWÁN · ASIA ORIENTAL",
-      "modo": "ALTO · TIFÓN CHAMPI",
-      "imagen": "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=1200",
-      "bandera": "https://flagcdn.com/w40/tw.png",
-      "titular": "Champi interrumpe vuelos: 977 cancelaciones en Taiwán",
-      "dato": "La autoridad aeronáutica reportó 977 vuelos cancelados hasta las 10:00 del 23 de octubre: 262 domésticos y 715 internacionales y a través del estrecho. En Taoyuan se cancelaron 596, incluidos 75 cargueros; se suspendieron 96 viajes de ferry. Fuente: https://focustaiwan.tw/society/202610230007",
-      "impacto": "Riesgo inmediato de carga aérea retenida, conexiones perdidas y reprogramaciones. La normalización puede generar acumulaciones incluso después del paso del tifón.",
-      "accion": "Reconfirmar cada vuelo, guía aérea y conexión con origen/destino Taiwán entre el 23 y el 26 de octubre; revisar avisos de aerolínea y puerto."
+      "region": "MÉXICO · TRANSPORTE TERRESTRE",
+      "modo": "ALERTA ALTA · MOVILIZACIONES 26 OCT",
+      "imagen": "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=1200",
+      "bandera": "https://flagcdn.com/w40/mx.png",
+      "titular": "Paro de transportistas: riesgo en corredores industriales y fronterizos",
+      "dato": "CANACAR mantuvo movilizaciones desde la mañana del 26 de octubre; medios reportan una previsión de 44 concentraciones en 30 entidades. No todos los puntos son bloqueos totales. Corredores a vigilar: México–Querétaro, México–Pachuca, México–Puebla, Arco Norte, Bajío, Guadalajara y accesos a la frontera norte. Fuente: https://www.jornada.com.mx/2026/10/26/economia/021n1eco",
+      "impacto": "Posibles tiempos extra para carga terrestre, recolecciones, distribución y cruces México–EE. UU.; impacto variable por tramo y horario. En Manzanillo se reportaba operación portuaria sin afectación por las protestas al corte consultado.",
+      "accion": "Reconfirmar rutas y disponibilidad de unidades; consultar CAPUFE y transportistas antes de prometer ETA. Evitar asumir que todas las vías anunciadas están cerradas."
     },
     {
       "region": "MÉXICO · PACÍFICO",
-      "modo": "ALTO · HURACÁN VANCE",
+      "modo": "ALERTA CLIMÁTICA · VANCE",
       "imagen": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Nora_1997-09-21_1630Z.png",
       "bandera": "https://flagcdn.com/w40/mx.png",
-      "titular": "Vance ya es huracán: vigilar Manzanillo y Lázaro Cárdenas",
-      "dato": "El NHC confirmó el 23 de octubre a las 03:00 CST vientos de 140 km/h, ubicación a 930 km al sur-sureste de Manzanillo y desplazamiento al nor-noroeste de 9 km/h. Se prevé intensificación rápida; no había avisos costeros activos en ese corte. Fuente: https://prod-west-nhc.woc.noaa.gov/mobile/text/refresh/MIATCPEP2%2Bhtml/230859.shtml",
-      "impacto": "Oleaje y corrientes peligrosas pueden alterar navegación, ventanas de atraque y traslados costeros durante el fin de semana. Posibles cierres son un riesgo preventivo, no una suspensión general confirmada.",
-      "accion": "Confirmar Capitanía de Puerto, SEMAR y terminal antes de mover carga crítica; acordar planes alternativos para embarques del 24 al 26 de octubre."
+      "titular": "Vance pierde fuerza: atención preventiva a puertos del Pacífico",
+      "dato": "NHC, 26 oct. 09:00 CST: tormenta tropical con vientos sostenidos de 100 km/h, a 425 km al sur-suroeste de Manzanillo; avanza oeste-noroeste a 11 km/h. Sin alertas costeras vigentes. Fuente: https://prod-west-nhc.woc.noaa.gov/text/refresh/MIATCPEP2%2Bshtml/261433.shtml",
+      "impacto": "Oleaje, lluvia y ajustes preventivos de navegación pueden alterar ventanas de atraque y accesos de Manzanillo, Lázaro Cárdenas y Puerto Vallarta. No se confirma cierre portuario general.",
+      "accion": "Vigilar avisos del NHC y SEMAR y confirmar ventanas de terminal y naviera hasta el 30 de octubre."
+    },
+    {
+      "region": "ASIA · TAIWÁN Y JAPÓN",
+      "modo": "RECUPERACIÓN · CHAMPI",
+      "imagen": "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=1200",
+      "bandera": "https://flagcdn.com/w40/tw.png",
+      "titular": "Champi se degrada; persisten retrasos de vuelos y ferris",
+      "dato": "Champi se transformó en ciclón extratropical el 25 de octubre, según reportes publicados el 26. Taiwán había informado 977 vuelos cancelados y 96 servicios de ferry suspendidos al corte del 23 de octubre; no representan cancelaciones nuevas del día 26. Fuente: https://focustaiwan.tw/society/202610230007",
+      "impacto": "Es posible que la carga aérea y marítima experimente acumulación y reprogramaciones en Taoyuan y puertos de Taiwán, así como conexiones con Japón.",
+      "accion": "Confirmar vuelos, carga disponible, puertos y nuevas fechas de conexión. No trasladar el acumulado del 23 de octubre a una cifra diaria."
     }
   ],
   "vigilancia": [
     {
+      "titulo": "México | Carreteras y cruces",
+      "bandera": "https://flagcdn.com/w40/mx.png",
+      "texto": "Movilizaciones de transportistas el 26 oct. Vigilar México–Querétaro, México–Pachuca, Arco Norte, Bajío, Guadalajara, Monterrey–Laredo y Reynosa. Los bloqueos deben validarse por tramo; consultar CAPUFE."
+    },
+    {
       "titulo": "México | Pacífico: Vance",
       "bandera": "https://flagcdn.com/w40/mx.png",
-      "texto": "NHC (23 oct., 03:00 CST): huracán categoría 1, 140 km/h, 930 km SSE de Manzanillo. Vigilar del 24 al 26 de octubre oleaje, navegación y accesos. No se había emitido aviso costero en ese corte. https://www.nhc.noaa.gov/"
+      "texto": "NHC 26 oct., 09:00 CST: tormenta tropical de 100 km/h, 425 km SSO de Manzanillo, sin avisos costeros. Vigilar oleaje y lluvias hasta el 30 oct. https://www.nhc.noaa.gov/"
     },
     {
-      "titulo": "México | Golfo y frente frío",
+      "titulo": "México | Puertos y AIFA",
       "bandera": "https://flagcdn.com/w40/mx.png",
-      "texto": "Se reportan restricciones de navegación en Veracruz, Coatzacoalcos, Alvarado, Dos Bocas, Frontera y Sánchez Magallanes. La vigencia y clase de embarcación afectada deben comprobarse con SEMAR antes de afirmar cierres actuales. https://meteorologia.semar.gob.mx/puertos/"
+      "texto": "Manzanillo seguía operando sin afectaciones por el paro en el reporte consultado; verificar cada terminal. En AIFA, monitorear accesos por Chamapa–Lechería, México–Pachuca y Arco Norte."
     },
     {
-      "titulo": "México | Carreteras y CDMX",
-      "bandera": "https://flagcdn.com/w40/mx.png",
-      "texto": "Manifestaciones, eventos masivos y accidentes pueden generar cierres puntuales en accesos de CDMX y carreteras federales. Validar CAPUFE, tráfico y horario antes de programar recolecciones o cruces."
-    },
-    {
-      "titulo": "Estados Unidos | Frontera y puertos",
+      "titulo": "Estados Unidos | Cruces y puertos",
       "bandera": "https://flagcdn.com/w40/us.png",
-      "texto": "Revisar documentación e inspecciones en cruces México–EE. UU. y tiempos de recogida/ferrocarril en Los Ángeles y Long Beach. Las posibles acciones laborales del 30 de octubre no equivalen a un cierre ya confirmado."
+      "texto": "El paro en México podría disminuir la capacidad de camiones hacia Laredo y otros cruces. Confirmar inspecciones y ventanas; en Los Ángeles/Long Beach vigilar conexiones ferroviarias y de temporada alta."
     },
     {
       "titulo": "Brasil | Navegantes y aduanas",
       "bandera": "https://flagcdn.com/w40/br.png",
-      "texto": "Referencia operativa aportada: Navegantes ~5 días de espera y 78% de utilización de patio, Itajaí ~2 días y Manaus ~1 día; cifras aún sin corte verificable al 23 de octubre. Confirmar con terminal y Receita Federal posibles demoras aduanales."
+      "texto": "Referencias reportadas: Navegantes ~5 días, Itajaí ~2 días, Manaus ~1 día. No son métricas confirmadas para hoy; solicitar corte vigente de terminal y consultar efectos aduaneros con Receita Federal."
     },
     {
-      "titulo": "India | Nhava Sheva y servicio EPIC2/IOS",
+      "titulo": "India | Nhava Sheva y EPIC2/IOS",
       "bandera": "https://flagcdn.com/w40/in.png",
-      "texto": "Referencia de Nhava Sheva: 1.83 días de espera (sin confirmación actual). Revisar omisiones de escala anunciadas para Tsingtao Express, Kyoto Express y Sofia Express directamente con CMA CGM; reconfirmar booking y cut-off."
+      "texto": "Referencia de espera en Nhava Sheva: 1.83 días, pendiente de validación. Revisar omisiones de escalas de Tsingtao Express, Kyoto Express y Sofia Express directamente con CMA CGM."
     },
     {
-      "titulo": "Taiwán | Champi y carga aérea",
+      "titulo": "Taiwán y Japón | Recuperación Champi",
       "bandera": "https://flagcdn.com/w40/tw.png",
-      "texto": "977 vuelos cancelados (incluidos 75 de carga en Taoyuan) y 96 servicios de ferry suspendidos reportados el 23 de octubre. Confirmar horarios, reprogramaciones y estado de terminales antes de despachar. https://focustaiwan.tw/society/202610230007"
+      "texto": "Tras el paso de Champi, comprobar normalización de carga aérea y ferris; 977 vuelos y 96 salidas de ferry afectados corresponden al acumulado del 23 oct., no al 26."
     },
     {
       "titulo": "Europa | Rotterdam, Amberes y Francia",
       "bandera": "https://flagcdn.com/w40/nl.png",
-      "texto": "Revisar barcazas y feeders tras la recuperación de Rotterdam, posibles retrasos en Amberes y avisos laborales franceses. No mantener como vigente una huelga aérea del 17 al 21 de octubre sin nuevo aviso."
+      "texto": "Rotterdam continúa recuperando conexiones tras la huelga; verificar barcazas y feeders. En Amberes vigilar retrasos y en Francia avisos portuarios actuales, sin describir la huelga aérea del 17–21 como vigente."
     },
     {
-      "titulo": "Puertos | Posibles acciones laborales del 30 oct.",
+      "titulo": "Global | Acción portuaria 30 octubre",
       "bandera": "",
-      "texto": "Se ha señalado una convocatoria internacional para el 30 de octubre; validar participación, alcance y horarios por puerto. No presentar la cifra de terminales afectadas ni contenedores retenidos como hechos confirmados."
+      "texto": "Organizaciones sindicales convocaron una jornada internacional de acción el 30 de octubre. Los cierres y terminales participantes aún requieren confirmación local; no equiparar convocatoria con suspensión general."
     },
     {
       "titulo": "Calendario | Próximos festivos",
       "bandera": "",
-      "texto": "1 nov. Todos los Santos (según país); 2 nov. Día de Muertos (México, no descanso federal obligatorio); 8 nov. Diwali (India); 13–16 nov. Buen Fin; 16 nov. descanso por Revolución Mexicana; 20 nov. Consciência Negra (Brasil); 24 nov. Guru Nanak Jayanti (India); 26 nov. Thanksgiving (EE. UU.)."
+      "texto": "1 nov. Todos los Santos (según país); 2 nov. Día de Muertos (no descanso obligatorio federal en México); 8 nov. Diwali (India); 13–16 nov. Buen Fin; 16 nov. puente Revolución Mexicana; 20 nov. Consciência Negra (Brasil); 24 nov. Guru Nanak Jayanti (India); 26 nov. Thanksgiving (EE. UU.)."
     }
   ],
   "metricas": [
     {
+      "indicador": "México · movilizaciones previstas",
+      "valor": "44",
+      "tendencia": "Previsión de concentraciones en 30 entidades, no 44 cierres confirmados · 26 oct."
+    },
+    {
+      "indicador": "México · entidades con concentraciones",
+      "valor": "30",
+      "tendencia": "Reportes iniciales de la jornada del 26 oct.; alcance cambiante."
+    },
+    {
       "indicador": "Vance · viento sostenido",
-      "valor": "140 km/h",
-      "tendencia": "Huracán categoría 1 · NHC 23 oct., 03:00 CST."
+      "valor": "100 km/h",
+      "tendencia": "Tormenta tropical, NHC · 26 oct. 09:00 CST."
     },
     {
       "indicador": "Vance · distancia a Manzanillo",
-      "valor": "930 km",
-      "tendencia": "Al sur-sureste del puerto · corte NHC 23 oct."
+      "valor": "425 km",
+      "tendencia": "Sur-suroeste del puerto · NHC 26 oct. 09:00 CST."
     },
     {
       "indicador": "Taiwán · vuelos cancelados",
       "valor": "977",
-      "tendencia": "Acumulado comunicado hasta las 10:00 del 23 oct.; no son solo vuelos de carga."
+      "tendencia": "Acumulado publicado 23 oct.; no equivale a cancelaciones del 26 oct."
     },
     {
-      "indicador": "Taoyuan · vuelos cargueros cancelados",
-      "valor": "75",
-      "tendencia": "Incluidos dentro de los 596 vuelos cancelados en el aeropuerto."
-    },
-    {
-      "indicador": "Taiwán · servicios de ferry suspendidos",
+      "indicador": "Taiwán · ferris suspendidos",
       "valor": "96",
-      "tendencia": "Salidas afectadas en 10 rutas; reporte del 23 oct."
+      "tendencia": "Salidas reportadas el 23 oct.; confirmar recuperación actual."
     },
     {
       "indicador": "Brasil · espera en Navegantes",
       "valor": "~5 días",
-      "tendencia": "Referencia aportada, NO verificada al 23 oct.; consultar terminal."
+      "tendencia": "Referencia sin corte confirmado al 26 oct.; validar con terminal."
     },
     {
-      "indicador": "India · espera en Nhava Sheva",
-      "valor": "1.83 días",
-      "tendencia": "Referencia aportada, pendiente de actualización operativa."
-    },
-    {
-      "indicador": "Puertos · cierres preventivos",
-      "valor": "Por validar",
-      "tendencia": "Consultar avisos oficiales por terminal: no inferir cierres por pronóstico."
+      "indicador": "Puertos · jornada laboral",
+      "valor": "30 oct.",
+      "tendencia": "Convocatoria internacional; afectación real pendiente de confirmación."
     }
   ],
   "recomendaciones": [
-    "México: revisar diariamente avisos de NHC, SEMAR y terminales para Manzanillo, Lázaro Cárdenas y puertos del Golfo antes de adelantar carga.",
-    "Taiwán: reconfirmar vuelos cargueros, conexiones y ventanas de embarque del 23 al 26 de octubre; considerar alternativas con el operador.",
-    "Combustible y tarifas: cotizar con recargos desglosados y vigencia expresa; evitar tratar cambios del gasto aéreo como cambios automáticos de flete.",
-    "Brasil e India: consultar demoras y liberación aduanal por terminal; no prometer ETA basados en referencias sin fecha verificable.",
-    "Europa y EE. UU.: validar con cada puerto si participará en acciones laborales del 30 de octubre; planear planes B solo donde corresponda.",
-    "Temporada alta: considerar Diwali (8 nov.), puente mexicano (16 nov.), Consciência Negra (20 nov.) y Thanksgiving (26 nov.)."
+    "México: confirmar por tramo las protestas y accesos antes de prometer tiempos de entrega o cruces; mantener opciones de reprogramación.",
+    "Pacífico mexicano: consultar NHC, SEMAR y avisos de terminales antes de modificar atraques; no asumir cierres generales.",
+    "Taiwán/Japón: reconfirmar guías aéreas, vuelos y disponibilidad real; considerar recuperación escalonada tras Champi.",
+    "Brasil e India: distinguir referencias históricas de datos vigentes al comunicar tiempos de espera.",
+    "Europa y puertos globales: revisar avisos para la convocatoria del 30 de octubre sin presentar toda protesta anunciada como paro confirmado.",
+    "Temporada alta: anticipar Diwali (8 nov.), puente mexicano (16 nov.), Consciência Negra (20 nov.) y Thanksgiving (26 nov.)."
   ]
 };
 
 const retrasos = [
   {
+    "puerto": "México · Carreteras",
+    "tiempo": "26 oct. · por tramo",
+    "estado": "Movilizaciones anunciadas; consultar cierres reales, desvíos y velocidades antes de confirmar ETA."
+  },
+  {
     "puerto": "México · Manzanillo",
-    "tiempo": "Seguimiento 24–26 oct.",
-    "estado": "Vance: comprobar maniobras, cierres de navegación y patio en avisos locales; sin cierre general confirmado por NHC."
+    "tiempo": "Validar hoy",
+    "estado": "Puerto reportado operativo frente al paro; vigilar navegación por Vance con SEMAR."
   },
   {
     "puerto": "México · Lázaro Cárdenas",
-    "tiempo": "Validar terminal",
-    "estado": "Vigilar oleaje y programación de buques por Vance."
+    "tiempo": "Vigilancia preventiva",
+    "estado": "Vance: posibles ajustes por oleaje; no se confirma cierre general."
   },
   {
-    "puerto": "México · Puertos del Golfo",
-    "tiempo": "Consultar SEMAR",
-    "estado": "Posibles restricciones por frente frío; confirmar tipo de embarcación y puerto específico."
+    "puerto": "Estados Unidos · frontera",
+    "tiempo": "Riesgo variable",
+    "estado": "El paro mexicano puede afectar disponibilidad terrestre y cruces; verificar transportista."
   },
   {
     "puerto": "Taiwán · Taoyuan",
-    "tiempo": "75 vuelos de carga cancelados",
-    "estado": "Incluidos en las 596 cancelaciones del aeropuerto reportadas el 23 de octubre."
+    "tiempo": "Recuperación",
+    "estado": "Vuelos cancelados previamente por Champi; confirmar programación actual de carga."
   },
   {
     "puerto": "Taiwán · Keelung / Taipei",
-    "tiempo": "Verificar operación",
-    "estado": "Revisar avisos de terminal y naviera por Champi, no presumir horarios de reapertura."
+    "tiempo": "Verificar terminal",
+    "estado": "Revisar reaperturas y posibles acumulaciones tras Champi."
   },
   {
     "puerto": "Brasil · Navegantes",
     "tiempo": "~5 días (referencia)",
-    "estado": "Indicador aportado sin validación del corte 23 oct.; confirmar con operador."
+    "estado": "Valor sin corte confirmado al 26 oct.; validar con terminal."
   },
   {
     "puerto": "India · Nhava Sheva",
     "tiempo": "1.83 días (referencia)",
-    "estado": "Confirmar accesos, gate y escala de naviera con actualización local."
+    "estado": "Actualizar gate, tiempos y omisiones de escalas con naviera."
   },
   {
     "puerto": "Europa · Rotterdam / Amberes",
     "tiempo": "Verificar conexiones",
-    "estado": "Posibles demoras de barcazas/feeder tras incidentes laborales; confirmar con terminal."
+    "estado": "Posibles demoras residuales en barcazas y feeders; no atribuir cierre general."
   }
 ];
 
-// Datos meteorológicos NHC 23 oct. 03:00 CST y CNA 23 oct. 10:00 Taiwán.
+// Actualización: NHC 26 oct. 09:00 CST; prensa mexicana 26 oct.; cancelaciones Taiwán corte 23 oct.
 
 // ======================================================
 // NO EDITAR DEBAJO DE ESTA LÍNEA
@@ -354,7 +359,7 @@ export default function Home() {
       </section>
 
       {/* TABLA DE RETRASOS PORTUARIOS */}
-      <section className="bg-white"><div className="mx-auto max-w-7xl px-6 py-14 md:px-10"><p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">OPERACIÓN PORTUARIA · CORTE 23 DE OCTUBRE</p><h2 className="mt-3 text-3xl font-bold text-[#003C6F]">Estado de puertos y conexiones</h2><p className="mt-3 max-w-4xl text-sm leading-6 text-gray-600">No se dispone de tiempos en vivo comparables en todos los puertos. Las cifras indicativas y restricciones deben validarse con terminal y naviera antes de comprometer ETA.</p><div className="mt-7 overflow-x-auto rounded-2xl border border-gray-200"><table className="w-full min-w-[760px] text-left text-sm"><thead className="bg-[#003C6F] text-white"><tr><th className="p-4">País / puerto</th><th className="p-4">Fecha o dato</th><th className="p-4">Estado e interpretación</th></tr></thead><tbody>{retrasos.map((r,i)=><tr key={r.puerto} className={i%2===0?"bg-[#F3F5F7]":"bg-white"}><td className="p-4 font-bold text-[#003C6F]">{r.puerto}</td><td className="p-4 font-semibold">{r.tiempo}</td><td className="p-4 text-gray-600">{r.estado}</td></tr>)}</tbody></table></div></div></section>
+      <section className="bg-white"><div className="mx-auto max-w-7xl px-6 py-14 md:px-10"><p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">OPERACIÓN LOGÍSTICA · CORTE 26 DE OCTUBRE</p><h2 className="mt-3 text-3xl font-bold text-[#003C6F]">Estado de puertos y conexiones</h2><p className="mt-3 max-w-4xl text-sm leading-6 text-gray-600">No se dispone de tiempos en vivo comparables en todos los puertos. Las cifras indicativas y restricciones deben validarse con terminal y naviera antes de comprometer ETA.</p><div className="mt-7 overflow-x-auto rounded-2xl border border-gray-200"><table className="w-full min-w-[760px] text-left text-sm"><thead className="bg-[#003C6F] text-white"><tr><th className="p-4">País / puerto</th><th className="p-4">Fecha o dato</th><th className="p-4">Estado e interpretación</th></tr></thead><tbody>{retrasos.map((r,i)=><tr key={r.puerto} className={i%2===0?"bg-[#F3F5F7]":"bg-white"}><td className="p-4 font-bold text-[#003C6F]">{r.puerto}</td><td className="p-4 font-semibold">{r.tiempo}</td><td className="p-4 text-gray-600">{r.estado}</td></tr>)}</tbody></table></div></div></section>
 
       {/* MÉTRICAS CLAVE */}
       <section className="bg-[#F3F5F7]">
