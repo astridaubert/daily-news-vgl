@@ -4,39 +4,39 @@ import Image from "next/image";
 const brief = {
   "fecha": "lunes 26 de octubre de 2026",
   "titulo": "Vector Global Logistics | Radar Logístico Global",
-  "subtitulo": "México: movilizaciones del autotransporte amenazan tiempos de entrega y cruces. En el Pacífico, Vance se debilita; Taiwán y Japón recuperan operaciones tras Champi. Vigilancia portuaria para el 30 de octubre.",
+  "subtitulo": "México: movilizaciones de transportistas afectan la planeación terrestre. Brasil: restricciones de carga durante las elecciones y seguimiento a rutas de Paraná. Taiwán y Japón recuperan conexiones tras Champi.",
   "noticias": [
-    {
-      "region": "MÉXICO · TRANSPORTE TERRESTRE",
-      "modo": "ALERTA ALTA · MOVILIZACIONES 26 OCT",
-      "imagen": "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=1200",
-      "bandera": "https://flagcdn.com/w40/mx.png",
-      "titular": "Paro de transportistas: riesgo en corredores industriales y fronterizos",
-      "dato": "CANACAR mantuvo movilizaciones desde la mañana del 26 de octubre; medios reportan una previsión de 44 concentraciones en 30 entidades. No todos los puntos son bloqueos totales. Corredores a vigilar: México–Querétaro, México–Pachuca, México–Puebla, Arco Norte, Bajío, Guadalajara y accesos a la frontera norte. Fuente: https://www.jornada.com.mx/2026/10/26/economia/021n1eco",
-      "impacto": "Posibles tiempos extra para carga terrestre, recolecciones, distribución y cruces México–EE. UU.; impacto variable por tramo y horario. En Manzanillo se reportaba operación portuaria sin afectación por las protestas al corte consultado.",
-      "accion": "Reconfirmar rutas y disponibilidad de unidades; consultar CAPUFE y transportistas antes de prometer ETA. Evitar asumir que todas las vías anunciadas están cerradas."
-    },
-    {
-      "region": "MÉXICO · PACÍFICO",
-      "modo": "ALERTA CLIMÁTICA · VANCE",
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Nora_1997-09-21_1630Z.png",
-      "bandera": "https://flagcdn.com/w40/mx.png",
-      "titular": "Vance pierde fuerza: atención preventiva a puertos del Pacífico",
-      "dato": "NHC, 26 oct. 09:00 CST: tormenta tropical con vientos sostenidos de 100 km/h, a 425 km al sur-suroeste de Manzanillo; avanza oeste-noroeste a 11 km/h. Sin alertas costeras vigentes. Fuente: https://prod-west-nhc.woc.noaa.gov/text/refresh/MIATCPEP2%2Bshtml/261433.shtml",
-      "impacto": "Oleaje, lluvia y ajustes preventivos de navegación pueden alterar ventanas de atraque y accesos de Manzanillo, Lázaro Cárdenas y Puerto Vallarta. No se confirma cierre portuario general.",
-      "accion": "Vigilar avisos del NHC y SEMAR y confirmar ventanas de terminal y naviera hasta el 30 de octubre."
-    },
-    {
-      "region": "ASIA · TAIWÁN Y JAPÓN",
-      "modo": "RECUPERACIÓN · CHAMPI",
-      "imagen": "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=1200",
-      "bandera": "https://flagcdn.com/w40/tw.png",
-      "titular": "Champi se degrada; persisten retrasos de vuelos y ferris",
-      "dato": "Champi se transformó en ciclón extratropical el 25 de octubre, según reportes publicados el 26. Taiwán había informado 977 vuelos cancelados y 96 servicios de ferry suspendidos al corte del 23 de octubre; no representan cancelaciones nuevas del día 26. Fuente: https://focustaiwan.tw/society/202610230007",
-      "impacto": "Es posible que la carga aérea y marítima experimente acumulación y reprogramaciones en Taoyuan y puertos de Taiwán, así como conexiones con Japón.",
-      "accion": "Confirmar vuelos, carga disponible, puertos y nuevas fechas de conexión. No trasladar el acumulado del 23 de octubre a una cifra diaria."
-    }
-  ],
+  {
+    "region": "MÉXICO · TRANSPORTE TERRESTRE",
+    "modo": "ALERTA ALTA · MOVILIZACIONES 26 OCT",
+    "imagen": "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=1200",
+    "bandera": "https://flagcdn.com/w40/mx.png",
+    "titular": "Paro de transportistas: riesgo en corredores industriales y fronterizos",
+    "dato": "CANACAR mantuvo movilizaciones desde la mañana del 26 de octubre; medios reportan una previsión de 44 concentraciones en 30 entidades. No todos los puntos son bloqueos totales. Corredores a vigilar: México–Querétaro, México–Pachuca, México–Puebla, Arco Norte, Bajío, Guadalajara y accesos a la frontera norte. Fuente: https://www.jornada.com.mx/2026/10/26/economia/021n1eco",
+    "impacto": "Posibles tiempos extra para carga terrestre, recolecciones, distribución y cruces México–EE. UU.; impacto variable por tramo y horario. En Manzanillo se reportaba operación portuaria sin afectación por las protestas al corte consultado.",
+    "accion": "Reconfirmar rutas y disponibilidad de unidades; consultar CAPUFE y transportistas antes de prometer ETA. Evitar asumir que todas las vías anunciadas están cerradas."
+  },
+  {
+    "region": "BRASIL · ELECCIONES 2026",
+    "modo": "SEGUIMIENTO · TRANSPORTE TERRESTRE",
+    "imagen": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1200",
+    "bandera": "https://flagcdn.com/w40/br.png",
+    "titular": "Elecciones en Brasil: restricciones de carga y vigilancia carretera",
+    "dato": "Durante la segunda vuelta del 25 de octubre, la Policía Rodoviaria Federal restringió de 07:00 a 18:00 el tránsito de vehículos muy largos y carga sobredimensionada en ciertos tramos de carreteras federales de un carril por sentido, con excepciones estatales. En Paraná, las lluvias también provocaron interrupciones en BR-153 y BR-476. Fuentes: https://www.gov.br/prf/pt-br/noticias/nacionais/2026/outubro/esquema-especial-de-policiamento-garante-livre-transito-de-eleitores-no-domingo-de-2o-turno",
+    "impacto": "La medida correspondió al domingo electoral y no implica una restricción nacional vigente el lunes 26. Pueden persistir ajustes locales en entregas y recolecciones; no hay evidencia aquí de cierre portuario general por las elecciones.",
+    "accion": "Confirmar el estado actual de las BR-153 y BR-476, corredores de entrega y ventanas de recogida con operadores locales antes de modificar ETAs."
+  },
+  {
+    "region": "ASIA · TAIWÁN Y JAPÓN",
+    "modo": "RECUPERACIÓN · CHAMPI",
+    "imagen": "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=1200",
+    "bandera": "https://flagcdn.com/w40/tw.png",
+    "titular": "Champi se degrada; persisten retrasos de vuelos y ferris",
+    "dato": "Champi se transformó en ciclón extratropical el 25 de octubre, según reportes publicados el 26. Taiwán había informado 977 vuelos cancelados y 96 servicios de ferry suspendidos al corte del 23 de octubre; no representan cancelaciones nuevas del día 26. Fuente: https://focustaiwan.tw/society/202610230007",
+    "impacto": "Es posible que la carga aérea y marítima experimente acumulación y reprogramaciones en Taoyuan y puertos de Taiwán, así como conexiones con Japón.",
+    "accion": "Confirmar vuelos, carga disponible, puertos y nuevas fechas de conexión. No trasladar el acumulado del 23 de octubre a una cifra diaria."
+  }
+],
   "vigilancia": [
     {
       "titulo": "México | Carreteras y cruces",
