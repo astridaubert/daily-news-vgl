@@ -17,14 +17,14 @@ const brief = {
     "accion": "Reconfirmar rutas y disponibilidad de unidades; consultar CAPUFE y transportistas antes de prometer ETA. Evitar asumir que todas las vías anunciadas están cerradas."
   },
   {
-    "region": "BRASIL · ELECCIONES 2026",
-    "modo": "SEGUIMIENTO · TRANSPORTE TERRESTRE",
-    "imagen": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1200",
+    "region": "BRASIL · TRANSPORTE TERRESTRE",
+    "modo": "SEGUIMIENTO · DEMORAS EN CARRETERAS",
+    "imagen": "https://images.unsplash.com/photo-1494412651409-8963ce7935a7?w=1200",
     "bandera": "https://flagcdn.com/w40/br.png",
-    "titular": "Elecciones en Brasil: restricciones de carga y vigilancia carretera",
-    "dato": "Durante la segunda vuelta del 25 de octubre, la Policía Rodoviaria Federal restringió de 07:00 a 18:00 el tránsito de vehículos muy largos y carga sobredimensionada en ciertos tramos de carreteras federales de un carril por sentido, con excepciones estatales. En Paraná, las lluvias también provocaron interrupciones en BR-153 y BR-476. Fuentes: https://www.gov.br/prf/pt-br/noticias/nacionais/2026/outubro/esquema-especial-de-policiamento-garante-livre-transito-de-eleitores-no-domingo-de-2o-turno",
-    "impacto": "La medida correspondió al domingo electoral y no implica una restricción nacional vigente el lunes 26. Pueden persistir ajustes locales en entregas y recolecciones; no hay evidencia aquí de cierre portuario general por las elecciones.",
-    "accion": "Confirmar el estado actual de las BR-153 y BR-476, corredores de entrega y ventanas de recogida con operadores locales antes de modificar ETAs."
+    "titular": "Brasil: riesgo de retrasos terrestres tras la jornada electoral",
+    "dato": "Durante la segunda vuelta del 25 de octubre hubo restricciones temporales para vehículos sobredimensionados en determinadas carreteras federales y se reportaron bloqueos puntuales. Las lluvias también afectaron tramos de Paraná, incluidos BR-153 y BR-476. Las restricciones electorales correspondían al domingo; no hay confirmación de que continúen el 26.",
+    "impacto": "Posibles demoras localizadas en recolecciones, entregas y distribución terrestre por acumulación de tráfico o afectaciones carreteras. No se ha confirmado una paralización logística nacional ni un tiempo general de retraso.",
+    "accion": "Consultar el estado de cada ruta con operadores y la Policía Rodoviaria Federal; reconfirmar ventanas de carga y ETA antes de despachar."
   },
   {
     "region": "ASIA · TAIWÁN Y JAPÓN",
