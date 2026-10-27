@@ -21,8 +21,8 @@ const brief = {
       "modo": "ALZA · TARIFAS NOVIEMBRE",
       "imagen": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?w=1200",
       "bandera": "",
-      "titular": "Aumentan las tarifas de contenedores: navieras anuncian FAK para noviembre",
-      "dato": "El transporte marítimo de contenedores vuelve a encarecerse. El 22 de octubre, el índice mundial de tarifas de Drewry subió 2% respecto a la semana anterior, hasta USD 4,585 por contenedor de 40 pies. También aumentaron las tarifas entre Shanghái y puertos europeos como Rotterdam y Génova. Para noviembre, MSC y CMA CGM anunciaron nuevas tarifas de referencia desde Asia hacia Europa y el Mediterráneo, de entre USD 4,500 y USD 5,200 por contenedor de 40 pies, según el destino. Estos montos son tarifas anunciadas y no necesariamente el precio final de cada embarque.",
+      "titular": "Tarifas marítimas al alza: navieras anuncian nuevos precios para noviembre",
+      "dato": "Las tarifas del transporte marítimo de contenedores registran su segunda semana consecutiva de aumentos. Según el último reporte disponible de Drewry, publicado el 22 de octubre, el índice mundial alcanzó USD 4,585 por contenedor de 40 pies, un incremento semanal del 2%. Ante esta tendencia, MSC y CMA CGM anunciaron nuevas tarifas de referencia para noviembre en rutas desde Asia hacia Europa y el Mediterráneo, que oscilan entre USD 4,500 y USD 5,200 por contenedor de 40 pies, dependiendo del destino. Estos anuncios podrían generar mayores costos logísticos durante noviembre, aunque los incrementos dependerán de cada ruta, naviera y condiciones del mercado.",
       "impacto": "Los importadores podrían recibir cotizaciones más altas o con menor vigencia durante noviembre. El incremento real dependerá de la ruta, la naviera, la disponibilidad de espacio y los recargos aplicables; no significa que todos los embarques subirán por igual.",
       "accion": "Revisar las nuevas cotizaciones antes de confirmar embarques. En rutas Asia–México, validar por separado si existen aumentos aplicables y su fecha de entrada en vigor."
     },
