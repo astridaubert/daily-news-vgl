@@ -29,7 +29,7 @@ const brief = {
     {
       "region": "GOLFO PÉRSICO · ENERGÍA",
       "modo": "RIESGO · COSTOS Y SEGUROS",
-      "imagen": "https://images.unsplash.com/photo-1566375637260-dca9b39be9b2?w=1200",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/US_Navy_040705-N-2972R-040_A_merchant_ship_sails_off_the_starboard_side_of_the_amphibious_assault_ship_USS_Kearsarge_%28LHD_3%29_while_transiting_the_Straits_of_Hormuz.jpg?width=1200",
       "bandera": "",
       "titular": "Ormuz mantiene presión sobre seguros, combustible y fletes",
       "dato": "La tensión en el Estrecho de Ormuz sigue elevando el riesgo para el transporte marítimo internacional. Aunque el tránsito continúa, la incertidumbre en la zona mantiene presión sobre los seguros de guerra, los costos de combustible y algunos recargos logísticos.",
