@@ -27,24 +27,14 @@ const brief = {
       "accion": "Revisar las nuevas cotizaciones antes de confirmar embarques. En rutas Asia–México, validar por separado si existen aumentos aplicables y su fecha de entrada en vigor."
     },
     {
-      "region": "ASIA–EUROPA · CAPACIDAD",
-      "modo": "ALERTA · BLANK SAILINGS",
-      "imagen": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1200",
-      "bandera": "",
-      "titular": "Cancelaciones de salidas reducen capacidad efectiva Asia–Europa",
-      "dato": "Drewry identificó ocho blank sailings Asia–Europa para la semana posterior al corte del 22 de octubre, frente a dos la semana previa. Las cancelaciones pueden sostener temporalmente tarifas más altas y desplazar carga a otras salidas.",
-      "impacto": "Menos opciones de itinerario, riesgo de rollovers y cambios de conexión para embarques de finales de octubre y noviembre.",
-      "accion": "Reservar con anticipación, confirmar que el servicio no esté cancelado y revisar alternativas de puerto y transbordo."
-    },
-    {
       "region": "GOLFO PÉRSICO · ENERGÍA",
-      "modo": "RIESGO · SEGUROS Y COMBUSTIBLE",
-      "imagen": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200",
+      "modo": "RIESGO · COSTOS Y SEGUROS",
+      "imagen": "https://images.unsplash.com/photo-1566375637260-dca9b39be9b2?w=1200",
       "bandera": "",
-      "titular": "Riesgo en Ormuz continúa presionando seguros y fletes",
-      "dato": "El Ministerio de Transporte de Singapur confirmó incrementos considerables de primas de riesgo de guerra y tarifas por la inseguridad en el Golfo. Las cifras de tránsito, Brent y WTI compartidas para el 25–27 de octubre siguen pendientes de corroboración independiente y no se presentan como precios en vivo.",
-      "impacto": "Posible presión sobre recargos de combustible, seguros y rutas marítimas o aéreas con conexión al Golfo.",
-      "accion": "Solicitar desglose actualizado de bunker, fuel y primas; evaluar ruta alternativa y condiciones de cobertura."
+      "titular": "Ormuz mantiene presión sobre seguros, combustible y fletes",
+      "dato": "La tensión en el Estrecho de Ormuz sigue elevando el riesgo para el transporte marítimo internacional. Aunque el tránsito continúa, la incertidumbre en la zona mantiene presión sobre los seguros de guerra, los costos de combustible y algunos recargos logísticos.",
+      "impacto": "Esto puede traducirse en mayores costos de transporte y más volatilidad en las cotizaciones, especialmente en rutas sensibles al precio del combustible o expuestas a recargos por riesgo.",
+      "accion": "Revisar con navieras y operadores logísticos los recargos vigentes, validar la cobertura de seguro y anticipar posibles ajustes de tarifa en embarques internacionales."
     }
   ],
   "vigilancia": [
