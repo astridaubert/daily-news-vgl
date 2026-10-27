@@ -12,7 +12,7 @@ const brief = {
       "imagen": "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=1200",
       "bandera": "https://flagcdn.com/w40/mx.png",
       "titular": "Paro de transportistas: continúan riesgos de bloqueos y demoras",
-      "dato": "Tras las movilizaciones del 26 de octubre, la mayoría de cierres se levantó durante la noche, pero se reportaron tramos pendientes y amenazas de nuevas protestas el 27. México–Toluca, México–Querétaro, México–Pachuca y Chamapa–Lechería requieren monitoreo; no hay cierre nacional confirmado para este martes. Fuentes: https://www.elfinanciero.com.mx/nacional/2026/10/27/paro-de-transportistas-esto-sabemos-sobre-los-bloqueos-y-reuniones-con-gobierno-para-este-martes/ ; https://www.nmas.com.mx/movilidad/hay-bloqueos-manana-27-de-octubre-2026-cierres-transportistas-paro/",
+      "dato": "Tras las movilizaciones del 26 de octubre, la mayoría de cierres se levantó durante la noche, pero se reportaron tramos pendientes y amenazas de nuevas protestas el 27. México–Toluca, México–Querétaro, México–Pachuca y Chamapa–Lechería requieren monitoreo; no hay cierre nacional confirmado para este martes.",
       "impacto": "Afectaciones intermitentes a recolecciones, rutas industriales, accesos aeroportuarios y tiempos de entrega, según tramo y horario.",
       "accion": "Validar CAPUFE, SICT y operador por corredor; reconfirmar citas y ETA. No tratar amenazas de bloqueo como cierres confirmados."
     },
@@ -22,9 +22,9 @@ const brief = {
       "imagen": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?w=1200",
       "bandera": "",
       "titular": "Aumentan las tarifas de contenedores: navieras anuncian FAK para noviembre",
-      "dato": "Drewry reportó el 22 de octubre un WCI de USD 4,585 por contenedor de 40 pies (+2% semanal, máximo de 15 semanas). Shanghái–Rotterdam alcanzó USD 3,632 (+3%) y Shanghái–Génova USD 4,152 (+5%). MSC anunció USD 4,500/FEU desde Extremo Oriente a Norte de Europa desde el 1 de noviembre; CMA CGM publicó USD 4,900/FEU a Mediterráneo occidental y USD 5,200/FEU a oriental, del 1 al 14 de noviembre. Fuentes: https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry ; https://www.msc.com/es/newsroom/customer-advisories/2026/october/pa-trade-from-far-east-to-nwc-and-mediterranean-and-black-sea ; https://monitor.cma-cgm.com/news/5653/fak-rates-from-asia-to-the-mediterranean-amp-north-africa",
-      "impacto": "Mayor volatilidad de cotizaciones en Asia–Europa y posible presión indirecta sobre otras rutas. Los FAK anunciados no garantizan que los precios spot se sostengan.",
-      "accion": "Solicitar cotización por puerto, equipo y ETD con fecha de validez; confirmar GRI, FAK y recargos para Asia–México antes de presupuestar."
+      "dato": "El transporte marítimo de contenedores vuelve a encarecerse. El 22 de octubre, el índice mundial de tarifas de Drewry subió 2% respecto a la semana anterior, hasta USD 4,585 por contenedor de 40 pies. También aumentaron las tarifas entre Shanghái y puertos europeos como Rotterdam y Génova. Para noviembre, MSC y CMA CGM anunciaron nuevas tarifas de referencia desde Asia hacia Europa y el Mediterráneo, de entre USD 4,500 y USD 5,200 por contenedor de 40 pies, según el destino. Estos montos son tarifas anunciadas y no necesariamente el precio final de cada embarque.",
+      "impacto": "Los importadores podrían recibir cotizaciones más altas o con menor vigencia durante noviembre. El incremento real dependerá de la ruta, la naviera, la disponibilidad de espacio y los recargos aplicables; no significa que todos los embarques subirán por igual.",
+      "accion": "Revisar las nuevas cotizaciones antes de confirmar embarques. En rutas Asia–México, validar por separado si existen aumentos aplicables y su fecha de entrada en vigor."
     },
     {
       "region": "ASIA–EUROPA · CAPACIDAD",
@@ -32,7 +32,7 @@ const brief = {
       "imagen": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1200",
       "bandera": "",
       "titular": "Cancelaciones de salidas reducen capacidad efectiva Asia–Europa",
-      "dato": "Drewry identificó ocho blank sailings Asia–Europa para la semana posterior al corte del 22 de octubre, frente a dos la semana previa. Las cancelaciones pueden sostener temporalmente tarifas más altas y desplazar carga a otras salidas. Fuente: https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry",
+      "dato": "Drewry identificó ocho blank sailings Asia–Europa para la semana posterior al corte del 22 de octubre, frente a dos la semana previa. Las cancelaciones pueden sostener temporalmente tarifas más altas y desplazar carga a otras salidas.",
       "impacto": "Menos opciones de itinerario, riesgo de rollovers y cambios de conexión para embarques de finales de octubre y noviembre.",
       "accion": "Reservar con anticipación, confirmar que el servicio no esté cancelado y revisar alternativas de puerto y transbordo."
     },
@@ -42,7 +42,7 @@ const brief = {
       "imagen": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200",
       "bandera": "",
       "titular": "Riesgo en Ormuz continúa presionando seguros y fletes",
-      "dato": "El Ministerio de Transporte de Singapur confirmó incrementos considerables de primas de riesgo de guerra y tarifas por la inseguridad en el Golfo. Las cifras de tránsito, Brent y WTI compartidas para el 25–27 de octubre siguen pendientes de corroboración independiente y no se presentan como precios en vivo. Fuente: https://www.mot.gov.sg/news-resources/newsroom/increases-in-war-risk-insurance-premiums--marine-insurance-costs-and-freight-rates-due-to-us-iran-conflict/",
+      "dato": "El Ministerio de Transporte de Singapur confirmó incrementos considerables de primas de riesgo de guerra y tarifas por la inseguridad en el Golfo. Las cifras de tránsito, Brent y WTI compartidas para el 25–27 de octubre siguen pendientes de corroboración independiente y no se presentan como precios en vivo.",
       "impacto": "Posible presión sobre recargos de combustible, seguros y rutas marítimas o aéreas con conexión al Golfo.",
       "accion": "Solicitar desglose actualizado de bunker, fuel y primas; evaluar ruta alternativa y condiciones de cobertura."
     }
