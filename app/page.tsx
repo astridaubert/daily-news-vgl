@@ -1,195 +1,200 @@
 import Image from "next/image";
 
-// DATOS EDITABLES — 26 OCTUBRE 2026
+// DATOS EDITABLES — 27 OCTUBRE 2026
 const brief = {
-  "fecha": "lunes 26 de octubre de 2026",
+  "fecha": "martes 27 de octubre de 2026",
   "titulo": "Vector Global Logistics | Radar Logístico Global",
-  "subtitulo": "México: movilizaciones de transportistas afectan la planeación terrestre. Brasil: restricciones de carga durante las elecciones y seguimiento a rutas de Paraná. Taiwán y Japón recuperan conexiones tras Champi.",
+  "subtitulo": "Alerta en México por posibles nuevos bloqueos; tarifas marítimas al alza rumbo a noviembre, blank sailings en Asia–Europa y presión energética en rutas internacionales.",
   "noticias": [
-  {
-    "region": "MÉXICO · TRANSPORTE TERRESTRE",
-    "modo": "ALERTA ALTA · MOVILIZACIONES 26 OCT",
-    "imagen": "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=1200",
-    "bandera": "https://flagcdn.com/w40/mx.png",
-    "titular": "Paro de transportistas: riesgo en corredores industriales y fronterizos",
-    "dato": "CANACAR mantuvo movilizaciones desde la mañana del 26 de octubre; medios reportan una previsión de 44 concentraciones en 30 entidades. No todos los puntos son bloqueos totales. Corredores a vigilar: México–Querétaro, México–Pachuca, México–Puebla, Arco Norte, Bajío, Guadalajara y accesos a la frontera norte. Fuente: https://www.jornada.com.mx/2026/10/26/economia/021n1eco",
-    "impacto": "Posibles tiempos extra para carga terrestre, recolecciones, distribución y cruces México–EE. UU.; impacto variable por tramo y horario. En Manzanillo se reportaba operación portuaria sin afectación por las protestas al corte consultado.",
-    "accion": "Reconfirmar rutas y disponibilidad de unidades; consultar CAPUFE y transportistas antes de prometer ETA. Evitar asumir que todas las vías anunciadas están cerradas."
-  },
-  {
-    "region": "BRASIL · TRANSPORTE TERRESTRE",
-    "modo": "SEGUIMIENTO · DEMORAS EN CARRETERAS",
-    "imagen": "https://images.unsplash.com/photo-1494412651409-8963ce7935a7?w=1200",
-    "bandera": "https://flagcdn.com/w40/br.png",
-    "titular": "Brasil: riesgo de retrasos terrestres tras la jornada electoral",
-    "dato": "Durante la segunda vuelta del 25 de octubre hubo restricciones temporales para vehículos sobredimensionados en determinadas carreteras federales y se reportaron bloqueos puntuales. Las lluvias también afectaron tramos de Paraná, incluidos BR-153 y BR-476. Las restricciones electorales correspondían al domingo; no hay confirmación de que continúen el 26.",
-    "impacto": "Posibles demoras localizadas en recolecciones, entregas y distribución terrestre por acumulación de tráfico o afectaciones carreteras. No se ha confirmado una paralización logística nacional ni un tiempo general de retraso.",
-    "accion": "Consultar el estado de cada ruta con operadores y la Policía Rodoviaria Federal; reconfirmar ventanas de carga y ETA antes de despachar."
-  },
-  {
-    "region": "ASIA · TAIWÁN Y JAPÓN",
-    "modo": "RECUPERACIÓN · CHAMPI",
-    "imagen": "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=1200",
-    "bandera": "https://flagcdn.com/w40/tw.png",
-    "titular": "Champi se degrada; persisten retrasos de vuelos y ferris",
-    "dato": "Champi se transformó en ciclón extratropical el 25 de octubre, según reportes publicados el 26. Taiwán había informado 977 vuelos cancelados y 96 servicios de ferry suspendidos al corte del 23 de octubre; no representan cancelaciones nuevas del día 26. Fuente: https://focustaiwan.tw/society/202610230007",
-    "impacto": "Es posible que la carga aérea y marítima experimente acumulación y reprogramaciones en Taoyuan y puertos de Taiwán, así como conexiones con Japón.",
-    "accion": "Confirmar vuelos, carga disponible, puertos y nuevas fechas de conexión. No trasladar el acumulado del 23 de octubre a una cifra diaria."
-  }
-],
+    {
+      "region": "MÉXICO · TRANSPORTE TERRESTRE",
+      "modo": "ALERTA · SEGUIMIENTO 27 OCT",
+      "imagen": "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=1200",
+      "bandera": "https://flagcdn.com/w40/mx.png",
+      "titular": "Paro de transportistas: continúan riesgos de bloqueos y demoras",
+      "dato": "Tras las movilizaciones del 26 de octubre, la mayoría de cierres se levantó durante la noche, pero se reportaron tramos pendientes y amenazas de nuevas protestas el 27. México–Toluca, México–Querétaro, México–Pachuca y Chamapa–Lechería requieren monitoreo; no hay cierre nacional confirmado para este martes. Fuentes: https://www.elfinanciero.com.mx/nacional/2026/10/27/paro-de-transportistas-esto-sabemos-sobre-los-bloqueos-y-reuniones-con-gobierno-para-este-martes/ ; https://www.nmas.com.mx/movilidad/hay-bloqueos-manana-27-de-octubre-2026-cierres-transportistas-paro/",
+      "impacto": "Afectaciones intermitentes a recolecciones, rutas industriales, accesos aeroportuarios y tiempos de entrega, según tramo y horario.",
+      "accion": "Validar CAPUFE, SICT y operador por corredor; reconfirmar citas y ETA. No tratar amenazas de bloqueo como cierres confirmados."
+    },
+    {
+      "region": "GLOBAL · FLETES MARÍTIMOS",
+      "modo": "ALZA · TARIFAS NOVIEMBRE",
+      "imagen": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?w=1200",
+      "bandera": "",
+      "titular": "Aumentan las tarifas de contenedores: navieras anuncian FAK para noviembre",
+      "dato": "Drewry reportó el 22 de octubre un WCI de USD 4,585 por contenedor de 40 pies (+2% semanal, máximo de 15 semanas). Shanghái–Rotterdam alcanzó USD 3,632 (+3%) y Shanghái–Génova USD 4,152 (+5%). MSC anunció USD 4,500/FEU desde Extremo Oriente a Norte de Europa desde el 1 de noviembre; CMA CGM publicó USD 4,900/FEU a Mediterráneo occidental y USD 5,200/FEU a oriental, del 1 al 14 de noviembre. Fuentes: https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry ; https://www.msc.com/es/newsroom/customer-advisories/2026/october/pa-trade-from-far-east-to-nwc-and-mediterranean-and-black-sea ; https://monitor.cma-cgm.com/news/5653/fak-rates-from-asia-to-the-mediterranean-amp-north-africa",
+      "impacto": "Mayor volatilidad de cotizaciones en Asia–Europa y posible presión indirecta sobre otras rutas. Los FAK anunciados no garantizan que los precios spot se sostengan.",
+      "accion": "Solicitar cotización por puerto, equipo y ETD con fecha de validez; confirmar GRI, FAK y recargos para Asia–México antes de presupuestar."
+    },
+    {
+      "region": "ASIA–EUROPA · CAPACIDAD",
+      "modo": "ALERTA · BLANK SAILINGS",
+      "imagen": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1200",
+      "bandera": "",
+      "titular": "Cancelaciones de salidas reducen capacidad efectiva Asia–Europa",
+      "dato": "Drewry identificó ocho blank sailings Asia–Europa para la semana posterior al corte del 22 de octubre, frente a dos la semana previa. Las cancelaciones pueden sostener temporalmente tarifas más altas y desplazar carga a otras salidas. Fuente: https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry",
+      "impacto": "Menos opciones de itinerario, riesgo de rollovers y cambios de conexión para embarques de finales de octubre y noviembre.",
+      "accion": "Reservar con anticipación, confirmar que el servicio no esté cancelado y revisar alternativas de puerto y transbordo."
+    },
+    {
+      "region": "GOLFO PÉRSICO · ENERGÍA",
+      "modo": "RIESGO · SEGUROS Y COMBUSTIBLE",
+      "imagen": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200",
+      "bandera": "",
+      "titular": "Riesgo en Ormuz continúa presionando seguros y fletes",
+      "dato": "El Ministerio de Transporte de Singapur confirmó incrementos considerables de primas de riesgo de guerra y tarifas por la inseguridad en el Golfo. Las cifras de tránsito, Brent y WTI compartidas para el 25–27 de octubre siguen pendientes de corroboración independiente y no se presentan como precios en vivo. Fuente: https://www.mot.gov.sg/news-resources/newsroom/increases-in-war-risk-insurance-premiums--marine-insurance-costs-and-freight-rates-due-to-us-iran-conflict/",
+      "impacto": "Posible presión sobre recargos de combustible, seguros y rutas marítimas o aéreas con conexión al Golfo.",
+      "accion": "Solicitar desglose actualizado de bunker, fuel y primas; evaluar ruta alternativa y condiciones de cobertura."
+    }
+  ],
   "vigilancia": [
     {
-      "titulo": "México | Carreteras y cruces",
+      "titulo": "México | Protestas y accesos",
       "bandera": "https://flagcdn.com/w40/mx.png",
-      "texto": "Movilizaciones de transportistas el 26 oct. Vigilar México–Querétaro, México–Pachuca, Arco Norte, Bajío, Guadalajara, Monterrey–Laredo y Reynosa. Los bloqueos deben validarse por tramo; consultar CAPUFE."
+      "texto": "La mayoría de bloqueos del 26 fue levantada, pero algunos continuaron y podrían reanudarse el 27. Verificar México–Toluca, México–Querétaro, México–Pachuca y Chamapa–Lechería por tramo con CAPUFE."
     },
     {
-      "titulo": "México | Pacífico: Vance",
+      "titulo": "Asia–México | GRI y contratos",
       "bandera": "https://flagcdn.com/w40/mx.png",
-      "texto": "NHC 26 oct., 09:00 CST: tormenta tropical de 100 km/h, 425 km SSO de Manzanillo, sin avisos costeros. Vigilar oleaje y lluvias hasta el 30 oct. https://www.nhc.noaa.gov/"
+      "texto": "Solicitar confirmación escrita de cualquier GRI/FAK aplicado a México, equipo 20’/40’, vigencia, puerto y fecha de zarpe. Un anuncio para Europa no prueba automáticamente un alza equivalente hacia México."
     },
     {
-      "titulo": "México | Puertos y AIFA",
-      "bandera": "https://flagcdn.com/w40/mx.png",
-      "texto": "Manzanillo seguía operando sin afectaciones por el paro en el reporte consultado; verificar cada terminal. En AIFA, monitorear accesos por Chamapa–Lechería, México–Pachuca y Arco Norte."
-    },
-    {
-      "titulo": "Estados Unidos | Cruces y puertos",
-      "bandera": "https://flagcdn.com/w40/us.png",
-      "texto": "El paro en México podría disminuir la capacidad de camiones hacia Laredo y otros cruces. Confirmar inspecciones y ventanas; en Los Ángeles/Long Beach vigilar conexiones ferroviarias y de temporada alta."
-    },
-    {
-      "titulo": "Brasil | Navegantes y aduanas",
-      "bandera": "https://flagcdn.com/w40/br.png",
-      "texto": "Referencias reportadas: Navegantes ~5 días, Itajaí ~2 días, Manaus ~1 día. No son métricas confirmadas para hoy; solicitar corte vigente de terminal y consultar efectos aduaneros con Receita Federal."
-    },
-    {
-      "titulo": "India | Nhava Sheva y EPIC2/IOS",
-      "bandera": "https://flagcdn.com/w40/in.png",
-      "texto": "Referencia de espera en Nhava Sheva: 1.83 días, pendiente de validación. Revisar omisiones de escalas de Tsingtao Express, Kyoto Express y Sofia Express directamente con CMA CGM."
-    },
-    {
-      "titulo": "Taiwán y Japón | Recuperación Champi",
-      "bandera": "https://flagcdn.com/w40/tw.png",
-      "texto": "Tras el paso de Champi, comprobar normalización de carga aérea y ferris; 977 vuelos y 96 salidas de ferry afectados corresponden al acumulado del 23 oct., no al 26."
-    },
-    {
-      "titulo": "Europa | Rotterdam, Amberes y Francia",
-      "bandera": "https://flagcdn.com/w40/nl.png",
-      "texto": "Rotterdam continúa recuperando conexiones tras la huelga; verificar barcazas y feeders. En Amberes vigilar retrasos y en Francia avisos portuarios actuales, sin describir la huelga aérea del 17–21 como vigente."
-    },
-    {
-      "titulo": "Global | Acción portuaria 30 octubre",
+      "titulo": "Asia–Europa | Blank sailings",
       "bandera": "",
-      "texto": "Organizaciones sindicales convocaron una jornada internacional de acción el 30 de octubre. Los cierres y terminales participantes aún requieren confirmación local; no equiparar convocatoria con suspensión general."
+      "texto": "Drewry: ocho salidas canceladas anunciadas para la semana siguiente al 22 oct., contra dos la semana anterior. Revisar reservas, rollovers y conexiones."
+    },
+    {
+      "titulo": "Estados Unidos | Última milla",
+      "bandera": "https://flagcdn.com/w40/us.png",
+      "texto": "Monitorear recargos por combustible y tarifas de paquetería de temporada alta. Porcentajes y precios spot aportados requieren validación por fecha y servicio antes de publicarse como vigentes."
+    },
+    {
+      "titulo": "Global | Golfo Pérsico y Ormuz",
+      "bandera": "",
+      "texto": "Riesgo de guerra eleva costos de seguro y transporte. Consultar advisories de navieras y aseguradoras para cada tránsito; evitar atribuir a hoy cotizaciones no verificadas."
+    },
+    {
+      "titulo": "Singapur | Transbordos",
+      "bandera": "https://flagcdn.com/w40/sg.png",
+      "texto": "Vigilar congestión y tiempos de conexión en servicios Asia–Europa; la espera específica de tres días aportada está pendiente de validación actual por terminal."
+    },
+    {
+      "titulo": "Brasil | Puertos y carreteras",
+      "bandera": "https://flagcdn.com/w40/br.png",
+      "texto": "Seguir recuperación de rutas tras elecciones y lluvias, además de ventanas y filas en puertos. Restricciones electorales del 25 oct. no deben presentarse como cierres vigentes el 27."
+    },
+    {
+      "titulo": "India | Nhava Sheva y Mundra",
+      "bandera": "https://flagcdn.com/w40/in.png",
+      "texto": "Reconfirmar disponibilidad de contenedor, gate y omisiones de escala con naviera; no asumir esperas históricas como mediciones actuales."
+    },
+    {
+      "titulo": "Europa | Rotterdam y Amberes",
+      "bandera": "https://flagcdn.com/w40/nl.png",
+      "texto": "Solicitar estimados actualizados de barcazas y feeders; la recuperación de retrasos previos puede ser escalonada."
     },
     {
       "titulo": "Calendario | Próximos festivos",
       "bandera": "",
-      "texto": "1 nov. Todos los Santos (según país); 2 nov. Día de Muertos (no descanso obligatorio federal en México); 8 nov. Diwali (India); 13–16 nov. Buen Fin; 16 nov. puente Revolución Mexicana; 20 nov. Consciência Negra (Brasil); 24 nov. Guru Nanak Jayanti (India); 26 nov. Thanksgiving (EE. UU.)."
+      "texto": "1 nov. Todos los Santos (según país); 2 nov. Día de Muertos (no descanso federal obligatorio en México); 8 nov. Diwali (India); 16 nov. puente de Revolución Mexicana; 20 nov. Consciência Negra (Brasil); 26 nov. Thanksgiving (EE. UU.)."
     }
   ],
   "metricas": [
     {
-      "indicador": "México · movilizaciones previstas",
-      "valor": "44",
-      "tendencia": "Previsión de concentraciones en 30 entidades, no 44 cierres confirmados · 26 oct."
+      "indicador": "Drewry WCI · global",
+      "valor": "USD 4,585",
+      "tendencia": "+2% semanal · por FEU al 22 oct."
     },
     {
-      "indicador": "México · entidades con concentraciones",
-      "valor": "30",
-      "tendencia": "Reportes iniciales de la jornada del 26 oct.; alcance cambiante."
+      "indicador": "Shanghái → Rotterdam",
+      "valor": "USD 3,632",
+      "tendencia": "+3% semanal · FEU · 22 oct."
     },
     {
-      "indicador": "Vance · viento sostenido",
-      "valor": "100 km/h",
-      "tendencia": "Tormenta tropical, NHC · 26 oct. 09:00 CST."
+      "indicador": "Shanghái → Génova",
+      "valor": "USD 4,152",
+      "tendencia": "+5% semanal · FEU · 22 oct."
     },
     {
-      "indicador": "Vance · distancia a Manzanillo",
-      "valor": "425 km",
-      "tendencia": "Sur-suroeste del puerto · NHC 26 oct. 09:00 CST."
+      "indicador": "MSC · Asia–Norte de Europa",
+      "valor": "USD 4,500",
+      "tendencia": "FAK por FEU anunciado desde 1 nov., sujeto a condiciones."
     },
     {
-      "indicador": "Taiwán · vuelos cancelados",
-      "valor": "977",
-      "tendencia": "Acumulado publicado 23 oct.; no equivale a cancelaciones del 26 oct."
+      "indicador": "CMA CGM · Asia–Med. oeste",
+      "valor": "USD 4,900",
+      "tendencia": "FAK por FEU anunciado 1–14 nov."
     },
     {
-      "indicador": "Taiwán · ferris suspendidos",
-      "valor": "96",
-      "tendencia": "Salidas reportadas el 23 oct.; confirmar recuperación actual."
+      "indicador": "Asia–Europa · salidas canceladas",
+      "valor": "8",
+      "tendencia": "Anunciadas para la semana posterior al 22 oct. · Drewry."
     },
     {
-      "indicador": "Brasil · espera en Navegantes",
-      "valor": "~5 días",
-      "tendencia": "Referencia sin corte confirmado al 26 oct.; validar con terminal."
+      "indicador": "México · paro carretero",
+      "valor": "27 oct.",
+      "tendencia": "Seguimiento; cierres sujetos a confirmación por tramo."
     },
     {
-      "indicador": "Puertos · jornada laboral",
-      "valor": "30 oct.",
-      "tendencia": "Convocatoria internacional; afectación real pendiente de confirmación."
+      "indicador": "Riesgo en Ormuz",
+      "valor": "Elevado",
+      "tendencia": "Seguros y recargos requieren cotización específica."
     }
   ],
   "recomendaciones": [
-    "México: confirmar por tramo las protestas y accesos antes de prometer tiempos de entrega o cruces; mantener opciones de reprogramación.",
-    "Pacífico mexicano: consultar NHC, SEMAR y avisos de terminales antes de modificar atraques; no asumir cierres generales.",
-    "Taiwán/Japón: reconfirmar guías aéreas, vuelos y disponibilidad real; considerar recuperación escalonada tras Champi.",
-    "Brasil e India: distinguir referencias históricas de datos vigentes al comunicar tiempos de espera.",
-    "Europa y puertos globales: revisar avisos para la convocatoria del 30 de octubre sin presentar toda protesta anunciada como paro confirmado.",
-    "Temporada alta: anticipar Diwali (8 nov.), puente mexicano (16 nov.), Consciência Negra (20 nov.) y Thanksgiving (26 nov.)."
+    "Asia–Europa: cotizar con vigencia definida para zarpe de noviembre; comparar FAK anunciadas con la oferta spot y verificar conceptos incluidos.",
+    "Asia–México: confirmar por escrito la aplicación de GRI, puertos, fechas y tipo de contenedor; no trasladar automáticamente las tarifas europeas.",
+    "Blank sailings: revisar itinerarios, reservar capacidad alternativa y definir margen para transbordos o rollovers.",
+    "México: monitorear accesos y protestas con CAPUFE antes de confirmar ETA, sin asumir bloqueos nacionales permanentes.",
+    "Golfo Pérsico: revisar seguro de guerra y recargos energéticos en rutas expuestas.",
+    "Última milla en EE. UU.: validar fuel surcharges y escalas de temporada alta en contrato antes de presupuestar."
   ]
 };
 
 const retrasos = [
   {
-    "puerto": "México · Carreteras",
-    "tiempo": "26 oct. · por tramo",
-    "estado": "Movilizaciones anunciadas; consultar cierres reales, desvíos y velocidades antes de confirmar ETA."
+    "puerto": "México · carreteras",
+    "tiempo": "27 oct. · variable",
+    "estado": "Continuidad de manifestaciones posible; cierres reales sujetos a avisos por tramo de CAPUFE/SICT."
   },
   {
-    "puerto": "México · Manzanillo",
-    "tiempo": "Validar hoy",
-    "estado": "Puerto reportado operativo frente al paro; vigilar navegación por Vance con SEMAR."
+    "puerto": "México · cruces fronterizos",
+    "tiempo": "Confirmar hoy",
+    "estado": "Revisar disponibilidad de unidades y ETAs por potenciales desvíos interiores."
   },
   {
-    "puerto": "México · Lázaro Cárdenas",
-    "tiempo": "Vigilancia preventiva",
-    "estado": "Vance: posibles ajustes por oleaje; no se confirma cierre general."
+    "puerto": "Asia–Europa · salidas",
+    "tiempo": "8 cancelaciones",
+    "estado": "Drewry, referencia publicada 22 oct. para la semana siguiente; confirmar servicio reservado."
   },
   {
-    "puerto": "Estados Unidos · frontera",
-    "tiempo": "Riesgo variable",
-    "estado": "El paro mexicano puede afectar disponibilidad terrestre y cruces; verificar transportista."
+    "puerto": "Asia–Europa · Rotterdam",
+    "tiempo": "Validar itinerario",
+    "estado": "Revisar ventanas de transbordo y conexión; no se afirma cierre portuario."
   },
   {
-    "puerto": "Taiwán · Taoyuan",
-    "tiempo": "Recuperación",
-    "estado": "Vuelos cancelados previamente por Champi; confirmar programación actual de carga."
-  },
-  {
-    "puerto": "Taiwán · Keelung / Taipei",
-    "tiempo": "Verificar terminal",
-    "estado": "Revisar reaperturas y posibles acumulaciones tras Champi."
+    "puerto": "Singapur · transbordo",
+    "tiempo": "Validar terminal",
+    "estado": "Comprobar cola y conexión con transportista; sin espera puntual confirmada hoy."
   },
   {
     "puerto": "Brasil · Navegantes",
-    "tiempo": "~5 días (referencia)",
-    "estado": "Valor sin corte confirmado al 26 oct.; validar con terminal."
+    "tiempo": "Sin corte en vivo",
+    "estado": "Solicitar ventana y espera vigente a terminal."
   },
   {
     "puerto": "India · Nhava Sheva",
-    "tiempo": "1.83 días (referencia)",
-    "estado": "Actualizar gate, tiempos y omisiones de escalas con naviera."
+    "tiempo": "Sin corte en vivo",
+    "estado": "Verificar gate y escala con naviera."
   },
   {
-    "puerto": "Europa · Rotterdam / Amberes",
-    "tiempo": "Verificar conexiones",
-    "estado": "Posibles demoras residuales en barcazas y feeders; no atribuir cierre general."
+    "puerto": "Europa · Rotterdam/Amberes",
+    "tiempo": "Validar conexiones",
+    "estado": "Revisar feeders y barcazas tras demoras anteriores."
   }
 ];
 
-// Actualización: NHC 26 oct. 09:00 CST; prensa mexicana 26 oct.; cancelaciones Taiwán corte 23 oct.
+// Corte: 27 oct. 2026; tarifas Drewry 22 oct. Fuentes dentro de cada noticia.
 
 // ======================================================
 // NO EDITAR DEBAJO DE ESTA LÍNEA
@@ -359,7 +364,7 @@ export default function Home() {
       </section>
 
       {/* TABLA DE RETRASOS PORTUARIOS */}
-      <section className="bg-white"><div className="mx-auto max-w-7xl px-6 py-14 md:px-10"><p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">OPERACIÓN LOGÍSTICA · CORTE 26 DE OCTUBRE</p><h2 className="mt-3 text-3xl font-bold text-[#003C6F]">Estado de puertos y conexiones</h2><p className="mt-3 max-w-4xl text-sm leading-6 text-gray-600">No se dispone de tiempos en vivo comparables en todos los puertos. Las cifras indicativas y restricciones deben validarse con terminal y naviera antes de comprometer ETA.</p><div className="mt-7 overflow-x-auto rounded-2xl border border-gray-200"><table className="w-full min-w-[760px] text-left text-sm"><thead className="bg-[#003C6F] text-white"><tr><th className="p-4">País / puerto</th><th className="p-4">Fecha o dato</th><th className="p-4">Estado e interpretación</th></tr></thead><tbody>{retrasos.map((r,i)=><tr key={r.puerto} className={i%2===0?"bg-[#F3F5F7]":"bg-white"}><td className="p-4 font-bold text-[#003C6F]">{r.puerto}</td><td className="p-4 font-semibold">{r.tiempo}</td><td className="p-4 text-gray-600">{r.estado}</td></tr>)}</tbody></table></div></div></section>
+      <section className="bg-white"><div className="mx-auto max-w-7xl px-6 py-14 md:px-10"><p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">OPERACIÓN LOGÍSTICA · CORTE 27 DE OCTUBRE</p><h2 className="mt-3 text-3xl font-bold text-[#003C6F]">Estado de puertos y conexiones</h2><p className="mt-3 max-w-4xl text-sm leading-6 text-gray-600">No se dispone de tiempos en vivo comparables en todos los puertos. Las cifras indicativas y restricciones deben validarse con terminal y naviera antes de comprometer ETA.</p><div className="mt-7 overflow-x-auto rounded-2xl border border-gray-200"><table className="w-full min-w-[760px] text-left text-sm"><thead className="bg-[#003C6F] text-white"><tr><th className="p-4">País / puerto</th><th className="p-4">Fecha o dato</th><th className="p-4">Estado e interpretación</th></tr></thead><tbody>{retrasos.map((r,i)=><tr key={r.puerto} className={i%2===0?"bg-[#F3F5F7]":"bg-white"}><td className="p-4 font-bold text-[#003C6F]">{r.puerto}</td><td className="p-4 font-semibold">{r.tiempo}</td><td className="p-4 text-gray-600">{r.estado}</td></tr>)}</tbody></table></div></div></section>
 
       {/* MÉTRICAS CLAVE */}
       <section className="bg-[#F3F5F7]">
