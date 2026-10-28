@@ -1,190 +1,190 @@
 import Image from "next/image";
 
-// DATOS EDITABLES — 27 OCTUBRE 2026
+// DATOS EDITABLES — 28 OCTUBRE 2026
 const brief = {
-  "fecha": "martes 27 de octubre de 2026",
+  "fecha": "miércoles 28 de octubre de 2026",
   "titulo": "Vector Global Logistics | Radar Logístico Global",
-  "subtitulo": "Alerta en México por posibles nuevos bloqueos; tarifas marítimas al alza rumbo a noviembre, blank sailings en Asia–Europa y presión energética en rutas internacionales.",
+  "subtitulo": "Europa se prepara para movilizaciones en más de 50 puertos el 30 de octubre; ciclón Arnab impacta India y México normaliza circulación tras el paro transportista. Validar cada terminal y conexión antes de prometer entregas.",
   "noticias": [
     {
-      "region": "MÉXICO · TRANSPORTE TERRESTRE",
-      "modo": "ALERTA · SEGUIMIENTO 27 OCT",
-      "imagen": "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=1200",
-      "bandera": "https://flagcdn.com/w40/mx.png",
-      "titular": "Paro de transportistas: continúan riesgos de bloqueos y demoras",
-      "dato": "Tras las movilizaciones del 26 de octubre, la mayoría de cierres se levantó durante la noche, pero se reportaron tramos pendientes y amenazas de nuevas protestas el 27. México–Toluca, México–Querétaro, México–Pachuca y Chamapa–Lechería requieren monitoreo; no hay cierre nacional confirmado para este martes.",
-      "impacto": "Afectaciones intermitentes a recolecciones, rutas industriales, accesos aeroportuarios y tiempos de entrega, según tramo y horario.",
-      "accion": "Validar CAPUFE, SICT y operador por corredor; reconfirmar citas y ETA. No tratar amenazas de bloqueo como cierres confirmados."
-    },
-    {
-      "region": "GLOBAL · FLETES MARÍTIMOS",
-      "modo": "ALZA · TARIFAS NOVIEMBRE",
+      "region": "GLOBAL · PUERTOS EUROPEOS",
+      "modo": "ALERTA PREVENTIVA · 30 OCT",
       "imagen": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?w=1200",
       "bandera": "",
-      "titular": "Tarifas marítimas al alza: navieras anuncian nuevos precios para noviembre",
-      "dato": "Las tarifas del transporte marítimo de contenedores registran su segunda semana consecutiva de aumentos. Según el último reporte disponible de Drewry, publicado el 22 de octubre, el índice mundial alcanzó USD 4,585 por contenedor de 40 pies, un incremento semanal del 2%. Ante esta tendencia, MSC y CMA CGM anunciaron nuevas tarifas de referencia para noviembre en rutas desde Asia hacia Europa y el Mediterráneo, que oscilan entre USD 4,500 y USD 5,200 por contenedor de 40 pies, dependiendo del destino. Estos anuncios podrían generar mayores costos logísticos durante noviembre, aunque los incrementos dependerán de cada ruta, naviera y condiciones del mercado.",
-      "impacto": "Los importadores podrían recibir cotizaciones más altas o con menor vigencia durante noviembre. El incremento real dependerá de la ruta, la naviera, la disponibilidad de espacio y los recargos aplicables; no significa que todos los embarques subirán por igual.",
-      "accion": "Revisar las nuevas cotizaciones antes de confirmar embarques. En rutas Asia–México, validar por separado si existen aumentos aplicables y su fecha de entrada en vigor."
+      "titular": "Más de 50 puertos anuncian movilizaciones para el 30 de octubre",
+      "dato": "Sindicatos portuarios coordinan una jornada de acciones en Europa, el Mediterráneo y otras regiones. Se mencionan Génova, Gioia Tauro, Marsella, Pireo, Tánger y Mersin, además de participación o apoyo en otras localidades. Italia registra una huelga portuaria nacional de 24 horas. No todos los puertos tendrán suspensión total: algunas acciones serán manifestaciones. Fuentes: Kuehne+Nagel (27 oct.) y World Ports Organization (27 oct.).",
+      "impacto": "Posibles demoras de atraque, gate, movimientos de patio y conexiones terrestres o feeder, según terminal y modalidad de protesta.",
+      "accion": "Confirmar con naviera y terminal la participación real, operación de gate y buque para el 30 oct.; reservar margen o alternativas en carga crítica."
     },
     {
-      "region": "GOLFO PÉRSICO · ENERGÍA",
-      "modo": "RIESGO · COSTOS Y SEGUROS",
-      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/US_Navy_040705-N-2972R-040_A_merchant_ship_sails_off_the_starboard_side_of_the_amphibious_assault_ship_USS_Kearsarge_%28LHD_3%29_while_transiting_the_Straits_of_Hormuz.jpg?width=1200",
-      "bandera": "",
-      "titular": "Ormuz mantiene presión sobre seguros, combustible y fletes",
-      "dato": "La tensión en el Estrecho de Ormuz sigue elevando el riesgo para el transporte marítimo internacional. Aunque el tránsito continúa, la incertidumbre en la zona mantiene presión sobre los seguros de guerra, los costos de combustible y algunos recargos logísticos.",
-      "impacto": "Esto puede traducirse en mayores costos de transporte y más volatilidad en las cotizaciones, especialmente en rutas sensibles al precio del combustible o expuestas a recargos por riesgo.",
-      "accion": "Revisar con navieras y operadores logísticos los recargos vigentes, validar la cobertura de seguro y anticipar posibles ajustes de tarifa en embarques internacionales."
+      "region": "INDIA · CICLÓN ARNAB",
+      "modo": "RIESGO ALTO · 28–29 OCT",
+      "imagen": "https://images.unsplash.com/photo-1500534623283-312aade485b7?w=1200",
+      "bandera": "https://flagcdn.com/w40/in.png",
+      "titular": "Arnab toca tierra en Andhra Pradesh y afecta conexiones logísticas",
+      "dato": "El ciclón Arnab cruzó la costa de Andhra Pradesh y Yanam el 28 de octubre, con vientos de 125–135 km/h y ráfagas de hasta 150 km/h; posteriormente se debilitó a tormenta ciclónica severa. Se reportan cancelaciones ferroviarias y condiciones adversas en la costa oriental. Fuentes: AP y New Indian Express (28 oct.).",
+      "impacto": "Riesgo de interrupciones en carreteras, ferrocarriles, puertos y vuelos próximos a Kakinada, Visakhapatnam y Vijayawada.",
+      "accion": "Confirmar avisos de puerto, horarios ferroviarios y vuelo por vuelo; recalcular ETA en servicios del este de India."
+    },
+    {
+      "region": "MÉXICO · AUTOTRANSPORTE",
+      "modo": "RECUPERACIÓN · 28 OCT",
+      "imagen": "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=1200",
+      "bandera": "https://flagcdn.com/w40/mx.png",
+      "titular": "Termina el paro nacional; continúa vigilancia de rutas y citas",
+      "dato": "Tras las mesas de diálogo con Gobernación, organizaciones transportistas acordaron retirar los bloqueos el 27 de octubre. Prensa de Zacatecas informa que también se levantó la protesta intermitente en la caseta de Calera, carretera federal 45. No hay fundamento para describir un cierre nacional activo hoy. Fuentes: La Jornada Zacatecas (28 oct.) y NTR Zacatecas (27 oct.).",
+      "impacto": "Posibles reprogramaciones de entregas y citas por acumulación de viajes; cualquier nueva afectación debe verificarse por tramo.",
+      "accion": "Reconfirmar con transportista, CAPUFE y receptor los accesos, citas y tiempos estimados, especialmente en corredores afectados."
     }
   ],
   "vigilancia": [
     {
-      "titulo": "México | Protestas y accesos",
+      "titulo": "México | Puertos del Pacífico",
       "bandera": "https://flagcdn.com/w40/mx.png",
-      "texto": "La mayoría de bloqueos del 26 fue levantada, pero algunos continuaron y podrían reanudarse el 27. Verificar México–Toluca, México–Querétaro, México–Pachuca y Chamapa–Lechería por tramo con CAPUFE."
+      "texto": "Manzanillo y Lázaro Cárdenas se encuentran en fase de recuperación tras tormentas; validar operaciones, inspecciones y acumulación de carga por terminal. El porcentaje de utilización señalado en reportes previos no se confirma como dato en vivo."
     },
     {
-      "titulo": "Asia–México | GRI y contratos",
-      "bandera": "https://flagcdn.com/w40/mx.png",
-      "texto": "Solicitar confirmación escrita de cualquier GRI/FAK aplicado a México, equipo 20’/40’, vigencia, puerto y fecha de zarpe. Un anuncio para Europa no prueba automáticamente un alza equivalente hacia México."
-    },
-    {
-      "titulo": "Asia–Europa | Blank sailings",
-      "bandera": "",
-      "texto": "Drewry: ocho salidas canceladas anunciadas para la semana siguiente al 22 oct., contra dos la semana anterior. Revisar reservas, rollovers y conexiones."
-    },
-    {
-      "titulo": "Estados Unidos | Última milla",
+      "titulo": "Estados Unidos | Los Ángeles / Long Beach",
       "bandera": "https://flagcdn.com/w40/us.png",
-      "texto": "Monitorear recargos por combustible y tarifas de paquetería de temporada alta. Porcentajes y precios spot aportados requieren validación por fecha y servicio antes de publicarse como vigentes."
+      "texto": "Se reporta posibilidad de conflicto laboral de ILWU Local 26 con referencia al 1 de noviembre. Tratarlo como riesgo preventivo, no como huelga iniciada; confirmar status con cada terminal y naviera."
     },
     {
-      "titulo": "Global | Golfo Pérsico y Ormuz",
+      "titulo": "Estados Unidos | Drayage y puertos del Golfo",
+      "bandera": "https://flagcdn.com/w40/us.png",
+      "texto": "Vigilar disponibilidad de unidades, citas intermodales y restricciones locales de recuperación en puertos del Golfo; la condición de cada puerto requiere aviso de autoridad portuaria o USCG vigente."
+    },
+    {
+      "titulo": "Europa | Francia e Italia",
       "bandera": "",
-      "texto": "Riesgo de guerra eleva costos de seguro y transporte. Consultar advisories de navieras y aseguradoras para cada tránsito; evitar atribuir a hoy cotizaciones no verificadas."
+      "texto": "Acciones sindicales previstas para el 30 de octubre. Italia tiene convocatoria nacional de 24 horas; en Francia y otros países el grado de afectación puede variar por terminal. Revisar Le Havre, Marsella-Fos, Dunkerque y puertos italianos."
     },
     {
-      "titulo": "Singapur | Transbordos",
-      "bandera": "https://flagcdn.com/w40/sg.png",
-      "texto": "Vigilar congestión y tiempos de conexión en servicios Asia–Europa; la espera específica de tres días aportada está pendiente de validación actual por terminal."
-    },
-    {
-      "titulo": "Brasil | Puertos y carreteras",
-      "bandera": "https://flagcdn.com/w40/br.png",
-      "texto": "Seguir recuperación de rutas tras elecciones y lluvias, además de ventanas y filas en puertos. Restricciones electorales del 25 oct. no deben presentarse como cierres vigentes el 27."
-    },
-    {
-      "titulo": "India | Nhava Sheva y Mundra",
-      "bandera": "https://flagcdn.com/w40/in.png",
-      "texto": "Reconfirmar disponibilidad de contenedor, gate y omisiones de escala con naviera; no asumir esperas históricas como mediciones actuales."
-    },
-    {
-      "titulo": "Europa | Rotterdam y Amberes",
+      "titulo": "Europa | Rin, Rotterdam y Amberes",
       "bandera": "https://flagcdn.com/w40/nl.png",
-      "texto": "Solicitar estimados actualizados de barcazas y feeders; la recuperación de retrasos previos puede ser escalonada."
+      "texto": "Monitorear bajos niveles del Rin, recargos de barcaza y efectos acumulados de paros anteriores. Solicitar tiempos y tarifas actualizados; no asumir que esperas históricas siguen vigentes."
     },
     {
-      "titulo": "Calendario | Próximos festivos",
+      "titulo": "Asia | Shanghái, Singapur y Colombo",
+      "bandera": "https://flagcdn.com/w40/sg.png",
+      "texto": "Seguir conexiones y rollovers tras Golden Week. Las colas y los tiempos de espera cambian por terminal; confirmar itinerario y disponibilidad de feeders."
+    },
+    {
+      "titulo": "India | Puertos del este",
+      "bandera": "https://flagcdn.com/w40/in.png",
+      "texto": "Arnab afecta Andhra Pradesh y Yanam. Monitorear Kakinada, Visakhapatnam, Gangavaram y las conexiones ferroviarias y aéreas de la región; consultar avisos oficiales antes de despachar."
+    },
+    {
+      "titulo": "Brasil | Puertos y cargos noviembre",
+      "bandera": "https://flagcdn.com/w40/br.png",
+      "texto": "Sin cierre nacional verificado hoy. Solicitar citas y ventanas en Santos y puertos del sur/sudeste; revisar ajustes OHC/DHC anunciados para el 1 de noviembre conforme a la ruta y naviera."
+    },
+    {
+      "titulo": "Global | Tarifas y mercado financiero",
       "bandera": "",
-      "texto": "1 nov. Todos los Santos (según país); 2 nov. Día de Muertos (no descanso federal obligatorio en México); 8 nov. Diwali (India); 16 nov. puente de Revolución Mexicana; 20 nov. Consciência Negra (Brasil); 26 nov. Thanksgiving (EE. UU.)."
+      "texto": "Revisar GRIs de Asia–México por naviera y vigencia. La volatilidad bursátil puede influir indirectamente en financiamiento y demanda futura, pero no demuestra una interrupción logística inmediata."
+    },
+    {
+      "titulo": "Calendario | Próximas fechas",
+      "bandera": "",
+      "texto": "30 oct.: jornada sindical portuaria internacional. 1 nov.: posible escalamiento laboral LA/LB, sujeto a confirmación. 2 nov.: Día de Muertos en México (no descanso federal obligatorio). 8 nov.: Diwali en India. 16 nov.: descanso por Revolución Mexicana."
     }
   ],
   "metricas": [
     {
-      "indicador": "Drewry WCI · global",
+      "indicador": "Acción portuaria internacional",
+      "valor": "30 oct.",
+      "tendencia": "Más de 50 puertos convocados; impacto varía por terminal."
+    },
+    {
+      "indicador": "Italia · huelga portuaria",
+      "valor": "24 h",
+      "tendencia": "Convocatoria registrada para el 30 oct."
+    },
+    {
+      "indicador": "Arnab · vientos sostenidos",
+      "valor": "125–135 km/h",
+      "tendencia": "En tierra 28 oct.; ráfagas de hasta 150 km/h."
+    },
+    {
+      "indicador": "México · paro transportista",
+      "valor": "Concluido",
+      "tendencia": "Acuerdo de levantamiento 27 oct.; verificar ruta."
+    },
+    {
+      "indicador": "Drewry WCI · referencia",
       "valor": "USD 4,585",
-      "tendencia": "+2% semanal · por FEU al 22 oct."
+      "tendencia": "Por FEU, reporte 22 oct.; no es cotización de hoy."
     },
     {
       "indicador": "Shanghái → Rotterdam",
       "valor": "USD 3,632",
-      "tendencia": "+3% semanal · FEU · 22 oct."
+      "tendencia": "Por FEU, referencia 22 oct.; verificar tarifa actual."
     },
     {
       "indicador": "Shanghái → Génova",
       "valor": "USD 4,152",
-      "tendencia": "+5% semanal · FEU · 22 oct."
+      "tendencia": "Por FEU, referencia 22 oct.; verificar tarifa actual."
     },
     {
-      "indicador": "MSC · Asia–Norte de Europa",
-      "valor": "USD 4,500",
-      "tendencia": "FAK por FEU anunciado desde 1 nov., sujeto a condiciones."
-    },
-    {
-      "indicador": "CMA CGM · Asia–Med. oeste",
-      "valor": "USD 4,900",
-      "tendencia": "FAK por FEU anunciado 1–14 nov."
-    },
-    {
-      "indicador": "Asia–Europa · salidas canceladas",
-      "valor": "8",
-      "tendencia": "Anunciadas para la semana posterior al 22 oct. · Drewry."
-    },
-    {
-      "indicador": "México · paro carretero",
-      "valor": "27 oct.",
-      "tendencia": "Seguimiento; cierres sujetos a confirmación por tramo."
-    },
-    {
-      "indicador": "Riesgo en Ormuz",
-      "valor": "Elevado",
-      "tendencia": "Seguros y recargos requieren cotización específica."
+      "indicador": "LA/LB · conflicto laboral",
+      "valor": "Preventivo",
+      "tendencia": "Posible desde 1 nov.; sin paro confirmado al corte."
     }
   ],
   "recomendaciones": [
-    "Asia–Europa: cotizar con vigencia definida para zarpe de noviembre; comparar FAK anunciadas con la oferta spot y verificar conceptos incluidos.",
-    "Asia–México: confirmar por escrito la aplicación de GRI, puertos, fechas y tipo de contenedor; no trasladar automáticamente las tarifas europeas.",
-    "Blank sailings: revisar itinerarios, reservar capacidad alternativa y definir margen para transbordos o rollovers.",
-    "México: monitorear accesos y protestas con CAPUFE antes de confirmar ETA, sin asumir bloqueos nacionales permanentes.",
-    "Golfo Pérsico: revisar seguro de guerra y recargos energéticos en rutas expuestas.",
-    "Última milla en EE. UU.: validar fuel surcharges y escalas de temporada alta en contrato antes de presupuestar."
+    "Europa: identificar terminales involucradas el 30 de octubre y reconfirmar buque, gate, citas, transbordos y alternativas antes del zarpe.",
+    "India: comprobar cierres por ciclón Arnab en puertos del este, vuelos y trenes; agregar holgura de tránsito a carga sensible.",
+    "México: no presentar el paro nacional como activo; revisar operaciones residuales por corredor con CAPUFE y transportista.",
+    "LA/LB: anticipar escenarios de continuidad o afectación sindical sin afirmar huelga confirmada; monitorear drayage y citas.",
+    "Asia–México y Brasil: confirmar recargos GRI, OHC y DHC por naviera, fecha, terminal y tipo de equipo.",
+    "Indicadores financieros: mantener la volatilidad bursátil como contexto indirecto, no como una interrupción operacional inmediata."
   ]
 };
 
 const retrasos = [
   {
+    "puerto": "Europa · múltiples puertos",
+    "tiempo": "30 oct. · preventivo",
+    "estado": "Movilizaciones previstas en más de 50 puertos; Italia convoca huelga de 24 h. Verificar terminal."
+  },
+  {
+    "puerto": "India · Andhra Pradesh",
+    "tiempo": "28–29 oct.",
+    "estado": "Ciclón Arnab; posibles interrupciones portuarias, ferroviarias y aéreas. Confirmar avisos."
+  },
+  {
     "puerto": "México · carreteras",
-    "tiempo": "27 oct. · variable",
-    "estado": "Continuidad de manifestaciones posible; cierres reales sujetos a avisos por tramo de CAPUFE/SICT."
+    "tiempo": "Paro concluido",
+    "estado": "Levantamiento anunciado 27 oct.; confirmar circulación y citas por tramo."
   },
   {
-    "puerto": "México · cruces fronterizos",
-    "tiempo": "Confirmar hoy",
-    "estado": "Revisar disponibilidad de unidades y ETAs por potenciales desvíos interiores."
+    "puerto": "México · Manzanillo/Lázaro Cárdenas",
+    "tiempo": "Recuperación",
+    "estado": "Verificar recepción, accesos, acumulación y ventanas por terminal."
   },
   {
-    "puerto": "Asia–Europa · salidas",
-    "tiempo": "8 cancelaciones",
-    "estado": "Drewry, referencia publicada 22 oct. para la semana siguiente; confirmar servicio reservado."
+    "puerto": "LA/LB · terminales",
+    "tiempo": "Desde 1 nov. · riesgo",
+    "estado": "Posible conflicto laboral; no hay huelga confirmada para hoy."
   },
   {
-    "puerto": "Asia–Europa · Rotterdam",
-    "tiempo": "Validar itinerario",
-    "estado": "Revisar ventanas de transbordo y conexión; no se afirma cierre portuario."
+    "puerto": "Europa · Rin/Rotterdam",
+    "tiempo": "Validar al día",
+    "estado": "Riesgo de niveles bajos y congestión de barcazas; consultar operadores."
   },
   {
-    "puerto": "Singapur · transbordo",
-    "tiempo": "Validar terminal",
-    "estado": "Comprobar cola y conexión con transportista; sin espera puntual confirmada hoy."
+    "puerto": "Asia · Singapur/Colombo",
+    "tiempo": "Validar transbordo",
+    "estado": "Comprobar conexiones, colas y feeders por terminal."
   },
   {
-    "puerto": "Brasil · Navegantes",
-    "tiempo": "Sin corte en vivo",
-    "estado": "Solicitar ventana y espera vigente a terminal."
-  },
-  {
-    "puerto": "India · Nhava Sheva",
-    "tiempo": "Sin corte en vivo",
-    "estado": "Verificar gate y escala con naviera."
-  },
-  {
-    "puerto": "Europa · Rotterdam/Amberes",
-    "tiempo": "Validar conexiones",
-    "estado": "Revisar feeders y barcazas tras demoras anteriores."
+    "puerto": "Brasil · Santos y sur",
+    "tiempo": "Validar cita",
+    "estado": "Sin cierre nacional confirmado; revisar terminal y nuevos cargos aplicables desde noviembre."
   }
 ];
 
-// Corte: 27 oct. 2026; tarifas Drewry 22 oct. Fuentes dentro de cada noticia.
+// Corte: 28 oct. 2026; tarifas Drewry 22 oct. Fuentes dentro de cada noticia.
 
 // ======================================================
 // NO EDITAR DEBAJO DE ESTA LÍNEA
@@ -354,7 +354,7 @@ export default function Home() {
       </section>
 
       {/* TABLA DE RETRASOS PORTUARIOS */}
-      <section className="bg-white"><div className="mx-auto max-w-7xl px-6 py-14 md:px-10"><p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">OPERACIÓN LOGÍSTICA · CORTE 27 DE OCTUBRE</p><h2 className="mt-3 text-3xl font-bold text-[#003C6F]">Estado de puertos y conexiones</h2><p className="mt-3 max-w-4xl text-sm leading-6 text-gray-600">No se dispone de tiempos en vivo comparables en todos los puertos. Las cifras indicativas y restricciones deben validarse con terminal y naviera antes de comprometer ETA.</p><div className="mt-7 overflow-x-auto rounded-2xl border border-gray-200"><table className="w-full min-w-[760px] text-left text-sm"><thead className="bg-[#003C6F] text-white"><tr><th className="p-4">País / puerto</th><th className="p-4">Fecha o dato</th><th className="p-4">Estado e interpretación</th></tr></thead><tbody>{retrasos.map((r,i)=><tr key={r.puerto} className={i%2===0?"bg-[#F3F5F7]":"bg-white"}><td className="p-4 font-bold text-[#003C6F]">{r.puerto}</td><td className="p-4 font-semibold">{r.tiempo}</td><td className="p-4 text-gray-600">{r.estado}</td></tr>)}</tbody></table></div></div></section>
+      <section className="bg-white"><div className="mx-auto max-w-7xl px-6 py-14 md:px-10"><p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">OPERACIÓN LOGÍSTICA · CORTE 28 DE OCTUBRE</p><h2 className="mt-3 text-3xl font-bold text-[#003C6F]">Estado de puertos y conexiones</h2><p className="mt-3 max-w-4xl text-sm leading-6 text-gray-600">No se dispone de tiempos en vivo comparables en todos los puertos. Las cifras indicativas y restricciones deben validarse con terminal y naviera antes de comprometer ETA.</p><div className="mt-7 overflow-x-auto rounded-2xl border border-gray-200"><table className="w-full min-w-[760px] text-left text-sm"><thead className="bg-[#003C6F] text-white"><tr><th className="p-4">País / puerto</th><th className="p-4">Fecha o dato</th><th className="p-4">Estado e interpretación</th></tr></thead><tbody>{retrasos.map((r,i)=><tr key={r.puerto} className={i%2===0?"bg-[#F3F5F7]":"bg-white"}><td className="p-4 font-bold text-[#003C6F]">{r.puerto}</td><td className="p-4 font-semibold">{r.tiempo}</td><td className="p-4 text-gray-600">{r.estado}</td></tr>)}</tbody></table></div></div></section>
 
       {/* MÉTRICAS CLAVE */}
       <section className="bg-[#F3F5F7]">
