@@ -19,7 +19,7 @@ const brief = {
     {
       "region": "INDIA · CICLÓN ARNAB",
       "modo": "RIESGO ALTO · 28–29 OCT",
-      "imagen": "https://images.unsplash.com/photo-1500534623283-312aade485b7?w=1200",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Arnab_2026-10-26_0740Z.jpg?width=1200",
       "bandera": "https://flagcdn.com/w40/in.png",
       "titular": "Arnab toca tierra en Andhra Pradesh y afecta conexiones logísticas",
       "dato": "El ciclón Arnab cruzó la costa de Andhra Pradesh y Yanam el 28 de octubre, con vientos de 125–135 km/h y ráfagas de hasta 150 km/h; posteriormente se debilitó a tormenta ciclónica severa. Se reportan cancelaciones ferroviarias y condiciones adversas en la costa oriental. Fuentes: AP y New Indian Express (28 oct.).",
