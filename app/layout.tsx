@@ -27,14 +27,14 @@ export const metadata: Metadata = {
     siteName: "Vector Global Logistics",
     title: "Radar Logístico Global | Vector Global Logistics",
     description: "Actualización logística: riesgos, impacto en operaciones y acciones recomendadas.",
-    images: [{ url: "https://vectorgl.com/wp-content/uploads/2026/09/footer-logo.webp", width: 1200, height: 630, alt: "Vector Global Logistics | Radar Logístico Global" }],
+    images: [{ url: "https://daily-news-vgl.vercel.app/opengraph-image?v=20261029", width: 1200, height: 630, alt: "Vector Global Logistics | Radar Logístico Global" }],
     locale: "es_MX",
   },
   twitter: {
     card: "summary_large_image",
     title: "Radar Logístico Global | Vector Global Logistics",
     description: "Noticias y riesgos logísticos globales.",
-    images: ["https://vectorgl.com/wp-content/uploads/2026/09/footer-logo.webp"],
+    images: ["https://daily-news-vgl.vercel.app/opengraph-image?v=20261029"],
   },
 };
 
