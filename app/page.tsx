@@ -27,14 +27,14 @@ const brief = {
       "accion": "Confirmar avisos de puerto, horarios ferroviarios y vuelo por vuelo; recalcular ETA en servicios del este de India."
     },
     {
-      "region": "MÉXICO · AUTOTRANSPORTE",
-      "modo": "RECUPERACIÓN · 29 OCT",
-      "imagen": "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=1200",
-      "bandera": "https://flagcdn.com/w40/mx.png",
-      "titular": "Termina el paro nacional; continúa vigilancia de rutas y citas",
-      "dato": "Tras el diálogo con Gobernación, organizaciones transportistas reportaron el levantamiento del paro nacional el 27 de octubre. La situación puede variar en puntos específicos, incluida la carretera federal 45 en Zacatecas. No se confirma cierre nacional activo hoy; cada restricción local requiere validación con CAPUFE y autoridades. Fuentes: La Jornada Zacatecas y NTR Zacatecas (27–28 oct.).",
-      "impacto": "Posibles reprogramaciones de entregas y citas por acumulación de viajes; cualquier nueva afectación debe verificarse por tramo.",
-      "accion": "Reconfirmar con transportista, CAPUFE y receptor los accesos, citas y tiempos estimados, especialmente en corredores afectados."
+      "region": "ESTADOS UNIDOS · LA / LONG BEACH",
+      "modo": "RIESGO ALTO · DESDE 1 NOV",
+      "imagen": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1200",
+      "bandera": "https://flagcdn.com/w40/us.png",
+      "titular": "Posible huelga amenaza operaciones en Los Ángeles y Long Beach",
+      "dato": "Unos 250 vigilantes portuarios de ILWU Local 26 autorizaron una huelga que podría comenzar el 1 de noviembre a las 17:00 h del Pacífico, si no se logra un acuerdo. Según PMA, las terminales involucradas manejan cerca del 85% de la carga de Long Beach y el 33% de la de Los Ángeles. Las negociaciones siguen abiertas; no hay paro confirmado al 29 de octubre. Fuentes: FreightWaves (28 oct.) y Kuehne+Nagel (29 oct.).",
+      "impacto": "Podrían detenerse operaciones de buque, patio y gate en hasta seis terminales si otros trabajadores respetan los piquetes, agravando la acumulación de contenedores ferroviarios.",
+      "accion": "Validar terminal y cita, vigilar negociaciones y evaluar cambios de ruta, fecha o puerto para embarques críticos antes del 1 de noviembre."
     }
   ],
   "vigilancia": [
