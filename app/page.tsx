@@ -1,18 +1,18 @@
 import Image from "next/image";
 
-// DATOS EDITABLES — 28 OCTUBRE 2026
+// DATOS EDITABLES — 29 OCTUBRE 2026
 const brief = {
-  "fecha": "miércoles 28 de octubre de 2026",
+  "fecha": "jueves 29 de octubre de 2026",
   "titulo": "Vector Global Logistics | Radar Logístico Global",
-  "subtitulo": "Europa se prepara para movilizaciones en más de 50 puertos el 30 de octubre; ciclón Arnab impacta India y México normaliza circulación tras el paro transportista. Validar cada terminal y conexión antes de prometer entregas.",
+  "subtitulo": "Riesgo alto por movilizaciones portuarias del 30 de octubre en más de 100 puertos; India enfrenta secuelas del ciclón Arnab, mientras LA/Long Beach mantiene alerta laboral y México opera con retrasos residuales. Confirmar itinerarios antes de comprometer entregas.",
   "noticias": [
     {
-      "region": "GLOBAL · PUERTOS EUROPEOS",
+      "region": "GLOBAL · PUERTOS",
       "modo": "ALERTA PREVENTIVA · 30 OCT",
       "imagen": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?w=1200",
       "bandera": "",
-      "titular": "Más de 50 puertos anuncian movilizaciones para el 30 de octubre",
-      "dato": "Sindicatos portuarios coordinan una jornada de acciones en Europa, el Mediterráneo y otras regiones. Se mencionan Génova, Gioia Tauro, Marsella, Pireo, Tánger y Mersin, además de participación o apoyo en otras localidades. Italia registra una huelga portuaria nacional de 24 horas. No todos los puertos tendrán suspensión total: algunas acciones serán manifestaciones. Fuentes: Kuehne+Nagel (27 oct.) y World Ports Organization (27 oct.).",
+      "titular": "Más de 100 puertos prevén acciones sindicales el 30 de octubre",
+      "dato": "La Federación Internacional de los Trabajadores del Transporte informó el 28 de octubre acciones coordinadas en más de 100 puertos de 17 países para el viernes 30. Entre los puertos mencionados están Génova, Gioia Tauro, Marsella, Pireo, Tánger y Mersin. Italia tiene huelga portuaria nacional convocada por 24 horas. No todos los puertos suspenderán actividades: habrá huelgas y manifestaciones con distinta intensidad. Fuentes: ITF (28 oct.), Port Technology International (26 oct.).",
       "impacto": "Posibles demoras de atraque, gate, movimientos de patio y conexiones terrestres o feeder, según terminal y modalidad de protesta.",
       "accion": "Confirmar con naviera y terminal la participación real, operación de gate y buque para el 30 oct.; reservar margen o alternativas en carga crítica."
     },
@@ -21,18 +21,18 @@ const brief = {
       "modo": "RIESGO ALTO · 28–29 OCT",
       "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Arnab_2026-10-26_0740Z.jpg?width=1200",
       "bandera": "https://flagcdn.com/w40/in.png",
-      "titular": "Arnab toca tierra en Andhra Pradesh y afecta conexiones logísticas",
-      "dato": "El ciclón Arnab cruzó la costa de Andhra Pradesh y Yanam el 28 de octubre, con vientos de 125–135 km/h y ráfagas de hasta 150 km/h; posteriormente se debilitó a tormenta ciclónica severa. Se reportan cancelaciones ferroviarias y condiciones adversas en la costa oriental. Fuentes: AP y New Indian Express (28 oct.).",
+      "titular": "Arnab se debilita; continúan riesgos logísticos en India",
+      "dato": "Arnab cruzó Andhra Pradesh y Yanam el 28 de octubre, con vientos sostenidos de 125–135 km/h y ráfagas de 150 km/h. Para la noche del 28 se había debilitado a depresión profunda, según boletines del IMD. Persisten lluvias y riesgos de acceso terrestre. Fuentes: IMD/GDACS (28 oct.) e Indian Express (29 oct.).",
       "impacto": "Riesgo de interrupciones en carreteras, ferrocarriles, puertos y vuelos próximos a Kakinada, Visakhapatnam y Vijayawada.",
       "accion": "Confirmar avisos de puerto, horarios ferroviarios y vuelo por vuelo; recalcular ETA en servicios del este de India."
     },
     {
       "region": "MÉXICO · AUTOTRANSPORTE",
-      "modo": "RECUPERACIÓN · 28 OCT",
+      "modo": "RECUPERACIÓN · 29 OCT",
       "imagen": "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=1200",
       "bandera": "https://flagcdn.com/w40/mx.png",
       "titular": "Termina el paro nacional; continúa vigilancia de rutas y citas",
-      "dato": "Tras las mesas de diálogo con Gobernación, organizaciones transportistas acordaron retirar los bloqueos el 27 de octubre. Prensa de Zacatecas informa que también se levantó la protesta intermitente en la caseta de Calera, carretera federal 45. No hay fundamento para describir un cierre nacional activo hoy. Fuentes: La Jornada Zacatecas (28 oct.) y NTR Zacatecas (27 oct.).",
+      "dato": "Tras el diálogo con Gobernación, organizaciones transportistas reportaron el levantamiento del paro nacional el 27 de octubre. La situación puede variar en puntos específicos, incluida la carretera federal 45 en Zacatecas. No se confirma cierre nacional activo hoy; cada restricción local requiere validación con CAPUFE y autoridades. Fuentes: La Jornada Zacatecas y NTR Zacatecas (27–28 oct.).",
       "impacto": "Posibles reprogramaciones de entregas y citas por acumulación de viajes; cualquier nueva afectación debe verificarse por tramo.",
       "accion": "Reconfirmar con transportista, CAPUFE y receptor los accesos, citas y tiempos estimados, especialmente en corredores afectados."
     }
@@ -41,7 +41,7 @@ const brief = {
     {
       "titulo": "México | Puertos del Pacífico",
       "bandera": "https://flagcdn.com/w40/mx.png",
-      "texto": "Manzanillo y Lázaro Cárdenas se encuentran en fase de recuperación tras tormentas; validar operaciones, inspecciones y acumulación de carga por terminal. El porcentaje de utilización señalado en reportes previos no se confirma como dato en vivo."
+      "texto": "Manzanillo y Lázaro Cárdenas presentan recuperación posterior a Simón y Trudy. Validar acumulación, inspecciones y citas por terminal. Vigilar bloqueos localizados y condiciones de lluvia o viento en el norte, sin afirmar cierres generales."
     },
     {
       "titulo": "Estados Unidos | Los Ángeles / Long Beach",
@@ -76,24 +76,24 @@ const brief = {
     {
       "titulo": "Brasil | Puertos y cargos noviembre",
       "bandera": "https://flagcdn.com/w40/br.png",
-      "texto": "Sin cierre nacional verificado hoy. Solicitar citas y ventanas en Santos y puertos del sur/sudeste; revisar ajustes OHC/DHC anunciados para el 1 de noviembre conforme a la ruta y naviera."
+      "texto": "Sin cierre portuario nacional verificado el 29 de octubre. Confirmar horarios y accesos de Santos y puertos del sur/sudeste; revisar cargos OHC/DHC anunciados para el 1 de noviembre según naviera y servicio. Nossa Senhora Aparecida fue el 12 de octubre, no el 28."
     },
     {
       "titulo": "Global | Tarifas y mercado financiero",
       "bandera": "",
-      "texto": "Revisar GRIs de Asia–México por naviera y vigencia. La volatilidad bursátil puede influir indirectamente en financiamiento y demanda futura, pero no demuestra una interrupción logística inmediata."
+      "texto": "Revisar GRIs de Asia–México por naviera y vigencia. La volatilidad bursátil y las expectativas de tasas pueden influir indirectamente en financiamiento, flotas y demanda futura; la sesión del 14 de octubre no debe presentarse como caída de hoy ni como interrupción logística demostrada."
     },
     {
       "titulo": "Calendario | Próximas fechas",
       "bandera": "",
-      "texto": "30 oct.: jornada sindical portuaria internacional. 1 nov.: posible escalamiento laboral LA/LB, sujeto a confirmación. 2 nov.: Día de Muertos en México (no descanso federal obligatorio). 8 nov.: Diwali en India. 16 nov.: descanso por Revolución Mexicana."
+      "texto": "30 oct.: acciones en más de 100 puertos (modalidad sujeta a terminal). 1 nov.: posible escalamiento laboral LA/LB, sujeto a confirmación. 2 nov.: Día de Muertos en México (no descanso federal obligatorio). 8 nov.: Diwali en India. 16 nov.: descanso por Revolución Mexicana."
     }
   ],
   "metricas": [
     {
       "indicador": "Acción portuaria internacional",
       "valor": "30 oct.",
-      "tendencia": "Más de 50 puertos convocados; impacto varía por terminal."
+      "tendencia": "Más de 100 puertos en 17 países; impacto varía por terminal (ITF, 28 oct.)."
     },
     {
       "indicador": "Italia · huelga portuaria",
@@ -103,7 +103,7 @@ const brief = {
     {
       "indicador": "Arnab · vientos sostenidos",
       "valor": "125–135 km/h",
-      "tendencia": "En tierra 28 oct.; ráfagas de hasta 150 km/h."
+      "tendencia": "En tierra 28 oct.; debilitado a depresión profunda esa noche."
     },
     {
       "indicador": "México · paro transportista",
@@ -145,12 +145,12 @@ const retrasos = [
   {
     "puerto": "Europa · múltiples puertos",
     "tiempo": "30 oct. · preventivo",
-    "estado": "Movilizaciones previstas en más de 50 puertos; Italia convoca huelga de 24 h. Verificar terminal."
+    "estado": "Acciones previstas en más de 100 puertos; Italia convoca huelga de 24 h. Verificar terminal."
   },
   {
     "puerto": "India · Andhra Pradesh",
     "tiempo": "28–29 oct.",
-    "estado": "Ciclón Arnab; posibles interrupciones portuarias, ferroviarias y aéreas. Confirmar avisos."
+    "estado": "Arnab ya cruzó tierra y se debilitó; continúan riesgos de inundación y retrasos portuarios, ferroviarios y aéreos."
   },
   {
     "puerto": "México · carreteras",
@@ -184,7 +184,7 @@ const retrasos = [
   }
 ];
 
-// Corte: 28 oct. 2026; tarifas Drewry 22 oct. Fuentes dentro de cada noticia.
+// Corte: 29 oct. 2026; tarifas Drewry 22 oct. Fuentes dentro de cada noticia.
 
 // ======================================================
 // NO EDITAR DEBAJO DE ESTA LÍNEA
@@ -354,7 +354,7 @@ export default function Home() {
       </section>
 
       {/* TABLA DE RETRASOS PORTUARIOS */}
-      <section className="bg-white"><div className="mx-auto max-w-7xl px-6 py-14 md:px-10"><p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">OPERACIÓN LOGÍSTICA · CORTE 28 DE OCTUBRE</p><h2 className="mt-3 text-3xl font-bold text-[#003C6F]">Estado de puertos y conexiones</h2><p className="mt-3 max-w-4xl text-sm leading-6 text-gray-600">No se dispone de tiempos en vivo comparables en todos los puertos. Las cifras indicativas y restricciones deben validarse con terminal y naviera antes de comprometer ETA.</p><div className="mt-7 overflow-x-auto rounded-2xl border border-gray-200"><table className="w-full min-w-[760px] text-left text-sm"><thead className="bg-[#003C6F] text-white"><tr><th className="p-4">País / puerto</th><th className="p-4">Fecha o dato</th><th className="p-4">Estado e interpretación</th></tr></thead><tbody>{retrasos.map((r,i)=><tr key={r.puerto} className={i%2===0?"bg-[#F3F5F7]":"bg-white"}><td className="p-4 font-bold text-[#003C6F]">{r.puerto}</td><td className="p-4 font-semibold">{r.tiempo}</td><td className="p-4 text-gray-600">{r.estado}</td></tr>)}</tbody></table></div></div></section>
+      <section className="bg-white"><div className="mx-auto max-w-7xl px-6 py-14 md:px-10"><p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">OPERACIÓN LOGÍSTICA · CORTE 29 DE OCTUBRE</p><h2 className="mt-3 text-3xl font-bold text-[#003C6F]">Estado de puertos y conexiones</h2><p className="mt-3 max-w-4xl text-sm leading-6 text-gray-600">No se dispone de tiempos en vivo comparables en todos los puertos. Las cifras indicativas y restricciones deben validarse con terminal y naviera antes de comprometer ETA.</p><div className="mt-7 overflow-x-auto rounded-2xl border border-gray-200"><table className="w-full min-w-[760px] text-left text-sm"><thead className="bg-[#003C6F] text-white"><tr><th className="p-4">País / puerto</th><th className="p-4">Fecha o dato</th><th className="p-4">Estado e interpretación</th></tr></thead><tbody>{retrasos.map((r,i)=><tr key={r.puerto} className={i%2===0?"bg-[#F3F5F7]":"bg-white"}><td className="p-4 font-bold text-[#003C6F]">{r.puerto}</td><td className="p-4 font-semibold">{r.tiempo}</td><td className="p-4 text-gray-600">{r.estado}</td></tr>)}</tbody></table></div></div></section>
 
       {/* MÉTRICAS CLAVE */}
       <section className="bg-[#F3F5F7]">
@@ -465,7 +465,7 @@ export default function Home() {
           </div>
 
           <span className="max-w-xl text-white/60 md:text-right">
-            Corte informativo del 23 de octubre de 2026. Fuentes: NHC, CNA/Focus Taiwan, SEMAR y referencias operativas sujetas a validación. Datos sujetos a actualización y confirmación con terminal, naviera y proveedor.</span>
+            Corte informativo del 29 de octubre de 2026. Fuentes: ITF, IMD/GDACS, NASA Earth Observatory, prensa portuaria y referencias operativas sujetas a validación. Datos sujetos a actualización y confirmación con terminal, naviera y proveedor.</span>
         </div>
       </footer>
     </main>
