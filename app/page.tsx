@@ -19,7 +19,7 @@ const brief = {
     {
       "region": "EUROPA · FRANCIA, GRECIA Y ESPAÑA",
       "modo": "MOVILIZACIONES · 30 OCT",
-      "imagen": "https://images.unsplash.com/photo-1519003722824-194d4455a60c?w=1200",
+      "imagen": "https://images.unsplash.com/photo-1703226741497-6de4f67c6e11?fm=jpg&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHN1cHBseSUyMGNoYWlufGVufDB8fDB8fHww&lib=rb-4.0.3&q=60&w=3000",
       "bandera": "",
       "titular": "Francia, Grecia y España: posibles retrasos en sus principales puertos",
       "dato": "Hoy se registran movilizaciones de trabajadores portuarios en Europa. En Francia se mencionan Le Havre, Marsella y Dunkerque; en Grecia, El Pireo; y en España, Valencia, Barcelona y Algeciras. No todas las protestas implican suspensión de actividades, por lo que la situación puede variar en cada puerto.",
