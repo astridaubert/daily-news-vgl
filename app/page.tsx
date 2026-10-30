@@ -1,190 +1,190 @@
 import Image from "next/image";
 
-// DATOS EDITABLES — 29 OCTUBRE 2026
+// DATOS EDITABLES — 30 OCTUBRE 2026
 const brief = {
-  "fecha": "jueves 29 de octubre de 2026",
+  "fecha": "viernes 30 de octubre de 2026",
   "titulo": "Vector Global Logistics | Radar Logístico Global",
-  "subtitulo": "Riesgo alto por movilizaciones portuarias del 30 de octubre en más de 100 puertos; India enfrenta secuelas del ciclón Arnab, mientras LA/Long Beach mantiene alerta laboral y México opera con retrasos residuales. Confirmar itinerarios antes de comprometer entregas.",
+  "subtitulo": "Alerta por huelgas y movilizaciones en 113 puertos de 22 países hoy 30 de octubre. Italia convoca paro de 24 horas; Veracruz y puertos estadounidenses participan con alcance por confirmar. Los Ángeles/Long Beach mantienen una amenaza laboral distinta para el 1 de noviembre, aún en negociación.",
   "noticias": [
     {
-      "region": "GLOBAL · PUERTOS",
-      "modo": "ALERTA PREVENTIVA · 30 OCT",
+      "region": "GLOBAL · HUELGA PORTUARIA",
+      "modo": "ALERTA ALTA · 30 OCT",
       "imagen": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?w=1200",
       "bandera": "",
-      "titular": "Más de 100 puertos prevén acciones sindicales el 30 de octubre",
-      "dato": "La Federación Internacional de los Trabajadores del Transporte informó el 28 de octubre acciones coordinadas en más de 100 puertos de 17 países para el viernes 30. Entre los puertos mencionados están Génova, Gioia Tauro, Marsella, Pireo, Tánger y Mersin. Italia tiene huelga portuaria nacional convocada por 24 horas. No todos los puertos suspenderán actividades: habrá huelgas y manifestaciones con distinta intensidad. Fuentes: ITF (28 oct.), Port Technology International (26 oct.).",
-      "impacto": "Posibles demoras de atraque, gate, movimientos de patio y conexiones terrestres o feeder, según terminal y modalidad de protesta.",
-      "accion": "Confirmar con naviera y terminal la participación real, operación de gate y buque para el 30 oct.; reservar margen o alternativas en carga crítica."
+      "titular": "113 puertos de 22 países participan en jornada de acción portuaria",
+      "dato": "Reuters y Port Technology International reportan una movilización coordinada este viernes 30 de octubre que combina huelgas, paros parciales y manifestaciones. Puertos identificados incluyen Le Havre, Marsella, Génova, Gioia Tauro, El Pireo, Valencia, Hamburgo, Tánger y Nhava Sheva/JNPT. Italia registra una huelga portuaria nacional de 24 horas. Participación no equivale a cierre total de los 113 puertos. Fuentes: Reuters y Port Technology International, 30 oct. 2026.",
+      "impacto": "Posibles retrasos en carga y descarga, puertas, patios, ferris y conexiones terrestres, según sindicato, terminal y turno.",
+      "accion": "Validar el estatus real por terminal y buque, citas de retiro y fechas de conexión; priorizar cargas críticas y alternativas."
     },
     {
-      "region": "INDIA · CICLÓN ARNAB",
-      "modo": "RIESGO ALTO · 28–29 OCT",
-      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Arnab_2026-10-26_0740Z.jpg?width=1200",
-      "bandera": "https://flagcdn.com/w40/in.png",
-      "titular": "Arnab se debilita; continúan riesgos logísticos en India",
-      "dato": "Arnab cruzó Andhra Pradesh y Yanam el 28 de octubre, con vientos sostenidos de 125–135 km/h y ráfagas de 150 km/h. Para la noche del 28 se había debilitado a depresión profunda, según boletines del IMD. Persisten lluvias y riesgos de acceso terrestre. Fuentes: IMD/GDACS (28 oct.) e Indian Express (29 oct.).",
-      "impacto": "Riesgo de interrupciones en carreteras, ferrocarriles, puertos y vuelos próximos a Kakinada, Visakhapatnam y Vijayawada.",
-      "accion": "Confirmar avisos de puerto, horarios ferroviarios y vuelo por vuelo; recalcular ETA en servicios del este de India."
+      "region": "MÉXICO · VERACRUZ",
+      "modo": "RIESGO DE INTERRUPCIONES · 30 OCT",
+      "imagen": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1200",
+      "bandera": "https://flagcdn.com/w40/mx.png",
+      "titular": "Veracruz figura en la movilización internacional de estibadores",
+      "dato": "La Unión de Estibadores y Jornaleros de Veracruz figura entre los sindicatos participantes de la jornada del 30 de octubre. No se confirmó cierre generalizado de todas las terminales ni de la aduana. Fuente: convocatoria USB/ORSA y reportes World Ports Organization/Kuehne+Nagel, 27–30 oct.",
+      "impacto": "Posibles restricciones puntuales de maniobras, ingreso, recepción, retiro de contenedores y citas de transporte terrestre.",
+      "accion": "Solicitar confirmación escrita a terminal, agente y transportista antes de despachar; informar al cliente si cambia la ETA."
     },
     {
       "region": "ESTADOS UNIDOS · LA / LONG BEACH",
-      "modo": "RIESGO ALTO · DESDE 1 NOV",
+      "modo": "RIESGO PREVENTIVO · 1 NOV",
       "imagen": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1200",
       "bandera": "https://flagcdn.com/w40/us.png",
-      "titular": "Posible huelga amenaza operaciones en Los Ángeles y Long Beach",
-      "dato": "Unos 250 vigilantes portuarios de ILWU Local 26 autorizaron una huelga que podría comenzar el 1 de noviembre a las 17:00 h del Pacífico, si no se logra un acuerdo. Según PMA, las terminales involucradas manejan cerca del 85% de la carga de Long Beach y el 33% de la de Los Ángeles. Las negociaciones siguen abiertas; no hay paro confirmado al 29 de octubre. Fuentes: FreightWaves (28 oct.) y Kuehne+Nagel (29 oct.).",
-      "impacto": "Podrían detenerse operaciones de buque, patio y gate en hasta seis terminales si otros trabajadores respetan los piquetes, agravando la acumulación de contenedores ferroviarios.",
-      "accion": "Validar terminal y cita, vigilar negociaciones y evaluar cambios de ruta, fecha o puerto para embarques críticos antes del 1 de noviembre."
+      "titular": "Posible huelga del 1 de noviembre en Los Ángeles y Long Beach",
+      "dato": "Aproximadamente 250 trabajadores de vigilancia de ILWU Local 26 autorizaron una eventual huelga desde el domingo 1 de noviembre a las 17:00 hora del Pacífico. Negociaciones siguen abiertas y se informa de posibles extensiones del acuerdo. Este conflicto es distinto a las movilizaciones de hoy de ILWU Local 10 en San Francisco/Oakland. Fuentes: STG Logistics (29 oct.), FreightWaves (28 oct.) y WSJ (30 oct.).",
+      "impacto": "Si ocurre el paro, podría restringirse el acceso a terminales y retrasarse la operación de buques, patios, ferrocarril y entregas.",
+      "accion": "Confirmar terminal y ventanas de gate, monitorear negociación del 1 nov. y anticipar medidas para carga urgente."
     }
   ],
   "vigilancia": [
     {
-      "titulo": "México | Puertos del Pacífico",
+      "titulo": "México | Veracruz",
       "bandera": "https://flagcdn.com/w40/mx.png",
-      "texto": "Manzanillo y Lázaro Cárdenas presentan recuperación posterior a Simón y Trudy. Validar acumulación, inspecciones y citas por terminal. Vigilar bloqueos localizados y condiciones de lluvia o viento en el norte, sin afirmar cierres generales."
+      "texto": "Sindicato de estibadores participa en la movilización del 30 oct. No hay confirmación de cierre total; validar cada terminal, gate y servicio terrestre."
     },
     {
-      "titulo": "Estados Unidos | Los Ángeles / Long Beach",
+      "titulo": "Estados Unidos | San Francisco y Oakland",
       "bandera": "https://flagcdn.com/w40/us.png",
-      "texto": "Se reporta posibilidad de conflicto laboral de ILWU Local 26 con referencia al 1 de noviembre. Tratarlo como riesgo preventivo, no como huelga iniciada; confirmar status con cada terminal y naviera."
+      "texto": "ILWU Local 10 aparece entre los apoyos a la jornada internacional del 30 oct.; no atribuir cierre general de los puertos sin aviso operativo."
     },
     {
-      "titulo": "Estados Unidos | Drayage y puertos del Golfo",
+      "titulo": "Estados Unidos | Los Ángeles y Long Beach",
       "bandera": "https://flagcdn.com/w40/us.png",
-      "texto": "Vigilar disponibilidad de unidades, citas intermodales y restricciones locales de recuperación en puertos del Golfo; la condición de cada puerto requiere aviso de autoridad portuaria o USCG vigente."
+      "texto": "Amenaza separada de ILWU Local 26 para el 1 nov. a las 17:00 PT; sindicatos y empleadores siguen negociando, con posible prórroga. No afirmar que están en huelga hoy."
     },
     {
-      "titulo": "Europa | Francia e Italia",
+      "titulo": "Europa | Italia",
+      "bandera": "https://flagcdn.com/w40/it.png",
+      "texto": "Huelga portuaria nacional de 24 horas: Génova, Livorno, Trieste, Gioia Tauro, Ravenna, Ancona y Civitavecchia entre los puertos mencionados. Alcance operativo variable."
+    },
+    {
+      "titulo": "Europa | Francia, Grecia y España",
       "bandera": "",
-      "texto": "Acciones sindicales previstas para el 30 de octubre. Italia tiene convocatoria nacional de 24 horas; en Francia y otros países el grado de afectación puede variar por terminal. Revisar Le Havre, Marsella-Fos, Dunkerque y puertos italianos."
+      "texto": "Le Havre, Marsella, Dunkerque, El Pireo, Valencia, Barcelona y Algeciras aparecen entre puertos movilizados; distinguir huelga de manifestación y confirmar terminal. En Grecia se reporta impacto en ferris."
     },
     {
-      "titulo": "Europa | Rin, Rotterdam y Amberes",
-      "bandera": "https://flagcdn.com/w40/nl.png",
-      "texto": "Monitorear bajos niveles del Rin, recargos de barcaza y efectos acumulados de paros anteriores. Solicitar tiempos y tarifas actualizados; no asumir que esperas históricas siguen vigentes."
+      "titulo": "Europa | Hamburgo, Rotterdam y Amberes",
+      "bandera": "https://flagcdn.com/w40/de.png",
+      "texto": "Hamburgo participa en la jornada. Rotterdam y Amberes enfrentan rezagos y congestión reportados previamente; validar capacidad y conexiones sin atribuirles cierres no confirmados."
     },
     {
-      "titulo": "Asia | Shanghái, Singapur y Colombo",
-      "bandera": "https://flagcdn.com/w40/sg.png",
-      "texto": "Seguir conexiones y rollovers tras Golden Week. Las colas y los tiempos de espera cambian por terminal; confirmar itinerario y disponibilidad de feeders."
-    },
-    {
-      "titulo": "India | Puertos del este",
+      "titulo": "India | JNPT y costa este",
       "bandera": "https://flagcdn.com/w40/in.png",
-      "texto": "Arnab afecta Andhra Pradesh y Yanam. Monitorear Kakinada, Visakhapatnam, Gangavaram y las conexiones ferroviarias y aéreas de la región; consultar avisos oficiales antes de despachar."
+      "texto": "JNPT/Nhava Sheva, Chennai, Cochin, Gangavaram, Kakinada y Visakhapatnam figuran en convocatoria; en la costa este revisar además secuelas del ciclón Arnab y reapertura de terminales."
     },
     {
-      "titulo": "Brasil | Puertos y cargos noviembre",
+      "titulo": "Asia | Conexiones",
+      "bandera": "https://flagcdn.com/w40/sg.png",
+      "texto": "Shanghái, Ningbo, Singapur y Busan mantienen riesgos de congestión o itinerarios inestables según reportes de octubre. Confirmar feeder, ETD y ETA por servicio."
+    },
+    {
+      "titulo": "Brasil | Tarifas y feriado",
       "bandera": "https://flagcdn.com/w40/br.png",
-      "texto": "Sin cierre portuario nacional verificado el 29 de octubre. Confirmar horarios y accesos de Santos y puertos del sur/sudeste; revisar cargos OHC/DHC anunciados para el 1 de noviembre según naviera y servicio. Nossa Senhora Aparecida fue el 12 de octubre, no el 28."
+      "texto": "Maersk anuncia ajustes OHC/DHC en puertos brasileños desde el 1 nov. El 2 nov. es feriado nacional (Finados); reconfirmar recepción, disponibilidad y costos aplicables."
     },
     {
-      "titulo": "Global | Tarifas y mercado financiero",
+      "titulo": "Calendario | Fechas próximas",
       "bandera": "",
-      "texto": "Revisar GRIs de Asia–México por naviera y vigencia. La volatilidad bursátil y las expectativas de tasas pueden influir indirectamente en financiamiento, flotas y demanda futura; la sesión del 14 de octubre no debe presentarse como caída de hoy ni como interrupción logística demostrada."
-    },
-    {
-      "titulo": "Calendario | Próximas fechas",
-      "bandera": "",
-      "texto": "30 oct.: acciones en más de 100 puertos (modalidad sujeta a terminal). 1 nov.: posible escalamiento laboral LA/LB, sujeto a confirmación. 2 nov.: Día de Muertos en México (no descanso federal obligatorio). 8 nov.: Diwali en India. 16 nov.: descanso por Revolución Mexicana."
+      "texto": "30 oct.: acciones en 113 puertos (no todos cerrados). 1 nov.: posible conflicto LA/LB si fracasa negociación. 2 nov.: inhabilidad en dependencias específicas de México y feriado en Brasil. 8 nov.: Diwali en India. 16 nov.: descanso obligatorio en México."
     }
   ],
   "metricas": [
     {
-      "indicador": "Acción portuaria internacional",
-      "valor": "30 oct.",
-      "tendencia": "Más de 100 puertos en 17 países; impacto varía por terminal (ITF, 28 oct.)."
+      "indicador": "Movilización global",
+      "valor": "113 puertos",
+      "tendencia": "22 países, más de 25 sindicatos; Reuters y PTI, 30 oct."
     },
     {
-      "indicador": "Italia · huelga portuaria",
+      "indicador": "Italia · huelga nacional",
       "valor": "24 h",
-      "tendencia": "Convocatoria registrada para el 30 oct."
+      "tendencia": "30 de octubre; efecto variable por terminal."
     },
     {
-      "indicador": "Arnab · vientos sostenidos",
-      "valor": "125–135 km/h",
-      "tendencia": "En tierra 28 oct.; debilitado a depresión profunda esa noche."
+      "indicador": "México · Veracruz",
+      "valor": "En alerta",
+      "tendencia": "Participación sindical; sin cierre general confirmado."
     },
     {
-      "indicador": "México · paro transportista",
-      "valor": "Concluido",
-      "tendencia": "Acuerdo de levantamiento 27 oct.; verificar ruta."
+      "indicador": "LA/LB · posible paro",
+      "valor": "1 nov.",
+      "tendencia": "Desde 17:00 PT, condicionado a negociaciones."
     },
     {
-      "indicador": "Drewry WCI · referencia",
-      "valor": "USD 4,585",
-      "tendencia": "Por FEU, reporte 22 oct.; no es cotización de hoy."
+      "indicador": "Los Ángeles · rail dwell",
+      "valor": "~9 días",
+      "tendencia": "Referencia 27 oct.; solo contenedores ferroviarios."
     },
     {
-      "indicador": "Shanghái → Rotterdam",
-      "valor": "USD 3,632",
-      "tendencia": "Por FEU, referencia 22 oct.; verificar tarifa actual."
+      "indicador": "Long Beach · rail dwell",
+      "valor": "~10 días",
+      "tendencia": "Referencia 27 oct.; no es espera de buque."
     },
     {
-      "indicador": "Shanghái → Génova",
-      "valor": "USD 4,152",
-      "tendencia": "Por FEU, referencia 22 oct.; verificar tarifa actual."
+      "indicador": "Brasil · OHC/DHC",
+      "valor": "1 nov.",
+      "tendencia": "Ajustes publicados por Maersk; según puerto y equipo."
     },
     {
-      "indicador": "LA/LB · conflicto laboral",
-      "valor": "Preventivo",
-      "tendencia": "Posible desde 1 nov.; sin paro confirmado al corte."
+      "indicador": "Diwali · India",
+      "valor": "8 nov.",
+      "tendencia": "Validar calendario real de fábrica y servicios."
     }
   ],
   "recomendaciones": [
-    "Europa: identificar terminales involucradas el 30 de octubre y reconfirmar buque, gate, citas, transbordos y alternativas antes del zarpe.",
-    "India: comprobar cierres por ciclón Arnab en puertos del este, vuelos y trenes; agregar holgura de tránsito a carga sensible.",
-    "México: no presentar el paro nacional como activo; revisar operaciones residuales por corredor con CAPUFE y transportista.",
-    "LA/LB: anticipar escenarios de continuidad o afectación sindical sin afirmar huelga confirmada; monitorear drayage y citas.",
-    "Asia–México y Brasil: confirmar recargos GRI, OHC y DHC por naviera, fecha, terminal y tipo de equipo.",
-    "Indicadores financieros: mantener la volatilidad bursátil como contexto indirecto, no como una interrupción operacional inmediata."
+    "Priorizar hoy operaciones en Italia, Francia, Grecia y Veracruz: confirmar por escrito si la terminal opera y las citas siguen vigentes.",
+    "No confundir movilización global del 30 de octubre con la posible huelga de seguridad de Los Ángeles/Long Beach del 1 de noviembre.",
+    "En Estados Unidos monitorear San Francisco/Oakland y por separado la negociación de ILWU Local 26 en LA/LB.",
+    "Para India validar tanto participación en acciones portuarias como recuperación por el ciclón Arnab y horarios de proveedores antes de Diwali.",
+    "Revisar conexiones de Rotterdam/Amberes, Asia y el feriado de Brasil del 2 de noviembre; no usar tiempos indicativos como medición en vivo.",
+    "Confirmar cada recargo de noviembre por naviera, origen, destino y tipo de equipo; comunicar cambios de ETA antes de prometer entregas."
   ]
 };
 
 const retrasos = [
   {
-    "puerto": "Europa · múltiples puertos",
-    "tiempo": "30 oct. · preventivo",
-    "estado": "Acciones previstas en más de 100 puertos; Italia convoca huelga de 24 h. Verificar terminal."
+    "puerto": "Global · 113 puertos",
+    "tiempo": "30 oct. · en curso",
+    "estado": "Huelgas, paros parciales y manifestaciones en 22 países; no son 113 cierres simultáneos."
   },
   {
-    "puerto": "India · Andhra Pradesh",
-    "tiempo": "28–29 oct.",
-    "estado": "Arnab ya cruzó tierra y se debilitó; continúan riesgos de inundación y retrasos portuarios, ferroviarios y aéreos."
+    "puerto": "Italia · Génova, Livorno y otros",
+    "tiempo": "30 oct. · 24 h",
+    "estado": "Convocatoria de huelga nacional; confirmar operación por terminal."
   },
   {
-    "puerto": "México · carreteras",
-    "tiempo": "Paro concluido",
-    "estado": "Levantamiento anunciado 27 oct.; confirmar circulación y citas por tramo."
+    "puerto": "México · Veracruz",
+    "tiempo": "30 oct. · en vigilancia",
+    "estado": "Participación sindical reportada; sin cierre total verificado."
   },
   {
-    "puerto": "México · Manzanillo/Lázaro Cárdenas",
-    "tiempo": "Recuperación",
-    "estado": "Verificar recepción, accesos, acumulación y ventanas por terminal."
+    "puerto": "EE. UU. · San Francisco/Oakland",
+    "tiempo": "30 oct. · participación",
+    "estado": "Apoyo a jornada internacional; modalidad de acción por confirmar."
   },
   {
-    "puerto": "LA/LB · terminales",
-    "tiempo": "Desde 1 nov. · riesgo",
-    "estado": "Posible conflicto laboral; no hay huelga confirmada para hoy."
+    "puerto": "EE. UU. · LA/Long Beach",
+    "tiempo": "1 nov. · posible",
+    "estado": "Amenaza de huelga de vigilantes, distinta a la movilización de hoy; negociación activa."
   },
   {
-    "puerto": "Europa · Rin/Rotterdam",
-    "tiempo": "Validar al día",
-    "estado": "Riesgo de niveles bajos y congestión de barcazas; consultar operadores."
+    "puerto": "Francia/Grecia/España",
+    "tiempo": "30 oct. · variable",
+    "estado": "Huelgas y protestas con diferente efecto; El Pireo reporta afectación a carga y ferris."
   },
   {
-    "puerto": "Asia · Singapur/Colombo",
-    "tiempo": "Validar transbordo",
-    "estado": "Comprobar conexiones, colas y feeders por terminal."
+    "puerto": "India · JNPT y costa este",
+    "tiempo": "30 oct. · doble riesgo",
+    "estado": "Acciones sindicales y recuperación climática en el este; confirmar terminal."
   },
   {
-    "puerto": "Brasil · Santos y sur",
-    "tiempo": "Validar cita",
-    "estado": "Sin cierre nacional confirmado; revisar terminal y nuevos cargos aplicables desde noviembre."
+    "puerto": "Brasil · puertos seleccionados",
+    "tiempo": "1–2 nov.",
+    "estado": "Ajustes de cargos Maersk desde 1 nov. y feriado del 2 nov.; verificar aplicabilidad."
   }
 ];
 
-// Corte: 29 oct. 2026; tarifas Drewry 22 oct. Fuentes dentro de cada noticia.
+// Corte: 30 oct. 2026, mañana Monterrey; referencias de dwell 27 oct. Fuentes indicadas en noticias.
 
 // ======================================================
 // NO EDITAR DEBAJO DE ESTA LÍNEA
@@ -354,7 +354,7 @@ export default function Home() {
       </section>
 
       {/* TABLA DE RETRASOS PORTUARIOS */}
-      <section className="bg-white"><div className="mx-auto max-w-7xl px-6 py-14 md:px-10"><p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">OPERACIÓN LOGÍSTICA · CORTE 29 DE OCTUBRE</p><h2 className="mt-3 text-3xl font-bold text-[#003C6F]">Estado de puertos y conexiones</h2><p className="mt-3 max-w-4xl text-sm leading-6 text-gray-600">No se dispone de tiempos en vivo comparables en todos los puertos. Las cifras indicativas y restricciones deben validarse con terminal y naviera antes de comprometer ETA.</p><div className="mt-7 overflow-x-auto rounded-2xl border border-gray-200"><table className="w-full min-w-[760px] text-left text-sm"><thead className="bg-[#003C6F] text-white"><tr><th className="p-4">País / puerto</th><th className="p-4">Fecha o dato</th><th className="p-4">Estado e interpretación</th></tr></thead><tbody>{retrasos.map((r,i)=><tr key={r.puerto} className={i%2===0?"bg-[#F3F5F7]":"bg-white"}><td className="p-4 font-bold text-[#003C6F]">{r.puerto}</td><td className="p-4 font-semibold">{r.tiempo}</td><td className="p-4 text-gray-600">{r.estado}</td></tr>)}</tbody></table></div></div></section>
+      <section className="bg-white"><div className="mx-auto max-w-7xl px-6 py-14 md:px-10"><p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">OPERACIÓN LOGÍSTICA · CORTE 30 DE OCTUBRE</p><h2 className="mt-3 text-3xl font-bold text-[#003C6F]">Estado de puertos y conexiones</h2><p className="mt-3 max-w-4xl text-sm leading-6 text-gray-600">No se dispone de tiempos en vivo comparables en todos los puertos. Las cifras indicativas y restricciones deben validarse con terminal y naviera antes de comprometer ETA.</p><div className="mt-7 overflow-x-auto rounded-2xl border border-gray-200"><table className="w-full min-w-[760px] text-left text-sm"><thead className="bg-[#003C6F] text-white"><tr><th className="p-4">País / puerto</th><th className="p-4">Fecha o dato</th><th className="p-4">Estado e interpretación</th></tr></thead><tbody>{retrasos.map((r,i)=><tr key={r.puerto} className={i%2===0?"bg-[#F3F5F7]":"bg-white"}><td className="p-4 font-bold text-[#003C6F]">{r.puerto}</td><td className="p-4 font-semibold">{r.tiempo}</td><td className="p-4 text-gray-600">{r.estado}</td></tr>)}</tbody></table></div></div></section>
 
       {/* MÉTRICAS CLAVE */}
       <section className="bg-[#F3F5F7]">
@@ -465,7 +465,7 @@ export default function Home() {
           </div>
 
           <span className="max-w-xl text-white/60 md:text-right">
-            Corte informativo del 29 de octubre de 2026. Fuentes: ITF, IMD/GDACS, NASA Earth Observatory, prensa portuaria y referencias operativas sujetas a validación. Datos sujetos a actualización y confirmación con terminal, naviera y proveedor.</span>
+            Corte informativo del 30 de octubre de 2026. Fuentes: Reuters, Port Technology International, ITF, Kuehne+Nagel, STG Logistics, sindicatos portuarios y referencias operativas sujetas a validación. Datos sujetos a actualización y confirmación con terminal, naviera y proveedor.</span>
         </div>
       </footer>
     </main>
