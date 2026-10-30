@@ -4,45 +4,40 @@ import Image from "next/image";
 const brief = {
   "fecha": "viernes 30 de octubre de 2026",
   "titulo": "Vector Global Logistics | Radar Logístico Global",
-  "subtitulo": "Alerta por huelgas y movilizaciones en 113 puertos de 22 países hoy 30 de octubre. Italia convoca paro de 24 horas; Veracruz y puertos estadounidenses participan con alcance por confirmar. Los Ángeles/Long Beach mantienen una amenaza laboral distinta para el 1 de noviembre, aún en negociación.",
+  "subtitulo": "Hoy hay huelgas y protestas de trabajadores portuarios en varios países. Italia tiene una huelga nacional; Francia, Grecia y España también participan. Esto puede retrasar la salida y entrega de mercancías, pero no significa que todos los puertos estén cerrados. En Estados Unidos sigue bajo vigilancia una posible huelga en Los Ángeles y Long Beach para el 1 de noviembre.",
   "noticias": [
     {
-      "region": "GLOBAL · HUELGA PORTUARIA",
-      "modo": "ALERTA ALTA · 30 OCT",
+      "region": "GLOBAL · PUERTOS",
+      "modo": "HUELGAS Y PROTESTAS · 30 OCT",
       "imagen": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?w=1200",
       "bandera": "",
-      "titular": "113 puertos de 22 países participan en jornada de acción portuaria",
-      "dato": "Reuters y Port Technology International reportan una movilización coordinada este viernes 30 de octubre que combina huelgas, paros parciales y manifestaciones. Puertos identificados incluyen Le Havre, Marsella, Génova, Gioia Tauro, El Pireo, Valencia, Hamburgo, Tánger y Nhava Sheva/JNPT. Italia registra una huelga portuaria nacional de 24 horas. Participación no equivale a cierre total de los 113 puertos. Fuentes: Reuters y Port Technology International, 30 oct. 2026.",
-      "impacto": "Posibles retrasos en carga y descarga, puertas, patios, ferris y conexiones terrestres, según sindicato, terminal y turno.",
-      "accion": "Validar el estatus real por terminal y buque, citas de retiro y fechas de conexión; priorizar cargas críticas y alternativas."
+      "titular": "Protestas y huelgas en puertos de 22 países pueden retrasar mercancías",
+      "dato": "Este viernes 30 de octubre, trabajadores portuarios de distintos países participan en una jornada internacional de protestas y huelgas. Italia convocó una huelga de 24 horas. En otros países las medidas pueden ser parciales o limitarse a manifestaciones. No significa que todos los puertos estén cerrados.",
+      "impacto": "Algunos embarques podrían tardar más en salir, descargarse o llegar a su destino.",
+      "accion": "Confirmar con el operador portuario si hay cambios en las fechas de salida, llegada o entrega."
     },
     {
-      "region": "MÉXICO · VERACRUZ",
-      "modo": "RIESGO DE INTERRUPCIONES · 30 OCT",
-      "imagen": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1200",
-      "bandera": "https://flagcdn.com/w40/mx.png",
-      "titular": "Veracruz figura en la movilización internacional de estibadores",
-      "dato": "La Unión de Estibadores y Jornaleros de Veracruz figura entre los sindicatos participantes de la jornada del 30 de octubre. No se confirmó cierre generalizado de todas las terminales ni de la aduana. Fuente: convocatoria USB/ORSA y reportes World Ports Organization/Kuehne+Nagel, 27–30 oct.",
-      "impacto": "Posibles restricciones puntuales de maniobras, ingreso, recepción, retiro de contenedores y citas de transporte terrestre.",
-      "accion": "Solicitar confirmación escrita a terminal, agente y transportista antes de despachar; informar al cliente si cambia la ETA."
+      "region": "EUROPA · FRANCIA, GRECIA Y ESPAÑA",
+      "modo": "MOVILIZACIONES · 30 OCT",
+      "imagen": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?w=1200",
+      "bandera": "",
+      "titular": "Francia, Grecia y España: posibles retrasos en sus principales puertos",
+      "dato": "Hoy se registran movilizaciones de trabajadores portuarios en Europa. En Francia se mencionan Le Havre, Marsella y Dunkerque; en Grecia, El Pireo; y en España, Valencia, Barcelona y Algeciras. No todas las protestas implican suspensión de actividades, por lo que la situación puede variar en cada puerto.",
+      "impacto": "Podrían retrasarse las operaciones de carga, la salida de barcos y algunas entregas. En Grecia también se reportan afectaciones a ferris.",
+      "accion": "Revisar los embarques que pasan por estos puertos y confirmar con naviera y transportista si los itinerarios se mantienen."
     },
     {
-      "region": "ESTADOS UNIDOS · LA / LONG BEACH",
-      "modo": "RIESGO PREVENTIVO · 1 NOV",
+      "region": "ESTADOS UNIDOS · LOS ÁNGELES / LONG BEACH",
+      "modo": "POSIBLE HUELGA · 1 NOV",
       "imagen": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1200",
       "bandera": "https://flagcdn.com/w40/us.png",
-      "titular": "Posible huelga del 1 de noviembre en Los Ángeles y Long Beach",
-      "dato": "Aproximadamente 250 trabajadores de vigilancia de ILWU Local 26 autorizaron una eventual huelga desde el domingo 1 de noviembre a las 17:00 hora del Pacífico. Negociaciones siguen abiertas y se informa de posibles extensiones del acuerdo. Este conflicto es distinto a las movilizaciones de hoy de ILWU Local 10 en San Francisco/Oakland. Fuentes: STG Logistics (29 oct.), FreightWaves (28 oct.) y WSJ (30 oct.).",
-      "impacto": "Si ocurre el paro, podría restringirse el acceso a terminales y retrasarse la operación de buques, patios, ferrocarril y entregas.",
-      "accion": "Confirmar terminal y ventanas de gate, monitorear negociación del 1 nov. y anticipar medidas para carga urgente."
+      "titular": "Los Ángeles y Long Beach: posible huelga a partir del domingo",
+      "dato": "Trabajadores de seguridad de varias terminales autorizaron una posible huelga para el domingo 1 de noviembre, a partir de las 5:00 p. m. (hora del Pacífico). Las negociaciones continúan y todavía no se ha confirmado que vaya a comenzar. Se trata de un conflicto diferente a las protestas internacionales de hoy.",
+      "impacto": "Si comienza, podría haber retrasos para retirar contenedores, recibir mercancía y programar entregas.",
+      "accion": "Identificar los embarques que llegan a estos puertos y revisar las fechas de retiro y entrega."
     }
   ],
   "vigilancia": [
-    {
-      "titulo": "México | Veracruz",
-      "bandera": "https://flagcdn.com/w40/mx.png",
-      "texto": "Sindicato de estibadores participa en la movilización del 30 oct. No hay confirmación de cierre total; validar cada terminal, gate y servicio terrestre."
-    },
     {
       "titulo": "Estados Unidos | San Francisco y Oakland",
       "bandera": "https://flagcdn.com/w40/us.png",
@@ -76,12 +71,12 @@ const brief = {
     {
       "titulo": "Asia | Conexiones",
       "bandera": "https://flagcdn.com/w40/sg.png",
-      "texto": "Shanghái, Ningbo, Singapur y Busan mantienen riesgos de congestión o itinerarios inestables según reportes de octubre. Confirmar feeder, ETD y ETA por servicio."
+      "texto": "Shanghái, Ningbo, Singapur y Busan mantienen riesgos de congestión o itinerarios inestables según reportes de octubre. Confirmar conexión marítima, salida y llegada por servicio."
     },
     {
       "titulo": "Brasil | Tarifas y feriado",
       "bandera": "https://flagcdn.com/w40/br.png",
-      "texto": "Maersk anuncia ajustes OHC/DHC en puertos brasileños desde el 1 nov. El 2 nov. es feriado nacional (Finados); reconfirmar recepción, disponibilidad y costos aplicables."
+      "texto": "Maersk anuncia ajustes cargos de manejo de terminal en puertos brasileños desde el 1 nov. El 2 nov. es feriado nacional (Finados); reconfirmar recepción, disponibilidad y costos aplicables."
     },
     {
       "titulo": "Calendario | Fechas próximas",
@@ -99,11 +94,6 @@ const brief = {
       "indicador": "Italia · huelga nacional",
       "valor": "24 h",
       "tendencia": "30 de octubre; efecto variable por terminal."
-    },
-    {
-      "indicador": "México · Veracruz",
-      "valor": "En alerta",
-      "tendencia": "Participación sindical; sin cierre general confirmado."
     },
     {
       "indicador": "LA/LB · posible paro",
@@ -132,12 +122,12 @@ const brief = {
     }
   ],
   "recomendaciones": [
-    "Priorizar hoy operaciones en Italia, Francia, Grecia y Veracruz: confirmar por escrito si la terminal opera y las citas siguen vigentes.",
+    "Priorizar hoy operaciones en Italia, Francia, Grecia y España: confirmar por escrito si la terminal opera y las citas siguen vigentes.",
     "No confundir movilización global del 30 de octubre con la posible huelga de seguridad de Los Ángeles/Long Beach del 1 de noviembre.",
-    "En Estados Unidos monitorear San Francisco/Oakland y por separado la negociación de ILWU Local 26 en LA/LB.",
+    "En Estados Unidos monitorear San Francisco/Oakland y por separado la negociación de trabajadores de seguridad portuaria en LA/LB.",
     "Para India validar tanto participación en acciones portuarias como recuperación por el ciclón Arnab y horarios de proveedores antes de Diwali.",
     "Revisar conexiones de Rotterdam/Amberes, Asia y el feriado de Brasil del 2 de noviembre; no usar tiempos indicativos como medición en vivo.",
-    "Confirmar cada recargo de noviembre por naviera, origen, destino y tipo de equipo; comunicar cambios de ETA antes de prometer entregas."
+    "Confirmar cada recargo de noviembre por naviera, origen, destino y tipo de equipo; comunicar cambios de fecha de entrega antes de prometer entregas."
   ]
 };
 
