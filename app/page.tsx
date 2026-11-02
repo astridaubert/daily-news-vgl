@@ -1,180 +1,164 @@
 import Image from "next/image";
 
-// DATOS EDITABLES — 30 OCTUBRE 2026
+// DATOS EDITABLES — 2 NOVIEMBRE 2026
 const brief = {
-  "fecha": "viernes 30 de octubre de 2026",
+  "fecha": "lunes 2 de noviembre de 2026",
   "titulo": "Vector Global Logistics | Radar Logístico Global",
-  "subtitulo": "Hoy hay huelgas y protestas de trabajadores portuarios en varios países. Italia tiene una huelga nacional; Francia, Grecia y España también participan. Esto puede retrasar la salida y entrega de mercancías, pero no significa que todos los puertos estén cerrados. En Estados Unidos sigue bajo vigilancia una posible huelga en Los Ángeles y Long Beach para el 1 de noviembre.",
+  "subtitulo": "Riesgo prioritario en San Antonio (Chile), la costa este de India por el ciclón Murasu y Los Ángeles/Long Beach por negociación laboral. Las afectaciones deben confirmarse por embarque y terminal. Como oportunidad, el servicio ME1 de Maersk y Hapag-Lloyd cambia su itinerario a través de Suez, sin representar una normalización general de la región.",
   "noticias": [
     {
-      "region": "GLOBAL · PUERTOS",
-      "modo": "HUELGAS Y PROTESTAS · 30 OCT",
+      "region": "CHILE · SAN ANTONIO",
+      "modo": "ALERTA ALTA · ACCESOS TERRESTRES",
       "imagen": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?w=1200",
-      "bandera": "",
-      "titular": "Protestas y huelgas en puertos de 22 países pueden retrasar mercancías",
-      "dato": "Este viernes 30 de octubre, trabajadores portuarios de distintos países participan en una jornada internacional de protestas y huelgas. Italia convocó una huelga de 24 horas. En otros países las medidas pueden ser parciales o limitarse a manifestaciones. No significa que todos los puertos estén cerrados.",
-      "impacto": "Algunos embarques podrían tardar más en salir, descargarse o llegar a su destino.",
-      "accion": "Confirmar con el operador portuario si hay cambios en las fechas de salida, llegada o entrega."
+      "bandera": "https://flagcdn.com/w40/cl.png",
+      "titular": "Bloqueos de transportistas complican accesos a depósitos de San Antonio",
+      "dato": "Se reportan movilizaciones y bloqueos en accesos a depósitos extraportuarios. No debe interpretarse como cierre general del puerto. Confirmar la situación específica con transportistas y agentes locales.",
+      "impacto": "Posibles demoras de retiro y entrega de contenedores, especialmente sensibles para carga perecedera y temporada de fruta.",
+      "accion": "Identificar depósitos afectados, revisar accesos habilitados y coordinar alternativas para embarques con fecha crítica."
     },
     {
-      "region": "EUROPA · FRANCIA, GRECIA Y ESPAÑA",
-      "modo": "MOVILIZACIONES · 30 OCT",
-      "imagen": "https://images.unsplash.com/photo-1703226741497-6de4f67c6e11?fm=jpg&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHN1cHBseSUyMGNoYWlufGVufDB8fDB8fHww&lib=rb-4.0.3&q=60&w=3000",
-      "bandera": "",
-      "titular": "Francia, Grecia y España: posibles retrasos en sus principales puertos",
-      "dato": "Hoy se registran movilizaciones de trabajadores portuarios en Europa. En Francia se mencionan Le Havre, Marsella y Dunkerque; en Grecia, El Pireo; y en España, Valencia, Barcelona y Algeciras. No todas las protestas implican suspensión de actividades, por lo que la situación puede variar en cada puerto.",
-      "impacto": "Podrían retrasarse las operaciones de carga, la salida de barcos y algunas entregas. En Grecia también se reportan afectaciones a ferris.",
-      "accion": "Revisar los embarques que pasan por estos puertos y confirmar con naviera y transportista si los itinerarios se mantienen."
+      "region": "INDIA · ANDHRA PRADESH",
+      "modo": "ALERTA ALTA · CICLÓN MURASU",
+      "imagen": "https://images.unsplash.com/photo-1500534623283-312aade485b7?w=1200",
+      "bandera": "https://flagcdn.com/w40/in.png",
+      "titular": "Murasu amenaza la costa este de India durante la noche del 2 de noviembre",
+      "dato": "El pronóstico meteorológico indica cruce costero entre Nellore y Narsapur, cerca de Ongole, entre la noche del 2 y madrugada del 3 de noviembre, con vientos de 100–110 km/h y ráfagas de hasta 120 km/h. Fuente: IMD, boletín del 2 de noviembre.",
+      "impacto": "Riesgo de afectación a terminales, accesos terrestres y conexiones. No se consideran confirmados cierres particulares sin aviso del operador.",
+      "accion": "Validar itinerarios, ventanas portuarias y transporte terrestre con terminal y naviera antes de actualizar compromisos."
     },
     {
       "region": "ESTADOS UNIDOS · LOS ÁNGELES / LONG BEACH",
-      "modo": "POSIBLE HUELGA · 1 NOV",
+      "modo": "ALERTA ALTA · NEGOCIACIÓN LABORAL",
       "imagen": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1200",
       "bandera": "https://flagcdn.com/w40/us.png",
-      "titular": "Los Ángeles y Long Beach: posible huelga a partir del domingo",
-      "dato": "Trabajadores de seguridad de varias terminales autorizaron una posible huelga para el domingo 1 de noviembre, a partir de las 5:00 p. m. (hora del Pacífico). Las negociaciones continúan y todavía no se ha confirmado que vaya a comenzar. Se trata de un conflicto diferente a las protestas internacionales de hoy.",
-      "impacto": "Si comienza, podría haber retrasos para retirar contenedores, recibir mercancía y programar entregas.",
-      "accion": "Identificar los embarques que llegan a estos puertos y revisar las fechas de retiro y entrega."
+      "titular": "Continúan negociaciones de seguridad portuaria; plazo hasta el 4 de noviembre",
+      "dato": "La extensión del plazo de negociación hasta el 4 de noviembre a las 17:00 (hora del Pacífico) ya fue acordada. Persiste riesgo de paro en ausencia de acuerdo; no reportar huelga activa.",
+      "impacto": "Si se concreta una interrupción, podrían verse afectadas citas, retiros de contenedores y conexiones ferroviarias; no implica afectación actual de todas las terminales.",
+      "accion": "Identificar embarques expuestos y reconfirmar citas de retiro, conexiones ferroviarias y fechas comprometidas."
     }
   ],
   "vigilancia": [
     {
-      "titulo": "Estados Unidos | San Francisco y Oakland",
-      "bandera": "https://flagcdn.com/w40/us.png",
-      "texto": "ILWU Local 10 aparece entre los apoyos a la jornada internacional del 30 oct.; no atribuir cierre general de los puertos sin aviso operativo."
-    },
-    {
-      "titulo": "Estados Unidos | Los Ángeles y Long Beach",
-      "bandera": "https://flagcdn.com/w40/us.png",
-      "texto": "Amenaza separada de ILWU Local 26 para el 1 nov. a las 17:00 PT; sindicatos y empleadores siguen negociando, con posible prórroga. No afirmar que están en huelga hoy."
-    },
-    {
-      "titulo": "Europa | Italia",
-      "bandera": "https://flagcdn.com/w40/it.png",
-      "texto": "Huelga portuaria nacional de 24 horas: Génova, Livorno, Trieste, Gioia Tauro, Ravenna, Ancona y Civitavecchia entre los puertos mencionados. Alcance operativo variable."
-    },
-    {
-      "titulo": "Europa | Francia, Grecia y España",
+      "titulo": "Canal de Suez | Servicio ME1",
       "bandera": "",
-      "texto": "Le Havre, Marsella, Dunkerque, El Pireo, Valencia, Barcelona y Algeciras aparecen entre puertos movilizados; distinguir huelga de manifestación y confirmar terminal. En Grecia se reporta impacto en ferris."
+      "texto": "Maersk y Hapag-Lloyd anuncian cambio del servicio ME1 India–Europa por Suez. Primer zarpe afectado: Atlanta Express desde Salalah el 4 de noviembre. No extrapolar a todos los servicios ni prometer ahorro. Fuente: Maersk, 2 nov."
     },
     {
-      "titulo": "Europa | Hamburgo, Rotterdam y Amberes",
-      "bandera": "https://flagcdn.com/w40/de.png",
-      "texto": "Hamburgo participa en la jornada. Rotterdam y Amberes enfrentan rezagos y congestión reportados previamente; validar capacidad y conexiones sin atribuirles cierres no confirmados."
+      "titulo": "Europa | Sistema EES",
+      "bandera": "",
+      "texto": "Las dificultades del control de entrada/salida de personas pueden repercutir en tripulaciones, ferris y rotación de buques. No equivalen a bloqueo general de aduanas para mercancías."
     },
     {
-      "titulo": "India | JNPT y costa este",
-      "bandera": "https://flagcdn.com/w40/in.png",
-      "texto": "JNPT/Nhava Sheva, Chennai, Cochin, Gangavaram, Kakinada y Visakhapatnam figuran en convocatoria; en la costa este revisar además secuelas del ciclón Arnab y reapertura de terminales."
-    },
-    {
-      "titulo": "Asia | Conexiones",
-      "bandera": "https://flagcdn.com/w40/sg.png",
-      "texto": "Shanghái, Ningbo, Singapur y Busan mantienen riesgos de congestión o itinerarios inestables según reportes de octubre. Confirmar conexión marítima, salida y llegada por servicio."
-    },
-    {
-      "titulo": "Brasil | Tarifas y feriado",
+      "titulo": "Brasil | Cargos OHC/DHC",
       "bandera": "https://flagcdn.com/w40/br.png",
-      "texto": "Maersk anuncia ajustes cargos de manejo de terminal en puertos brasileños desde el 1 nov. El 2 nov. es feriado nacional (Finados); reconfirmar recepción, disponibilidad y costos aplicables."
+      "texto": "Ajustes de Maersk desde el 1 de noviembre: comprobar puerto, terminal y tipo de equipo. Hay reducciones específicas en Suape; no describir todos los ajustes como aumentos."
+    },
+    {
+      "titulo": "España | Convocatoria del 11 nov.",
+      "bandera": "https://flagcdn.com/w40/es.png",
+      "texto": "Se informa una convocatoria de huelga general para el 11 de noviembre. Repercusiones en transporte y terminales pendientes de participación y servicios mínimos; confirmar avisos locales."
+    },
+    {
+      "titulo": "India | Diwali",
+      "bandera": "https://flagcdn.com/w40/in.png",
+      "texto": "Diwali está previsto para el 8 de noviembre. Confirmar días de operación y disponibilidad real de plantas, proveedores, agentes y transportistas."
+    },
+    {
+      "titulo": "Chile | Carga perecedera",
+      "bandera": "https://flagcdn.com/w40/cl.png",
+      "texto": "Dar prioridad a contenedores refrigerados y embarques de fruta con ventana de retiro o entrega próxima. Confirmar acceso a depósitos extraportuarios sin asumir cierre general de San Antonio."
+    },
+    {
+      "titulo": "Estados Unidos | LA/LB",
+      "bandera": "https://flagcdn.com/w40/us.png",
+      "texto": "Monitorear negociación de vigilancia y seguridad hasta el 4 de noviembre, 17:00 PT. La prórroga ya fue acordada. No reportar huelga como iniciada."
     },
     {
       "titulo": "Calendario | Fechas próximas",
       "bandera": "",
-      "texto": "30 oct.: acciones en 113 puertos (no todos cerrados). 1 nov.: posible conflicto LA/LB si fracasa negociación. 2 nov.: inhabilidad en dependencias específicas de México y feriado en Brasil. 8 nov.: Diwali en India. 16 nov.: descanso obligatorio en México."
+      "texto": "2–3 nov.: posible impacto de Murasu; 4 nov.: fin del plazo laboral LA/LB y cambio ME1 por Suez; 8 nov.: Diwali; 11 nov.: convocatoria de huelga en España."
     }
   ],
   "metricas": [
     {
-      "indicador": "Movilización global",
-      "valor": "113 puertos",
-      "tendencia": "22 países, más de 25 sindicatos; Reuters y PTI, 30 oct."
+      "indicador": "India · Murasu",
+      "valor": "100–110 km/h",
+      "tendencia": "Ráfagas hasta 120 km/h; pronóstico de cruce 2–3 nov."
     },
     {
-      "indicador": "Italia · huelga nacional",
-      "valor": "24 h",
-      "tendencia": "30 de octubre; efecto variable por terminal."
+      "indicador": "EE. UU. · LA/LB",
+      "valor": "4 nov.",
+      "tendencia": "17:00 hora del Pacífico; plazo de negociación extendido."
     },
     {
-      "indicador": "LA/LB · posible paro",
-      "valor": "1 nov.",
-      "tendencia": "Desde 17:00 PT, condicionado a negociaciones."
+      "indicador": "Suez · ME1",
+      "valor": "4 nov.",
+      "tendencia": "Primer cambio programado desde Salalah; solo servicio ME1."
     },
     {
-      "indicador": "Los Ángeles · rail dwell",
-      "valor": "~9 días",
-      "tendencia": "Referencia 27 oct.; solo contenedores ferroviarios."
+      "indicador": "India · Diwali",
+      "valor": "8 nov.",
+      "tendencia": "Confirmar calendarios reales de operación."
     },
     {
-      "indicador": "Long Beach · rail dwell",
-      "valor": "~10 días",
-      "tendencia": "Referencia 27 oct.; no es espera de buque."
+      "indicador": "España · huelga",
+      "valor": "11 nov.",
+      "tendencia": "Convocatoria; afectación aún por confirmar."
     },
     {
       "indicador": "Brasil · OHC/DHC",
       "valor": "1 nov.",
-      "tendencia": "Ajustes publicados por Maersk; según puerto y equipo."
-    },
-    {
-      "indicador": "Diwali · India",
-      "valor": "8 nov.",
-      "tendencia": "Validar calendario real de fábrica y servicios."
+      "tendencia": "Revisar tarifas específicas por puerto y equipo."
     }
   ],
   "recomendaciones": [
-    "Priorizar hoy operaciones en Italia, Francia, Grecia y España: confirmar por escrito si la terminal opera y las citas siguen vigentes.",
-    "No confundir movilización global del 30 de octubre con la posible huelga de seguridad de Los Ángeles/Long Beach del 1 de noviembre.",
-    "En Estados Unidos monitorear San Francisco/Oakland y por separado la negociación de trabajadores de seguridad portuaria en LA/LB.",
-    "Para India validar tanto participación en acciones portuarias como recuperación por el ciclón Arnab y horarios de proveedores antes de Diwali.",
-    "Revisar conexiones de Rotterdam/Amberes, Asia y el feriado de Brasil del 2 de noviembre; no usar tiempos indicativos como medición en vivo.",
-    "Confirmar cada recargo de noviembre por naviera, origen, destino y tipo de equipo; comunicar cambios de fecha de entrega antes de prometer entregas."
+    "Priorizar embarques perecederos en San Antonio y carga con fechas críticas en la costa este de India; confirmar exposición real y accesos.",
+    "Monitorear hasta el 4 de noviembre las negociaciones de seguridad portuaria en Los Ángeles y Long Beach; no presentar un paro como activo.",
+    "Confirmar por escrito ajustes OHC/DHC en Brasil y fechas/itinerarios del servicio ME1 antes de emitir nuevas cotizaciones.",
+    "Revisar ventanas operativas de proveedores en India por Diwali y planes de contingencia ante la convocatoria de huelga de España.",
+    "Comunicar al cliente únicamente interrupciones verificadas en su terminal, ruta o embarque, separando hechos confirmados de riesgos preventivos."
   ]
 };
 
 const retrasos = [
   {
-    "puerto": "Global · 113 puertos",
-    "tiempo": "30 oct. · en curso",
-    "estado": "Huelgas, paros parciales y manifestaciones en 22 países; no son 113 cierres simultáneos."
+    "puerto": "Chile · San Antonio",
+    "tiempo": "2 nov. · alerta alta",
+    "estado": "Accesos a depósitos extraportuarios con bloqueos reportados; verificar ubicación y terminal. No cierre general confirmado."
   },
   {
-    "puerto": "Italia · Génova, Livorno y otros",
-    "tiempo": "30 oct. · 24 h",
-    "estado": "Convocatoria de huelga nacional; confirmar operación por terminal."
+    "puerto": "India · costa de Andhra Pradesh",
+    "tiempo": "2–3 nov. · alerta alta",
+    "estado": "Murasu: riesgo meteorológico de interrupciones; cierres de puerto requieren confirmación puntual."
   },
   {
-    "puerto": "México · Veracruz",
-    "tiempo": "30 oct. · en vigilancia",
-    "estado": "Participación sindical reportada; sin cierre total verificado."
+    "puerto": "EE. UU. · Los Ángeles/Long Beach",
+    "tiempo": "4 nov. · 17:00 PT",
+    "estado": "Prórroga de negociación acordada; posible paro futuro, no huelga activa."
   },
   {
-    "puerto": "EE. UU. · San Francisco/Oakland",
-    "tiempo": "30 oct. · participación",
-    "estado": "Apoyo a jornada internacional; modalidad de acción por confirmar."
+    "puerto": "Canal de Suez · ME1",
+    "tiempo": "Desde 4 nov.",
+    "estado": "Cambio de ruta confirmado por Maersk para servicio ME1; consultar itinerarios y tarifas."
   },
   {
-    "puerto": "EE. UU. · LA/Long Beach",
-    "tiempo": "1 nov. · posible",
-    "estado": "Amenaza de huelga de vigilantes, distinta a la movilización de hoy; negociación activa."
+    "puerto": "Brasil · terminales seleccionadas",
+    "tiempo": "Desde 1 nov.",
+    "estado": "Ajustes OHC/DHC según puerto y equipo; Suape incluye reducciones específicas."
   },
   {
-    "puerto": "Francia/Grecia/España",
-    "tiempo": "30 oct. · variable",
-    "estado": "Huelgas y protestas con diferente efecto; El Pireo reporta afectación a carga y ferris."
+    "puerto": "España · terminales y transporte",
+    "tiempo": "11 nov. · previsto",
+    "estado": "Convocatoria de huelga; impactos pendientes de participación y servicios mínimos."
   },
   {
-    "puerto": "India · JNPT y costa este",
-    "tiempo": "30 oct. · doble riesgo",
-    "estado": "Acciones sindicales y recuperación climática en el este; confirmar terminal."
-  },
-  {
-    "puerto": "Brasil · puertos seleccionados",
-    "tiempo": "1–2 nov.",
-    "estado": "Ajustes de cargos Maersk desde 1 nov. y feriado del 2 nov.; verificar aplicabilidad."
+    "puerto": "India · fábricas y operadores",
+    "tiempo": "8 nov. · Diwali",
+    "estado": "Confirmar disponibilidad de personal, días inhábiles y recogidas."
   }
 ];
 
-// Corte: 30 oct. 2026, mañana Monterrey; referencias de dwell 27 oct. Fuentes indicadas en noticias.
+// Corte: 2 nov. 2026, Monterrey. Validar afectaciones operativas por embarque.
 
 // ======================================================
 // NO EDITAR DEBAJO DE ESTA LÍNEA
@@ -344,7 +328,7 @@ export default function Home() {
       </section>
 
       {/* TABLA DE RETRASOS PORTUARIOS */}
-      <section className="bg-white"><div className="mx-auto max-w-7xl px-6 py-14 md:px-10"><p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">OPERACIÓN LOGÍSTICA · CORTE 30 DE OCTUBRE</p><h2 className="mt-3 text-3xl font-bold text-[#003C6F]">Estado de puertos y conexiones</h2><p className="mt-3 max-w-4xl text-sm leading-6 text-gray-600">No se dispone de tiempos en vivo comparables en todos los puertos. Las cifras indicativas y restricciones deben validarse con terminal y naviera antes de comprometer ETA.</p><div className="mt-7 overflow-x-auto rounded-2xl border border-gray-200"><table className="w-full min-w-[760px] text-left text-sm"><thead className="bg-[#003C6F] text-white"><tr><th className="p-4">País / puerto</th><th className="p-4">Fecha o dato</th><th className="p-4">Estado e interpretación</th></tr></thead><tbody>{retrasos.map((r,i)=><tr key={r.puerto} className={i%2===0?"bg-[#F3F5F7]":"bg-white"}><td className="p-4 font-bold text-[#003C6F]">{r.puerto}</td><td className="p-4 font-semibold">{r.tiempo}</td><td className="p-4 text-gray-600">{r.estado}</td></tr>)}</tbody></table></div></div></section>
+      <section className="bg-white"><div className="mx-auto max-w-7xl px-6 py-14 md:px-10"><p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">OPERACIÓN LOGÍSTICA · CORTE 2 DE NOVIEMBRE</p><h2 className="mt-3 text-3xl font-bold text-[#003C6F]">Estado de puertos y conexiones</h2><p className="mt-3 max-w-4xl text-sm leading-6 text-gray-600">No se dispone de tiempos en vivo comparables en todos los puertos. Las cifras indicativas y restricciones deben validarse con terminal y naviera antes de comprometer ETA.</p><div className="mt-7 overflow-x-auto rounded-2xl border border-gray-200"><table className="w-full min-w-[760px] text-left text-sm"><thead className="bg-[#003C6F] text-white"><tr><th className="p-4">País / puerto</th><th className="p-4">Fecha o dato</th><th className="p-4">Estado e interpretación</th></tr></thead><tbody>{retrasos.map((r,i)=><tr key={r.puerto} className={i%2===0?"bg-[#F3F5F7]":"bg-white"}><td className="p-4 font-bold text-[#003C6F]">{r.puerto}</td><td className="p-4 font-semibold">{r.tiempo}</td><td className="p-4 text-gray-600">{r.estado}</td></tr>)}</tbody></table></div></div></section>
 
       {/* MÉTRICAS CLAVE */}
       <section className="bg-[#F3F5F7]">
@@ -455,7 +439,7 @@ export default function Home() {
           </div>
 
           <span className="max-w-xl text-white/60 md:text-right">
-            Corte informativo del 30 de octubre de 2026. Fuentes: Reuters, Port Technology International, ITF, Kuehne+Nagel, STG Logistics, sindicatos portuarios y referencias operativas sujetas a validación. Datos sujetos a actualización y confirmación con terminal, naviera y proveedor.</span>
+            Corte informativo del 2 de noviembre de 2026. Fuentes: IMD/APSDMA, Maersk y alertas operativas reportadas sujetas a validación por terminal y naviera. Riesgo preventivo no equivale a interrupción confirmada.</span>
         </div>
       </footer>
     </main>
