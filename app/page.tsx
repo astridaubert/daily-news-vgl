@@ -19,7 +19,7 @@ const brief = {
     {
       "region": "INDIA · ANDHRA PRADESH",
       "modo": "ALERTA ALTA · CICLÓN MURASU",
-      "imagen": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?w=1200",
+      "imagen": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/imagerecords/147000/147672/yasa_amo_2020351_lrg.jpg?crop=faces%2Cfocalpoint&fit=clip&h=6136&w=6121",
       "bandera": "https://flagcdn.com/w40/in.png",
       "titular": "Murasu amenaza la costa este de India durante la noche del 2 de noviembre",
       "dato": "El pronóstico meteorológico indica cruce costero entre Nellore y Narsapur, cerca de Ongole, entre la noche del 2 y madrugada del 3 de noviembre, con vientos de 100–110 km/h y ráfagas de hasta 120 km/h. Fuente: IMD, boletín del 2 de noviembre.",
