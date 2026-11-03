@@ -9,7 +9,7 @@ const brief = {
     {
       "region": "INDIA · ANDHRA PRADESH",
       "modo": "ALTA · CICLÓN TOCÓ TIERRA · 3 NOV",
-      "imagen": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?w=1200",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Hurricane_Isabel_from_ISS.jpg?width=1200",
       "bandera": "https://flagcdn.com/w40/in.png",
       "titular": "Murasu ya tocó tierra: suspenden trenes y algunos vuelos en India",
       "dato": "AP informó este 3 de noviembre que Murasu tocó tierra cerca de Ongole, Andhra Pradesh, con vientos sostenidos de 100–110 km/h. Se reportaron suspensiones de servicios ferroviarios y algunos vuelos, además de lluvias intensas. No se confirmó cierre de todos los puertos. Fuente: AP e IMD, 3 nov.",
@@ -18,13 +18,13 @@ const brief = {
     },
     {
       "region": "MÉXICO · ADUANAS",
-      "modo": "ALTA · NUEVO CALENDARIO MVE · NOV",
+      "modo": "ALTA · TRÁMITE ADUANERO POR ETAPAS",
       "imagen": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1200",
       "bandera": "https://flagcdn.com/w40/mx.png",
-      "titular": "Manifestación de Valor Electrónica: comienza fase gradual para regímenes específicos",
-      "dato": "El SAT anunció un calendario escalonado de transmisión de la MVE a partir del 1 de noviembre para elaboración, transformación o reparación en recinto fiscalizado; los demás regímenes tienen fechas posteriores. El calendario comunicado se basa en una versión anticipada de las reglas y requiere validar vigencia normativa. Fuente: SAT, comunicado 2 oct.",
-      "impacto": "Importadores y agentes aduanales deben revisar documentación, sistemas y obligaciones aplicables antes de despachar bajo el régimen correspondiente.",
-      "accion": "Confirmar el régimen aduanero, fecha aplicable y documentos con el agente aduanal; no extrapolar la obligación a todas las importaciones."
+      "titular": "México cambia el trámite para declarar el valor de mercancías importadas",
+      "dato": "El SAT comenzó el 1 de noviembre la implementación por etapas de la Manifestación de Valor Electrónica (MVE). Es el documento con el que el importador declara cuánto valen las mercancías que introduce a México, y ahora debe transmitir esa información digitalmente mediante la Ventanilla Única. Esta primera etapa aplica solo a mercancías destinadas a elaboración, transformación o reparación en recinto fiscalizado. Según el calendario publicado por el SAT, el recinto fiscalizado estratégico inicia el 15 de noviembre, la importación temporal el 1 de enero de 2027 y la definitiva el 15 de enero de 2027. Fuente: SAT, 2 oct. de 2026.",
+      "impacto": "Si la empresa no identifica cuándo entra en vigor la obligación para su tipo de importación o no prepara los datos de valor y documentos de respaldo, podría enfrentar correcciones o demoras en el despacho. No todas las importaciones deben adoptar el cambio al mismo tiempo.",
+      "accion": "Consultar al agente aduanal qué régimen se utiliza, confirmar su fecha de aplicación y preparar con anticipación la información de valor de las mercancías y documentación de respaldo."
     },
     {
       "region": "EUROPA · REINO UNIDO / FRANCIA",
