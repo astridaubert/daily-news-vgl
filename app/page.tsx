@@ -19,7 +19,7 @@ const brief = {
     {
       "region": "MÉXICO · ADUANAS",
       "modo": "ALTA · TRÁMITE ADUANERO POR ETAPAS",
-      "imagen": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1200",
+      "imagen": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200",
       "bandera": "https://flagcdn.com/w40/mx.png",
       "titular": "México cambia el trámite para declarar el valor de mercancías importadas",
       "dato": "El SAT comenzó el 1 de noviembre la implementación por etapas de la Manifestación de Valor Electrónica (MVE). Es el documento con el que el importador declara cuánto valen las mercancías que introduce a México, y ahora debe transmitir esa información digitalmente mediante la Ventanilla Única. Esta primera etapa aplica solo a mercancías destinadas a elaboración, transformación o reparación en recinto fiscalizado. Según el calendario publicado por el SAT, el recinto fiscalizado estratégico inicia el 15 de noviembre, la importación temporal el 1 de enero de 2027 y la definitiva el 15 de enero de 2027. Fuente: SAT, 2 oct. de 2026.",
