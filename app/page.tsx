@@ -1,196 +1,135 @@
 import Image from "next/image";
 
-// DATOS EDITABLES — 3 NOVIEMBRE 2026
+// DATOS EDITABLES — CORTE 4 NOVIEMBRE 2026
 const brief = {
-  "fecha": "martes 3 de noviembre de 2026",
-  "titulo": "Vector Global Logistics | Radar Logístico Global",
-  "subtitulo": "Nuevas alertas: India enfrenta afectaciones tras el paso del ciclón Murasu; México entra en una transición documental aduanera; y Europa presenta retrasos en Tilbury y riesgo de nuevas huelgas. En Estados Unidos continúa la negociación laboral en LA/Long Beach. Las tarifas marítimas muestran movimientos mixtos, no aumentos globales.",
-  "noticias": [
+  fecha: "miércoles 4 de noviembre de 2026",
+  titulo: "Vector Global Logistics | Radar Logístico Global",
+  subtitulo: "Medio Oriente mantiene restricciones y recargos por el Estrecho de Hormuz; LA/Long Beach enfrenta una fecha límite laboral este 4 de noviembre. China acumula retrasos tras el tifón Champi, India se prepara para Diwali y Europa presenta afectaciones puntuales. Las tarifas marítimas no suben de forma generalizada.",
+  noticias: [
     {
-      "region": "INDIA · ANDHRA PRADESH",
-      "modo": "ALTA · CICLÓN TOCÓ TIERRA · 3 NOV",
-      "imagen": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Hurricane_Isabel_from_ISS.jpg?width=1200",
-      "bandera": "https://flagcdn.com/w40/in.png",
-      "titular": "Murasu ya tocó tierra: suspenden trenes y algunos vuelos en India",
-      "dato": "AP informó este 3 de noviembre que Murasu tocó tierra cerca de Ongole, Andhra Pradesh, con vientos sostenidos de 100–110 km/h. Se reportaron suspensiones de servicios ferroviarios y algunos vuelos, además de lluvias intensas. No se confirmó cierre de todos los puertos. Fuente: AP e IMD, 3 nov.",
-      "impacto": "Posibles retrasos en transporte terrestre, conexiones aéreas y operaciones portuarias de la costa este. La afectación requiere confirmación por terminal y proveedor.",
-      "accion": "Revisar embarques hacia/desde Andhra Pradesh; confirmar servicio ferroviario, vuelos, accesos y ventanas de terminal."
+      region: "MEDIO ORIENTE · ESTRECHO DE HORMUZ",
+      modo: "CRÍTICA · RUTAS Y RECARGOS · 4 NOV",
+      imagen: "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1200",
+      bandera: "",
+      titular: "Hormuz sigue restringiendo rutas y elevando costos logísticos",
+      dato: "Drewry informó el 29 de octubre solo dos tránsitos por Hormuz durante la semana anterior. Forto, en su actualización del 3 de noviembre, reporta desvíos por transbordo y puentes terrestres vía Salalah, Khor Fakkan, Fujairah, Sharjah y Yeda; también restricciones de reservas y recargos extraordinarios para carga del Golfo. Fuentes: Drewry (29 oct.) y Forto (3 nov.).",
+      impacto: "Mayor incertidumbre en tiempos de tránsito, seguros, combustible, conexiones y costos para rutas que utilizan el Golfo. No implica que los servicios directos de China a México atraviesen Hormuz.",
+      accion: "Confirmar itinerario real, disponibilidad de espacios, recargos, seguro y alternativas con cada naviera antes de autorizar desvíos."
     },
     {
-      "region": "MÉXICO · ADUANAS",
-      "modo": "ALTA · TRÁMITE ADUANERO POR ETAPAS",
-      "imagen": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200",
-      "bandera": "https://flagcdn.com/w40/mx.png",
-      "titular": "México cambia el trámite para declarar el valor de mercancías importadas",
-      "dato": "El SAT comenzó el 1 de noviembre la implementación por etapas de la Manifestación de Valor Electrónica (MVE). Es el documento con el que el importador declara cuánto valen las mercancías que introduce a México, y ahora debe transmitir esa información digitalmente mediante la Ventanilla Única. Esta primera etapa aplica solo a mercancías destinadas a elaboración, transformación o reparación en recinto fiscalizado. Según el calendario publicado por el SAT, el recinto fiscalizado estratégico inicia el 15 de noviembre, la importación temporal el 1 de enero de 2027 y la definitiva el 15 de enero de 2027. Fuente: SAT, 2 oct. de 2026.",
-      "impacto": "Si la empresa no identifica cuándo entra en vigor la obligación para su tipo de importación o no prepara los datos de valor y documentos de respaldo, podría enfrentar correcciones o demoras en el despacho. No todas las importaciones deben adoptar el cambio al mismo tiempo.",
-      "accion": "Consultar al agente aduanal qué régimen se utiliza, confirmar su fecha de aplicación y preparar con anticipación la información de valor de las mercancías y documentación de respaldo."
+      region: "ESTADOS UNIDOS · LOS ÁNGELES / LONG BEACH",
+      modo: "CRÍTICA · PLAZO LABORAL HOY 17:00 PT",
+      imagen: "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?w=1200",
+      bandera: "https://flagcdn.com/w40/us.png",
+      titular: "LA/Long Beach: vence hoy la prórroga para evitar una huelga",
+      dato: "ILWU Local 26 y la asociación patronal mantienen conversaciones sobre unos 250 trabajadores de vigilancia. La extensión vence este miércoles 4 de noviembre a las 17:00 hora del Pacífico (19:00 Monterrey). Al corte informativo no se confirma huelga activa. Fuentes: STG Logistics (actualizado 2 nov.), ICIS y Alba (3 nov.).",
+      impacto: "Si no hay acuerdo o nueva prórroga, podrían afectarse accesos, retiros de contenedores y conexiones intermodales. La exposición de embarques Asia–México depende de si pasan por estos puertos.",
+      accion: "Identificar embarques con escala en LA/LB, priorizar contenedores liberados y revisar rutas directas a México cuando sean viables."
     },
     {
-      "region": "EUROPA · REINO UNIDO / FRANCIA",
-      "modo": "MEDIA · CONGESTIÓN Y ACCIONES LABORALES",
-      "imagen": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?w=1200",
-      "bandera": "",
-      "titular": "Tilbury registra congestión y Francia mantiene riesgo de movilizaciones",
-      "dato": "Un reporte operativo del 2 de noviembre señala retrasos de buques en Tilbury, Reino Unido; en Francia se reportan demoras menores por protestas. Everstream informó de convocatoria de huelga general francesa para el 5 de noviembre. Alcance portuario por confirmar. Fuentes: Kukla, 2 nov.; Everstream, 28 oct.",
-      "impacto": "Potenciales variaciones en ETA, entregas y transporte terrestre. Las acciones laborales no significan cierre general de puertos europeos.",
-      "accion": "Validar estado de terminales, citas de transporte y conexiones de carga para Reino Unido y Francia; monitorear el 5 nov."
+      region: "ASIA · CHINA / INDIA",
+      modo: "ALTA · CONGESTIÓN Y FESTIVIDAD",
+      imagen: "https://images.unsplash.com/photo-1532634896-26909d0d4b4a?w=1200",
+      bandera: "",
+      titular: "Ningbo y Shanghái acumulan retrasos; India ajusta operaciones por Diwali",
+      dato: "Kuehne+Nagel (3 nov.) registra esperas promedio de 2.23 días en Ningbo y 2.12 en Shanghái tras el tifón Champi; Nhava Sheva registra 2.25 días. Diwali se celebra el 8 de noviembre y puede reducir actividad de proveedores y transportistas según la localidad.",
+      impacto: "Aumenta el riesgo de conexiones perdidas, cambios de salida y menor disponibilidad puntual de equipos. Los festivos no suponen un cierre nacional uniforme de puertos.",
+      accion: "Confirmar cut-off, gate-in, disponibilidad de proveedores y conexiones con agentes en China e India."
     }
   ],
-  "vigilancia": [
+  vigilancia: [
     {
-      "titulo": "México | Aduanas, aranceles y feriado",
-      "bandera": "https://flagcdn.com/w40/mx.png",
-      "texto": "El SAT informó introducción gradual de la MVE por régimen; corroborar norma vigente. En acero/aluminio hacia EE. UU., no asumir reducción del arancel Section 232 del 50% sin acuerdo oficial. El lunes 16 nov. es descanso obligatorio por la Revolución Mexicana. Fuentes: SAT/Profedet; FreightSpot 2 nov."
+      titulo: "México | Transporte y seguridad carretera",
+      bandera: "https://flagcdn.com/w40/mx.png",
+      texto: "Las movilizaciones de transportistas del 26 de octubre afectaron 38 puntos en 19 estados según Segob. No hay corroboración de un nuevo bloqueo nacional indefinido activo el 4 de noviembre; validar incidentes por tramo. Vigilar accesos a puertos, Nuevo León y corredores fronterizos. Fuente: Segob, 26 oct."
     },
     {
-      "titulo": "Estados Unidos | LA / Long Beach",
-      "bandera": "https://flagcdn.com/w40/us.png",
-      "texto": "Los trabajadores de vigilancia ILWU Local 26 mantienen negociaciones. La extensión vence el 4 nov. a las 17:00 PT; no hay huelga activa confirmada. Si fracasan las conversaciones, podrían afectarse accesos y movimiento de contenedores. Fuentes: PMA/STG y The Loadstar, 3 nov."
+      titulo: "México | Manifestación de Valor Electrónica",
+      bandera: "https://flagcdn.com/w40/mx.png",
+      texto: "Implementación gradual de MVE anunciada desde el 1 de noviembre para el primer régimen; verificar vigencia normativa y calendario con agente aduanal. Las importaciones definitivas tienen fecha anunciada del 15 de enero de 2027. Fuente: ANAM/SAT y FreightSpot, 2 nov."
     },
     {
-      "titulo": "Estados Unidos | Nueva York/Nueva Jersey",
-      "bandera": "https://flagcdn.com/w40/us.png",
-      "texto": "Un reporte operativo del 2 nov. señala escasez de contenedores vacíos y necesidad de reservar citas con anticipación. Confirmar disponibilidad de equipo por terminal y naviera. Fuente: Kukla Beverage Logistics."
+      titulo: "Estados Unidos | Ferrocarril y LA/LB",
+      bandera: "https://flagcdn.com/w40/us.png",
+      texto: "Kuehne+Nagel (3 nov.) registra estadías ferroviarias aproximadas de 9 días en Los Ángeles y 10 en Long Beach. La amenaza de paro afecta principalmente embarques que usan estas terminales; una ruta marítima directa Asia–México no requiere pasar por LA/LB."
     },
     {
-      "titulo": "Brasil | Nuevas tarifas terminales",
-      "bandera": "https://flagcdn.com/w40/br.png",
-      "texto": "Maersk aplicó revisiones OHC/DHC desde el 1 nov. según puerto y equipo. En Suape redujo a BRL 1,585 (dry) y 1,620 (reefer); no presentar el ajuste como aumento universal. Fuentes: Maersk 1 y 30 oct."
+      titulo: "Europa | Francia y Alemania",
+      bandera: "https://flagcdn.com/w40/fr.png",
+      texto: "Le Havre refleja efectos de movilizaciones sobre arribos. Bremerhaven reporta ocupación de patios cercana al 95%, y Hamburgo alrededor del 85%, con niebla y mantenimiento. Verificar cualquier convocatoria laboral por fecha y terminal. Fuente: Kuehne+Nagel, 3 nov."
     },
     {
-      "titulo": "China | Shanghái y Qingdao",
-      "bandera": "https://flagcdn.com/w40/cn.png",
-      "texto": "El reporte de Kuehne+Nagel del 27 oct. señala presión por acumulación de buques en Shanghái y posibles restricciones asociadas a ejercicios en Qingdao hasta el 30 nov. Son antecedentes operativos, no cierres verificados hoy; reconfirmar itinerarios."
+      titulo: "Europa | Italia y Reino Unido",
+      bandera: "https://flagcdn.com/w40/it.png",
+      texto: "Génova restringe tráfico en Sampierdarena el 4–5 nov. de 09:00 a 13:00 por trabajos con munición histórica; Trieste enfrenta efectos de fuertes vientos. London Gateway reporta omisiones de escalas y restricciones de atraque. Fuente: Kuehne+Nagel, 3 nov."
     },
     {
-      "titulo": "Asia | Singapur y Vietnam",
-      "bandera": "https://flagcdn.com/w40/sg.png",
-      "texto": "Según Kuehne+Nagel (27 oct.), Singapur enfrenta presión por transbordos; Vung Tau registra alta ocupación y demoras de atraque. Revisar feeder, carga transbordada y conexión; sin actualización más reciente confirmada."
+      titulo: "China / Japón | Alta densidad portuaria",
+      bandera: "https://flagcdn.com/w40/cn.png",
+      texto: "Ningbo 2.23 días y Shanghái 2.12 días de espera de buques; Tokio mantiene patios de 96–97% de ocupación y Yokohama cerca del 93%. Son promedios reportados el 3 nov., no mediciones en vivo. Fuente: Kuehne+Nagel."
     },
     {
-      "titulo": "India | Diwali · 8 nov.",
-      "bandera": "https://flagcdn.com/w40/in.png",
-      "texto": "Diwali se celebra el domingo 8 nov. Se prevén horarios reducidos o falta de personal en algunas fábricas y transportistas del 5 al 12 nov.; comprobar caso por caso. Fuente: Embajada de India y aviso operativo local."
+      titulo: "Asia | Busan, Port Klang y Vietnam",
+      bandera: "https://flagcdn.com/w40/sg.png",
+      texto: "Busan registra ocupación cercana al 93% y mantenimiento de equipos; Port Klang 85–90%; Vung Tau 90–95%. La alta densidad aumenta el riesgo para conexiones fuera de ventana. Fuente: Kuehne+Nagel, 3 nov."
     },
     {
-      "titulo": "Europa | España y Bélgica",
-      "bandera": "https://flagcdn.com/w40/es.png",
-      "texto": "España: convocatoria de huelga el 11 nov., impacto específico aún por determinar. Bélgica: anuncio de huelga de 3 días, 24–26 nov., con posible efecto en ferrocarril y servicios. Fuentes: Kuehne+Nagel 13 oct. y Kukla 2 nov."
+      titulo: "India | Diwali y transbordos",
+      bandera: "https://flagcdn.com/w40/in.png",
+      texto: "Diwali: domingo 8 nov. Nhava Sheva: espera media 2.25 días; Colombo 1.58 días. El ciclón Arnab afectó recientemente la costa este, sin evidencia de cierre general de Chennai hoy. Confirmar horarios de fábricas y transportistas. Fuente: Kuehne+Nagel, 3 nov."
     },
     {
-      "titulo": "Medio Oriente | Ormuz y Suez",
-      "bandera": "",
-      "texto": "Drewry (29 oct.) reporta persistencia de disrupciones en Ormuz, mientras el tránsito por Suez se recupera parcialmente. Riesgos de itinerarios y recargos deben verificarse por naviera; no asumir cierre total o normalización general."
+      titulo: "Brasil | Santos y despacho",
+      bandera: "https://flagcdn.com/w40/br.png",
+      texto: "Santos registra 1.93 días de espera media, presión exportadora agrícola, restricciones de camiones y alta demanda reefer. No se ha corroborado una huelga nacional de auditores aduanales activa desde el 25 oct.; no comunicarla como confirmada. Fuente: Kuehne+Nagel, 3 nov."
     },
     {
-      "titulo": "Calendario | Próximas fechas",
-      "bandera": "",
-      "texto": "4 nov.: negociación LA/LB; 5 nov.: convocatoria de huelga Francia; 8 nov.: Diwali India; 11 nov.: convocatoria España; 15 nov.: siguiente fase MVE anunciada; 16 nov.: descanso obligatorio México; 24–26 nov.: huelga anunciada Bélgica."
+      titulo: "Medio Oriente | Puertos alternativos",
+      bandera: "",
+      texto: "Fujairah registra 8.86 días de espera, Khor Fakkan 7.25 y Sharjah 3. Los traslados de terminal a terminal pueden tardar 12–15 días, frente a 5 previamente. Considerar Salalah/Duqm solo previa confirmación de capacidad. Fuente: Kuehne+Nagel, 3 nov."
+    },
+    {
+      titulo: "Calendario | Fechas próximas",
+      bandera: "",
+      texto: "4 nov.: plazo laboral LA/LB; 4–5 nov.: restricciones Génova; 8 nov.: Diwali India; 11 nov.: convocatoria de huelga en España (alcance por confirmar); 16 nov.: feriado oficial México. Confirmar operatividad con cada proveedor."
     }
   ],
-  "metricas": [
-    {
-      "indicador": "Flete global · Drewry",
-      "valor": "US$4,429",
-      "tendencia": "Por FEU (40 pies), -3%; referencia 29 oct., última publicada."
-    },
-    {
-      "indicador": "China → Los Ángeles",
-      "valor": "US$7,514",
-      "tendencia": "Por FEU, -6%; Drewry 29 oct."
-    },
-    {
-      "indicador": "China → Róterdam",
-      "valor": "US$3,686",
-      "tendencia": "Por FEU, +1%; Drewry 29 oct."
-    },
-    {
-      "indicador": "India · Murasu",
-      "valor": "100–110 km/h",
-      "tendencia": "Vientos sostenidos al tocar tierra el 3 nov.; AP/IMD."
-    },
-    {
-      "indicador": "EE. UU. · LA/LB",
-      "valor": "4 nov.",
-      "tendencia": "17:00 PT; vence prórroga de negociación laboral."
-    },
-    {
-      "indicador": "Brasil · Suape dry",
-      "valor": "BRL 1,585",
-      "tendencia": "Nuevo cargo OHC/DHC de Maersk desde 1 nov."
-    },
-    {
-      "indicador": "India · Diwali",
-      "valor": "8 nov.",
-      "tendencia": "Validar disponibilidad del 5 al 12 nov."
-    }
+  metricas: [
+    { indicador: "Flete global · Drewry", valor: "US$4,429", tendencia: "Por FEU · -3% semanal; dato del 29 oct., última publicación." },
+    { indicador: "Shanghái → LA", valor: "US$7,514", tendencia: "Por FEU · -6% semanal; Drewry, 29 oct." },
+    { indicador: "Shanghái → Róterdam", valor: "US$3,686", tendencia: "Por FEU · +1% semanal; Drewry, 29 oct." },
+    { indicador: "Shanghái → Génova", valor: "US$4,151", tendencia: "Por FEU · sin cambio semanal; Drewry, 29 oct." },
+    { indicador: "Ningbo · espera buques", valor: "2.23 días", tendencia: "Promedio 7 días; Kuehne+Nagel, 3 nov." },
+    { indicador: "Santos · espera buques", valor: "1.93 días", tendencia: "Promedio 7 días; Kuehne+Nagel, 3 nov." },
+    { indicador: "Fujairah · espera", valor: "8.86 días", tendencia: "Promedio 7 días; Kuehne+Nagel, 3 nov." },
+    { indicador: "LA/LB · fecha límite", valor: "4 nov.", tendencia: "17:00 PT (19:00 Monterrey); paro no confirmado." }
   ],
-  "recomendaciones": [
-    "India: confirmar la reapertura efectiva de rutas terrestres, vuelos y ventanas de terminal tras Murasu; anticipar impactos por Diwali.",
-    "México: revisar régimen y calendario de la MVE con el agente aduanal; corroborar publicación normativa antes de declarar obligatoriedad.",
-    "Estados Unidos: mantener plan alternativo para embarques LA/Long Beach hasta el cierre de las negociaciones del 4 nov.; revisar equipo vacío en NY/NJ.",
-    "Europa: reconfirmar ETA y transporte en Tilbury y Francia; preparar contingencia para las convocatorias de huelga de noviembre.",
-    "Asia: validar congestión y conexiones en Shanghái, Qingdao, Singapur y Vung Tau; no reutilizar tiempos de espera de octubre como mediciones en vivo.",
-    "Brasil: recotizar OHC/DHC por puerto, equipo y fecha de cálculo; en Suape se redujeron cargos de dry y reefer.",
-    "Precios: aprovechar la caída transpacifica donde aplique, sin asumir una baja en Asia–Europa; verificar FAK, recargos y blank sailings por servicio."
+  recomendaciones: [
+    "Medio Oriente: verificar recargos, seguros, restricciones por carga y puertos alternativos; no asumir que todo embarque Asia–México cruza Hormuz.",
+    "Estados Unidos: revisar hoy a las 17:00 PT el estado laboral LA/Long Beach y proteger embarques con conexión intermodal en esos puertos.",
+    "China: reconfirmar cut-off y ETA desde Ningbo y Shanghái; prever pérdida de conexiones posteriores al tifón.",
+    "India: acordar con proveedores y transportistas horarios alrededor de Diwali del 8 de noviembre y revisar transbordos por Colombo.",
+    "Europa: validar ventanas en Génova, London Gateway, Hamburgo y Bremerhaven; monitorear huelgas específicas, sin asumir cierre europeo.",
+    "Brasil: priorizar visibilidad de despachos y disponibilidad de equipos en Santos; no reportar huelga aduanal nacional sin confirmación.",
+    "México: confirmar rutas carreteras y requisitos de MVE por régimen; no presentar las protestas del 26 de octubre como bloqueo activo hoy.",
+    "Tarifas: comparar cotizaciones por corredor y recargos; el WCI global cayó 3% pese a subidas puntuales en Asia–Europa."
   ]
 };
 
 const retrasos = [
-  {
-    "puerto": "India · Andhra Pradesh",
-    "tiempo": "3 nov. · impacto actual",
-    "estado": "Murasu tocó tierra; reportadas suspensiones ferroviarias y de algunos vuelos. Verificar cada puerto por separado."
-  },
-  {
-    "puerto": "México · regímenes aduaneros",
-    "tiempo": "Desde 1 nov. · gradual",
-    "estado": "Calendario anunciado de MVE por régimen; versión normativa anticipada, confirmar vigencia con agente aduanal."
-  },
-  {
-    "puerto": "EE. UU. · Los Ángeles/Long Beach",
-    "tiempo": "4 nov. · 17:00 PT",
-    "estado": "Negociación de vigilantes en curso; riesgo de paro, no huelga activa."
-  },
-  {
-    "puerto": "EE. UU. · Nueva York/Nueva Jersey",
-    "tiempo": "2 nov. · equipo",
-    "estado": "Escasez de contenedores vacíos reportada; reservar citas y validar por naviera."
-  },
-  {
-    "puerto": "Reino Unido · Tilbury",
-    "tiempo": "2 nov. · congestión",
-    "estado": "Retrasos en atraques reportados; validar ETA actualizado."
-  },
-  {
-    "puerto": "Francia · transporte y puertos",
-    "tiempo": "5 nov. · convocatoria",
-    "estado": "Riesgo de huelga general y retrasos menores reportados; verificar alcance por terminal."
-  },
-  {
-    "puerto": "China · Shanghái/Qingdao",
-    "tiempo": "27 oct. · referencia",
-    "estado": "Congestión y posible restricción en Qingdao; no es estado en vivo del 3 nov."
-  },
-  {
-    "puerto": "Singapur / Vietnam · Vung Tau",
-    "tiempo": "27 oct. · referencia",
-    "estado": "Presión por transbordos y ocupación de patios; confirmar situación actual con línea."
-  },
-  {
-    "puerto": "Brasil · terminales seleccionadas",
-    "tiempo": "Desde 1 nov. · tarifas",
-    "estado": "Revisión OHC/DHC Maersk por puerto/equipo; Suape registra reducciones."
-  },
-  {
-    "puerto": "España · transporte y terminales",
-    "tiempo": "11 nov. · convocatoria",
-    "estado": "Huelga anunciada; sin afectación general confirmada."
-  }
+  { puerto: "Emiratos · Fujairah", tiempo: "8.86 días · 3 nov.", estado: "Congestión crítica; restricciones para carga especial y transferencias interiores." },
+  { puerto: "Emiratos · Khor Fakkan", tiempo: "7.25 días · 3 nov.", estado: "Altos tiempos de espera; validar conexiones vía puentes terrestres." },
+  { puerto: "China · Ningbo", tiempo: "2.23 días · 3 nov.", estado: "Acumulación de buques tras cierre por tifón; ciertas terminales con esperas superiores." },
+  { puerto: "China · Shanghái", tiempo: "2.12 días · 3 nov.", estado: "Operaciones restablecidas, pero persisten demoras y densidad en patios." },
+  { puerto: "India · Nhava Sheva", tiempo: "2.25 días · 3 nov.", estado: "Congestión en gate y transporte terrestre; revisar conexión feeder." },
+  { puerto: "Brasil · Santos", tiempo: "1.93 días · 3 nov.", estado: "Alta actividad agrícola, presión sobre camiones y equipos reefer." },
+  { puerto: "Alemania · Hamburgo", tiempo: "1.77 días · 3 nov.", estado: "Niebla, mantenimiento y ocupación de patios cercana al 85%." },
+  { puerto: "Reino Unido · London Gateway", tiempo: "1.75 días · 3 nov.", estado: "Alta densidad y omisiones de escalas; restricciones hasta diciembre." },
+  { puerto: "Italia · Génova", tiempo: "4–5 nov. · restricciones", estado: "Restricciones de tráfico en Sampierdarena entre 09:00 y 13:00." },
+  { puerto: "EE. UU. · LA/Long Beach", tiempo: "4 nov. · 17:00 PT", estado: "Vence prórroga de negociación ILWU Local 26; no hay paro confirmado." }
 ];
 
-// Corte: 3 nov. 2026. Último WCI: 29 oct. 2026.
+// Corte editorial: 4 nov. 2026. Estadísticas portuarias: Kuehne+Nagel 3 nov.; tarifas: Drewry 29 oct.
 
 // ======================================================
 // NO EDITAR DEBAJO DE ESTA LÍNEA
@@ -360,7 +299,7 @@ export default function Home() {
       </section>
 
       {/* TABLA DE RETRASOS PORTUARIOS */}
-      <section className="bg-white"><div className="mx-auto max-w-7xl px-6 py-14 md:px-10"><p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">OPERACIÓN LOGÍSTICA · CORTE 3 DE NOVIEMBRE</p><h2 className="mt-3 text-3xl font-bold text-[#003C6F]">Estado de puertos y conexiones</h2><p className="mt-3 max-w-4xl text-sm leading-6 text-gray-600">No se dispone de tiempos en vivo comparables en todos los puertos. Las cifras indicativas y restricciones deben validarse con terminal y naviera antes de comprometer ETA.</p><div className="mt-7 overflow-x-auto rounded-2xl border border-gray-200"><table className="w-full min-w-[760px] text-left text-sm"><thead className="bg-[#003C6F] text-white"><tr><th className="p-4">País / puerto</th><th className="p-4">Fecha o dato</th><th className="p-4">Estado e interpretación</th></tr></thead><tbody>{retrasos.map((r,i)=><tr key={r.puerto} className={i%2===0?"bg-[#F3F5F7]":"bg-white"}><td className="p-4 font-bold text-[#003C6F]">{r.puerto}</td><td className="p-4 font-semibold">{r.tiempo}</td><td className="p-4 text-gray-600">{r.estado}</td></tr>)}</tbody></table></div></div></section>
+      <section className="bg-white"><div className="mx-auto max-w-7xl px-6 py-14 md:px-10"><p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">OPERACIÓN LOGÍSTICA · CORTE 4 DE NOVIEMBRE</p><h2 className="mt-3 text-3xl font-bold text-[#003C6F]">Estado de puertos y conexiones</h2><p className="mt-3 max-w-4xl text-sm leading-6 text-gray-600">No se dispone de tiempos en vivo comparables en todos los puertos. Las cifras indicativas y restricciones deben validarse con terminal y naviera antes de comprometer ETA.</p><div className="mt-7 overflow-x-auto rounded-2xl border border-gray-200"><table className="w-full min-w-[760px] text-left text-sm"><thead className="bg-[#003C6F] text-white"><tr><th className="p-4">País / puerto</th><th className="p-4">Fecha o dato</th><th className="p-4">Estado e interpretación</th></tr></thead><tbody>{retrasos.map((r,i)=><tr key={r.puerto} className={i%2===0?"bg-[#F3F5F7]":"bg-white"}><td className="p-4 font-bold text-[#003C6F]">{r.puerto}</td><td className="p-4 font-semibold">{r.tiempo}</td><td className="p-4 text-gray-600">{r.estado}</td></tr>)}</tbody></table></div></div></section>
 
       {/* MÉTRICAS CLAVE */}
       <section className="bg-[#F3F5F7]">
@@ -471,7 +410,7 @@ export default function Home() {
           </div>
 
           <span className="max-w-xl text-white/60 md:text-right">
-            Corte informativo del 3 de noviembre de 2026. Fuentes: AP/IMD, SAT, Drewry (último índice del 29 oct.), Maersk, STG, The Loadstar, Kuehne+Nagel y Kukla. Fechas y niveles de impacto sujetos a validación con terminal, naviera y agente aduanal. Los datos históricos no son mediciones en tiempo real.</span>
+            Corte informativo del 4 de noviembre de 2026. Fuentes: Drewry (29 oct.), Kuehne+Nagel (3 nov.), Forto (3 nov.), STG, ICIS, Alba, Segob y SAT/ANAM. Cifras portuarias y tarifas correspondientes a su fecha de reporte; no son mediciones en tiempo real. Confirmar cambios con naviera, terminal y agente aduanal.</span>
         </div>
       </footer>
     </main>
