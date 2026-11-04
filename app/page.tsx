@@ -9,7 +9,7 @@ const brief = {
     {
       region: "MEDIO ORIENTE · ESTRECHO DE HORMUZ",
       modo: "CRÍTICA · RUTAS Y RECARGOS · 4 NOV",
-      imagen: "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1200",
+      imagen: "https://commons.wikimedia.org/wiki/Special:Redirect/file/STS004-37-716_-_Strait_of_Hormuz.jpg?width=1200",
       bandera: "",
       titular: "Hormuz sigue restringiendo rutas y elevando costos logísticos",
       dato: "Drewry informó el 29 de octubre solo dos tránsitos por Hormuz durante la semana anterior. Forto, en su actualización del 3 de noviembre, reporta desvíos por transbordo y puentes terrestres vía Salalah, Khor Fakkan, Fujairah, Sharjah y Yeda; también restricciones de reservas y recargos extraordinarios para carga del Golfo. Fuentes: Drewry (29 oct.) y Forto (3 nov.).",
