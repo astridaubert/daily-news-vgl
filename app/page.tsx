@@ -29,7 +29,7 @@ const brief = {
     {
       region: "ASIA · CHINA / INDIA",
       modo: "ALTA · CONGESTIÓN Y FESTIVIDAD",
-      imagen: "https://images.unsplash.com/photo-1532634896-26909d0d4b4a?w=1200",
+      imagen: "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1200",
       bandera: "",
       titular: "Ningbo y Shanghái acumulan retrasos; India ajusta operaciones por Diwali",
       dato: "Kuehne+Nagel (3 nov.) registra esperas promedio de 2.23 días en Ningbo y 2.12 en Shanghái tras el tifón Champi; Nhava Sheva registra 2.25 días. Diwali se celebra el 8 de noviembre y puede reducir actividad de proveedores y transportistas según la localidad.",
@@ -38,11 +38,6 @@ const brief = {
     }
   ],
   vigilancia: [
-    {
-      titulo: "México | Transporte y seguridad carretera",
-      bandera: "https://flagcdn.com/w40/mx.png",
-      texto: "Las movilizaciones de transportistas del 26 de octubre afectaron 38 puntos en 19 estados según Segob. No hay corroboración de un nuevo bloqueo nacional indefinido activo el 4 de noviembre; validar incidentes por tramo. Vigilar accesos a puertos, Nuevo León y corredores fronterizos. Fuente: Segob, 26 oct."
-    },
     {
       titulo: "México | Manifestación de Valor Electrónica",
       bandera: "https://flagcdn.com/w40/mx.png",
