@@ -1,76 +1,60 @@
 import Image from "next/image";
 
-// DATOS EDITABLES — CORTE 6 NOVIEMBRE 2026
+// DATOS EDITABLES — CORTE 9 NOVIEMBRE 2026
 const brief = {
-fecha: "viernes 6 de noviembre de 2026",
-titulo: "Vector Global Logistics | Radar Logístico Global",
-subtitulo: "6 de noviembre: vence esta noche la prórroga laboral en Los Ángeles/Long Beach y mañana comienza el cierre del Vincent Thomas Bridge. Francia enfrenta una nueva interrupción de remolcadores en Le Havre; Chile aún negocia el desbloqueo de San Antonio. Drewry sitúa el flete global en US$4,389 por FEU (-1% semanal).",
-noticias: [
-{ region:"ESTADOS UNIDOS · LOS ÁNGELES / LONG BEACH",modo:"CRÍTICA · HUELGA POTENCIAL · 6 NOV",
-imagen:"https://images.unsplash.com/photo-1494412519320-aa613dfb7738?w=1200",bandera:"https://flagcdn.com/w40/us.png",
-titular:"LA/Long Beach: acuerdo laboral se extiende hasta la medianoche del 6 de noviembre",
-dato:"La Pacific Maritime Association informó el 4 de noviembre que extendió el contrato con ILWU Local 26 hasta la medianoche del viernes 6 de noviembre (hora del Pacífico). Siguen las negociaciones con mediación federal; no se ha confirmado huelga activa. Un paro podría afectar los accesos y movimientos de contenedores en varias terminales, pero todavía es un riesgo potencial, no un cierre confirmado. Fuentes: Expeditors y FreightWaves, 5 nov.",
-impacto:"Una interrupción podría limitar el acceso a terminales, el retiro de contenedores y las conexiones intermodales. La exposición Asia–México depende de si el embarque utiliza estos puertos.",
-accion:"Identificar carga que pase por LA/LB, reconfirmar citas de drayage y ferrocarril y preparar alternativas por servicios directos a México cuando sea viable."},
-{ region:"FRANCIA · LE HAVRE",modo:"ALTA · REMOLCADORES 6–7 NOV",
-imagen:"https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1200",bandera:"https://flagcdn.com/w40/fr.png",
-titular:"Le Havre: nueva huelga de remolcadores desde las 08:00 del 6 de noviembre",
-dato:"HAROPA Port comunicó que la movilización de terminales del 5 al 6 de noviembre concluyó a las 06:00 de hoy. Un nuevo preaviso de huelga de remolque portuario afecta las maniobras náuticas desde las 08:00 del viernes 6 hasta las 08:00 del sábado 7 de noviembre. Fuente: Capitanía de Le Havre, aviso del 4 nov.",
-impacto:"La disponibilidad de remolcadores puede limitar atraques y zarpes, afectar la programación de buques y alterar conexiones.",
-accion:"Confirmar disponibilidad de remolcadores y ventanas de maniobra directamente con agente portuario antes de comprometer ETA o ETD."},
-{ region:"CHILE · PUERTO DE SAN ANTONIO",modo:"ALTA · BLOQUEOS Y DESVÍO DE BUQUE",
-imagen:"https://images.unsplash.com/photo-1494412519320-aa613dfb7738?w=1200",bandera:"https://flagcdn.com/w40/cl.png",
-titular:"San Antonio: el Gobierno presenta propuesta, pero los bloqueos aún no terminan",
-dato:"El Gobierno chileno presentó una propuesta para levantar los bloqueos de depósitos extraportuarios iniciados el 28 de octubre. Al corte de las 10:56 h de Monterrey del 6 nov., Agreporsai aún no anunciaba el fin de la movilización. El buque YM Orchid fue desviado hacia Valparaíso el 4 nov. Fuentes: Emol (6 nov.) y PortalPortuario (4 nov.).",
-impacto:"Riesgo en disponibilidad de equipo vacío, retiros, entregas y capacidad de exportación, especialmente para productos perecederos.",
-accion:"Confirmar disponibilidad de depósitos, tractocamiones y espacios; evaluar Valparaíso solo con validación de itinerario, costos y capacidad."}
+fecha:"lunes 9 de noviembre de 2026",
+titulo:"Vector Global Logistics | Radar Logístico Global",
+subtitulo:"9 de noviembre: LA/Long Beach posterga riesgo de huelga al 20 nov., pero el Vincent Thomas Bridge ya está cerrado. Se mantienen riesgos de transporte, congestión, festivos y clima por región. Drewry WCI: US$4,389 por FEU (-1% semanal).",
+noticias:[
+{region:"ESTADOS UNIDOS · LOS ÁNGELES / LONG BEACH",modo:"ALTA · NEGOCIACIÓN HASTA 20 NOV",imagen:"https://images.unsplash.com/photo-1494412519320-aa613dfb7738?w=1200",bandera:"https://flagcdn.com/w40/us.png",titular:"LA/Long Beach evita huelga inmediata: nuevo plazo 20 de noviembre",dato:"PMA confirmó el 6 de noviembre una prórroga con ILWU Local 26 hasta el 20 de noviembre. Unos 250 vigilantes portuarios siguen negociando: no hay huelga activa confirmada. El Vincent Thomas Bridge cerró al tráfico desde el 7 de noviembre por aproximadamente 16 meses. Fuentes: PMA, 6 nov.; Port Technology, 9 nov.; avisos de Caltrans/Maersk.",impacto:"Riesgo laboral diferido; el cierre vial complica rutas de drayage, citas, tiempos de tránsito terrestre y costos. Los puertos no están cerrados.",accion:"Confirmar ruta de camiones alternativa, citas de terminal, conexión ferroviaria y free time; monitorear 20 nov."},
+{region:"GLOBAL · FLETES MARÍTIMOS",modo:"ALTA · TARIFAS Y BLANK SAILINGS",imagen:"https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1200",bandera:"",titular:"Drewry: índice global baja 1%, pero persisten incrementos propuestos",dato:"Evaluación Drewry 5 nov.: WCI US$4,389/FEU (-1%); Shanghái–LA US$7,539 (sin cambio); Shanghái–NY US$9,303 (-3%); Shanghái–Róterdam US$3,615 (-2%); Shanghái–Génova US$4,166 (estable). Drewry reportó el 6 nov. 46 blank sailings esperados entre las semanas 46 y 50. Fuente: Drewry WCI y Latest Trackers, 5–6 nov.",impacto:"Índice menor no garantiza menor cotización en todas las rutas: navieras proponen alzas FAK a mediados de noviembre y el blank sailing puede reducir espacios efectivos.",accion:"Validar tarifa por origen, destino, naviera, fecha y vigencia; revisar itinerarios cancelados y posibles cargos adicionales."},
+{region:"INDIA · DIWALI",modo:"ALTA · CALENDARIO Y CAPACIDAD",imagen:"https://images.unsplash.com/photo-1494412519320-aa613dfb7738?w=1200",bandera:"https://flagcdn.com/w40/in.png",titular:"Diwali: capacidad de fábricas y transporte bajo vigilancia",dato:"Diwali se celebró el 8 de noviembre de 2026, con observancias regionales durante los días siguientes. Se esperan horarios distintos por fábrica, agencia aduanal, terminal y proveedor de transporte. No se confirma un cierre portuario nacional ni un ciclón Arnab activo.",impacto:"Posibles retrasos en recolección, documentación, personal, gate-in y conexiones por transbordo.",accion:"Confirmar calendario de cada proveedor, cut-offs, disponibilidad de chasis y equipo, y conexión por Colombo."}
 ],
 vigilancia:[
-{titulo:"México | Aduanas y corredores fronterizos",bandera:"https://flagcdn.com/w40/mx.png",texto:"Monitorear movilizaciones de transportistas y afectaciones puntuales en Nuevo Laredo/Laredo, Manzanillo y Veracruz; no asumir bloqueos nacionales activos sin evidencia vial actual. El Acuerdo 163/2026 del estímulo IEPS al diésel cubre del 31 de octubre al 6 de noviembre; confirmar el siguiente acuerdo antes de calcular costos. Fuente: CANACAR, circular 300/2026."},
-{titulo:"Estados Unidos | Vincent Thomas Bridge",bandera:"https://flagcdn.com/w40/us.png",texto:"Caltrans confirma cierre total del Vincent Thomas Bridge (SR-47) desde las 00:01 del 7 nov. por aproximadamente 16 meses. Los puertos LA/LB seguirán abiertos; el riesgo principal son desvíos y tiempos de transporte terrestre más largos. Fuente: Caltrans y Maersk, 4 nov."},
-{titulo:"Europa | Francia · remolque 6–7 nov.",bandera:"https://flagcdn.com/w40/fr.png",texto:"HAROPA Port confirmó un preaviso de huelga de remolque desde las 08:00 del viernes 6 hasta las 08:00 del sábado 7 de noviembre; las operaciones náuticas pueden reducirse. El paro de terminales del 5–6 terminó a las 06:00. Fuente: Capitanía del puerto de Le Havre, 4 nov."},
-{titulo:"Europa | Amberes, Róterdam y Alemania",bandera:"https://flagcdn.com/w40/be.png",texto:"La congestión de barcazas y feeder continúa afectando fiabilidad en determinados corredores europeos. Bremerhaven y Hamburgo presentan presión de patios según reportes operativos del 3 nov.; verificar terminal y ETA antes de planear conexiones."},
-{titulo:"China / Asia | Congestión y transbordos",bandera:"https://flagcdn.com/w40/cn.png",texto:"Las esperas en puertos chinos muestran señales de mejora tras el tifón Champi, aunque persisten cuellos de botella locales y congestión en hubs de transbordo. Drewry (5 nov.) reporta una mejora en Shanghái. Revisar cambios de conexión en Vietnam, Indonesia y Tailandia."},
-{titulo:"India | Diwali y capacidad",bandera:"https://flagcdn.com/w40/in.png",texto:"Diwali se celebra el 8 nov. La operación puede reducirse en fábricas, camiones y terminales según ciudad y proveedor. Revisar despachos en Mundra, Nhava Sheva, Chennai y transbordos por Colombo; no asumir cierres nacionales uniformes."},
-{titulo:"Brasil | Santos y trámites aduaneros",bandera:"https://flagcdn.com/w40/br.png",texto:"Santos mantiene riesgo de demoras por volumen agrícola, camiones y disponibilidad de equipos. No se ha corroborado con fuente sindical u oficial actual una huelga aduanal nacional indefinida iniciada el 25 oct.; confirmar despacho por terminal y carga antes de anunciarla."},
-{titulo:"Medio Oriente | Estrecho de Ormuz",bandera:"",texto:"Maersk informó el 5 nov. que las restricciones en Ormuz y la congestión de red siguen elevando costos de bunker, manipulación y afectando confiabilidad. Validar recargos, seguros y disponibilidad por naviera y puerto; servicios directos China–México no atraviesan necesariamente Ormuz."},
-{titulo:"Global | Maersk revisa al alza sus perspectivas",bandera:"",texto:"Maersk elevó por tercera vez su guía 2026: EBITDA subyacente previsto de USD 14.0–14.5 mil millones. Señala demanda resiliente, congestión y costos por Ormuz; no implica que las tarifas de todos los corredores estén subiendo. Fuente: Maersk, 5 nov."},
-{titulo:"Calendario | Próximos días",bandera:"",texto:"6 nov. medianoche PT: vence plazo laboral LA/LB; 6–7 nov.: huelga de remolque en Le Havre; 7 nov.: comienza cierre del Vincent Thomas Bridge; 8 nov.: Diwali en India; 16 nov.: feriado en México. Confirmar cambios con terminales y transportistas."}
+{titulo:"México | Carreteras y fronteras",bandera:"https://flagcdn.com/w40/mx.png",texto:"Los bloqueos nacionales previos fueron levantados tras mesas de negociación; vigilar nuevos avisos de transportistas sin anunciar paro activo no corroborado. Confirmar cruces Nuevo Laredo/Laredo y rutas de Monterrey. El lunes 16 nov. es día de descanso oficial en México."},
+{titulo:"México | Manzanillo y Lázaro Cárdenas",bandera:"https://flagcdn.com/w40/mx.png",texto:"Priorizar avisos meteorológicos, oleaje, gate appointments, cierres por capitanía y tiempos de patio. No publicar las cifras 1.4/3.4 días como actuales sin una fuente portuaria del 9 nov."},
+{titulo:"Estados Unidos | Riesgo laboral",bandera:"https://flagcdn.com/w40/us.png",texto:"PMA extendió acuerdo con ILWU Local 26 hasta el 20 nov. Las terminales permanecen operativas, pero existe riesgo de interrupción si fracasan conversaciones. Fuente: https://www.pmanet.org/statements-and-press-releases/"},
+{titulo:"Estados Unidos | Cierre de puente",bandera:"https://flagcdn.com/w40/us.png",texto:"Vincent Thomas Bridge cerrado desde el 7 nov. por obras durante aproximadamente 16 meses; confirmar desvíos, citas y disponibilidad de drayage; no describir como cierre de puerto."},
+{titulo:"Europa | Francia, Róterdam, Amberes",bandera:"https://flagcdn.com/w40/fr.png",texto:"La huelga francesa de remolcadores anunciada para el 6–7 nov. es un evento pasado; verificar efectos residuales y nuevas convocatorias. Róterdam y Amberes: comprobar conexiones feeder/barcaza por terminal, sin asignar esperas en días sin fuente actual."},
+{titulo:"Europa | Asia–Europa y Suez",bandera:"https://flagcdn.com/w40/nl.png",texto:"Shanghái–Róterdam US$3,615/FEU (-2%), Génova US$4,166 (estable). Drewry alerta riesgo de llegadas simultáneas desde rutas Suez y Cabo de Buena Esperanza; navieras intentan alzas FAK a mitad de noviembre."},
+{titulo:"China | Shanghái y capacidad",bandera:"https://flagcdn.com/w40/cn.png",texto:"Drewry, 5 nov.: espera media reciente en Shanghái mejoró a unas 35 horas, tras varias semanas de congestión; tres blank sailings transpacíficos anunciados para la semana siguiente. Confirmar cut-off por terminal."},
+{titulo:"Asia | Conexiones y riesgo geopolítico",bandera:"https://flagcdn.com/w40/sg.png",texto:"Vigilar transbordos, itinerarios por Suez y recargos según naviera; conflicto en Ormuz y seguridad regional pueden afectar algunos servicios. No asumir que todos los embarques China–México pasan por Medio Oriente."},
+{titulo:"Brasil | Santos, Navegantes y Manaus",bandera:"https://flagcdn.com/w40/br.png",texto:"Revisar disponibilidad aduanal, terminal, transporte por carretera y niveles fluviales. La supuesta huelga aduanal nacional iniciada el 25 oct. no está corroborada para hoy; no publicarla como vigente. Confirmar eventos caso por caso."},
+{titulo:"India | Nhava Sheva, Mundra, Chennai",bandera:"https://flagcdn.com/w40/in.png",texto:"Diwali 8 nov. y celebraciones regionales podrían reducir personal y camiones; validar operaciones individualmente. No atribuir interrupciones al ciclón Arnab sin confirmación meteorológica."},
+{titulo:"Calendario | Próximos hitos",bandera:"",texto:"9–15 nov.: inicio de semana 46 y posibles blank sailings; 16 nov.: feriado por Revolución Mexicana; 20 nov.: nuevo plazo laboral PMA–ILWU Local 26 en LA/Long Beach."}
 ],
 metricas:[
-{indicador:"Flete global · Drewry",valor:"US$4,389",tendencia:"Por FEU (40 pies), -1% semanal; publicado 5 nov."},
-{indicador:"Shanghái → Los Ángeles",valor:"US$7,539",tendencia:"Por FEU; sin cambio semanal. Drewry, 5 nov."},
-{indicador:"Shanghái → Nueva York",valor:"US$9,303",tendencia:"Por FEU; -3% semanal. Drewry, 5 nov."},
-{indicador:"LA/LB · límite laboral",valor:"6 nov.",tendencia:"Medianoche hora del Pacífico; huelga sin confirmar."},
-{indicador:"Francia · paro portuario",valor:"24 horas",tendencia:"Paro de terminales finalizado; remolque 6–7 nov., HAROPA."},
-{indicador:"Vincent Thomas Bridge",valor:"16 meses",tendencia:"Cierre vial desde 7 nov.; Caltrans."},
-{indicador:"Chile · San Antonio",valor:"1 desvío",tendencia:"YM Orchid hacia Valparaíso, confirmado 4 nov."},
-{indicador:"Maersk · EBITDA 2026",valor:"US$14–14.5 mil M",tendencia:"Proyección elevada, no tarifa de flete. Maersk 5 nov."}
+{indicador:"Drewry WCI global",valor:"US$4,389",tendencia:"Por FEU, -1% semanal, 5 nov."},
+{indicador:"Shanghái → Los Ángeles",valor:"US$7,539",tendencia:"Por FEU; sin cambio semanal."},
+{indicador:"Shanghái → Nueva York",valor:"US$9,303",tendencia:"Por FEU; -3% semanal."},
+{indicador:"Shanghái → Róterdam",valor:"US$3,615",tendencia:"Por FEU; -2% semanal."},
+{indicador:"Shanghái → Génova",valor:"US$4,166",tendencia:"Por FEU; estable semanal."},
+{indicador:"LA/LB · plazo laboral",valor:"20 nov.",tendencia:"PMA / ILWU Local 26; extensión confirmada."},
+{indicador:"Vincent Thomas Bridge",valor:"16 meses",tendencia:"Cierre vial iniciado el 7 nov."},
+{indicador:"Blank sailings",valor:"46",tendencia:"Previstos semanas 46–50; Drewry 6 nov."}
 ],
 recomendaciones:[
-"EE. UU.: revisar embarques que usan LA/Long Beach y citas de drayage; confirmar el desenlace de negociaciones el 6 de noviembre.",
-"California: preparar rutas terrestres alternativas por el cierre del Vincent Thomas Bridge el 7 de noviembre; puertos continúan operativos.",
-"Francia: hoy 6 nov., verificar disponibilidad de remolcadores en Le Havre y movimientos náuticos hasta las 08:00 del 7 nov.",
-"Chile: el acuerdo sigue pendiente al 6 nov.; validar acceso a depósitos extraportuarios de San Antonio, equipos vacíos y alternativas en Valparaíso.",
-"China y Asia: validar ETA y conexiones; el WCI baja pero no representa todas las cotizaciones intraasiáticas.",
-"India: confirmar cut-off, horarios de fábrica, transporte y equipo antes de Diwali.",
-"Brasil: confirmar liberaciones aduaneras por operación y demoras en Santos; no publicar huelga nacional no corroborada.",
-"México: seguir eventos de carretera concretos y obligaciones aduaneras vigentes, evitando reutilizar un paro de octubre como activo.",
-"Medio Oriente: comparar rutas, recargos de combustible, seguros y tiempos de transbordo según itinerario."
+"EE. UU.: verificar drayage y desvíos desde el 7 nov.; monitorear negociación de ILWU Local 26 antes del 20 nov.",
+"México: consultar avisos de transportistas y vialidad; confirmar horarios por feriado del 16 nov. y condiciones de Manzanillo/Lázaro Cárdenas.",
+"Europa: comprobar conexiones feeder/barcaza y posible concentración de llegadas por la transición Suez/Cabo.",
+"China: validar ventanas de carga y blank sailings de la semana 46 antes de confirmar ETD.",
+"India: validar feriados locales, capacidad de choferes, cierre de fábrica y equipos tras Diwali.",
+"Brasil: verificar liberaciones aduanales por operación; no asumir huelga nacional sin corroboración.",
+"Global: no extrapolar el WCI a todas las rutas; confirmar tarifa y recargos por cotización específica.",
+"Fuentes primarias: PMA https://www.pmanet.org/statements-and-press-releases/ y Drewry https://www.drewry.co.uk/supply-chain-advisors/world-container-index-weekly-update"
 ]
 };
 const retrasos=[
-{puerto:"Francia · Le Havre",tiempo:"6–7 nov.",estado:"Huelga anunciada de remolcadores 08:00 a 08:00; posibles restricciones de maniobras. Fuente: HAROPA."},
-{puerto:"Francia · Terminales",tiempo:"5–6 nov.",estado:"Paro de terminales finalizó 06:00 del 6 nov.; revisar posibles acumulaciones."},
-{puerto:"Chile · San Antonio",tiempo:"6 nov.",estado:"Gobierno presentó propuesta; sindicatos aún sin decisión de levantar bloqueos. Emol 6 nov."},
-{puerto:"EE. UU. · LA / Long Beach",tiempo:"6 nov. medianoche PT",estado:"Prórroga laboral ILWU Local 26; huelga no confirmada."},
-{puerto:"EE. UU. · Vincent Thomas Bridge",tiempo:"Desde 7 nov.",estado:"Cierre de carretera SR-47 durante aproximadamente 16 meses; puertos operativos."},
-{puerto:"China · Shanghái",tiempo:"5 nov.",estado:"Drewry reporta mejora en esperas tras semanas de congestión; confirmar por terminal."},
-{puerto:"India · Nhava Sheva",tiempo:"3 nov. · referencia",estado:"2.25 días de espera media anterior; verificar estado actualizado y festivos."},
-{puerto:"Brasil · Santos",tiempo:"3 nov. · referencia",estado:"1.93 días de espera media anterior; confirmar ventanas y trámites."},
-{puerto:"Emiratos · Fujairah",tiempo:"3 nov. · referencia",estado:"8.86 días de espera media anterior por congestión; confirmar antes de cotizar."}
+{puerto:"EE. UU. · LA/Long Beach",tiempo:"20 nov.",estado:"Prórroga laboral ILWU Local 26; no huelga activa."},
+{puerto:"EE. UU. · Vincent Thomas Bridge",tiempo:"Desde 7 nov.",estado:"Cierre vial de ~16 meses; terminales continúan operativas."},
+{puerto:"México · Manzanillo",tiempo:"9 nov. · verificar",estado:"Confirmar citas y condiciones marítimas; sin espera promedio actual verificada."},
+{puerto:"México · Lázaro Cárdenas",tiempo:"9 nov. · verificar",estado:"Validar condiciones de oleaje y capitanía; sin espera promedio actual verificada."},
+{puerto:"China · Shanghái",tiempo:"35 horas",estado:"Promedio reportado por Drewry el 5 nov. para la semana anterior."},
+{puerto:"Europa · Le Havre",tiempo:"6–7 nov.",estado:"Preaviso anterior de paro de remolcadores; no anunciar como vigente."},
+{puerto:"India · Nhava Sheva",tiempo:"9 nov. · verificar",estado:"Variaciones de operación por Diwali y jornadas regionales."},
+{puerto:"Brasil · Santos",tiempo:"9 nov. · verificar",estado:"Confirmar estado local de aduana, transportistas y terminal."}
 ];
-// Corte editorial: 6 nov. 2026, 10:56 Monterrey. Drewry 5 nov.; HAROPA 4 nov.; Emol 6 nov.; promedios portuarios históricos identificados.
+// Fuentes: PMA (6 nov.), Port Technology (9 nov.), Drewry WCI (5 nov.) y Latest Trackers (6 nov.). Información con corte editorial 9 nov. 2026; no confundir riesgos con interrupciones confirmadas.
 
 // ======================================================
 // NO EDITAR DEBAJO DE ESTA LÍNEA
