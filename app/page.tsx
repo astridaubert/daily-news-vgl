@@ -1,19 +1,20 @@
 import Image from "next/image";
 
-// DATOS EDITABLES — CORTE 9 NOVIEMBRE 2026
+// DATOS EDITABLES — CORTE 10 NOVIEMBRE 2026
 const brief = {
-fecha:"lunes 9 de noviembre de 2026",
+fecha:"martes 10 de noviembre de 2026",
 titulo:"Vector Global Logistics | Radar Logístico Global",
-subtitulo:"9 de noviembre: LA/Long Beach posterga riesgo de huelga al 20 nov., pero el Vincent Thomas Bridge ya está cerrado. Se mantienen riesgos de transporte, congestión, festivos y clima por región. Drewry WCI: US$4,389 por FEU (-1% semanal).",
+subtitulo:"10 de noviembre: el 11 nov. habrá horarios especiales por Veterans Day en terminales de LA/Long Beach y NY/NJ. La negociación laboral en LA/LB continúa hasta el 20 nov.; persisten desvíos por el Vincent Thomas Bridge. Drewry WCI (último dato, 5 nov.): US$4,389 por FEU (-1% semanal).",
 noticias:[
 {region:"ESTADOS UNIDOS · LOS ÁNGELES / LONG BEACH",modo:"ALTA · NEGOCIACIÓN HASTA 20 NOV",imagen:"https://images.unsplash.com/photo-1494412519320-aa613dfb7738?w=1200",bandera:"https://flagcdn.com/w40/us.png",titular:"LA/Long Beach evita huelga inmediata: nuevo plazo 20 de noviembre",dato:"PMA confirmó el 6 de noviembre una prórroga con ILWU Local 26 hasta el 20 de noviembre. Unos 250 vigilantes portuarios siguen negociando: no hay huelga activa confirmada. El Vincent Thomas Bridge cerró al tráfico desde el 7 de noviembre por aproximadamente 16 meses. Fuentes: PMA, 6 nov.; Port Technology, 9 nov.; avisos de Caltrans/Maersk.",impacto:"Riesgo laboral diferido; el cierre vial complica rutas de drayage, citas, tiempos de tránsito terrestre y costos. Los puertos no están cerrados.",accion:"Confirmar ruta de camiones alternativa, citas de terminal, conexión ferroviaria y free time; monitorear 20 nov."},
 {region:"MEDIO ORIENTE · SUEZ / ORMUZ",modo:"ALTA · CAMBIO DE RUTAS MARÍTIMAS",imagen:"https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1200",bandera:"",titular:"Maersk ajusta rutas por Suez mientras persiste la incertidumbre en Ormuz",dato:"Maersk informó el 9 de noviembre que su servicio ME1 Gemini está en transición a la ruta del Canal de Suez. La naviera mantiene avisos específicos para cargas que atraviesan el estrecho de Ormuz debido a las condiciones regionales. Fuente: Maersk, IMEA Market Update, 9 nov. 2026: https://www.maersk.com/news/articles/2026/11/09/india-middle-east-and-africa-market-update-november",impacto:"Los ajustes de servicios y restricciones regionales pueden modificar itinerarios, transbordos, conexiones y tiempos de entrega para carga vinculada a Medio Oriente. No implica que todos los servicios globales tengan la misma afectación.",accion:"Verificar ruta confirmada y avisos de cada naviera; revisar ETA, puertos de transbordo y conexiones antes de comprometer fechas de entrega."},
-{region:"INDIA · DIWALI",modo:"ALTA · CALENDARIO Y CAPACIDAD",imagen:"https://images.unsplash.com/photo-1605292356183-a77d0a9c9d1d?auto=format&fit=crop&w=1200&q=85",bandera:"https://flagcdn.com/w40/in.png",titular:"Diwali: capacidad de fábricas y transporte bajo vigilancia",dato:"Diwali se celebró el 8 de noviembre de 2026, con observancias regionales durante los días siguientes. Se esperan horarios distintos por fábrica, agencia aduanal, terminal y proveedor de transporte. No se confirma un cierre portuario nacional ni un ciclón Arnab activo.",impacto:"Posibles retrasos en recolección, documentación, personal, gate-in y conexiones por transbordo.",accion:"Confirmar calendario de cada proveedor, cut-offs, disponibilidad de chasis y equipo, y conexión por Colombo."}
+{region:"ESTADOS UNIDOS · VETERANS DAY · 11 NOV",modo:"ALTA · HORARIOS ESPECIALES",imagen:"https://images.unsplash.com/photo-1494412519320-aa613dfb7738?w=1200",bandera:"https://flagcdn.com/w40/us.png",titular:"Veterans Day: restricciones por turno en LA/LB y cierre de Maher en NY/NJ",dato:"Miércoles 11 nov. 2026. LA/LB: APM, Everport, FMS, ITS, LBCT, TRAPAC, TTI, WBCT y YTI operarán primer y segundo turno; PCT solo primer turno. Cerrados: Pier A (primer y segundo turno), PCT (segundo) y LBCT (tercero). NY/NJ: APM, Port Liberty New York y PNCT abiertos; Port Liberty Bayonne de 6:00 a 13:00 solo con cita; Maher cerrado. Fuente: STG Logistics, aviso del 9 nov. 2026: https://www.stgusa.com/alerts/notice-la-lb-and-ny-nj-port-terminals-veterans-day-schedule-2/",impacto:"Las restricciones pueden afectar entregas, retiros y citas de contenedores; podrían generarse cargos por demurrage o per diem. La disponibilidad debe validarse con cada terminal.",accion:"Confirmar turno y cita directamente con terminal y transportista antes del 11 nov.; revisar free time, demurrage y per diem."}
 ],
 vigilancia:[
 {titulo:"México | Carreteras y fronteras",bandera:"https://flagcdn.com/w40/mx.png",texto:"Los bloqueos nacionales previos fueron levantados tras mesas de negociación; vigilar nuevos avisos de transportistas sin anunciar paro activo no corroborado. Confirmar cruces Nuevo Laredo/Laredo y rutas de Monterrey. El lunes 16 nov. es día de descanso oficial en México."},
 {titulo:"México | Manzanillo y Lázaro Cárdenas",bandera:"https://flagcdn.com/w40/mx.png",texto:"Priorizar avisos meteorológicos, oleaje, gate appointments, cierres por capitanía y tiempos de patio. No publicar las cifras 1.4/3.4 días como actuales sin una fuente portuaria del 9 nov."},
 {titulo:"Estados Unidos | Riesgo laboral",bandera:"https://flagcdn.com/w40/us.png",texto:"PMA extendió acuerdo con ILWU Local 26 hasta el 20 nov. Las terminales permanecen operativas, pero existe riesgo de interrupción si fracasan conversaciones. Fuente: https://www.pmanet.org/statements-and-press-releases/"},
+{titulo:"Estados Unidos | Veterans Day, 11 nov.",bandera:"https://flagcdn.com/w40/us.png",texto:"STG Logistics informó horarios diferenciados: Pier A no operará en primeros dos turnos, PCT cierra segundo turno, LBCT tercero y Maher (NY/NJ) permanecerá cerrado. Port Liberty Bayonne: 06:00–13:00 con cita. Validar confirmación por terminal. Fuente: https://www.stgusa.com/alerts/notice-la-lb-and-ny-nj-port-terminals-veterans-day-schedule-2/"},
 {titulo:"Estados Unidos | Cierre de puente",bandera:"https://flagcdn.com/w40/us.png",texto:"Vincent Thomas Bridge cerrado desde el 7 nov. por obras durante aproximadamente 16 meses; confirmar desvíos, citas y disponibilidad de drayage; no describir como cierre de puerto."},
 {titulo:"Europa | Francia, Róterdam, Amberes",bandera:"https://flagcdn.com/w40/fr.png",texto:"La huelga francesa de remolcadores anunciada para el 6–7 nov. es un evento pasado; verificar efectos residuales y nuevas convocatorias. Róterdam y Amberes: comprobar conexiones feeder/barcaza por terminal, sin asignar esperas en días sin fuente actual."},
 {titulo:"Europa | Asia–Europa y Suez",bandera:"https://flagcdn.com/w40/nl.png",texto:"Shanghái–Róterdam US$3,615/FEU (-2%), Génova US$4,166 (estable). Drewry alerta riesgo de llegadas simultáneas desde rutas Suez y Cabo de Buena Esperanza; navieras intentan alzas FAK a mitad de noviembre."},
@@ -21,7 +22,7 @@ vigilancia:[
 {titulo:"Asia | Conexiones y riesgo geopolítico",bandera:"https://flagcdn.com/w40/sg.png",texto:"Vigilar transbordos, itinerarios por Suez y recargos según naviera; conflicto en Ormuz y seguridad regional pueden afectar algunos servicios. No asumir que todos los embarques China–México pasan por Medio Oriente."},
 {titulo:"Brasil | Santos, Navegantes y Manaus",bandera:"https://flagcdn.com/w40/br.png",texto:"Revisar disponibilidad aduanal, terminal, transporte por carretera y niveles fluviales. La supuesta huelga aduanal nacional iniciada el 25 oct. no está corroborada para hoy; no publicarla como vigente. Confirmar eventos caso por caso."},
 {titulo:"India | Nhava Sheva, Mundra, Chennai",bandera:"https://flagcdn.com/w40/in.png",texto:"Diwali 8 nov. y celebraciones regionales podrían reducir personal y camiones; validar operaciones individualmente. No atribuir interrupciones al ciclón Arnab sin confirmación meteorológica."},
-{titulo:"Calendario | Próximos hitos",bandera:"",texto:"9–15 nov.: inicio de semana 46 y posibles blank sailings; 16 nov.: feriado por Revolución Mexicana; 20 nov.: nuevo plazo laboral PMA–ILWU Local 26 en LA/Long Beach."}
+{titulo:"Calendario | Próximos hitos",bandera:"",texto:"11 nov.: Veterans Day y horarios especiales en terminales de EE. UU.; 16 nov.: descanso oficial en México por Revolución Mexicana; 20 nov.: nuevo plazo laboral PMA–ILWU Local 26 en LA/Long Beach. Verificar blank sailings por servicio."}
 ],
 metricas:[
 {indicador:"Drewry WCI global",valor:"US$4,389",tendencia:"Por FEU, -1% semanal, 5 nov."},
@@ -34,27 +35,28 @@ metricas:[
 {indicador:"Blank sailings",valor:"46",tendencia:"Previstos semanas 46–50; Drewry 6 nov."}
 ],
 recomendaciones:[
-"EE. UU.: verificar drayage y desvíos desde el 7 nov.; monitorear negociación de ILWU Local 26 antes del 20 nov.",
+"EE. UU.: confirmar horarios y citas de terminal para Veterans Day (11 nov.), revisar free time y cargos; verificar desvíos del Vincent Thomas Bridge y monitorear negociación ILWU Local 26 hasta el 20 nov.",
 "México: consultar avisos de transportistas y vialidad; confirmar horarios por feriado del 16 nov. y condiciones de Manzanillo/Lázaro Cárdenas.",
 "Europa: comprobar conexiones feeder/barcaza y posible concentración de llegadas por la transición Suez/Cabo.",
 "China: validar ventanas de carga y blank sailings de la semana 46 antes de confirmar ETD.",
-"India: validar feriados locales, capacidad de choferes, cierre de fábrica y equipos tras Diwali.",
+"India: validar horarios regionales, disponibilidad de choferes, fábricas y equipos tras Diwali del 8 nov.; no anunciar cierre portuario nacional sin confirmación.",
 "Brasil: verificar liberaciones aduanales por operación; no asumir huelga nacional sin corroboración.",
 "Global: no extrapolar el WCI a todas las rutas; confirmar tarifa y recargos por cotización específica.",
-"Fuentes primarias: PMA https://www.pmanet.org/statements-and-press-releases/ y Drewry https://www.drewry.co.uk/supply-chain-advisors/world-container-index-weekly-update"
+"Fuentes: PMA https://www.pmanet.org/statements-and-press-releases/ · Drewry https://www.drewry.co.uk/supply-chain-advisors/world-container-index-weekly-update · STG https://www.stgusa.com/alerts/notice-la-lb-and-ny-nj-port-terminals-veterans-day-schedule-2/ · Maersk https://www.maersk.com/news/articles/2026/11/09/india-middle-east-and-africa-market-update-november"
 ]
 };
 const retrasos=[
 {puerto:"EE. UU. · LA/Long Beach",tiempo:"20 nov.",estado:"Prórroga laboral ILWU Local 26; no huelga activa."},
+{puerto:"EE. UU. · Terminales LA/LB y NY/NJ",tiempo:"11 nov.",estado:"Veterans Day: turnos especiales y cierre de Maher; confirmar citas y horarios por terminal."},
 {puerto:"EE. UU. · Vincent Thomas Bridge",tiempo:"Desde 7 nov.",estado:"Cierre vial de ~16 meses; terminales continúan operativas."},
-{puerto:"México · Manzanillo",tiempo:"9 nov. · verificar",estado:"Confirmar citas y condiciones marítimas; sin espera promedio actual verificada."},
-{puerto:"México · Lázaro Cárdenas",tiempo:"9 nov. · verificar",estado:"Validar condiciones de oleaje y capitanía; sin espera promedio actual verificada."},
+{puerto:"México · Manzanillo",tiempo:"10 nov. · verificar",estado:"Confirmar citas y condiciones marítimas; sin espera promedio actual verificada."},
+{puerto:"México · Lázaro Cárdenas",tiempo:"10 nov. · verificar",estado:"Validar condiciones de oleaje y capitanía; sin espera promedio actual verificada."},
 {puerto:"China · Shanghái",tiempo:"35 horas",estado:"Promedio reportado por Drewry el 5 nov. para la semana anterior."},
 {puerto:"Europa · Le Havre",tiempo:"6–7 nov.",estado:"Preaviso anterior de paro de remolcadores; no anunciar como vigente."},
-{puerto:"India · Nhava Sheva",tiempo:"9 nov. · verificar",estado:"Variaciones de operación por Diwali y jornadas regionales."},
-{puerto:"Brasil · Santos",tiempo:"9 nov. · verificar",estado:"Confirmar estado local de aduana, transportistas y terminal."}
+{puerto:"India · Nhava Sheva",tiempo:"10 nov. · verificar",estado:"Variaciones de operación por Diwali y jornadas regionales."},
+{puerto:"Brasil · Santos",tiempo:"10 nov. · verificar",estado:"Confirmar estado local de aduana, transportistas y terminal."}
 ];
-// Fuentes: PMA (6 nov.), Port Technology (9 nov.), Drewry WCI (5 nov.) y Latest Trackers (6 nov.). Información con corte editorial 9 nov. 2026; no confundir riesgos con interrupciones confirmadas.
+// Corte editorial 10 nov. 2026. Fuentes: PMA, STG Logistics (9 nov.), Maersk (9 nov.) y Drewry WCI (5 nov.). No confundir riesgos con interrupciones confirmadas.
 
 // ======================================================
 // NO EDITAR DEBAJO DE ESTA LÍNEA
@@ -224,7 +226,7 @@ export default function Home() {
       </section>
 
       {/* TABLA DE RETRASOS PORTUARIOS */}
-      <section className="bg-white"><div className="mx-auto max-w-7xl px-6 py-14 md:px-10"><p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">OPERACIÓN LOGÍSTICA · CORTE 6 DE NOVIEMBRE</p><h2 className="mt-3 text-3xl font-bold text-[#003C6F]">Estado de puertos y conexiones</h2><p className="mt-3 max-w-4xl text-sm leading-6 text-gray-600">No se dispone de tiempos en vivo comparables en todos los puertos. Las cifras indicativas y restricciones deben validarse con terminal y naviera antes de comprometer ETA.</p><div className="mt-7 overflow-x-auto rounded-2xl border border-gray-200"><table className="w-full min-w-[760px] text-left text-sm"><thead className="bg-[#003C6F] text-white"><tr><th className="p-4">País / puerto</th><th className="p-4">Fecha o dato</th><th className="p-4">Estado e interpretación</th></tr></thead><tbody>{retrasos.map((r,i)=><tr key={r.puerto} className={i%2===0?"bg-[#F3F5F7]":"bg-white"}><td className="p-4 font-bold text-[#003C6F]">{r.puerto}</td><td className="p-4 font-semibold">{r.tiempo}</td><td className="p-4 text-gray-600">{r.estado}</td></tr>)}</tbody></table></div></div></section>
+      <section className="bg-white"><div className="mx-auto max-w-7xl px-6 py-14 md:px-10"><p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">OPERACIÓN LOGÍSTICA · CORTE 10 DE NOVIEMBRE</p><h2 className="mt-3 text-3xl font-bold text-[#003C6F]">Estado de puertos y conexiones</h2><p className="mt-3 max-w-4xl text-sm leading-6 text-gray-600">No se dispone de tiempos en vivo comparables en todos los puertos. Las cifras indicativas y restricciones deben validarse con terminal y naviera antes de comprometer ETA.</p><div className="mt-7 overflow-x-auto rounded-2xl border border-gray-200"><table className="w-full min-w-[760px] text-left text-sm"><thead className="bg-[#003C6F] text-white"><tr><th className="p-4">País / puerto</th><th className="p-4">Fecha o dato</th><th className="p-4">Estado e interpretación</th></tr></thead><tbody>{retrasos.map((r,i)=><tr key={r.puerto} className={i%2===0?"bg-[#F3F5F7]":"bg-white"}><td className="p-4 font-bold text-[#003C6F]">{r.puerto}</td><td className="p-4 font-semibold">{r.tiempo}</td><td className="p-4 text-gray-600">{r.estado}</td></tr>)}</tbody></table></div></div></section>
 
       {/* MÉTRICAS CLAVE */}
       <section className="bg-[#F3F5F7]">
