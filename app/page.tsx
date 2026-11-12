@@ -133,7 +133,7 @@ export default function Home() {
                   className="h-full w-full object-cover"
                   loading="lazy"
                 />
-                {"fotoCredito" in item && item.fotoCredito ? <a href={item.fotoUrl} target="_blank" rel="noopener noreferrer" className="absolute bottom-1 right-2 rounded bg-black/50 px-1.5 py-0.5 text-[9px] text-white">{item.fotoCredito}</a> : null}
+                {"fotoUrl" in item && "fotoCredito" in item && item.fotoCredito ? <a href={String(item.fotoUrl)} target="_blank" rel="noopener noreferrer" className="absolute bottom-1 right-2 rounded bg-black/50 px-1.5 py-0.5 text-[9px] text-white">{String(item.fotoCredito)}</a> : null}
               </div>
 
               <div className="p-7">
