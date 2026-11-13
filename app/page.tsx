@@ -9,7 +9,9 @@ noticias:[
   {
     "region": "CHILE · TRANSPORTE TERRESTRE",
     "modo": "ALTA · ACUERDO Y BLOQUEOS RESIDUALES",
-    "imagen": "https://images.unsplash.com/photo-1580674285054-bed31e145f59?w=1200",
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Ruta_5_%2815483691449%29.jpg?width=1200",
+    "fotoCredito": "Foto ilustrativa: order_242 / Wikimedia Commons · CC BY-SA 2.0",
+    "fotoUrl": "https://commons.wikimedia.org/wiki/File:Ruta_5_(15483691449).jpg",
     "bandera": "https://flagcdn.com/w40/cl.png",
     "titular": "Chile logra acuerdo con transportistas; persisten bloqueos puntuales",
     "dato": "El 12 nov. el Gobierno y las principales organizaciones de transportistas alcanzaron un acuerdo para levantar la paralización de tres días. El 13 nov. se reportan protestas residuales y cierres intermitentes en algunas zonas, entre ellas La Araucanía. El conflicto estuvo asociado al precio del diésel; se anunciaron medidas de alivio sujetas, en parte, a aprobación legislativa. Fuente (13 nov.): https://www.salmonbusiness.com/chile-truckers-reach-deal-to-end-strike-but-roadblocks-persist/",
