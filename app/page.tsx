@@ -1,64 +1,205 @@
 import Image from "next/image";
 
-// DATOS EDITABLES — CORTE 12 NOVIEMBRE 2026
+// DATOS EDITABLES — CORTE 13 NOVIEMBRE 2026
 const brief = {
-fecha:"jueves 12 de noviembre de 2026",
+fecha:"viernes 13 de noviembre de 2026",
 titulo:"Vector Global Logistics | Radar Logístico Global",
-subtitulo:"12 de noviembre: nuevos recargos terrestres de Maersk en el Rin y países nórdicos; España revisa la recuperación de las terminales tras la huelga del 11; Santos informa avances en la recuperación de sistemas. Chile, México, Estados Unidos e India permanecen en vigilancia. Datos fechados y recomendaciones por ruta.",
+subtitulo:"13 de noviembre: Chile logra acuerdo con transportistas, pero persisten bloqueos locales; Shanghái registra mayor espera y blank sailings; Drewry confirma baja de 2% en fletes globales. LA/Long Beach continúa negociando hasta el 20, Santos opera bajo recuperación digital y México se prepara para el feriado del 16.",
 noticias:[
-{region:"EUROPA · RIN Y PAÍSES NÓRDICOS",modo:"ALTA · RECARGOS VIGENTES",imagen:"/rhine-low-water.webp",bandera:"https://flagcdn.com/w40/de.png",titular:"Cargos terrestres por bajo nivel del Rin y combustible en el norte de Europa",dato:"Maersk reintrodujo un cargo de contingencia de EUR 625 por contenedor en Andernach y EUR 175 en Bonn, efectivo desde el 3 nov., además de los cargos por bajo nivel del Rin cuando correspondan. Para embarques Store Door en Dinamarca, Suecia, Noruega, Finlandia, Estonia, Letonia y Lituania, la naviera informó recargos energéticos desde el 11 nov.: Estonia 23%, Dinamarca 14%, Letonia 13%, Suecia 10%, Finlandia 6%, Noruega y Lituania 4%. Fuentes: https://www.maersk.com/news/articles/2026/11/09/andernach-inland-terminal-contingency-surcharge · https://www.maersk.com/news/articles/2026/11/09/bonn-inland-terminal-contingency-surcharge-reinstated · https://www.maersk.com/news/articles/2026/11/09/emergency-inland-fuel-energy-surcharge",impacto:"Aumenta el costo puerta a puerta en corredores específicos, y el desvío de barcazas puede requerir manejo y transporte extra. No son recargos universales a todo flete marítimo.",accion:"Revisar origen, destino, terminal interior, fecha de aplicación y cláusulas de recargos antes de cerrar tarifas y facturas."},
-{region:"EUROPA · ESPAÑA",modo:"ALTA · EFECTOS POSTHUELGA",imagen:"https://commons.wikimedia.org/wiki/Special:FilePath/Port_of_Valencia,_August_2026.jpg?width=1200",bandera:"https://flagcdn.com/w40/es.png",titular:"Tras la huelga del 11, verificar reanudación y carga pendiente",dato:"La huelga general del 11 nov. paralizó operaciones de estiba en terminales de Valencia y Algeciras y afectó operaciones en Barcelona. La asociación logística UNO describió efectos concentrados en determinadas zonas, sin disrupción significativa a nivel nacional. Algunas terminales tenían previsto retomar turnos desde la madrugada del 12; la reanudación real debe confirmarse por terminal. Fuentes: https://www.europapress.es/economia/transportes-00343/noticia-cifra-minimo-muy-localizado-impacto-huelga-logistica-transporte-20261111184159.html · https://www.oepb.org/web/2026/11/12/la-huelga-general-paraliza-los-puertos/",impacto:"Puede haber rolados, cambios de cut-off y retrasos de inspección o retiro de contenedores, sin que ello implique un paro nacional activo el 12 nov.",accion:"Reconﬁrmar con cada terminal reapertura de gates, asignación de turnos, salida de buques y disponibilidad de transporte terrestre."},
-{region:"BRASIL · PUERTO DE SANTOS",modo:"ALTA · AVANCE HOY",imagen:"https://commons.wikimedia.org/wiki/Special:FilePath/SantosContainers.JPG?width=1200",bandera:"https://flagcdn.com/w40/br.png",titular:"Santos recupera cerca de 70% de copias de seguridad tras ciberataque",dato:"Según información publicada el 12 nov., la Autoridad Portuaria de Santos reportó haber recuperado alrededor del 70% de las copias de seguridad afectadas por el incidente del 6 nov. y espera restaurar más servicios internos. Las operaciones marítimas y accesos terrestres continúan; algunas gestiones administrativas aún requieren contingencias. Fuente: https://c-level.folha.uol.com.br/infraestrutura/2026/11/porto-de-santos-diz-que-recuperou-70-de-copias-de-arquivos-apos-ataque-hacker.shtml",impacto:"Pueden requerirse procesos manuales, verificaciones documentales o coordinación adicional; no hay confirmación de cierre general del puerto.",accion:"Verificar estado de liberación y documentación con el agente local y consultar al terminal ante cada embarque."}
+  {
+    "region": "CHILE · TRANSPORTE TERRESTRE",
+    "modo": "ALTA · ACUERDO Y BLOQUEOS RESIDUALES",
+    "imagen": "https://images.unsplash.com/photo-1580674285054-bed31e145f59?w=1200",
+    "bandera": "https://flagcdn.com/w40/cl.png",
+    "titular": "Chile logra acuerdo con transportistas; persisten bloqueos puntuales",
+    "dato": "El 12 nov. el Gobierno y las principales organizaciones de transportistas alcanzaron un acuerdo para levantar la paralización de tres días. El 13 nov. se reportan protestas residuales y cierres intermitentes en algunas zonas, entre ellas La Araucanía. El conflicto estuvo asociado al precio del diésel; se anunciaron medidas de alivio sujetas, en parte, a aprobación legislativa. Fuente (13 nov.): https://www.salmonbusiness.com/chile-truckers-reach-deal-to-end-strike-but-roadblocks-persist/",
+    "impacto": "Mejora el escenario general para rutas chilenas, pero los retiros y entregas terrestres, especialmente cargas refrigeradas o con ventanas estrictas, todavía pueden enfrentar cierres locales.",
+    "accion": "Confirmar tramo, tránsito por Ruta 5 y disponibilidad de camiones antes de fijar citas hacia San Antonio, Valparaíso, Iquique o el sur."
+  },
+  {
+    "region": "CHINA · SHANGHÁI Y ASIA",
+    "modo": "ALTA · CONGESTIÓN Y BLANK SAILINGS",
+    "imagen": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?w=1200",
+    "bandera": "https://flagcdn.com/w40/cn.png",
+    "titular": "Shanghái vuelve a acumular esperas mientras navieras reducen salidas",
+    "dato": "Drewry informó el 12 nov. que la espera media en Shanghái pasó de 36 a 49 horas la semana anterior, revirtiendo una tendencia de mejoría. El reporte indica ocho blank sailings anunciados para la próxima semana frente a cuatro de la actual. Everstream, con datos de Kuehne+Nagel, reportó 2.12 días promedio en Shanghái y 2.23 días en Ningbo: metodologías y cortes distintos. Fuentes: https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry · https://www.everstream.ai/risk-centers/port-congestion-report-12-november-2026/",
+    "impacto": "Mayor riesgo de cambios de itinerario, espacios ajustados y conexiones perdidas, especialmente en embarques con transbordo.",
+    "accion": "Reconﬁrmar cut-offs, ETD, conexión y espacio con naviera; no atribuir el aumento de esperas a un tifón específico sin un aviso meteorológico confirmado."
+  },
+  {
+    "region": "MERCADO MARÍTIMO · TARIFAS",
+    "modo": "ALTA · NUEVO ÍNDICE 12 NOV.",
+    "imagen": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1200",
+    "bandera": "",
+    "titular": "Drewry: fletes globales caen 2%; tarifas transpacíficas retroceden",
+    "dato": "En su corte del 12 nov., Drewry situó el World Container Index en US$4,305 por FEU (-2% semanal). Shanghái–Los Ángeles cayó 2% a US$7,416/FEU y Shanghái–Nueva York bajó 3% a US$9,020/FEU. Los operadores buscan gestionar capacidad con cancelaciones de salidas. Fuente: https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry",
+    "impacto": "La caída del índice global no equivale a una baja uniforme de tarifas en todos los corredores ni elimina costos terrestres y recargos locales.",
+    "accion": "Solicitar cotizaciones por ruta y vigencia; diferenciar tarifa base, recargos, demurrage/detention y condiciones de espacio."
+  }
 ],
 vigilancia:[
-{titulo:"Chile | Transporte por carretera",bandera:"https://flagcdn.com/w40/cl.png",texto:"Alerta WSSA del 10 nov.: nueva huelga indefinida de transportistas con afectaciones en Ruta 5 Norte (Pozo Almonte) y otros tramos. San Antonio y Valparaíso mantenían actividad marítima. No se corroboró la continuidad exacta al 12 nov.; confirmar con transportista y autoridades locales. Fuente: https://www.wssa.com/content/strike-alerts-chile-spain"},
-{titulo:"México | Monterrey y Nuevo Laredo",bandera:"https://flagcdn.com/w40/mx.png",texto:"Mantener ventanas de cruce flexibles, confirmar seguridad vial y transportistas. Tras levantarse bloqueos previos, no anunciar nuevo paro nacional sin aviso confirmado."},
-{titulo:"México | Manzanillo y Lázaro Cárdenas",bandera:"https://flagcdn.com/w40/mx.png",texto:"El reporte Kuehne+Nagel del 10 nov. estimó esperas móviles de siete días: 2.25 días en Manzanillo y 3.0 en Lázaro Cárdenas. Son cifras fechadas y no tiempo de espera garantizado hoy."},
-{titulo:"México | Feriado 16 de noviembre",bandera:"https://flagcdn.com/w40/mx.png",texto:"Lunes 16 nov. descanso oficial por Revolución Mexicana: confirmar horarios de patios, almacenes, plantas, aduanas y transportistas."},
-{titulo:"Estados Unidos | LA/Long Beach",bandera:"https://flagcdn.com/w40/us.png",texto:"La extensión de las negociaciones con ILWU Local 26 llega al 20 nov.; no hay huelga portuaria inmediata confirmada. Supervisar avisos oficiales y turnos terminales."},
-{titulo:"Estados Unidos | Accesos terrestres",bandera:"https://flagcdn.com/w40/us.png",texto:"El Vincent Thomas Bridge cerró el 7 nov. por obras prolongadas. Verificar desvíos de drayage. El cierre vial no supone cierre de las terminales."},
-{titulo:"Estados Unidos | Veterans Day finalizado",bandera:"https://flagcdn.com/w40/us.png",texto:"Los horarios especiales de terminal del 11 nov. son un evento pasado. Reconﬁrmar citas y movimientos reprogramados para el 12; no publicar hoy como feriado activo."},
-{titulo:"España | Efectos residuales",bandera:"https://flagcdn.com/w40/es.png",texto:"Huelga general fue el miércoles 11. Confirmar reapertura y cut-offs en Valencia, Barcelona y Algeciras. Las afectaciones no fueron uniformes en todo el territorio."},
-{titulo:"Alemania | Bajo nivel del Rin",bandera:"https://flagcdn.com/w40/de.png",texto:"Maersk: Andernach EUR 625/contenedor y Bonn EUR 175/contenedor, vigentes desde 3 nov. para carga elegible. Pueden sumarse recargos por bajo nivel."},
-{titulo:"Nórdicos y Bálticos | Combustible",bandera:"https://flagcdn.com/w40/dk.png",texto:"Maersk aplica desde 11 nov. recargo en envíos Store Door: Estonia 23%, Dinamarca 14%, Letonia 13%, Suecia 10%, Finlandia 6%, Noruega y Lituania 4%. No aplica automáticamente a todos los servicios."},
-{titulo:"China | Espacio y conexiones",bandera:"https://flagcdn.com/w40/cn.png",texto:"Último WCI verificable en el corte consultado: 5 nov. por USD 4,389/FEU global. Validar blank sailings y cut-offs por naviera y terminal; no actualizar una cifra sin publicación fuente."},
-{titulo:"India | Operación post-Diwali",bandera:"https://flagcdn.com/w40/in.png",texto:"Reconfirmar horarios de fábricas, choferes y terminales en Nhava Sheva, Mundra y Chennai. No atribuir cierres portuarios a ciclones no verificados."},
-{titulo:"Brasil | Recuperación de Santos",bandera:"https://flagcdn.com/w40/br.png",texto:"Fuente del 12 nov. reporta 70% de copias de seguridad recuperadas tras ciberataque; sin cierre de navegación ni accesos terrestres. Verificar documentos por operación."},
-{titulo:"Próximas fechas | Vigilancia",bandera:"",texto:"16 nov.: feriado México; 20 nov.: plazo de negociación ILWU Local 26; monitorear noticias y avisos posteriores a la huelga española del 11."}
+  {
+    "titulo": "México | Monterrey, Laredo y transporte",
+    "bandera": "https://flagcdn.com/w40/mx.png",
+    "texto": "Tras las protestas de octubre por seguridad y costos del autotransporte, mantener seguimiento de rutas Monterrey–Nuevo Laredo/Laredo, cruces y disponibilidad de operadores. No se confirmó un nuevo paro nacional activo al 13 nov. Antecedente: https://www.freightwaves.com/news/mexican-truckers-launch-national-strike-over-highway-security-rising-costs"
+  },
+  {
+    "titulo": "México | Feriado del lunes 16",
+    "bandera": "https://flagcdn.com/w40/mx.png",
+    "texto": "El 16 nov. es día de descanso oficial en México por la Revolución Mexicana. Confirmar horario de agencias aduanales, almacenes, plantas, terminales y transportistas; el feriado no implica cierre automático de todas las instalaciones. Fuente: https://embamex.sre.gob.mx/austria/images/AVISOS/DIAS_FESTIVOS_OFICIALES_MXICO_2026.pdf"
+  },
+  {
+    "titulo": "Estados Unidos | LA/Long Beach",
+    "bandera": "https://flagcdn.com/w40/us.png",
+    "texto": "PMA e ILWU Local 26 extendieron conversaciones hasta el 20 nov. No hay huelga activa confirmada y los puertos siguen operando. El riesgo afecta especialmente accesos y seguridad de terminales si se rompe la negociación. Fuente: https://www.flexport.com/blog/potential-strike-250-port-watchmen-could-stall-la-and-long-beach/"
+  },
+  {
+    "titulo": "Estados Unidos | Accesos a terminales",
+    "bandera": "https://flagcdn.com/w40/us.png",
+    "texto": "Mantener rutas de drayage alternativas alrededor del Vincent Thomas Bridge y validar citas de camión, movimientos ferroviarios y costos de espera. Verificar avisos oficiales de obra y afectaciones por operador."
+  },
+  {
+    "titulo": "Europa | España posthuelga",
+    "bandera": "https://flagcdn.com/w40/es.png",
+    "texto": "La huelga general del 11 nov. afectó terminales de Barcelona, Valencia y Algeciras. Para el 13 nov. revisar backlog, turnos, gates y conexiones específicas; no describir la huelga de dos días antes como paro activo. Alerta: https://www.wssa.com/content/strike-alerts-chile-spain"
+  },
+  {
+    "titulo": "Alemania | Río Rin y recargos Maersk",
+    "bandera": "https://flagcdn.com/w40/de.png",
+    "texto": "Maersk reactivó desde el 3 nov. recargos terrestres de €625 por contenedor afectado en Andernach y €175 en Bonn, separados de su low-water surcharge. Confirmar si el routing interior aplica. Fuente: https://www.maersk.com/news/articles/2026/11/09/andernach-inland-terminal-contingency-surcharge"
+  },
+  {
+    "titulo": "Nórdicos/Bálticos | Recargos combustible",
+    "bandera": "https://flagcdn.com/w40/dk.png",
+    "texto": "Maersk anunció recargos de energía para determinados servicios Store Door desde el 11 nov. Las condiciones y porcentajes dependen del país y servicio; verificar aviso vigente antes de tarifar. Fuente: https://www.maersk.com/news/articles/2026/11/09/emergency-inland-fuel-energy-surcharge"
+  },
+  {
+    "titulo": "China | Ningbo y Shanghái",
+    "bandera": "https://flagcdn.com/w40/cn.png",
+    "texto": "Everstream/Kuehne+Nagel (12 nov.) reportó 2.23 días de espera media en Ningbo y 2.12 días en Shanghái; Drewry reportó 49 horas de espera en Shanghái en un corte distinto. No son métricas en vivo ni directamente intercambiables."
+  },
+  {
+    "titulo": "India | Reapertura de capacidad terrestre",
+    "bandera": "https://flagcdn.com/w40/in.png",
+    "texto": "Continuar verificando disponibilidad de transporte, documentación y espacios en Nhava Sheva, Mundra y Chennai durante la normalización operativa posterior a festividades. No se encontró evidencia suficiente para afirmar afectación actual por un ciclón llamado Arnab."
+  },
+  {
+    "titulo": "Brasil | Santos",
+    "bandera": "https://flagcdn.com/w40/br.png",
+    "texto": "La Autoridad Portuaria de Santos anunció 70% de recuperación de backups después del ciberataque del 6 nov. Puerto, navegación y acceso terrestre permanecen en operación; trámites administrativos podrían requerir alternativas. Fuente: https://datamarnews.com/noticias/port-of-santos-administrative-systems-to-be-restored-gradually/"
+  },
+  {
+    "titulo": "Chile | Ruta 5 y cargas sensibles",
+    "bandera": "https://flagcdn.com/w40/cl.png",
+    "texto": "Tras el acuerdo del 12 nov., algunas manifestaciones persistían el 13. Confirmar condición local de Ruta 5, accesos a puertos y movimientos de salmón/refrigerados. Fuente: https://www.salmonbusiness.com/chile-truckers-reach-deal-to-end-strike-but-roadblocks-persist/"
+  },
+  {
+    "titulo": "Calendario | Próximos hitos",
+    "bandera": "",
+    "texto": "16 nov.: feriado oficial en México. 20 nov.: vence extensión de negociación laboral en LA/Long Beach. Seguimiento: recuperación digital en Santos y normalización tras huelga española del 11 nov."
+  }
 ],
 metricas:[
-{indicador:"Recargo Andernach",valor:"€625",tendencia:"Por contenedor elegible, Maersk; desde 3 nov."},
-{indicador:"Recargo Bonn",valor:"€175",tendencia:"Por contenedor elegible, Maersk; desde 3 nov."},
-{indicador:"Estonia · combustible",valor:"+23%",tendencia:"Store Door Maersk; desde 11 nov."},
-{indicador:"Dinamarca · combustible",valor:"+14%",tendencia:"Store Door Maersk; desde 11 nov."},
-{indicador:"Santos · recuperación",valor:"~70%",tendencia:"Copias de seguridad, reporte 12 nov."},
-{indicador:"Drewry WCI global",valor:"US$4,389",tendencia:"Por FEU; último dato verificado 5 nov., no dato de hoy."},
-{indicador:"Manzanillo · espera",valor:"2.25 días",tendencia:"Promedio móvil 7 días; reporte 10 nov."},
-{indicador:"LA/LB · plazo laboral",valor:"20 nov.",tendencia:"Fin de prórroga contractual ILWU Local 26."}
+  {
+    "indicador": "Drewry WCI · 12 nov.",
+    "valor": "US$4,305",
+    "tendencia": "Por FEU; -2% semanal."
+  },
+  {
+    "indicador": "Shanghái–LA",
+    "valor": "US$7,416",
+    "tendencia": "Por FEU; -2% semanal, Drewry 12 nov."
+  },
+  {
+    "indicador": "Shanghái–NY",
+    "valor": "US$9,020",
+    "tendencia": "Por FEU; -3% semanal, Drewry 12 nov."
+  },
+  {
+    "indicador": "Shanghái · espera",
+    "valor": "49 h",
+    "tendencia": "Drewry; semana previa, frente a 36 h."
+  },
+  {
+    "indicador": "Blank sailings",
+    "valor": "8",
+    "tendencia": "Anunciados para próxima semana, Drewry 12 nov."
+  },
+  {
+    "indicador": "Andernach · Maersk",
+    "valor": "€625",
+    "tendencia": "Por contenedor afectado, desde 3 nov."
+  },
+  {
+    "indicador": "Santos · backups",
+    "valor": "~70%",
+    "tendencia": "Recuperados según APS, informe 12 nov."
+  },
+  {
+    "indicador": "LA/LB · plazo",
+    "valor": "20 nov.",
+    "tendencia": "Fin de extensión de negociación ILWU Local 26."
+  }
 ],
 recomendaciones:[
-"Europa: verificar de inmediato cargos de contingencia para Andernach y Bonn y las nuevas tasas de combustible de Maersk en Nórdicos/Bálticos antes de emitir cotizaciones door-to-door.",
-"España: llamar a las terminales específicas de Valencia, Algeciras y Barcelona para confirmar gates, cut-offs y salidas reprogramadas tras huelga del 11 nov.",
-"Brasil: corroborar con agente local el proceso documental en Santos durante la recuperación de sistemas, sin describir el puerto como cerrado.",
-"Chile: consultar al transportista restricciones de carretera reportadas desde el 10 nov.; no afirmar que siguen activas sin reporte local del 12.",
-"EE. UU.: monitorear negociación LA/Long Beach con plazo del 20 nov. y preparar rutas alternas por Vincent Thomas Bridge.",
-"México: confirmar Nuevo Laredo, Manzanillo y Lázaro Cárdenas; anticipar el feriado del lunes 16 nov.",
-"India y Asia: confirmar espacio, cut-offs y disponibilidad terrestre después de Diwali; no extrapolar esperas desactualizadas.",
-"Fuentes: Maersk Rin https://www.maersk.com/news/articles/2026/11/09/andernach-inland-terminal-contingency-surcharge · Maersk Nórdicos https://www.maersk.com/news/articles/2026/11/09/emergency-inland-fuel-energy-surcharge · España https://www.europapress.es/economia/transportes-00343/noticia-cifra-minimo-muy-localizado-impacto-huelga-logistica-transporte-20261111184159.html · Santos https://c-level.folha.uol.com.br/infraestrutura/2026/11/porto-de-santos-diz-que-recuperou-70-de-copias-de-arquivos-apos-ataque-hacker.shtml"
+  "Chile: validar condiciones de Ruta 5 y accesos por tramo antes de programar entregas; el acuerdo con transportistas no elimina bloqueos residuales.",
+  "China: revisar confirmaciones de espacio, conexiones, cut-offs y salidas canceladas. No usar una cifra de esperas como garantía de ETA.",
+  "EE. UU.: monitorear negociación LA/Long Beach hasta el 20 nov.; confirmar citas y rutas de drayage, incluido el desvío del Vincent Thomas Bridge.",
+  "Europa: revisar recargos elegibles de Maersk en Andernach/Bonn y Store Door en Nórdicos/Bálticos; confirmar backlog terminal por terminal tras la huelga española.",
+  "Brasil: consultar con agente local los flujos documentales disponibles en Santos mientras se recuperan sistemas, sin reportar un cierre general del puerto.",
+  "India: verificar espacio y disponibilidad de transportistas en Nhava Sheva, Mundra y Chennai; evitar alertas climáticas no corroboradas.",
+  "México: anticipar ajustes operativos para el lunes festivo 16 nov. y reconfirmar cruces en Nuevo Laredo/Laredo.",
+  "Fuentes clave: Drewry (12 nov.) https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry · Chile (13 nov.) https://www.salmonbusiness.com/chile-truckers-reach-deal-to-end-strike-but-roadblocks-persist/ · LA/LB https://www.flexport.com/blog/potential-strike-250-port-watchmen-could-stall-la-and-long-beach/ · Santos https://datamarnews.com/noticias/port-of-santos-administrative-systems-to-be-restored-gradually/"
 ]
 };
 const retrasos=[
-{puerto:"España · Valencia/Algeciras",tiempo:"12 nov. · verificar",estado:"Reanudación de operaciones posthuelga del 11; consultar terminal."},
-{puerto:"España · Barcelona",tiempo:"12 nov. · verificar",estado:"Validar gates y cut-offs tras suspensión de turnos el 11."},
-{puerto:"Alemania · Andernach",tiempo:"€625",estado:"Contingencia por bajo nivel del Rin; por contenedor elegible desde 3 nov."},
-{puerto:"Alemania · Bonn",tiempo:"€175",estado:"Contingencia por bajo nivel del Rin; por contenedor elegible desde 3 nov."},
-{puerto:"Brasil · Santos",tiempo:"~70%",estado:"Copias de seguridad recuperadas según reporte 12 nov.; puerto operativo."},
-{puerto:"México · Manzanillo",tiempo:"2.25 días",estado:"Espera móvil 7 días, reportada el 10 nov.; no cifra en vivo."},
-{puerto:"México · Lázaro Cárdenas",tiempo:"3.0 días",estado:"Espera móvil 7 días, reportada el 10 nov.; no cifra en vivo."},
-{puerto:"Chile · Accesos terrestres",tiempo:"12 nov. · verificar",estado:"Alerta huelga transportistas emitida el 10; estado actual por confirmar."},
-{puerto:"EE. UU. · LA/Long Beach",tiempo:"20 nov.",estado:"Plazo negociación laboral ILWU Local 26, sin huelga activa confirmada."}
+  {
+    "puerto": "China · Shanghái",
+    "tiempo": "49 horas",
+    "estado": "Drewry, dato reportado 12 nov. para semana previa; eran 36 horas la semana anterior."
+  },
+  {
+    "puerto": "China · Ningbo",
+    "tiempo": "2.23 días",
+    "estado": "Everstream/Kuehne+Nagel, reporte 12 nov.; promedio según metodología del proveedor."
+  },
+  {
+    "puerto": "Chile · Ruta 5",
+    "tiempo": "13 nov. · verificar",
+    "estado": "Acuerdo para levantar paro; algunos bloqueos locales persistían."
+  },
+  {
+    "puerto": "España · Valencia/Barcelona",
+    "tiempo": "Posthuelga",
+    "estado": "11 nov. fue el paro; confirmar rezago y turnos con cada terminal."
+  },
+  {
+    "puerto": "Alemania · Andernach",
+    "tiempo": "€625",
+    "estado": "Recargo Maersk por contenedor afectado; desde el 3 nov."
+  },
+  {
+    "puerto": "Alemania · Bonn",
+    "tiempo": "€175",
+    "estado": "Recargo Maersk por contenedor afectado; desde el 3 nov."
+  },
+  {
+    "puerto": "Brasil · Santos",
+    "tiempo": "~70%",
+    "estado": "Backups recuperados según APS al 12 nov.; puerto operativo."
+  },
+  {
+    "puerto": "EE. UU. · LA/Long Beach",
+    "tiempo": "20 nov.",
+    "estado": "Límite negociación, sin huelga activa."
+  },
+  {
+    "puerto": "México · operación",
+    "tiempo": "16 nov.",
+    "estado": "Feriado oficial; confirmar agenda de cada operador."
+  }
 ];
-// Corte editorial 12 nov. 2026. Riesgos no son necesariamente interrupciones activas; fuentes y observaciones fechadas.
+// Corte editorial 13 nov. 2026. Diferenciar información confirmada, indicadores fechados y riesgos condicionales.
 
 // ======================================================
 // NO EDITAR DEBAJO DE ESTA LÍNEA
@@ -229,7 +370,7 @@ export default function Home() {
       </section>
 
       {/* TABLA DE RETRASOS PORTUARIOS */}
-      <section className="bg-white"><div className="mx-auto max-w-7xl px-6 py-14 md:px-10"><p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">OPERACIÓN LOGÍSTICA · CORTE 10 DE NOVIEMBRE</p><h2 className="mt-3 text-3xl font-bold text-[#003C6F]">Estado de puertos y conexiones</h2><p className="mt-3 max-w-4xl text-sm leading-6 text-gray-600">No se dispone de tiempos en vivo comparables en todos los puertos. Las cifras indicativas y restricciones deben validarse con terminal y naviera antes de comprometer ETA.</p><div className="mt-7 overflow-x-auto rounded-2xl border border-gray-200"><table className="w-full min-w-[760px] text-left text-sm"><thead className="bg-[#003C6F] text-white"><tr><th className="p-4">País / puerto</th><th className="p-4">Fecha o dato</th><th className="p-4">Estado e interpretación</th></tr></thead><tbody>{retrasos.map((r,i)=><tr key={r.puerto} className={i%2===0?"bg-[#F3F5F7]":"bg-white"}><td className="p-4 font-bold text-[#003C6F]">{r.puerto}</td><td className="p-4 font-semibold">{r.tiempo}</td><td className="p-4 text-gray-600">{r.estado}</td></tr>)}</tbody></table></div></div></section>
+      <section className="bg-white"><div className="mx-auto max-w-7xl px-6 py-14 md:px-10"><p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">OPERACIÓN LOGÍSTICA · CORTE 13 DE NOVIEMBRE</p><h2 className="mt-3 text-3xl font-bold text-[#003C6F]">Estado de puertos y conexiones</h2><p className="mt-3 max-w-4xl text-sm leading-6 text-gray-600">No se dispone de tiempos en vivo comparables en todos los puertos. Las cifras indicativas y restricciones deben validarse con terminal y naviera antes de comprometer ETA.</p><div className="mt-7 overflow-x-auto rounded-2xl border border-gray-200"><table className="w-full min-w-[760px] text-left text-sm"><thead className="bg-[#003C6F] text-white"><tr><th className="p-4">País / puerto</th><th className="p-4">Fecha o dato</th><th className="p-4">Estado e interpretación</th></tr></thead><tbody>{retrasos.map((r,i)=><tr key={r.puerto} className={i%2===0?"bg-[#F3F5F7]":"bg-white"}><td className="p-4 font-bold text-[#003C6F]">{r.puerto}</td><td className="p-4 font-semibold">{r.tiempo}</td><td className="p-4 text-gray-600">{r.estado}</td></tr>)}</tbody></table></div></div></section>
 
       {/* MÉTRICAS CLAVE */}
       <section className="bg-[#F3F5F7]">
@@ -340,7 +481,7 @@ export default function Home() {
           </div>
 
           <span className="max-w-xl text-white/60 md:text-right">
-            Corte informativo del 6 de noviembre de 2026, 10:56 h Monterrey. Fuentes: Drewry (5 nov.), Expeditors y FreightWaves (5 nov.), HAROPA Le Havre (4 nov.), Caltrans/Maersk, Emol (6 nov.), PortalPortuario (4 nov.) y CANACAR (30 oct.). Las mediciones portuarias previas no son datos en vivo. Confirmar con terminal, naviera y agente aduanal.</span>
+            Corte editorial: 13 de noviembre de 2026. Fuentes principales: Drewry (12 nov.), APS/Datamar (12 nov.), SalmonBusiness (13 nov.), Flexport (9 nov.), Maersk (9 nov.). Datos sujetos a cambios; validar operación y horarios por terminal y naviera.</span>
         </div>
       </footer>
     </main>
