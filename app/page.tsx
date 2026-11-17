@@ -1,207 +1,210 @@
 import Image from "next/image";
 
-// DATOS EDITABLES — CORTE 13 NOVIEMBRE 2026
+// DATOS EDITABLES — CORTE 17 NOVIEMBRE 2026
 const brief = {
-fecha:"viernes 13 de noviembre de 2026",
-titulo:"Vector Global Logistics | Radar Logístico Global",
-subtitulo:"13 de noviembre: Chile logra acuerdo con transportistas, pero persisten bloqueos locales; Shanghái registra mayor espera y blank sailings; Drewry confirma baja de 2% en fletes globales. LA/Long Beach continúa negociando hasta el 20, Santos opera bajo recuperación digital y México se prepara para el feriado del 16.",
-noticias:[
-  {
-    "region": "CHILE · TRANSPORTE TERRESTRE",
-    "modo": "ALTA · ACUERDO Y BLOQUEOS RESIDUALES",
-    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Ruta_5_%2815483691449%29.jpg?width=1200",
-    "fotoCredito": "Foto ilustrativa: order_242 / Wikimedia Commons · CC BY-SA 2.0",
-    "fotoUrl": "https://commons.wikimedia.org/wiki/File:Ruta_5_(15483691449).jpg",
-    "bandera": "https://flagcdn.com/w40/cl.png",
-    "titular": "Chile logra acuerdo con transportistas; persisten bloqueos puntuales",
-    "dato": "El 12 nov. el Gobierno y las principales organizaciones de transportistas alcanzaron un acuerdo para levantar la paralización de tres días. El 13 nov. se reportan protestas residuales y cierres intermitentes en algunas zonas, entre ellas La Araucanía. El conflicto estuvo asociado al precio del diésel; se anunciaron medidas de alivio sujetas, en parte, a aprobación legislativa. Fuente (13 nov.): https://www.salmonbusiness.com/chile-truckers-reach-deal-to-end-strike-but-roadblocks-persist/",
-    "impacto": "Mejora el escenario general para rutas chilenas, pero los retiros y entregas terrestres, especialmente cargas refrigeradas o con ventanas estrictas, todavía pueden enfrentar cierres locales.",
-    "accion": "Confirmar tramo, tránsito por Ruta 5 y disponibilidad de camiones antes de fijar citas hacia San Antonio, Valparaíso, Iquique o el sur."
-  },
-  {
-    "region": "CHINA · SHANGHÁI Y ASIA",
-    "modo": "ALTA · CONGESTIÓN Y BLANK SAILINGS",
-    "imagen": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?w=1200",
-    "bandera": "https://flagcdn.com/w40/cn.png",
-    "titular": "Shanghái vuelve a acumular esperas mientras navieras reducen salidas",
-    "dato": "Drewry informó el 12 nov. que la espera media en Shanghái pasó de 36 a 49 horas la semana anterior, revirtiendo una tendencia de mejoría. El reporte indica ocho blank sailings anunciados para la próxima semana frente a cuatro de la actual. Everstream, con datos de Kuehne+Nagel, reportó 2.12 días promedio en Shanghái y 2.23 días en Ningbo: metodologías y cortes distintos. Fuentes: https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry · https://www.everstream.ai/risk-centers/port-congestion-report-12-november-2026/",
-    "impacto": "Mayor riesgo de cambios de itinerario, espacios ajustados y conexiones perdidas, especialmente en embarques con transbordo.",
-    "accion": "Reconﬁrmar cut-offs, ETD, conexión y espacio con naviera; no atribuir el aumento de esperas a un tifón específico sin un aviso meteorológico confirmado."
-  },
-  {
-    "region": "MERCADO MARÍTIMO · TARIFAS",
-    "modo": "ALTA · NUEVO ÍNDICE 12 NOV.",
-    "imagen": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1200",
-    "bandera": "",
-    "titular": "Drewry: fletes globales caen 2%; tarifas transpacíficas retroceden",
-    "dato": "En su corte del 12 nov., Drewry situó el World Container Index en US$4,305 por FEU (-2% semanal). Shanghái–Los Ángeles cayó 2% a US$7,416/FEU y Shanghái–Nueva York bajó 3% a US$9,020/FEU. Los operadores buscan gestionar capacidad con cancelaciones de salidas. Fuente: https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry",
-    "impacto": "La caída del índice global no equivale a una baja uniforme de tarifas en todos los corredores ni elimina costos terrestres y recargos locales.",
-    "accion": "Solicitar cotizaciones por ruta y vigencia; diferenciar tarifa base, recargos, demurrage/detention y condiciones de espacio."
-  }
-],
-vigilancia:[
-  {
-    "titulo": "México | Monterrey, Laredo y transporte",
-    "bandera": "https://flagcdn.com/w40/mx.png",
-    "texto": "Tras las protestas de octubre por seguridad y costos del autotransporte, mantener seguimiento de rutas Monterrey–Nuevo Laredo/Laredo, cruces y disponibilidad de operadores. No se confirmó un nuevo paro nacional activo al 13 nov. Antecedente: https://www.freightwaves.com/news/mexican-truckers-launch-national-strike-over-highway-security-rising-costs"
-  },
-  {
-    "titulo": "México | Feriado del lunes 16",
-    "bandera": "https://flagcdn.com/w40/mx.png",
-    "texto": "El 16 nov. es día de descanso oficial en México por la Revolución Mexicana. Confirmar horario de agencias aduanales, almacenes, plantas, terminales y transportistas; el feriado no implica cierre automático de todas las instalaciones. Fuente: https://embamex.sre.gob.mx/austria/images/AVISOS/DIAS_FESTIVOS_OFICIALES_MXICO_2026.pdf"
-  },
-  {
-    "titulo": "Estados Unidos | LA/Long Beach",
-    "bandera": "https://flagcdn.com/w40/us.png",
-    "texto": "PMA e ILWU Local 26 extendieron conversaciones hasta el 20 nov. No hay huelga activa confirmada y los puertos siguen operando. El riesgo afecta especialmente accesos y seguridad de terminales si se rompe la negociación. Fuente: https://www.flexport.com/blog/potential-strike-250-port-watchmen-could-stall-la-and-long-beach/"
-  },
-  {
-    "titulo": "Estados Unidos | Accesos a terminales",
-    "bandera": "https://flagcdn.com/w40/us.png",
-    "texto": "Mantener rutas de drayage alternativas alrededor del Vincent Thomas Bridge y validar citas de camión, movimientos ferroviarios y costos de espera. Verificar avisos oficiales de obra y afectaciones por operador."
-  },
-  {
-    "titulo": "Europa | España posthuelga",
-    "bandera": "https://flagcdn.com/w40/es.png",
-    "texto": "La huelga general del 11 nov. afectó terminales de Barcelona, Valencia y Algeciras. Para el 13 nov. revisar backlog, turnos, gates y conexiones específicas; no describir la huelga de dos días antes como paro activo. Alerta: https://www.wssa.com/content/strike-alerts-chile-spain"
-  },
-  {
-    "titulo": "Alemania | Río Rin y recargos Maersk",
-    "bandera": "https://flagcdn.com/w40/de.png",
-    "texto": "Maersk reactivó desde el 3 nov. recargos terrestres de €625 por contenedor afectado en Andernach y €175 en Bonn, separados de su low-water surcharge. Confirmar si el routing interior aplica. Fuente: https://www.maersk.com/news/articles/2026/11/09/andernach-inland-terminal-contingency-surcharge"
-  },
-  {
-    "titulo": "Nórdicos/Bálticos | Recargos combustible",
-    "bandera": "https://flagcdn.com/w40/dk.png",
-    "texto": "Maersk anunció recargos de energía para determinados servicios Store Door desde el 11 nov. Las condiciones y porcentajes dependen del país y servicio; verificar aviso vigente antes de tarifar. Fuente: https://www.maersk.com/news/articles/2026/11/09/emergency-inland-fuel-energy-surcharge"
-  },
-  {
-    "titulo": "China | Ningbo y Shanghái",
-    "bandera": "https://flagcdn.com/w40/cn.png",
-    "texto": "Everstream/Kuehne+Nagel (12 nov.) reportó 2.23 días de espera media en Ningbo y 2.12 días en Shanghái; Drewry reportó 49 horas de espera en Shanghái en un corte distinto. No son métricas en vivo ni directamente intercambiables."
-  },
-  {
-    "titulo": "India | Reapertura de capacidad terrestre",
-    "bandera": "https://flagcdn.com/w40/in.png",
-    "texto": "Continuar verificando disponibilidad de transporte, documentación y espacios en Nhava Sheva, Mundra y Chennai durante la normalización operativa posterior a festividades. No se encontró evidencia suficiente para afirmar afectación actual por un ciclón llamado Arnab."
-  },
-  {
-    "titulo": "Brasil | Santos",
-    "bandera": "https://flagcdn.com/w40/br.png",
-    "texto": "La Autoridad Portuaria de Santos anunció 70% de recuperación de backups después del ciberataque del 6 nov. Puerto, navegación y acceso terrestre permanecen en operación; trámites administrativos podrían requerir alternativas. Fuente: https://datamarnews.com/noticias/port-of-santos-administrative-systems-to-be-restored-gradually/"
-  },
-  {
-    "titulo": "Chile | Ruta 5 y cargas sensibles",
-    "bandera": "https://flagcdn.com/w40/cl.png",
-    "texto": "Tras el acuerdo del 12 nov., algunas manifestaciones persistían el 13. Confirmar condición local de Ruta 5, accesos a puertos y movimientos de salmón/refrigerados. Fuente: https://www.salmonbusiness.com/chile-truckers-reach-deal-to-end-strike-but-roadblocks-persist/"
-  },
-  {
-    "titulo": "Calendario | Próximos hitos",
-    "bandera": "",
-    "texto": "16 nov.: feriado oficial en México. 20 nov.: vence extensión de negociación laboral en LA/Long Beach. Seguimiento: recuperación digital en Santos y normalización tras huelga española del 11 nov."
-  }
-],
-metricas:[
-  {
-    "indicador": "Drewry WCI · 12 nov.",
-    "valor": "US$4,305",
-    "tendencia": "Por FEU; -2% semanal."
-  },
-  {
-    "indicador": "Shanghái–LA",
-    "valor": "US$7,416",
-    "tendencia": "Por FEU; -2% semanal, Drewry 12 nov."
-  },
-  {
-    "indicador": "Shanghái–NY",
-    "valor": "US$9,020",
-    "tendencia": "Por FEU; -3% semanal, Drewry 12 nov."
-  },
-  {
-    "indicador": "Shanghái · espera",
-    "valor": "49 h",
-    "tendencia": "Drewry; semana previa, frente a 36 h."
-  },
-  {
-    "indicador": "Blank sailings",
-    "valor": "8",
-    "tendencia": "Anunciados para próxima semana, Drewry 12 nov."
-  },
-  {
-    "indicador": "Andernach · Maersk",
-    "valor": "€625",
-    "tendencia": "Por contenedor afectado, desde 3 nov."
-  },
-  {
-    "indicador": "Santos · backups",
-    "valor": "~70%",
-    "tendencia": "Recuperados según APS, informe 12 nov."
-  },
-  {
-    "indicador": "LA/LB · plazo",
-    "valor": "20 nov.",
-    "tendencia": "Fin de extensión de negociación ILWU Local 26."
-  }
-],
-recomendaciones:[
-  "Chile: validar condiciones de Ruta 5 y accesos por tramo antes de programar entregas; el acuerdo con transportistas no elimina bloqueos residuales.",
-  "China: revisar confirmaciones de espacio, conexiones, cut-offs y salidas canceladas. No usar una cifra de esperas como garantía de ETA.",
-  "EE. UU.: monitorear negociación LA/Long Beach hasta el 20 nov.; confirmar citas y rutas de drayage, incluido el desvío del Vincent Thomas Bridge.",
-  "Europa: revisar recargos elegibles de Maersk en Andernach/Bonn y Store Door en Nórdicos/Bálticos; confirmar backlog terminal por terminal tras la huelga española.",
-  "Brasil: consultar con agente local los flujos documentales disponibles en Santos mientras se recuperan sistemas, sin reportar un cierre general del puerto.",
-  "India: verificar espacio y disponibilidad de transportistas en Nhava Sheva, Mundra y Chennai; evitar alertas climáticas no corroboradas.",
-  "México: anticipar ajustes operativos para el lunes festivo 16 nov. y reconfirmar cruces en Nuevo Laredo/Laredo.",
-  "Fuentes clave: Drewry (12 nov.) https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry · Chile (13 nov.) https://www.salmonbusiness.com/chile-truckers-reach-deal-to-end-strike-but-roadblocks-persist/ · LA/LB https://www.flexport.com/blog/potential-strike-250-port-watchmen-could-stall-la-and-long-beach/ · Santos https://datamarnews.com/noticias/port-of-santos-administrative-systems-to-be-restored-gradually/"
-]
+  "fecha": "martes 17 de noviembre de 2026",
+  "titulo": "Vector Global Logistics | Radar Logístico Global",
+  "subtitulo": "17 de noviembre: LA/Long Beach enfrenta un hito laboral el 20 de noviembre, con operaciones activas y desvíos por el cierre del Vincent Thomas Bridge. China advierte vientos fuertes en áreas marítimas del 17 al 19; Drewry reporta descenso de 2% en fletes spot globales. Santos mantiene recuperación de sistemas tras ciberataque.",
+  "noticias": [
+    {
+      "region": "ESTADOS UNIDOS · LA/LONG BEACH",
+      "modo": "ALTA · RIESGO LABORAL AL 20 NOV.",
+      "imagen": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?w=1200",
+      "bandera": "https://flagcdn.com/w40/us.png",
+      "titular": "LA/Long Beach: negociación hasta el 20; puente cerrado y riesgo en accesos",
+      "dato": "ILWU Local 26 y PMA extendieron hasta el 20 de noviembre el convenio de unos 250 vigilantes portuarios. No hay huelga activa confirmada. Según PMA, una interrupción podría afectar terminales que manejan ~85% de la carga de Long Beach y ~33% de Los Ángeles. El Vincent Thomas Bridge cerró el 7 de noviembre por 16 meses. Fuentes: https://www.icis.com/explore/resources/news/2026/11/09/11241010/ports-of-la-lb-watchmen-extend-contract-through-20-november-as-negotiations-continue/ · https://portoflosangeles.org/community/vtb-deck-replacement",
+      "impacto": "El escenario combina un riesgo laboral condicionado a la negociación y una restricción terrestre ya vigente. Posibles efectos: gates, accesos de camión, ventanas ferroviarias, conexiones y costos por espera; las proporciones citadas representan carga expuesta, no paralizada.",
+      "accion": "Activar vigilancia diaria hasta el 20; confirmar turno de terminal, appointment, cut-off, alternativa terrestre, disponibilidad ferroviaria y reglas de demurrage/detention."
+    },
+    {
+      "region": "CHINA · VIENTOS Y CONGESTIÓN",
+      "modo": "ALTA · ALERTA MARÍTIMA 17–19 NOV.",
+      "imagen": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?w=1200",
+      "bandera": "https://flagcdn.com/w40/cn.png",
+      "titular": "Vientos fuertes previstos en mares chinos; verificar restricciones por terminal",
+      "dato": "La autoridad meteorológica china pronostica vientos de fuerza 7 con ráfagas 8–9 para el 17–18 nov. en sectores del Mar Amarillo, Mar de China Oriental y estrecho de Taiwán; algunas zonas pueden alcanzar fuerza 8 y ráfagas 9–10. El 18–19 nov. persisten vientos 7–8 y ráfagas 9–10 en varias zonas. Drewry informó espera media de 49 horas en Shanghái en la semana previa, frente a 36 horas antes. Fuentes: https://www.mot.gov.cn/fuwu/yujingtishi/haiyangtianqigb/202611/t20261117_4227897.html · https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry",
+      "impacto": "Mayor probabilidad de ajustes de practicaje, fondeo, atraque o itinerario donde las autoridades locales impongan límites por viento. No se ha verificado cierre general de Shanghái o Ningbo hoy ni debe atribuirse automáticamente a un tifón concreto.",
+      "accion": "Solicitar avisos de puerto y naviera para Shanghái, Ningbo y puertos con conexión; reconfirmar ETD/ETA, gate-in, cut-off, tiempos de transbordo y posibles blank sailings."
+    },
+    {
+      "region": "MERCADO MARÍTIMO · SPOT",
+      "modo": "ACTUALIZACIÓN · DREWRY 12 NOV.",
+      "imagen": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1200",
+      "bandera": "",
+      "titular": "Tarifas spot ceden: Asia–EE. UU. y Asia–Europa bajan en el último corte",
+      "dato": "Drewry WCI: US$4,305/FEU (-2% semanal). Shanghái–LA US$7,416 (-2%); Shanghái–NY US$9,020 (-3%); Shanghái–Róterdam US$3,504 (-3%); Shanghái–Génova US$4,168 (estable). Son referencias del 12 nov., última evaluación semanal publicada al 17 nov., no cotizaciones instantáneas. Fuente: https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry",
+      "impacto": "La baja spot permite revisar ofertas, pero navieras ajustan capacidad con blank sailings y pueden aplicar FAK/PSS. El índice no incorpora necesariamente recargos de terminal, interior o demurrage.",
+      "accion": "Comparar cotización neta vigente por origen/destino, transbordos, equipo y días libres; separar tarifa marítima base, PSS y costos terrestres."
+    }
+  ],
+  "vigilancia": [
+    {
+      "titulo": "México | Bajío y cruces con Texas",
+      "bandera": "https://flagcdn.com/w40/mx.png",
+      "texto": "Riesgo reportado de protestas agrícolas en Guanajuato, Jalisco, Michoacán y Querétaro; no asumir cierres de carreteras sin evidencia de autoridades viales. Para Monterrey–Nuevo Laredo/Laredo, validar ruta, transportista, citas y ventanas de cruce con operador local. Fuente de riesgo inicial: monitoreo interno; corroboración puntual pendiente."
+    },
+    {
+      "titulo": "EE. UU. | Fecha crítica: 20 nov.",
+      "bandera": "https://flagcdn.com/w40/us.png",
+      "texto": "ILWU Local 26/PMA extendieron el contrato hasta el viernes 20 nov. Trabajadores de seguridad controlan accesos a terminales; impacto eventual sería indirectamente mayor por líneas de piquete. No hay huelga declarada al corte. Fuente: https://www.icis.com/explore/resources/news/2026/11/09/11241010/ports-of-la-lb-watchmen-extend-contract-through-20-november-as-negotiations-continue/"
+    },
+    {
+      "titulo": "EE. UU. | Vincent Thomas Bridge",
+      "bandera": "https://flagcdn.com/w40/us.png",
+      "texto": "Cierre total vigente desde el 7 nov. de 2026, reapertura prevista en marzo de 2028. Revisar desvíos oficiales y tiempos reales de drayage; no recomendar preparación 'antes del cierre' porque ya ocurrió. Fuente: https://portoflosangeles.org/community/vtb-deck-replacement"
+    },
+    {
+      "titulo": "Europa | España y conexiones",
+      "bandera": "https://flagcdn.com/w40/es.png",
+      "texto": "Huelga española del 11 nov. es un antecedente, no paro activo hoy. Confirmar rezago real por terminal en Barcelona, Valencia o Algeciras y cambios de itinerario antes de atribuir retrasos al conflicto."
+    },
+    {
+      "titulo": "Europa | FAK, PSS y Rin",
+      "bandera": "https://flagcdn.com/w40/de.png",
+      "texto": "Drewry advierte anuncios de FAK y PSS para la segunda quincena de noviembre en Asia–Europa/Mediterráneo. Revisar naviera, vigencia, recargos de agua baja en el Rin y transbordos; no equiparar anuncios con cargos universales. Fuente: https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry"
+    },
+    {
+      "titulo": "Asia | Mar Amarillo y China Oriental",
+      "bandera": "https://flagcdn.com/w40/cn.png",
+      "texto": "Pronóstico oficial 17–19 nov.: vientos fuerza 7–8 en múltiples zonas, con ráfagas 9–10 en partes del Mar Amarillo, Mar de China Oriental y estrecho de Taiwán. Riesgo de maniobras demoradas; cierre portuario específico sin confirmar. Fuente: https://www.mot.gov.cn/fuwu/yujingtishi/haiyangtianqigb/202611/t20261117_4227897.html"
+    },
+    {
+      "titulo": "China | Shanghái y blank sailings",
+      "bandera": "https://flagcdn.com/w40/cn.png",
+      "texto": "Drewry (12 nov.) reporta 49 horas medias de espera en Shanghái (semana anterior: 36 horas) y ocho blank sailings anunciados para la semana siguiente, frente a cuatro en la semana de publicación. Son datos fechados, no en vivo. Fuente: https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry"
+    },
+    {
+      "titulo": "Brasil | Santos recupera sistemas",
+      "bandera": "https://flagcdn.com/w40/br.png",
+      "texto": "Al 17 nov. el puerto continúa recuperando sistemas administrativos afectados por el ciberataque del 6 nov.; la autoridad estima normalización para fines de la semana siguiente. No se verificó cierre general de operaciones marítimas; confirmar documentación por canal. Fuente: https://www.atribuna.com.br/noticias/portomar/ataque-hacker-ao-porto-de-santos-ainda-n-o-foi-superado-totalmente-sistemas-ser-o-normalizados-ate-a-proxima-semana-1.537095 · https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/porto-de-santos-sistemas-seguem-afetados-apos-ataque-cibernetico"
+    },
+    {
+      "titulo": "India | Nhava Sheva/Mundra",
+      "bandera": "https://flagcdn.com/w40/in.png",
+      "texto": "Validar tiempos de gate, disponibilidad terrestre, documentación y espacio por puerto tras las festividades de noviembre. No se verificó interrupción vigente causada por un ciclón 'Arnab'; no publicar esa atribución como hecho."
+    },
+    {
+      "titulo": "Chile | Transporte terrestre",
+      "bandera": "https://flagcdn.com/w40/cl.png",
+      "texto": "Mantener monitoreo de Ruta 5 y accesos locales tras acuerdos recientes con transportistas; comprobar cierres actuales mediante avisos del operador. No extrapolar bloqueos reportados el 13 nov. al 17 sin verificación."
+    },
+    {
+      "titulo": "Mercado | Spot Asia–EE. UU.",
+      "bandera": "https://flagcdn.com/w40/us.png",
+      "texto": "Shanghái–LA US$7,416/FEU (-2% semanal) y Shanghái–NY US$9,020/FEU (-3%); corte Drewry 12 nov. La amenaza laboral de LA/LB no equivale a aumento spot ya realizado. Fuente: https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry"
+    },
+    {
+      "titulo": "Mercado | Spot Asia–Europa",
+      "bandera": "https://flagcdn.com/w40/nl.png",
+      "texto": "Shanghái–Róterdam US$3,504/FEU (-3%) y Shanghái–Génova US$4,168/FEU (sin cambio). Vigilar anuncios FAK/PSS segunda quincena de nov. Fuente: https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry"
+    },
+    {
+      "titulo": "Calendario | Próximos hitos",
+      "bandera": "",
+      "texto": "17–19 nov.: vientos fuertes en costas/mares de China; 20 nov.: vence extensión ILWU Local 26/PMA; 19 nov.: próxima publicación semanal esperada de Drewry (no disponible aún al corte); seguimiento de sistemas en Santos."
+    }
+  ],
+  "metricas": [
+    {
+      "indicador": "Drewry WCI · 12 nov.",
+      "valor": "US$4,305",
+      "tendencia": "Por FEU; -2% semanal"
+    },
+    {
+      "indicador": "Shanghái–LA",
+      "valor": "US$7,416",
+      "tendencia": "Por FEU; -2% semanal"
+    },
+    {
+      "indicador": "Shanghái–NY",
+      "valor": "US$9,020",
+      "tendencia": "Por FEU; -3% semanal"
+    },
+    {
+      "indicador": "Shanghái–Róterdam",
+      "valor": "US$3,504",
+      "tendencia": "Por FEU; -3% semanal"
+    },
+    {
+      "indicador": "Shanghái–Génova",
+      "valor": "US$4,168",
+      "tendencia": "Por FEU; estable"
+    },
+    {
+      "indicador": "Shanghái · espera",
+      "valor": "49 h",
+      "tendencia": "Semana anterior, Drewry 12 nov."
+    },
+    {
+      "indicador": "LA/LB · plazo",
+      "valor": "20 nov.",
+      "tendencia": "Vence extensión negociación"
+    },
+    {
+      "indicador": "China · vientos",
+      "valor": "Fuerza 7–8",
+      "tendencia": "Previsión zonas marítimas 17–19 nov."
+    }
+  ],
+  "recomendaciones": [
+    "EE. UU. / LA–Long Beach: vigilar PMA/ILWU Local 26 hasta el 20 nov. y confirmar con terminal gates, citas de camión, cut-offs y ferroviario; prever rutas terrestres alternas por cierre ya vigente del Vincent Thomas Bridge.",
+    "China: consultar avisos meteorológicos y restricciones de maniobra de cada puerto, especialmente del 17 al 19 nov.; confirmar ETA, practicaje, cut-offs y conexiones antes de comprometer fecha de entrega.",
+    "Tarifas: comparar spot vigente para Shanghái–LA, NY, Róterdam y Génova utilizando Drewry 12 nov. como referencia; validar FAK/PSS, equipo, espacio y días libres con navieras.",
+    "México: monitorear posibles protestas agrícolas en el Bajío y verificar ruta terrestre hacia Laredo; no anunciar bloqueos activos sin confirmación oficial.",
+    "Europa: revisar estado real de terminales españolas tras el 11 nov. y recargos específicos de cada naviera; no presentar como activo un paro que ya concluyó.",
+    "Brasil: gestionar documentos de Santos con agentes locales durante recuperación de sistemas; evitar describir el puerto como cerrado.",
+    "India: reconfirmar disponibilidad de camiones y espacios en Nhava Sheva, Mundra y Chennai, sin atribuir problemas a ciclones no corroborados.",
+    "Fuentes: Drewry 12 nov. https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry · PMA/ILWU https://www.icis.com/explore/resources/news/2026/11/09/11241010/ports-of-la-lb-watchmen-extend-contract-through-20-november-as-negotiations-continue/ · Caltrans/Port of LA https://portoflosangeles.org/community/vtb-deck-replacement · China Meteorological Administration https://www.mot.gov.cn/fuwu/yujingtishi/haiyangtianqigb/202611/t20261117_4227897.html · Santos 17 nov. https://www.atribuna.com.br/noticias/portomar/ataque-hacker-ao-porto-de-santos-ainda-n-o-foi-superado-totalmente-sistemas-ser-o-normalizados-ate-a-proxima-semana-1.537095"
+  ]
 };
-const retrasos=[
-  {
-    "puerto": "China · Shanghái",
-    "tiempo": "49 horas",
-    "estado": "Drewry, dato reportado 12 nov. para semana previa; eran 36 horas la semana anterior."
-  },
-  {
-    "puerto": "China · Ningbo",
-    "tiempo": "2.23 días",
-    "estado": "Everstream/Kuehne+Nagel, reporte 12 nov.; promedio según metodología del proveedor."
-  },
-  {
-    "puerto": "Chile · Ruta 5",
-    "tiempo": "13 nov. · verificar",
-    "estado": "Acuerdo para levantar paro; algunos bloqueos locales persistían."
-  },
-  {
-    "puerto": "España · Valencia/Barcelona",
-    "tiempo": "Posthuelga",
-    "estado": "11 nov. fue el paro; confirmar rezago y turnos con cada terminal."
-  },
-  {
-    "puerto": "Alemania · Andernach",
-    "tiempo": "€625",
-    "estado": "Recargo Maersk por contenedor afectado; desde el 3 nov."
-  },
-  {
-    "puerto": "Alemania · Bonn",
-    "tiempo": "€175",
-    "estado": "Recargo Maersk por contenedor afectado; desde el 3 nov."
-  },
-  {
-    "puerto": "Brasil · Santos",
-    "tiempo": "~70%",
-    "estado": "Backups recuperados según APS al 12 nov.; puerto operativo."
-  },
+const retrasos = [
   {
     "puerto": "EE. UU. · LA/Long Beach",
     "tiempo": "20 nov.",
-    "estado": "Límite negociación, sin huelga activa."
+    "estado": "Plazo de negociación ILWU Local 26; no huelga activa confirmada."
   },
   {
-    "puerto": "México · operación",
-    "tiempo": "16 nov.",
-    "estado": "Feriado oficial; confirmar agenda de cada operador."
+    "puerto": "EE. UU. · Vincent Thomas",
+    "tiempo": "Cerrado",
+    "estado": "Desde 7 nov. 2026 hasta marzo 2028; confirmar desvíos de camión."
+  },
+  {
+    "puerto": "China · Shanghái",
+    "tiempo": "49 horas",
+    "estado": "Drewry 12 nov.; semana previa, frente a 36 horas."
+  },
+  {
+    "puerto": "China · Mar Amarillo",
+    "tiempo": "17–19 nov.",
+    "estado": "Pronóstico de vientos fuertes y ráfagas; cierres portuarios por confirmar."
+  },
+  {
+    "puerto": "Brasil · Santos",
+    "tiempo": "Recuperación",
+    "estado": "Sistemas administrativos aún en recuperación al 17 nov.; operación marítima no reportada cerrada."
+  },
+  {
+    "puerto": "Europa · España",
+    "tiempo": "Revisar rezago",
+    "estado": "Paro 11 nov. ya pasado; validar estado terminal por terminal."
+  },
+  {
+    "puerto": "India · Nhava Sheva",
+    "tiempo": "Verificar",
+    "estado": "Confirmar gate, equipos y disponibilidad de transporte; sin ETA general verificable."
+  },
+  {
+    "puerto": "México · Bajío",
+    "tiempo": "Riesgo",
+    "estado": "Posibles protestas agrícolas; bloqueos específicos sin confirmar."
+  },
+  {
+    "puerto": "China · tarifas spot",
+    "tiempo": "12 nov.",
+    "estado": "WCI US$4,305/FEU (-2%); próxima actualización semanal pendiente."
   }
 ];
-// Corte editorial 13 nov. 2026. Diferenciar información confirmada, indicadores fechados y riesgos condicionales.
+// Indicadores y riesgos con fechas de corte explícitas; no confundir riesgos con interrupciones confirmadas.
 
 // ======================================================
 // NO EDITAR DEBAJO DE ESTA LÍNEA
