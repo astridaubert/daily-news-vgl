@@ -4,17 +4,17 @@ import Image from "next/image";
 const brief = {
   "fecha": "martes 17 de noviembre de 2026",
   "titulo": "Vector Global Logistics | Radar Logístico Global",
-  "subtitulo": "17 de noviembre: LA/Long Beach enfrenta un hito laboral el 20 de noviembre, con operaciones activas y desvíos por el cierre del Vincent Thomas Bridge. China advierte vientos fuertes en áreas marítimas del 17 al 19; Drewry reporta descenso de 2% en fletes spot globales. Santos mantiene recuperación de sistemas tras ciberataque.",
+  "subtitulo": "17 de noviembre: movilizaciones agrícolas podrían afectar la Federal 45 en Guanajuato Puerto Interior y la operación terrestre León–Silao. LA/Long Beach mantiene su hito de negociación laboral el 20; China prevé vientos fuertes del 17 al 19, mientras Drewry reporta baja del 2% en el índice global de fletes spot.",
   "noticias": [
     {
-      "region": "ESTADOS UNIDOS · LA/LONG BEACH",
-      "modo": "ALTA · RIESGO LABORAL AL 20 NOV.",
-      "imagen": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?w=1200",
-      "bandera": "https://flagcdn.com/w40/us.png",
-      "titular": "LA/Long Beach: negociación hasta el 20; puente cerrado y riesgo en accesos",
-      "dato": "ILWU Local 26 y PMA extendieron hasta el 20 de noviembre el convenio de unos 250 vigilantes portuarios. No hay huelga activa confirmada. Según PMA, una interrupción podría afectar terminales que manejan ~85% de la carga de Long Beach y ~33% de Los Ángeles. El Vincent Thomas Bridge cerró el 7 de noviembre por 16 meses. Fuentes: https://www.icis.com/explore/resources/news/2026/11/09/11241010/ports-of-la-lb-watchmen-extend-contract-through-20-november-as-negotiations-continue/ · https://portoflosangeles.org/community/vtb-deck-replacement",
-      "impacto": "El escenario combina un riesgo laboral condicionado a la negociación y una restricción terrestre ya vigente. Posibles efectos: gates, accesos de camión, ventanas ferroviarias, conexiones y costos por espera; las proporciones citadas representan carga expuesta, no paralizada.",
-      "accion": "Activar vigilancia diaria hasta el 20; confirmar turno de terminal, appointment, cut-off, alternativa terrestre, disponibilidad ferroviaria y reglas de demurrage/detention."
+      "region": "MÉXICO · GUANAJUATO PUERTO INTERIOR",
+      "modo": "ALTA · POSIBLES AFECTACIONES VIALES · 17 NOV.",
+      "imagen": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1200&q=85",
+      "bandera": "https://flagcdn.com/w40/mx.png",
+      "titular": "Posibles afectaciones viales en Carretera Federal 45, a la altura de Puerto Interior",
+      "dato": "Productores agrícolas convocaron movilizaciones este martes 17 de noviembre en Guanajuato. Entre los puntos señalados se encuentra la Carretera Federal 45, a la altura de Guanajuato Puerto Interior, en ambos sentidos León–Silao. El Aeropuerto Internacional de Guanajuato emitió una alerta preventiva por posibles complicaciones en sus accesos. Son afectaciones previstas, no un cierre total confirmado. Fuentes: https://www.nmas.com.mx/guanajuato/seguridad/bloqueos-en-carreteras-de-guanajuato-este-martes-17-de-noviembre/ · https://www.meganoticias.mx/leon/noticia/aeropuerto-de-guanajuato-advierte-retrasos-por-bloqueos-de-productores-agr%C3%ADcolas-este-martes/789336",
+      "impacto": "Posibles demoras en recolecciones, entregas, viajes de autotransporte y accesos a Guanajuato Puerto Interior y al aeropuerto del Bajío. El impacto sobre carga y rutas dependerá de cierres parciales, duración y sentidos efectivamente afectados.",
+      "accion": "Confirmar circulación de la Federal 45 con autoridades y transportistas antes de despachar; ajustar citas y ventanas de entrega, comunicar ETA revisada y evaluar alternativas únicamente con condiciones viales verificadas."
     },
     {
       "region": "CHINA · VIENTOS Y CONGESTIÓN",
@@ -41,7 +41,7 @@ const brief = {
     {
       "titulo": "México | Bajío y cruces con Texas",
       "bandera": "https://flagcdn.com/w40/mx.png",
-      "texto": "Riesgo reportado de protestas agrícolas en Guanajuato, Jalisco, Michoacán y Querétaro; no asumir cierres de carreteras sin evidencia de autoridades viales. Para Monterrey–Nuevo Laredo/Laredo, validar ruta, transportista, citas y ventanas de cruce con operador local. Fuente de riesgo inicial: monitoreo interno; corroboración puntual pendiente."
+      "texto": "Para el 17 nov. se prevén movilizaciones agrícolas con posibles afectaciones en Carretera Federal 45, a la altura de Puerto Interior en sentidos León–Silao y Silao–León, además de otros puntos de Guanajuato. No se confirma cierre total. Validar rutas y citas en el corredor industrial; para Monterrey–Nuevo Laredo/Laredo, confirmar ventanas de cruce de manera independiente. Fuentes: https://www.nmas.com.mx/guanajuato/seguridad/bloqueos-en-carreteras-de-guanajuato-este-martes-17-de-noviembre/ · https://www.meganoticias.mx/leon/noticia/aeropuerto-de-guanajuato-advierte-retrasos-por-bloqueos-de-productores-agr%C3%ADcolas-este-martes/789336"
     },
     {
       "titulo": "EE. UU. | Fecha crítica: 20 nov.",
@@ -150,11 +150,11 @@ const brief = {
     "EE. UU. / LA–Long Beach: vigilar PMA/ILWU Local 26 hasta el 20 nov. y confirmar con terminal gates, citas de camión, cut-offs y ferroviario; prever rutas terrestres alternas por cierre ya vigente del Vincent Thomas Bridge.",
     "China: consultar avisos meteorológicos y restricciones de maniobra de cada puerto, especialmente del 17 al 19 nov.; confirmar ETA, practicaje, cut-offs y conexiones antes de comprometer fecha de entrega.",
     "Tarifas: comparar spot vigente para Shanghái–LA, NY, Róterdam y Génova utilizando Drewry 12 nov. como referencia; validar FAK/PSS, equipo, espacio y días libres con navieras.",
-    "México: monitorear posibles protestas agrícolas en el Bajío y verificar ruta terrestre hacia Laredo; no anunciar bloqueos activos sin confirmación oficial.",
+    "México: dar prioridad a la Carretera Federal 45 en Guanajuato Puerto Interior por movilizaciones agrícolas previstas para el 17 nov.; confirmar circulación real en ambos sentidos, ventanas de entrega y condiciones de acceso al aeropuerto de Guanajuato. No asumir cierre total sin aviso.",
     "Europa: revisar estado real de terminales españolas tras el 11 nov. y recargos específicos de cada naviera; no presentar como activo un paro que ya concluyó.",
     "Brasil: gestionar documentos de Santos con agentes locales durante recuperación de sistemas; evitar describir el puerto como cerrado.",
     "India: reconfirmar disponibilidad de camiones y espacios en Nhava Sheva, Mundra y Chennai, sin atribuir problemas a ciclones no corroborados.",
-    "Fuentes: Drewry 12 nov. https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry · PMA/ILWU https://www.icis.com/explore/resources/news/2026/11/09/11241010/ports-of-la-lb-watchmen-extend-contract-through-20-november-as-negotiations-continue/ · Caltrans/Port of LA https://portoflosangeles.org/community/vtb-deck-replacement · China Meteorological Administration https://www.mot.gov.cn/fuwu/yujingtishi/haiyangtianqigb/202611/t20261117_4227897.html · Santos 17 nov. https://www.atribuna.com.br/noticias/portomar/ataque-hacker-ao-porto-de-santos-ainda-n-o-foi-superado-totalmente-sistemas-ser-o-normalizados-ate-a-proxima-semana-1.537095"
+    "Fuentes: Drewry 12 nov. https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry · PMA/ILWU https://www.icis.com/explore/resources/news/2026/11/09/11241010/ports-of-la-lb-watchmen-extend-contract-through-20-november-as-negotiations-continue/ · Caltrans/Port of LA https://portoflosangeles.org/community/vtb-deck-replacement · China Meteorological Administration https://www.mot.gov.cn/fuwu/yujingtishi/haiyangtianqigb/202611/t20261117_4227897.html · Santos 17 nov. https://www.atribuna.com.br/noticias/portomar/ataque-hacker-ao-porto-de-santos-ainda-n-o-foi-superado-totalmente-sistemas-ser-o-normalizados-ate-a-proxima-semana-1.537095 · Guanajuato Puerto Interior https://www.nmas.com.mx/guanajuato/seguridad/bloqueos-en-carreteras-de-guanajuato-este-martes-17-de-noviembre/"
   ]
 };
 const retrasos = [
