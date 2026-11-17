@@ -19,7 +19,7 @@ const brief = {
     {
       "region": "CHINA · VIENTOS Y CONGESTIÓN",
       "modo": "ALTA · ALERTA MARÍTIMA 17–19 NOV.",
-      "imagen": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?w=1200",
+      "imagen": "https://images.unsplash.com/photo-1771814492127-dfce47a0d902?auto=format&fit=crop&w=1200&q=80",
       "bandera": "https://flagcdn.com/w40/cn.png",
       "titular": "Vientos fuertes previstos en mares chinos; verificar restricciones por terminal",
       "dato": "La autoridad meteorológica china pronostica vientos de fuerza 7 con ráfagas 8–9 para el 17–18 nov. en sectores del Mar Amarillo, Mar de China Oriental y estrecho de Taiwán; algunas zonas pueden alcanzar fuerza 8 y ráfagas 9–10. El 18–19 nov. persisten vientos 7–8 y ráfagas 9–10 en varias zonas. Drewry informó espera media de 49 horas en Shanghái en la semana previa, frente a 36 horas antes. Fuentes: https://www.mot.gov.cn/fuwu/yujingtishi/haiyangtianqigb/202611/t20261117_4227897.html · https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry",
