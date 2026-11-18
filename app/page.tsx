@@ -9,27 +9,31 @@ const brief = {
     {
       "region": "MÉXICO · PUERTO INTERIOR Y CARRETERAS",
       "modo": "SEGUIMIENTO · REAPERTURA Y RIESGO DE NUEVOS CIERRES",
-      "imagen": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1200&q=85",
+      "imagen": "https://images.unsplash.com/photo-1778629794381-d3ae4a54311c?auto=format&fit=crop&w=1200&q=85",
       "bandera": "https://flagcdn.com/w40/mx.png",
       "titular": "Guanajuato restablece circulación tras bloqueos agrícolas; vigilar nuevos acuerdos",
       "dato": "Durante el 17 de noviembre, productores realizaron más de 20 bloqueos en varias entidades. En Guanajuato hubo afectaciones en la Federal 45 a la altura de Puerto Interior; la Secretaría de Seguridad y Paz reportó liberados los puntos monitoreados a las 18:30 de ayer. En Jalisco se comenzaron a retirar bloqueos por una mesa de diálogo convocada para hoy 18. Esto no acredita que todos los tramos de cinco estados estén cerrados hoy. Fuentes: https://zonafranca.mx/politica-sociedad/liberan-carreteras-de-guanajuato-seguira-dialogo-con-la-secretaria-de-gobierno/ · https://www.jornada.com.mx/2026/11/18/estados/025n1est",
       "impacto": "Riesgo de tiempos de tránsito variables, retrasos remanentes y nuevas movilizaciones en los corredores León–Silao, Bajío y conexiones de larga distancia. La apertura reportada requiere confirmación antes de cada despacho.",
-      "accion": "Antes de enviar unidades, validar circulación con Guardia Nacional Carreteras/autoridad estatal y transportista; reconfirmar acceso a Puerto Interior, citas, ETAs y rutas de contingencia."
+      "accion": "Antes de enviar unidades, validar circulación con Guardia Nacional Carreteras/autoridad estatal y transportista; reconfirmar acceso a Puerto Interior, citas, ETAs y rutas de contingencia.",
+      "fotoCredito": "Imagen ilustrativa: Nishat Samadzai / Unsplash",
+      "fotoUrl": "https://unsplash.com/photos/two-white-trucks-driving-on-a-highway-neCb34TcLEg"
     },
     {
       "region": "MÉXICO · FRENTE FRÍO 6 Y GOLFO",
       "modo": "ALTA · VIENTO, LLUVIA Y OPERACIONES MARÍTIMAS",
-      "imagen": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=85",
+      "imagen": "https://images.unsplash.com/photo-1567604154063-4e079ff60be3?auto=format&fit=crop&w=1200&q=85",
       "bandera": "https://flagcdn.com/w40/mx.png",
       "titular": "Frente frío 6: lluvias y evento de Norte exigen revisar maniobras en puertos del Golfo",
       "dato": "El Servicio Meteorológico Nacional pronostica el 18 de noviembre lluvias muy fuertes en Veracruz, Oaxaca, Chiapas y Tabasco. Las rachas pueden llegar a 70–90 km/h en el istmo y Golfo de Tehuantepec, 50–70 km/h en zonas de Veracruz y 30–50 km/h en Tamaulipas. La previsión no confirma cierres activos de todos los puertos; cada capitanía publica restricciones propias. Fuente: https://smn.conagua.gob.mx/es/pronostico-meteorologico-general",
       "impacto": "Posibles limitaciones de practicaje, atraque, ingreso de buques, movimientos de carga y transporte terrestre por lluvia intensa. Especial vigilancia en Veracruz, Altamira/Tampico, Dos Bocas y conexiones del sureste según avisos oficiales.",
-      "accion": "Comprobar con capitanía, terminal y naviera si hay cierre a navegación, restricciones de grúas o suspensión de maniobras; ajustar cut-offs y avisar cambios de ETA."
+      "accion": "Comprobar con capitanía, terminal y naviera si hay cierre a navegación, restricciones de grúas o suspensión de maniobras; ajustar cut-offs y avisar cambios de ETA.",
+      "fotoCredito": "Imagen ilustrativa: Unsplash (oleaje, no fotografía del evento en México)",
+      "fotoUrl": "https://unsplash.com/fr/s/photos/temp%C3%AAte-en-mer"
     },
     {
       "region": "MERCADO MARÍTIMO · TARIFAS SPOT",
       "modo": "REFERENCIA · DREWRY 12 NOV.",
-      "imagen": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1200",
+      "imagen": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?auto=format&fit=crop&w=1200&q=85",
       "bandera": "",
       "titular": "Último corte spot: tarifas Asia–EE. UU. y Europa retroceden; revisar recargos",
       "dato": "Drewry (12 nov.): WCI US$4,305/FEU (-2% semanal). Shanghái–Los Ángeles US$7,416 (-2%); Shanghái–Nueva York US$9,020 (-3%); Shanghái–Róterdam US$3,504 (-3%); Shanghái–Génova US$4,168 (sin variación). Nueva evaluación semanal del 19 nov. aún no publicada al corte del 18. Fuente: https://www.drewry.co.uk/maritime-research-opinion-browser/world-container-index-assessed-by-drewry",
@@ -214,7 +218,7 @@ const retrasos = [
     "estado": "Consultar disponibilidad de gates, equipos y conexión por operador."
   }
 ];
-// Indicadores con fecha y riesgos condicionales. No describir como cierres activos eventos no verificados.
+// Imágenes de portada ilustrativas; no representan necesariamente los incidentes del día.
 
 // ======================================================
 // NO EDITAR DEBAJO DE ESTA LÍNEA
