@@ -4,7 +4,7 @@ import Image from "next/image";
 const brief = {
   "fecha": "jueves 19 de noviembre de 2026",
   "titulo": "Vector Global Logistics | Radar Logístico Global",
-  "subtitulo": "19 de noviembre: riesgo elevado de huelga a partir del 21 en Los Ángeles/Long Beach; ciclón Akvan amenaza la costa oriental de India. Santos mantiene recuperación de sistemas administrativos. Europa vigila recuperación de paros y movilización anunciada en Bélgica para el 23. Alertas sujetas a confirmación operativa por terminal y corredor.",
+  "subtitulo": "19 de noviembre: riesgo de huelga desde el 21 en Los Ángeles/Long Beach y alerta por el ciclón Akvan en India. En Europa, seguimiento a la recuperación portuaria francesa y a la acción sindical anunciada en Bélgica para el 23. Brasil/Santos continúa bajo vigilancia operativa.",
   "noticias": [
     {
       "region": "ESTADOS UNIDOS · LA / LONG BEACH",
@@ -31,16 +31,16 @@ const brief = {
       "fotoUrl": "https://unsplash.com/s/photos/storm-at-sea"
     },
     {
-      "region": "BRASIL · PUERTO DE SANTOS",
-      "modo": "MEDIA-ALTA · CONTINGENCIA DIGITAL",
-      "imagen": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?auto=format&fit=crop&w=1200&q=85",
-      "bandera": "https://flagcdn.com/w40/br.png",
-      "titular": "Santos mantiene recuperación administrativa tras incidente informático",
-      "dato": "La Autoridad Portuaria de Santos informó sobre la interrupción iniciada el 6 nov. y explicó mecanismos de contingencia a terminales. Los sistemas administrativos resultaron afectados; la autoridad había indicado que las operaciones logísticas no se detuvieron en general. Fuente: https://www.porttechnology.org/news/safety-and-security/port-of-santos-cyber-incident/",
-      "impacto": "Riesgo de lentitud documental, ajustes manuales y tiempos administrativos variables. No equivale a cierre total del puerto.",
-      "accion": "Prevalidar documentación y accesos, consultar canales alternos de trámite y reconfirmar citas con terminal y transportista.",
-      "fotoCredito": "Imagen ilustrativa: Unsplash",
-      "fotoUrl": "https://unsplash.com/photos"
+      "region": "EUROPA · FRANCIA Y BÉLGICA",
+      "modo": "MEDIA-ALTA · PAROS Y RECUPERACIÓN OPERATIVA",
+      "imagen": "https://images.unsplash.com/photo-1707635649895-242ea947e888?auto=format&fit=crop&w=1200&q=85",
+      "bandera": "https://flagcdn.com/w40/eu.png",
+      "titular": "Europa: recuperación portuaria en Francia y alerta sindical en Bélgica",
+      "dato": "Tras el paro portuario convocado en Francia el 17 de noviembre, debe verificarse la recuperación de escalas, atraques y citas por terminal. Bélgica mantiene anunciada una acción sindical nacional para el 23 de noviembre, con posible impacto aduanero. No se ha confirmado un cierre marítimo generalizado de Europa.",
+      "impacto": "Posibles retrasos puntuales en liberaciones, conexiones intermodales y ventanas de atraque; las afectaciones dependerán del puerto, terminal y servicio.",
+      "accion": "Validar con navieras, terminales y agentes aduanales citas, liberaciones, ETAs y conexiones terrestres. Para Bélgica, anticipar documentación previa al 23 de noviembre.",
+      "fotoCredito": "Imagen ilustrativa: Bernd Dittrich / Unsplash (Puerto de Róterdam, Países Bajos)",
+      "fotoUrl": "https://unsplash.com/photos/an-overhead-view-of-cargo-containers-and-a-crane-06axNInHp-I"
     }
   ],
   "vigilancia": [
