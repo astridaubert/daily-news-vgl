@@ -1,221 +1,213 @@
 import Image from "next/image";
 
-// DATOS EDITABLES — CORTE 18 NOVIEMBRE 2026
+// DATOS EDITABLES — CORTE 19 NOVIEMBRE 2026
 const brief = {
-  "fecha": "miércoles 18 de noviembre de 2026",
+  "fecha": "jueves 19 de noviembre de 2026",
   "titulo": "Vector Global Logistics | Radar Logístico Global",
-  "subtitulo": "18 de noviembre: LA/Long Beach mantiene riesgo de huelga al 20 pese a operar sin paro confirmado; Guanajuato reabrió puntos afectados por bloqueos agrícolas del 17, mientras el frente frío 6 complica operaciones en el Golfo. China mantiene alerta por vientos marítimos y Santos avanza en recuperación digital. Tarifas Drewry: último corte 12 nov.",
+  "subtitulo": "19 de noviembre: riesgo elevado de huelga a partir del 21 en Los Ángeles/Long Beach; ciclón Akvan amenaza la costa oriental de India. Santos mantiene recuperación de sistemas administrativos. Europa vigila recuperación de paros y movilización anunciada en Bélgica para el 23. Alertas sujetas a confirmación operativa por terminal y corredor.",
   "noticias": [
     {
-      "region": "MÉXICO · PUERTO INTERIOR Y CARRETERAS",
-      "modo": "SEGUIMIENTO · REAPERTURA Y RIESGO DE NUEVOS CIERRES",
-      "imagen": "https://images.unsplash.com/photo-1778629794381-d3ae4a54311c?auto=format&fit=crop&w=1200&q=85",
-      "bandera": "https://flagcdn.com/w40/mx.png",
-      "titular": "Guanajuato restablece circulación tras bloqueos agrícolas; vigilar nuevos acuerdos",
-      "dato": "Durante el 17 de noviembre, productores realizaron más de 20 bloqueos en varias entidades. En Guanajuato hubo afectaciones en la Federal 45 a la altura de Puerto Interior; la Secretaría de Seguridad y Paz reportó liberados los puntos monitoreados a las 18:30 de ayer. En Jalisco se comenzaron a retirar bloqueos por una mesa de diálogo convocada para hoy 18. Esto no acredita que todos los tramos de cinco estados estén cerrados hoy. Fuentes: https://zonafranca.mx/politica-sociedad/liberan-carreteras-de-guanajuato-seguira-dialogo-con-la-secretaria-de-gobierno/ · https://www.jornada.com.mx/2026/11/18/estados/025n1est",
-      "impacto": "Riesgo de tiempos de tránsito variables, retrasos remanentes y nuevas movilizaciones en los corredores León–Silao, Bajío y conexiones de larga distancia. La apertura reportada requiere confirmación antes de cada despacho.",
-      "accion": "Antes de enviar unidades, validar circulación con Guardia Nacional Carreteras/autoridad estatal y transportista; reconfirmar acceso a Puerto Interior, citas, ETAs y rutas de contingencia.",
-      "fotoCredito": "Imagen ilustrativa: Nishat Samadzai / Unsplash",
-      "fotoUrl": "https://unsplash.com/photos/two-white-trucks-driving-on-a-highway-neCb34TcLEg"
-    },
-    {
-      "region": "MÉXICO · FRENTE FRÍO 6 Y GOLFO",
-      "modo": "ALTA · VIENTO, LLUVIA Y OPERACIONES MARÍTIMAS",
-      "imagen": "https://images.unsplash.com/photo-1567604154063-4e079ff60be3?auto=format&fit=crop&w=1200&q=85",
-      "bandera": "https://flagcdn.com/w40/mx.png",
-      "titular": "Frente frío 6: lluvias y evento de Norte exigen revisar maniobras en puertos del Golfo",
-      "dato": "El Servicio Meteorológico Nacional pronostica el 18 de noviembre lluvias muy fuertes en Veracruz, Oaxaca, Chiapas y Tabasco. Las rachas pueden llegar a 70–90 km/h en el istmo y Golfo de Tehuantepec, 50–70 km/h en zonas de Veracruz y 30–50 km/h en Tamaulipas. La previsión no confirma cierres activos de todos los puertos; cada capitanía publica restricciones propias. Fuente: https://smn.conagua.gob.mx/es/pronostico-meteorologico-general",
-      "impacto": "Posibles limitaciones de practicaje, atraque, ingreso de buques, movimientos de carga y transporte terrestre por lluvia intensa. Especial vigilancia en Veracruz, Altamira/Tampico, Dos Bocas y conexiones del sureste según avisos oficiales.",
-      "accion": "Comprobar con capitanía, terminal y naviera si hay cierre a navegación, restricciones de grúas o suspensión de maniobras; ajustar cut-offs y avisar cambios de ETA.",
-      "fotoCredito": "Imagen ilustrativa: Unsplash (oleaje, no fotografía del evento en México)",
-      "fotoUrl": "https://unsplash.com/fr/s/photos/temp%C3%AAte-en-mer"
-    },
-    {
-      "region": "MERCADO MARÍTIMO · TARIFAS SPOT",
-      "modo": "REFERENCIA · DREWRY 12 NOV.",
+      "region": "ESTADOS UNIDOS · LA / LONG BEACH",
+      "modo": "ALTA · POSIBLE HUELGA DESDE 21 NOV.",
       "imagen": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?auto=format&fit=crop&w=1200&q=85",
-      "bandera": "",
-      "titular": "Último corte spot: tarifas Asia–EE. UU. y Europa retroceden; revisar recargos",
-      "dato": "Drewry (12 nov.): WCI US$4,305/FEU (-2% semanal). Shanghái–Los Ángeles US$7,416 (-2%); Shanghái–Nueva York US$9,020 (-3%); Shanghái–Róterdam US$3,504 (-3%); Shanghái–Génova US$4,168 (sin variación). Nueva evaluación semanal del 19 nov. aún no publicada al corte del 18. Fuente: https://www.drewry.co.uk/maritime-research-opinion-browser/world-container-index-assessed-by-drewry",
-      "impacto": "Las bajas spot por corredor no aseguran espacio ni compensan automáticamente incrementos FAK/PSS, costos portuarios o contingencias terrestres. Los valores citados no son tarifas de hoy en tiempo real.",
-      "accion": "Solicitar oferta formal por ruta, fecha, equipo y días libres; validar PSS, transbordos y disponibilidad con las navieras antes de cotizar."
+      "bandera": "https://flagcdn.com/w40/us.png",
+      "titular": "Fracasan avances en negociación portuaria; crece riesgo de paro este fin de semana",
+      "dato": "PMA informó el 18 nov. que las conversaciones con ILWU Local 26 terminaron con escasos avances; nueva sesión prevista para el 20 nov. El contrato vence a las 00:01 del sábado 21 nov. (hora del Pacífico). Según empleadores, terminales expuestas mueven ~85% de la carga de Long Beach y ~33% de LA. No hay paro general confirmado al corte. Fuente: https://www.pmanet.org/press_releases/statement-from-the-pacific-maritime-association-on-contract-talks-with-ilwu-local-26-at-ports-of-la-and-long-beach/",
+      "impacto": "Posibles retrasos de recepción, liberaciones, trenes y drayage si se materializa el paro. El ferrocarril ya presenta demoras en enlaces de la costa oeste.",
+      "accion": "Revisar llegada y disponibilidad de contenedores, adelantar retiros viables, reconfirmar ventanas terminal/rail y preparar alternativas por escrito; vigilar demurrage y detention.",
+      "fotoCredito": "Imagen ilustrativa: Unsplash",
+      "fotoUrl": "https://unsplash.com/photos"
+    },
+    {
+      "region": "INDIA · GOLFO DE BENGALA",
+      "modo": "ALTA · CICLÓN AKVAN · 19–20 NOV.",
+      "imagen": "https://images.unsplash.com/photo-1567604154063-4e079ff60be3?auto=format&fit=crop&w=1200&q=85",
+      "bandera": "https://flagcdn.com/w40/in.png",
+      "titular": "Ciclón Akvan: alerta roja en costas de Andhra Pradesh y sur de Odisha",
+      "dato": "IMD reportó el 19 nov. un ciclón severo Akvan sobre el golfo de Bengala; la costa de Andhra Pradesh/Yanam y el sur de Odisha están bajo aviso meteorológico. Se anticipan viento y lluvias intensas alrededor del 20 nov.; trayectoria y momento exacto pueden cambiar. No se confirma cierre nacional de puertos o aeropuertos. Fuente: https://mausam.imd.gov.in/backend/assets/cyclone_pdf/32__National_Bulletin_No_32-19Nov2026_1430IST.pdf",
+      "impacto": "Riesgo para accesos terrestres y ferroviarios, operación de terminales costeras, conexión marítima y posibles itinerarios aéreos en el este de India.",
+      "accion": "Confirmar boletín IMD más reciente, gate-in, atraque, disponibilidad de tren y espacio aéreo con proveedor antes de posicionar carga; no desviar sin validar que el puerto alterno esté fuera del área expuesta.",
+      "fotoCredito": "Imagen ilustrativa de oleaje: Unsplash",
+      "fotoUrl": "https://unsplash.com/s/photos/storm-at-sea"
+    },
+    {
+      "region": "BRASIL · PUERTO DE SANTOS",
+      "modo": "MEDIA-ALTA · CONTINGENCIA DIGITAL",
+      "imagen": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?auto=format&fit=crop&w=1200&q=85",
+      "bandera": "https://flagcdn.com/w40/br.png",
+      "titular": "Santos mantiene recuperación administrativa tras incidente informático",
+      "dato": "La Autoridad Portuaria de Santos informó sobre la interrupción iniciada el 6 nov. y explicó mecanismos de contingencia a terminales. Los sistemas administrativos resultaron afectados; la autoridad había indicado que las operaciones logísticas no se detuvieron en general. Fuente: https://www.porttechnology.org/news/safety-and-security/port-of-santos-cyber-incident/",
+      "impacto": "Riesgo de lentitud documental, ajustes manuales y tiempos administrativos variables. No equivale a cierre total del puerto.",
+      "accion": "Prevalidar documentación y accesos, consultar canales alternos de trámite y reconfirmar citas con terminal y transportista.",
+      "fotoCredito": "Imagen ilustrativa: Unsplash",
+      "fotoUrl": "https://unsplash.com/photos"
     }
   ],
   "vigilancia": [
     {
-      "titulo": "EE. UU. | LA/Long Beach: plazo 20 nov.",
+      "titulo": "México | Corredores Bajío y accesos",
+      "bandera": "https://flagcdn.com/w40/mx.png",
+      "texto": "Los bloqueos agrícolas del 17 nov. son un antecedente; no hay confirmación suficiente para afirmar cierre nacional vigente hoy. Corroborar Federal 45, enlaces al Puerto Interior, accesos de terminales y ruta concreta con transportista/autoridades antes del despacho."
+    },
+    {
+      "titulo": "México | Puerto Nuevo Manzanillo",
+      "bandera": "https://flagcdn.com/w40/mx.png",
+      "texto": "Semarnat otorgó autorización condicionada a una etapa del proyecto Puerto Nuevo Manzanillo en Cuyutlán. Se trata de infraestructura de largo plazo, no de capacidad portuaria adicional disponible hoy."
+    },
+    {
+      "titulo": "EE. UU. | PMA e ILWU Local 26",
       "bandera": "https://flagcdn.com/w40/us.png",
-      "texto": "PMA/ILWU Local 26 extendieron conversaciones hasta el viernes 20 nov. Unos 250 vigilantes están involucrados. Según PMA, la eventual huelga podría afectar terminales que manejan ~85% de la carga de Long Beach y ~33% de Los Ángeles; son proporciones expuestas, no paralizadas. No hay huelga activa confirmada al 18. Fuentes: https://www.reuters.com/business/world-at-work/los-angeles-long-beach-port-employers-extend-negotiations-with-watchmen-union-2026-11-09/ · https://www.flexport.com/blog/potential-strike-250-port-watchmen-could-stall-la-and-long-beach/"
+      "texto": "PMA confirmó el 18 nov. negociaciones estancadas, nueva cita el 20 y riesgo de interrupción desde 00:01 del 21 nov. hora del Pacífico. No anunciar huelga activa antes de confirmarla. Fuente: https://www.pmanet.org/press_releases/statement-from-the-pacific-maritime-association-on-contract-talks-with-ilwu-local-26-at-ports-of-la-and-long-beach/"
     },
     {
-      "titulo": "EE. UU. | Drayage, trenes y puente",
+      "titulo": "EE. UU. | Intermodal y Thanksgiving",
       "bandera": "https://flagcdn.com/w40/us.png",
-      "texto": "Vincent Thomas Bridge lleva cerrado desde el 7 nov. por obras de larga duración. Flexport reportó 7.19 días promedio de espera de contenedores de importación destinados a tren en septiembre; no extrapolarlo como dato en vivo ni publicar 14,500 unidades con 9+ días sin corroboración. Confirmar cita, rail cutoff y posible almacenaje con terminal. Fuente: https://www.flexport.com/blog/potential-strike-250-port-watchmen-could-stall-la-and-long-beach/"
+      "texto": "Persisten demoras ferroviarias de salida desde LA/LB por congestión y factores meteorológicos. Thanksgiving es el jueves 26 nov.: reservar con anticipación citas de retiro, tren, transporte terrestre y horarios de almacén."
     },
     {
-      "titulo": "México | Bloqueos agrícolas: corte 18 nov.",
-      "bandera": "https://flagcdn.com/w40/mx.png",
-      "texto": "Más de 20 bloqueos ocurrieron el 17 en varios estados. La autoridad reportó restablecida circulación de puntos monitoreados en Guanajuato desde 18:30 del 17; protestas de Jalisco comenzaron a levantarse. Se prevé diálogo con Segob hoy. No describir todos los tramos como activos hoy sin reporte vial actualizado. Fuentes: https://zonafranca.mx/politica-sociedad/liberan-carreteras-de-guanajuato-seguira-dialogo-con-la-secretaria-de-gobierno/ · https://www.jornada.com.mx/2026/11/18/estados/025n1est"
+      "titulo": "Europa | Francia",
+      "bandera": "https://flagcdn.com/w40/fr.png",
+      "texto": "Tras la convocatoria de paro portuario del 17 nov., verificar recuperación, escalas, disponibilidad de atraque y citas por terminal. No inferir huelga activa en toda Francia hoy."
     },
     {
-      "titulo": "México | Monterrey–Nuevo Laredo/Laredo",
-      "bandera": "https://flagcdn.com/w40/mx.png",
-      "texto": "Validar con operador las condiciones de ruta y seguridad, disponibilidad de tractocamión y ventanas fronterizas. Los cierres agrícolas del Bajío no implican por sí solos afectación directa de Nuevo Laredo."
+      "titulo": "Europa | Bélgica, 23 nov.",
+      "bandera": "https://flagcdn.com/w40/be.png",
+      "texto": "Acción sindical nacional anunciada para el 23 nov. con posible afectación aduanera. Verificar aviso específico por puerto y aduana: no se ha confirmado un cierre marítimo nacional."
     },
     {
-      "titulo": "México | Frente frío 6",
-      "bandera": "https://flagcdn.com/w40/mx.png",
-      "texto": "SMN 18 nov.: lluvias muy fuertes en Veracruz, Oaxaca, Chiapas y Tabasco; Norte 50–70 km/h en Veracruz centro-sur y 30–50 km/h en Tamaulipas; 70–90 km/h en Tehuantepec. Cierre de puertos a navegación por confirmar capitanía por capitanía. Fuente: https://smn.conagua.gob.mx/es/pronostico-meteorologico-general"
+      "titulo": "Europa | España, Alemania, Reino Unido",
+      "bandera": "https://flagcdn.com/w40/eu.png",
+      "texto": "Revisar retrasos residuales de movilizaciones españolas y restricciones puntuales por niebla/viento y ventanas de atraque en puertos del norte de Europa. Confirmar afectaciones con operadores."
     },
     {
-      "titulo": "Europa | España: normalización y huelgas",
-      "bandera": "https://flagcdn.com/w40/es.png",
-      "texto": "El paro del 11 nov. es antecedente, no interrupción vigente en todos los puertos. Verificar retrasos de conexiones en Algeciras, Valencia y Barcelona. Una movilización ferroviaria convocada para el 23 nov. debe confirmarse en avisos de operadores; no proyectar automáticamente cancelaciones."
-    },
-    {
-      "titulo": "Europa | Recargos y río Rin",
-      "bandera": "https://flagcdn.com/w40/de.png",
-      "texto": "Hay avisos de FAK/PSS para Asia–Europa/Mediterráneo a finales de noviembre y contingencias de nivel de agua del Rin. Los importes dependen de naviera, fecha de vigencia y origen-destino; confirmar aviso tarifario antes de trasladar cargos al cliente."
-    },
-    {
-      "titulo": "Asia | Vientos marítimos 18–19 nov.",
+      "titulo": "Asia | China: Yantian",
       "bandera": "https://flagcdn.com/w40/cn.png",
-      "texto": "China Meteorological Administration 18 nov., 06:00: vientos fuerza 7, ráfagas 8–9 en Mar Amarillo, Mar de China Oriental y estrecho de Taiwán; sectores pueden llegar a fuerza 8 con ráfagas 9–10. Revisar maniobras por puerto; no hay confirmación de cierre general de Shanghái/Ningbo. Fuente: https://www.mot.gov.cn/fuwu/yujingtishi/haiyangtianqigb/202611/t20261118_4227955.html"
+      "texto": "Reporte operativo semanal 11–17 nov. apunta a restricciones de capacidad para megabuques tras una colisión con grúa. Exigir confirmación vigente de terminal/naviera antes de desviar carga."
     },
     {
-      "titulo": "China | Shanghái y capacidad",
-      "bandera": "https://flagcdn.com/w40/cn.png",
-      "texto": "Drewry reportó 49 horas de espera media en Shanghái para la semana previa a 12 nov. Es un indicador fechado, no medición del 18. Verificar ETD, transbordos y blank sailings. No atribuir congestión actual al tifón Champi: el episodio confirmado es de octubre. Fuente: https://www.drewry.co.uk/maritime-research-opinion-browser/world-container-index-assessed-by-drewry"
+      "titulo": "Asia | Busan y Japón",
+      "bandera": "https://flagcdn.com/w40/kr.png",
+      "texto": "El reporte semanal 11–17 nov. señala congestión de transbordos en Busan y ocupación elevada de patios de determinadas terminales japonesas. No extrapolar a todos los puertos; verificar conexión completa."
     },
     {
-      "titulo": "Brasil | Santos: recuperación administrativa",
-      "bandera": "https://flagcdn.com/w40/br.png",
-      "texto": "Autoridad portuaria se reunió con terminales el 17 nov. tras incidente del 6. Sistemas administrativos aún con contingencias, pero APS señaló que el movimiento de carga no estaba comprometido. Tramitar ajustes por canal alterno indicado por el operador. Fuente: https://dataportuaria.com/en/brasil/ports/santos-port-authority-details-cyber-incident-to-terminals-acaf5d"
-    },
-    {
-      "titulo": "India | Nhava Sheva y Mundra",
+      "titulo": "India | Akvan y costa oriental",
       "bandera": "https://flagcdn.com/w40/in.png",
-      "texto": "Reconfirmar gate, transporte terrestre, stock de contenedores y conexiones con Colombo después del calendario festivo; no publicar como actual el supuesto ciclón Arnab ni una 'semana 45' ya transcurrida sin evidencia operativa. No se verificó cierre portuario general."
+      "texto": "Boletín IMD 19 nov. 14:30 IST: ciclón severo Akvan en el golfo de Bengala, con aviso para norte de Andhra Pradesh, Yanam y sur de Odisha. Confirmar escala, acceso y pronóstico vigente. Fuente: https://mausam.imd.gov.in/backend/assets/cyclone_pdf/32__National_Bulletin_No_32-19Nov2026_1430IST.pdf"
     },
     {
-      "titulo": "Chile | Transporte y conectividad",
-      "bandera": "https://flagcdn.com/w40/cl.png",
-      "texto": "Verificar condiciones de Ruta 5, transportistas y accesos a puertos por tramo; mantener la alerta como monitoreo operacional, sin afirmar protestas activas basadas solo en noticias del 13 nov."
+      "titulo": "Brasil | Santos",
+      "bandera": "https://flagcdn.com/w40/br.png",
+      "texto": "APS informó contingencia de sus sistemas administrativos tras incidente del 6 nov.; verificar documentación y citas. Fuente: https://www.porttechnology.org/news/safety-and-security/port-of-santos-cyber-incident/"
     },
     {
-      "titulo": "Mercado | Spot Asia–EE. UU.",
-      "bandera": "https://flagcdn.com/w40/us.png",
-      "texto": "Drewry 12 nov.: Shanghái–LA US$7,416 (-2%) y Shanghái–NY US$9,020 (-3%) por FEU. Los anuncios de aumentos no equivalen a una subida efectiva del índice. Fuente: https://www.drewry.co.uk/maritime-research-opinion-browser/world-container-index-assessed-by-drewry"
+      "titulo": "Brasil | Feriado 20 nov.",
+      "bandera": "https://flagcdn.com/w40/br.png",
+      "texto": "Día Nacional de Zumbi y de la Conciencia Negra: reconfirmar horarios de agentes, bancos, almacenes y terminales; no asumir suspensión uniforme."
     },
     {
-      "titulo": "Mercado | Spot Asia–Europa",
-      "bandera": "https://flagcdn.com/w40/nl.png",
-      "texto": "Drewry 12 nov.: Shanghái–Róterdam US$3,504 (-3%) y Shanghái–Génova US$4,168 (estable) por FEU. Validar PSS específicos antes de ofertar. Fuente: https://www.drewry.co.uk/maritime-research-opinion-browser/world-container-index-assessed-by-drewry"
-    },
-    {
-      "titulo": "Calendario | Próximos hitos",
+      "titulo": "Tarifas | Referencia de mercado 17 nov.",
       "bandera": "",
-      "texto": "18 nov.: mesa de diálogo sobre bloqueos agrícolas; 18–19 nov.: vientos fuertes en mares chinos; 19 nov.: próximo corte semanal esperado de Drewry; 20 nov.: vence extensión de negociación ILWU Local 26. Monitorear capitanías mexicanas por frente frío 6."
+      "texto": "Indicadores aportados en el reporte de 19 nov., referidos al 17: Asia–Costa Oeste de EE. UU. US$8,459/FEU (+3%); Asia–Costa Este US$9,848 (+1%); Asia–norte de Europa US$3,407 (sin cambio); Asia–Mediterráneo US$4,295 (-1%). No son cotizaciones all-in ni tarifas Asia–México."
+    },
+    {
+      "titulo": "Calendario | Fechas críticas",
+      "bandera": "",
+      "texto": "19–20 nov.: Akvan en India; 20 nov.: próxima negociación LA/LB y feriado en Brasil; 21 nov. 00:01 PT: posible inicio de paro en LA/LB; 23 nov.: acción sindical belga; 26 nov.: Thanksgiving en EE. UU."
     }
   ],
   "metricas": [
     {
-      "indicador": "Drewry WCI · 12 nov.",
-      "valor": "US$4,305",
-      "tendencia": "Por FEU; -2% semanal"
+      "indicador": "Asia–Costa Oeste EE. UU.",
+      "valor": "US$8,459",
+      "tendencia": "FEU · +3% semanal · referencia 17 nov."
     },
     {
-      "indicador": "Shanghái–LA",
-      "valor": "US$7,416",
-      "tendencia": "Por FEU; -2% semanal"
+      "indicador": "Asia–Costa Este EE. UU.",
+      "valor": "US$9,848",
+      "tendencia": "FEU · +1% semanal · referencia 17 nov."
     },
     {
-      "indicador": "Shanghái–NY",
-      "valor": "US$9,020",
-      "tendencia": "Por FEU; -3% semanal"
+      "indicador": "Asia–norte de Europa",
+      "valor": "US$3,407",
+      "tendencia": "FEU · sin cambio · referencia 17 nov."
     },
     {
-      "indicador": "Shanghái–Róterdam",
-      "valor": "US$3,504",
-      "tendencia": "Por FEU; -3% semanal"
+      "indicador": "Asia–Mediterráneo",
+      "valor": "US$4,295",
+      "tendencia": "FEU · -1% semanal · referencia 17 nov."
     },
     {
-      "indicador": "LA/LB · plazo",
+      "indicador": "LA/LB · riesgo de paro",
+      "valor": "21 nov.",
+      "tendencia": "00:01 PT; sin paro confirmado al corte"
+    },
+    {
+      "indicador": "India · ciclón Akvan",
+      "valor": "Alerta",
+      "tendencia": "IMD · 19 nov.; costa oriental"
+    },
+    {
+      "indicador": "Bélgica · acción sindical",
+      "valor": "23 nov.",
+      "tendencia": "Afectación por confirmar"
+    },
+    {
+      "indicador": "Brasil · feriado",
       "valor": "20 nov.",
-      "tendencia": "Vence extensión de negociación, sin paro confirmado"
-    },
-    {
-      "indicador": "Guanajuato · reapertura",
-      "valor": "17 nov.",
-      "tendencia": "18:30 h: circulación restablecida en puntos monitoreados"
-    },
-    {
-      "indicador": "Veracruz · viento",
-      "valor": "50–70 km/h",
-      "tendencia": "SMN · 18 nov., zonas centro/sur"
-    },
-    {
-      "indicador": "China · vientos",
-      "valor": "Fuerza 7–8",
-      "tendencia": "Aviso marítimo · 18–19 nov."
+      "tendencia": "Validar horarios de proveedores"
     }
   ],
   "recomendaciones": [
-    "México / Bajío: confirmar con Guardia Nacional y operadores las condiciones actuales antes de salir; el 17 nov. se documentaron cierres, pero Guanajuato reportó liberación de puntos monitoreados desde las 18:30 de ayer.",
-    "México / Golfo: verificar avisos de capitanías y terminales para Veracruz, Tampico/Altamira y Tabasco, antes de afirmar cierre por viento o suspender un embarque; programar márgenes por lluvia y Norte.",
-    "EE. UU. / LA–Long Beach: monitorear la negociación ILWU Local 26 hasta el 20 nov.; validar terminal, cita de drayage, disponibilidad de tren, desvíos por Vincent Thomas Bridge y costos de demurrage/detention.",
-    "China / Asia: atender el boletín marítimo oficial de vientos 18–19 nov.; pedir confirmación de maniobras, ETD, ETA y conexiones en Shanghái, Ningbo y puertos afectados.",
-    "Europa: revisar backlog específico tras la huelga española del 11 nov., próxima agenda ferroviaria y recargos FAK/PSS por naviera; no utilizar incrementos genéricos como tarifas universalmente aplicables.",
-    "Brasil: anticipar gestión documental en Santos por recuperación de sistemas APS y confirmar canal alterno; según la autoridad, el movimiento de carga no se vio comprometido.",
-    "India: confirmar disponibilidad de transporte y equipo en Nhava Sheva, Mundra y otros orígenes; no mencionar 'antes de Diwali' cuando el evento ya pasó.",
-    "Fuentes verificadas al 18 nov.: Guanajuato https://zonafranca.mx/politica-sociedad/liberan-carreteras-de-guanajuato-seguira-dialogo-con-la-secretaria-de-gobierno/ · bloqueos https://www.jornada.com.mx/2026/11/18/estados/025n1est · SMN https://smn.conagua.gob.mx/es/pronostico-meteorologico-general · LA/LB https://www.flexport.com/blog/potential-strike-250-port-watchmen-could-stall-la-and-long-beach/ · Drewry https://www.drewry.co.uk/maritime-research-opinion-browser/world-container-index-assessed-by-drewry · China CMA https://www.mot.gov.cn/fuwu/yujingtishi/haiyangtianqigb/202611/t20261118_4227955.html · Brasil https://dataportuaria.com/en/brasil/ports/santos-port-authority-details-cyber-incident-to-terminals-acaf5d"
+    "Estados Unidos: gestionar contenedores sensibles antes del vencimiento del contrato de ILWU Local 26; confirmar citas, trenes, drayage y costos de almacenamiento. Riesgo de paro desde 21 nov., no huelga activa al corte.",
+    "India: contrastar boletín IMD de Akvan con naviera, terminal, transportista y aerolínea; validar cualquier desvío por seguridad y exposición meteorológica.",
+    "Brasil / Santos: preparar alternativas documentales ante contingencia administrativa; la situación no equivale a cierre general del puerto.",
+    "Europa: confirmar recuperación de Francia y España; revisar liberaciones aduaneras en Bélgica antes del 23 nov. y afectaciones por clima en puertos concretos.",
+    "México: confirmar circulación terrestre y accesos a puertos con información operativa local; no reciclar bloqueos o cierres de días anteriores como vigentes.",
+    "Mercado: referencias tarifarias del 17 nov. no equivalen a cotizaciones all-in. Validar equipo, ruta, PSS, días libres, transbordos y disponibilidad.",
+    "Calendario: Brasil 20 nov. y Thanksgiving EE. UU. 26 nov.; reservar transporte, citas y gestionar documentos con anticipación.",
+    "Fuentes: PMA https://www.pmanet.org/press_releases/statement-from-the-pacific-maritime-association-on-contract-talks-with-ilwu-local-26-at-ports-of-la-and-long-beach/ · IMD https://mausam.imd.gov.in/backend/assets/cyclone_pdf/32__National_Bulletin_No_32-19Nov2026_1430IST.pdf · Santos https://www.porttechnology.org/news/safety-and-security/port-of-santos-cyber-incident/ · tarifas de referencia y Europa del reporte operativo suministrado (corte 19 nov. 2026)."
   ]
 };
 const retrasos = [
   {
-    "puerto": "México · Guanajuato Puerto Interior",
-    "tiempo": "Liberado · 17 nov.",
-    "estado": "Estado reportó circulación restablecida 18:30 del 17; corroborar antes de despacho."
-  },
-  {
-    "puerto": "México · Golfo",
-    "tiempo": "Alerta SMN",
-    "estado": "Frente frío 6 con Norte y lluvias; restricción portuaria por confirmar."
-  },
-  {
     "puerto": "EE. UU. · LA/Long Beach",
-    "tiempo": "20 nov.",
-    "estado": "Vence extensión ILWU Local 26/PMA; sin paro confirmado."
+    "tiempo": "21 nov. · riesgo",
+    "estado": "PMA e ILWU Local 26: posible huelga desde 00:01 PT del sábado; NO cierre confirmado."
   },
   {
-    "puerto": "EE. UU. · Vincent Thomas",
-    "tiempo": "Cerrado",
-    "estado": "Desde 7 nov. por obras; confirmar rutas alternas."
-  },
-  {
-    "puerto": "China · mares cercanos",
-    "tiempo": "18–19 nov.",
-    "estado": "Vientos fuerza 7–8 en sectores; puertos específicos requieren aviso local."
-  },
-  {
-    "puerto": "China · Shanghái",
-    "tiempo": "49 horas",
-    "estado": "Dato Drewry del 12 nov., referente a semana previa."
+    "puerto": "India · Andhra Pradesh/Odisha",
+    "tiempo": "19–20 nov.",
+    "estado": "Akvan: alerta meteorológica severa; verificar puertos, trenes y accesos."
   },
   {
     "puerto": "Brasil · Santos",
+    "tiempo": "Contingencia",
+    "estado": "Sistemas administrativos afectados; operación logística general no reportada como detenida."
+  },
+  {
+    "puerto": "Europa · Francia",
     "tiempo": "Recuperación",
-    "estado": "Sistemas administrativos en recuperación; movimiento de carga sin impacto reportado por APS."
+    "estado": "Revalidar citas y atrasos después de la convocatoria portuaria del 17 nov."
   },
   {
-    "puerto": "Europa · España",
-    "tiempo": "Seguimiento",
-    "estado": "Verificar backlog tras movilización del 11 nov."
+    "puerto": "Europa · Bélgica",
+    "tiempo": "23 nov. · aviso",
+    "estado": "Movilización sindical anunciada; confirmar posibles impactos aduaneros."
   },
   {
-    "puerto": "India · Nhava Sheva",
-    "tiempo": "Verificar",
-    "estado": "Consultar disponibilidad de gates, equipos y conexión por operador."
+    "puerto": "China · Yantian",
+    "tiempo": "Revalidar",
+    "estado": "Reporte semanal señala limitaciones para megabuques tras incidente de grúa."
+  },
+  {
+    "puerto": "Corea · Busan",
+    "tiempo": "Conexiones",
+    "estado": "Cuellos de botella de transbordo en reporte semanal; ETAs por confirmar."
+  },
+  {
+    "puerto": "México · Bajío",
+    "tiempo": "Monitoreo",
+    "estado": "Revalidar tramos antes del despacho; no asumir bloqueos del 17 activos hoy."
   }
 ];
 // Imágenes de portada ilustrativas; no representan necesariamente los incidentes del día.
