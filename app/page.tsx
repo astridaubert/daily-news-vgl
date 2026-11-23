@@ -2,212 +2,223 @@ import Image from "next/image";
 
 // DATOS EDITABLES — CORTE 23 NOVIEMBRE 2026
 const brief = {
-  "fecha": "lunes 23 de noviembre de 2026",
+  "fecha": "lunes 23 de noviembre de 2026 · corte 10:11 h (centro de México)",
   "titulo": "Vector Global Logistics | Radar Logístico Global",
-  "subtitulo": "23 de noviembre: se evita la huelga en Los Ángeles/Long Beach tras un acuerdo preliminar pendiente de ratificación. Bélgica afronta una movilización sindical nacional con potencial impacto portuario y aduanero. En India, verificar la recuperación de conexiones tras Akvan; planear con anticipación Thanksgiving en Estados Unidos.",
+  "subtitulo": "Riesgo global medio-alto. Prioridad: congestión de puertos en el norte de Europa y riesgo de disponibilidad limitada de contenedores vacíos hacia diciembre. México registra presión en accesos a Manzanillo; Brasil enfrenta huelga regional de transporte de carga. En LA/Long Beach se evitó el paro inmediato, aunque la ratificación del acuerdo sigue pendiente.",
   "noticias": [
     {
-      "region": "ESTADOS UNIDOS · LA / LONG BEACH",
-      "modo": "MEJORA · ACUERDO PRELIMINAR 21 NOV.",
+      "region": "EUROPA · NORTE DE EUROPA",
+      "modo": "ALTA · CONGESTIÓN Y EQUIPOS",
+      "imagen": "https://images.unsplash.com/photo-1707635649895-242ea947e888?auto=format&fit=crop&w=1200&q=85",
+      "bandera": "https://flagcdn.com/w40/eu.png",
+      "titular": "Congestión en puertos europeos presiona disponibilidad de contenedores para diciembre",
+      "dato": "Kuehne+Nagel reportó en su informe 11–17 nov. elevada ocupación de patios, retrasos de feeder/barcaza y restricciones en hubs como Róterdam, Hamburgo y Bremerhaven. Maersk también advierte presiones por congestión y clima. La menor rotación puede demorar el retorno de vacíos a Asia; la escasez en diciembre es riesgo, no falta de equipo confirmada en todos los puertos. Fuentes: https://mykn.kuehne-nagel.com/news/article/port-operational-updates-from-17-11-2026 · https://www.maersk.com.cn/news/articles/2026/11/06/europe-market-update-november",
+      "impacto": "Posibles retrasos de atraque y conexiones intermodales, menor confiabilidad de itinerarios y presión para conseguir equipo en reservas de diciembre.",
+      "accion": "Reservar con mayor anticipación, confirmar equipos vacíos y cut-offs con naviera, validar rutas alternas y mantener margen en ETAs para operaciones críticas.",
+      "fotoCredito": "Imagen ilustrativa: Bernd Dittrich / Unsplash",
+      "fotoUrl": "https://unsplash.com/photos/an-overhead-view-of-cargo-containers-and-a-crane-06axNInHp-I"
+    },
+    {
+      "region": "MÉXICO · MANZANILLO",
+      "modo": "MEDIA-ALTA · ACCESO TERRESTRE",
       "imagen": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?auto=format&fit=crop&w=1200&q=85",
-      "bandera": "https://flagcdn.com/w40/us.png",
-      "titular": "LA/Long Beach evita huelga: acuerdo preliminar pendiente de ratificación",
-      "dato": "El 21 nov., PMA e ILWU Local 26 alcanzaron un acuerdo contractual preliminar, evitando el paro previsto en los puertos de Los Ángeles y Long Beach. El contrato actual continúa mientras la membresía vota su ratificación; no se han divulgado los términos. Fuente: https://www.reuters.com/world/us/southern-california-port-employers-watchmen-union-reach-tentative-deal-2026-11-21/",
-      "impacto": "Se reduce el riesgo inmediato de interrupción sindical. Persisten posibles demoras intermodales y restricciones de acceso vial; el acuerdo aún requiere ratificación.",
-      "accion": "Retomar planificación habitual de retiros, verificar tiempos reales de ferrocarril y drayage, y monitorear la ratificación del acuerdo sin anunciar una huelga activa.",
+      "bandera": "https://flagcdn.com/w40/mx.png",
+      "titular": "Obras Manzanillo–Colima: transportistas reportan esperas de cinco a nueve horas",
+      "dato": "T21 documentó el 4 nov. demoras de entre 5 y 9 horas vinculadas a obras de ampliación en la carretera Manzanillo–Colima. Es un antecedente reciente, no una medición de espera en tiempo real para hoy. Fuente: https://t21.com.mx/transportistas-enfrentan-esperas-de-hasta-nueve-horas-por-obras-carreteras-en-manzanillo/",
+      "impacto": "Mayor tiempo de ciclo de camiones, riesgo de perder ventanas de gate, costos de espera y afectación de productividad en la cadena del Pacífico.",
+      "accion": "Validar tiempos actuales del tramo con operador, cita y gate con terminal, disponibilidad de unidad y margen de transporte antes de confirmar recolección o entrega.",
       "fotoCredito": "Imagen ilustrativa: Unsplash",
       "fotoUrl": "https://unsplash.com/photos"
     },
     {
-      "region": "INDIA · COSTA ORIENTAL",
-      "modo": "SEGUIMIENTO · EFECTOS DE AKVAN",
-      "imagen": "https://images.unsplash.com/photo-1567604154063-4e079ff60be3?auto=format&fit=crop&w=1200&q=85",
-      "bandera": "https://flagcdn.com/w40/in.png",
-      "titular": "India: evaluación de accesos y conexiones tras el paso de Akvan",
-      "dato": "Akvan tocó tierra en Odisha el 20 nov. Informes meteorológicos del 21 nov. advertían efectos residuales de lluvia y vientos en el este de India. Al corte del 23 nov. no se ha verificado un cierre general de puertos: la continuidad operacional debe evaluarse por terminal y corredor. Fuente: https://www.jagranjosh.com/general-knowledge/imd-weather-today-november-21-2026-cyclone-akvans-aftereffects-bring-rain-to-eastern-india-dense-fog-alert-in-north-1820014001-1",
-      "impacto": "Riesgo para accesos terrestres y ferroviarios, operación de terminales costeras, conexión marítima y posibles itinerarios aéreos en el este de India.",
-      "accion": "Confirmar boletín IMD más reciente, gate-in, atraque, disponibilidad de tren y espacio aéreo con proveedor antes de posicionar carga; no desviar sin validar que el puerto alterno esté fuera del área expuesta.",
-      "fotoCredito": "Imagen ilustrativa de oleaje: Unsplash",
-      "fotoUrl": "https://unsplash.com/s/photos/storm-at-sea"
-    },
-    {
-      "region": "EUROPA · BÉLGICA",
-      "modo": "ALTA · MOVILIZACIÓN SINDICAL 23 NOV.",
-      "imagen": "https://images.unsplash.com/photo-1707635649895-242ea947e888?auto=format&fit=crop&w=1200&q=85",
-      "bandera": "https://flagcdn.com/w40/be.png",
-      "titular": "Bélgica: movilización nacional puede afectar puertos y aduanas",
-      "dato": "Inchcape Shipping Services advirtió sobre una acción sindical nacional convocada en Bélgica para el lunes 23 nov., con posibles retrasos en servicios portuarios y aduanales. La afectación efectiva puede variar por puerto, buque y autoridad; no se debe presentar un cierre nacional completo como confirmado. Fuente: https://www.iss-shipping.com/advisories/belgium-national-union-action-may-affect-port-and-customs-operations/",
-      "impacto": "Posibles demoras en despachos aduanales, liberaciones, servicios portuarios y conexiones terrestres en operaciones relacionadas con Bélgica.",
-      "accion": "Reconfirmar con el agente local y la terminal qué servicios están disponibles hoy; anticipar documentación y ajustar ETA, citas y promesas de entrega solo con evidencia operativa.",
-      "fotoCredito": "Imagen ilustrativa: Bernd Dittrich / Unsplash (Puerto de Róterdam, Países Bajos)",
-      "fotoUrl": "https://unsplash.com/photos/an-overhead-view-of-cargo-containers-and-a-crane-06axNInHp-I"
+      "region": "BRASIL · RIO GRANDE DO NORTE",
+      "modo": "ALTA REGIONAL · HUELGA 23 NOV.",
+      "imagen": "https://images.unsplash.com/photo-1501706362039-c6e80948a366?auto=format&fit=crop&w=1200&q=85",
+      "bandera": "https://flagcdn.com/w40/br.png",
+      "titular": "Comienza huelga indefinida de transportistas de carga en Rio Grande do Norte",
+      "dato": "Medios locales reportan que los trabajadores del transporte de cargas de Rio Grande do Norte iniciaron una huelga el lunes 23 nov. vinculada a cambios en su plan de salud. La adhesión y los efectos sobre rutas son locales y variables. Fuentes: https://98fmnatal.com.br/ultimas/greve-caminhoneiros-rn-plano-de-saude-hapvida-unimed-sintrocern/418638/ · https://tribunadonorte.com.br/rio-grande-do-norte/caminhoneiros-do-rn-iniciam-greve-por-tempo-indeterminado-nesta-segunda-feira/",
+      "impacto": "Riesgo de falta de unidades, retrasos en recogida/entrega y mayor variabilidad en conexiones terrestres dentro del estado; no implica una huelga nacional de Brasil.",
+      "accion": "Confirmar adhesión de cada transportista y rutas afectadas, evaluar capacidad alternativa y notificar con anticipación cambios de ETA.",
+      "fotoCredito": "Imagen ilustrativa: Unsplash",
+      "fotoUrl": "https://unsplash.com/photos"
     }
   ],
   "vigilancia": [
     {
-      "titulo": "México | Corredores Bajío y accesos",
-      "bandera": "https://flagcdn.com/w40/mx.png",
-      "texto": "Los bloqueos agrícolas del 17 nov. son un antecedente; no hay confirmación suficiente para afirmar cierre nacional vigente hoy. Corroborar Federal 45, enlaces al Puerto Interior, accesos de terminales y ruta concreta con transportista/autoridades antes del despacho."
-    },
-    {
-      "titulo": "México | Puerto Nuevo Manzanillo",
-      "bandera": "https://flagcdn.com/w40/mx.png",
-      "texto": "Semarnat otorgó autorización condicionada a una etapa del proyecto Puerto Nuevo Manzanillo en Cuyutlán. Se trata de infraestructura de largo plazo, no de capacidad portuaria adicional disponible hoy."
-    },
-    {
-      "titulo": "EE. UU. | Acuerdo PMA e ILWU Local 26",
-      "bandera": "https://flagcdn.com/w40/us.png",
-      "texto": "Acuerdo preliminar del 21 nov. evita la huelga en LA/Long Beach. La ratificación sindical sigue pendiente; mantener vigilancia sin comunicar cierre portuario. Fuente: https://www.reuters.com/world/us/southern-california-port-employers-watchmen-union-reach-tentative-deal-2026-11-21/"
-    },
-    {
-      "titulo": "EE. UU. | Intermodal y Thanksgiving",
-      "bandera": "https://flagcdn.com/w40/us.png",
-      "texto": "Persisten demoras ferroviarias de salida desde LA/LB por congestión y factores meteorológicos. Thanksgiving es el jueves 26 nov.: reservar con anticipación citas de retiro, tren, transporte terrestre y horarios de almacén."
-    },
-    {
-      "titulo": "Europa | Francia",
-      "bandera": "https://flagcdn.com/w40/fr.png",
-      "texto": "Tras la convocatoria de paro portuario del 17 nov., verificar recuperación, escalas, disponibilidad de atraque y citas por terminal. No inferir huelga activa en toda Francia hoy."
-    },
-    {
-      "titulo": "Europa | Bélgica, 23 nov.",
+      "titulo": "Europa | Bélgica, movilización 23 nov.",
       "bandera": "https://flagcdn.com/w40/be.png",
-      "texto": "Hoy 23 nov. se desarrolla la jornada convocada de acción sindical nacional; hay riesgo de retrasos portuarios y aduanales. Confirmar afectación concreta con el agente local. Fuente: https://www.iss-shipping.com/advisories/belgium-national-union-action-may-affect-port-and-customs-operations/"
+      "texto": "Inchcape Shipping Services advierte posibles afectaciones portuarias y aduanales por acción sindical nacional convocada hoy. La afectación concreta depende de cada autoridad y terminal. https://www.iss-shipping.com/advisories/belgium-national-union-action-may-affect-port-and-customs-operations/"
     },
     {
-      "titulo": "Europa | España, Alemania, Reino Unido",
-      "bandera": "https://flagcdn.com/w40/eu.png",
-      "texto": "Revisar retrasos residuales de movilizaciones españolas y restricciones puntuales por niebla/viento y ventanas de atraque en puertos del norte de Europa. Confirmar afectaciones con operadores."
+      "titulo": "EE. UU. | LA/Long Beach, acuerdo preliminar",
+      "bandera": "https://flagcdn.com/w40/us.png",
+      "texto": "PMA e ILWU Local 26 alcanzaron acuerdo preliminar el 21 nov., evitando el paro inmediato. Ratificación sindical pendiente; no divulgar huelga activa. https://www.pmanet.org/press_releases/"
     },
     {
-      "titulo": "Asia | China: Yantian",
-      "bandera": "https://flagcdn.com/w40/cn.png",
-      "texto": "Reporte operativo semanal 11–17 nov. apunta a restricciones de capacidad para megabuques tras una colisión con grúa. Exigir confirmación vigente de terminal/naviera antes de desviar carga."
-    },
-    {
-      "titulo": "Asia | Busan y Japón",
-      "bandera": "https://flagcdn.com/w40/kr.png",
-      "texto": "El reporte semanal 11–17 nov. señala congestión de transbordos en Busan y ocupación elevada de patios de determinadas terminales japonesas. No extrapolar a todos los puertos; verificar conexión completa."
-    },
-    {
-      "titulo": "India | Akvan después del impacto",
-      "bandera": "https://flagcdn.com/w40/in.png",
-      "texto": "20 nov.: Akvan tocó tierra cerca de Gopalpur, Odisha. Validar daños, accesos, disponibilidad de ferrocarril, terminales y ventanas de navegación con agentes locales; no generalizar cierres. Fuente: https://www.reuters.com/business/environment/indias-eastern-coast-hit-by-third-cyclone-within-month-2026-11-20/"
-    },
-    {
-      "titulo": "Brasil | Santos",
-      "bandera": "https://flagcdn.com/w40/br.png",
-      "texto": "APS informó contingencia de sus sistemas administrativos tras incidente del 6 nov.; verificar documentación y citas. Fuente: https://www.porttechnology.org/news/safety-and-security/port-of-santos-cyber-incident/"
+      "titulo": "EE. UU. | Intermodal de Costa Oeste",
+      "bandera": "https://flagcdn.com/w40/us.png",
+      "texto": "Seguimiento a contenedores pendientes de tren y disponibilidad de drayage en LA/LB. La cifra de 35,700 contenedores no se trata aquí como medición vigente al 23 sin verificación del corte."
     },
     {
       "titulo": "EE. UU. | Thanksgiving 26 nov.",
       "bandera": "https://flagcdn.com/w40/us.png",
-      "texto": "El jueves 26 nov. es Thanksgiving: reconfirmar horarios de terminales, almacenes, agentes y transporte terrestre con cada proveedor; anticipar documentación y entregas."
+      "texto": "Reconfirmar horarios de terminales, almacenes, transportistas y agentes antes del jueves 26 nov.; reservar citas con anticipación."
     },
     {
-      "titulo": "Tarifas | Referencia de mercado 17 nov.",
+      "titulo": "México | Lázaro Cárdenas y CPKC",
+      "bandera": "https://flagcdn.com/w40/mx.png",
+      "texto": "Se reportan demoras de conexión ferroviaria en el resumen operativo proporcionado. Confirmar directamente con CMA CGM, CPKC y terminal el estatus y ETA antes de prometer entrega."
+    },
+    {
+      "titulo": "México | Carreteras y puertos",
+      "bandera": "https://flagcdn.com/w40/mx.png",
+      "texto": "Sin cierre nacional portuario o carretero confirmado para hoy en este corte. Evitar extrapolar bloqueos anteriores; verificar por tramo, terminal y transportista."
+    },
+    {
+      "titulo": "Europa | Francia, España e Italia",
+      "bandera": "https://flagcdn.com/w40/eu.png",
+      "texto": "Huelgas y paros del 17–21 nov. son antecedentes; revisar recuperación de terminales, corredores ferroviarios y citas. No presentarlos como huelgas vigentes hoy sin aviso puntual."
+    },
+    {
+      "titulo": "Asia | Suez y conexiones",
+      "bandera": "https://flagcdn.com/w40/cn.png",
+      "texto": "El retorno parcial de algunas rutas al Canal de Suez no implica normalización general: seguir confirmando desvíos, transbordos, exposición de seguridad y tiempos por servicio."
+    },
+    {
+      "titulo": "Asia | Carga aérea",
+      "bandera": "https://flagcdn.com/w40/cn.png",
+      "texto": "Reporte aportado: tarifa global de referencia US$3.49/kg (+2%) en la semana 9–15 nov.; cifra histórica, no cotización en tiempo real ni garantía por ruta."
+    },
+    {
+      "titulo": "India | Akvan y puertos orientales",
+      "bandera": "https://flagcdn.com/w40/in.png",
+      "texto": "Akvan afectó la costa oriental alrededor del 20 nov. Verificar boletín más reciente del IMD, actividad de Paradip y conexiones de Odisha/Andhra Pradesh; no se confirma cierre nacional."
+    },
+    {
+      "titulo": "Brasil | GRI Asia–Latinoamérica desde 1 dic.",
+      "bandera": "https://flagcdn.com/w40/br.png",
+      "texto": "Hapag-Lloyd y CMA CGM anunciaron un GRI de US$1,000 por contenedor efectivo desde el 1 dic. para rutas elegibles Asia–Latinoamérica, incluido México. Confirmar alcance, fecha de carga, equipo y tarifa final. https://www.cma-cgm.com/news/5705/rate-announcement-from-asia-to-latin-america?cat=prices-surcharges"
+    },
+    {
+      "titulo": "Brasil | Santos",
+      "bandera": "https://flagcdn.com/w40/br.png",
+      "texto": "Mantener seguimiento documental tras incidente administrativo de inicios de noviembre. No se ha acreditado cierre total del puerto en este reporte."
+    },
+    {
+      "titulo": "Tarifas | Drewry 19 nov.",
       "bandera": "",
-      "texto": "Indicadores aportados en el reporte de 19 nov., referidos al 17: Asia–Costa Oeste de EE. UU. US$8,459/FEU (+3%); Asia–Costa Este US$9,848 (+1%); Asia–norte de Europa US$3,407 (sin cambio); Asia–Mediterráneo US$4,295 (-1%). No son cotizaciones all-in ni tarifas Asia–México."
+      "texto": "WCI: US$4,176/FEU (−3% semanal). Shanghai–LA US$7,026 (−5%); Shanghai–NY US$8,194 (−9%); Rotterdam US$3,496 (sin cambio); Génova US$4,436 (+6%). https://www.drewry.co.uk/supply-chain-advisors/world-container-index-weekly-update"
+    },
+    {
+      "titulo": "Capacidad | Cancelaciones anunciadas",
+      "bandera": "",
+      "texto": "Drewry proyecta 42 blank sailings entre las semanas 48–52, 6% de 724 itinerarios previstos en grandes rutas este-oeste. Es una previsión de calendario, no cancelaciones ya ejecutadas. https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/cancelled-sailings-tracker"
     },
     {
       "titulo": "Calendario | Próximos hitos",
       "bandera": "",
-      "texto": "23 nov.: movilización sindical en Bélgica; seguimiento de ratificación en LA/Long Beach y de efectos de Akvan en India; 26 nov.: Thanksgiving en EE. UU. Confirmar horarios por proveedor."
+      "texto": "23 nov.: acción sindical belga y huelga de carga regional en RN, Brasil; 26 nov.: Thanksgiving EE. UU.; 1 dic.: GRI Asia–Latinoamérica; diciembre: verificar disponibilidad de equipos; 10 ene. 2027: fecha comercial EE. UU.–China indicada en reporte, su vigencia requiere confirmación oficial."
     }
   ],
   "metricas": [
     {
-      "indicador": "Asia–Costa Oeste EE. UU.",
-      "valor": "US$8,459",
-      "tendencia": "FEU · +3% semanal · referencia 17 nov."
+      "indicador": "Shanghai–Los Ángeles",
+      "valor": "US$7,026",
+      "tendencia": "por FEU · −5% semanal · Drewry 19 nov."
     },
     {
-      "indicador": "Asia–Costa Este EE. UU.",
-      "valor": "US$9,848",
-      "tendencia": "FEU · +1% semanal · referencia 17 nov."
+      "indicador": "Shanghai–Nueva York",
+      "valor": "US$8,194",
+      "tendencia": "por FEU · −9% semanal · Drewry 19 nov."
     },
     {
-      "indicador": "Asia–norte de Europa",
-      "valor": "US$3,407",
-      "tendencia": "FEU · sin cambio · referencia 17 nov."
+      "indicador": "Shanghai–Róterdam",
+      "valor": "US$3,496",
+      "tendencia": "por FEU · sin cambio · Drewry 19 nov."
     },
     {
-      "indicador": "Asia–Mediterráneo",
-      "valor": "US$4,295",
-      "tendencia": "FEU · -1% semanal · referencia 17 nov."
+      "indicador": "Shanghai–Génova",
+      "valor": "US$4,436",
+      "tendencia": "por FEU · +6% semanal · Drewry 19 nov."
     },
     {
-      "indicador": "LA/LB · huelga evitada",
+      "indicador": "Drewry WCI global",
+      "valor": "US$4,176",
+      "tendencia": "por FEU · −3% semanal · 19 nov."
+    },
+    {
+      "indicador": "Blank sailings proyectados",
+      "valor": "42",
+      "tendencia": "semanas 48–52 · 6% de 724 itinerarios"
+    },
+    {
+      "indicador": "Asia–LatAm · GRI anunciado",
+      "valor": "+US$1,000",
+      "tendencia": "por contenedor elegible · desde 1 dic."
+    },
+    {
+      "indicador": "LA/LB · situación sindical",
       "valor": "Acuerdo",
-      "tendencia": "21 nov.; ratificación pendiente"
-    },
-    {
-      "indicador": "India · ciclón Akvan",
-      "valor": "Impacto 20 nov.",
-      "tendencia": "Odisha · verificar conectividad"
-    },
-    {
-      "indicador": "Bélgica · acción sindical",
-      "valor": "23 nov.",
-      "tendencia": "Afectación por confirmar"
-    },
-    {
-      "indicador": "EE. UU. · Thanksgiving",
-      "valor": "26 nov.",
-      "tendencia": "Confirmar horarios y retiros"
+      "tendencia": "21 nov. · pendiente de ratificación"
     }
   ],
   "recomendaciones": [
-    "Estados Unidos: huelga LA/Long Beach evitada por acuerdo preliminar del 21 nov.; vigilar ratificación y revisar retrasos intermodales, disponibilidad de retiro y accesos.",
-    "India: Akvan ya tocó tierra; consultar avisos posteriores al impacto y confirmar continuidad por terminal, carretera, tren y aerolínea antes de programar o desviar carga.",
-    "Brasil / Santos: preparar alternativas documentales ante contingencia administrativa; la situación no equivale a cierre general del puerto.",
-    "Europa: confirmar con operadores los servicios portuarios y aduanales afectados hoy por la movilización en Bélgica; comprobar por separado congestión y citas en el norte europeo.",
-    "México: confirmar circulación terrestre y accesos a puertos con información operativa local; no reciclar bloqueos o cierres de días anteriores como vigentes.",
-    "Mercado: referencias tarifarias del 17 nov. no equivalen a cotizaciones all-in. Validar equipo, ruta, PSS, días libres, transbordos y disponibilidad.",
-    "Calendario: movilización belga hoy 23 nov. y Thanksgiving en EE. UU. el 26 nov.; reservar transporte, citas y gestionar documentos con anticipación.",
-    "Fuentes (corte 23 nov.): Reuters 21 nov. https://www.reuters.com/world/us/southern-california-port-employers-watchmen-union-reach-tentative-deal-2026-11-21/ · Inchcape/Bélgica https://www.iss-shipping.com/advisories/belgium-national-union-action-may-affect-port-and-customs-operations/ · India, reporte posterior al ciclón https://www.jagranjosh.com/general-knowledge/imd-weather-today-november-21-2026-cyclone-akvans-aftereffects-bring-rain-to-eastern-india-dense-fog-alert-in-north-1820014001-1. Las métricas de flete muestran fecha propia del 17 nov."
+    "Europa: asegurar slots y equipo para salidas de diciembre, verificar vacío disponible en origen y margen para feeder/barcaza. La escasez generalizada de contenedores aún es un riesgo, no un hecho confirmado.",
+    "México: Manzanillo–Colima registró esperas de 5–9 horas en reporte del 4 nov.; confirmar congestión actual, cita, gate y unidad antes de programar el transporte.",
+    "Brasil: huelga regional de transporte de carga en Rio Grande do Norte desde hoy; validar participación real de proveedores, unidades y rutas antes de fijar ETA.",
+    "EE. UU.: la huelga en LA/Long Beach se evitó con acuerdo preliminar el 21 nov., pendiente de ratificación. Mantener revisión de tren/drayage y prepararse para Thanksgiving el 26.",
+    "India: tras Akvan, validar la continuidad de las operaciones en la costa oriental a nivel de puerto y transportista sin extrapolar cierres a todo el país.",
+    "Asia–Latinoamérica: Hapag-Lloyd y CMA CGM anunciaron GRI de US$1,000 desde 1 dic. (incluye México y Brasil según rutas). Revalidar vigencia, equipos y cotización final.",
+    "Mercado: las cuatro tarifas de Drewry corresponden al 19 nov. y son indicadores de referencia Shanghai–destino, no tarifas all-in ni Asia–México.",
+    "Europa: comprobar impactos de la acción sindical del 23 nov. en Bélgica, y recuperar citas tras paros previos en Francia, España e Italia; no reciclar cierres antiguos.",
+    "Fuentes principales: Drewry https://www.drewry.co.uk/supply-chain-advisors/world-container-index-weekly-update · T21 https://t21.com.mx/transportistas-enfrentan-esperas-de-hasta-nueve-horas-por-obras-carreteras-en-manzanillo/ · Kuehne+Nagel https://mykn.kuehne-nagel.com/news/article/port-operational-updates-from-17-11-2026 · PMA https://www.pmanet.org/press_releases/ · Hapag-Lloyd https://www.hapag-lloyd.com/en/services-information/news/2026/11/shipping-from-far-east-to-latin-america--a-gri-is-coming-up.html · CMA CGM https://www.cma-cgm.com/news/5705/rate-announcement-from-asia-to-latin-america?cat=prices-surcharges"
   ]
 };
 const retrasos = [
   {
+    "puerto": "México · Manzanillo",
+    "tiempo": "5–9 h · reporte 4 nov.",
+    "estado": "Congestión histórica por obras Manzanillo–Colima, no espera en vivo; confirmar tránsito hoy."
+  },
+  {
+    "puerto": "México · Lázaro Cárdenas",
+    "tiempo": "Revalidar ferrocarril",
+    "estado": "Demoras de conexión CPKC reportadas por usuario; confirmar servicio y salidas con proveedor."
+  },
+  {
     "puerto": "EE. UU. · LA/Long Beach",
-    "tiempo": "21 nov. · acuerdo",
-    "estado": "Huelga evitada tras acuerdo preliminar PMA/ILWU Local 26; ratificación aún pendiente."
+    "tiempo": "Acuerdo 21 nov.",
+    "estado": "Huelga evitada mediante acuerdo preliminar; vigilar ratificación y conexiones intermodales."
   },
   {
-    "puerto": "India · Andhra Pradesh/Odisha",
-    "tiempo": "20 nov. · impacto",
-    "estado": "Akvan tocó tierra cerca de Gopalpur; comprobar continuidad de terminales, trenes y accesos."
+    "puerto": "Europa · Róterdam",
+    "tiempo": "Congestión",
+    "estado": "Altas ocupaciones de patio y demoras feeder/barcaza reportadas en semana 11–17 nov."
   },
   {
-    "puerto": "Brasil · Santos",
-    "tiempo": "Contingencia",
-    "estado": "Sistemas administrativos afectados; operación logística general no reportada como detenida."
-  },
-  {
-    "puerto": "Europa · Francia",
-    "tiempo": "Recuperación",
-    "estado": "Revalidar citas y atrasos después de la convocatoria portuaria del 17 nov."
+    "puerto": "Europa · Hamburgo/Bremerhaven",
+    "tiempo": "Capacidad ajustada",
+    "estado": "Seguimiento a patio, ventanas de atraque y conexión intermodal; confirmar con operador."
   },
   {
     "puerto": "Europa · Bélgica",
-    "tiempo": "23 nov. · hoy",
-    "estado": "Acción sindical nacional convocada; comprobar posibles retrasos en puerto y aduana."
+    "tiempo": "23 nov. · acción",
+    "estado": "Posibles demoras en puertos y aduanas por movilización nacional, impacto según terminal."
   },
   {
-    "puerto": "China · Yantian",
-    "tiempo": "Revalidar",
-    "estado": "Reporte semanal señala limitaciones para megabuques tras incidente de grúa."
+    "puerto": "Brasil · Rio Grande do Norte",
+    "tiempo": "23 nov. · huelga",
+    "estado": "Paro regional de trabajadores de transporte de carga, confirmar rutas y disponibilidad."
   },
   {
-    "puerto": "Corea · Busan",
-    "tiempo": "Conexiones",
-    "estado": "Cuellos de botella de transbordo en reporte semanal; ETAs por confirmar."
+    "puerto": "India · Odisha / Paradip",
+    "tiempo": "Post-Akvan",
+    "estado": "Confirmar operatividad tras temporal; no se ha validado un cierre general."
   },
   {
-    "puerto": "México · Bajío",
+    "puerto": "Asia · Busan / Yantian",
     "tiempo": "Monitoreo",
-    "estado": "Revalidar tramos antes del despacho; no asumir bloqueos del 17 activos hoy."
+    "estado": "Verificar disponibilidad y conexiones específicas; no extrapolar reportes anteriores a hoy."
   }
 ];
 // Imágenes de portada ilustrativas; no representan necesariamente los incidentes del día.
@@ -492,7 +503,7 @@ export default function Home() {
           </div>
 
           <span className="max-w-xl text-white/60 md:text-right">
-            Corte editorial: 23 de noviembre de 2026. Fuentes: Reuters (21 nov., acuerdo LA/LB), Inchcape Shipping Services (movilización belga 23 nov.) e informes sobre los efectos posteriores de Akvan (21 nov.). Referencias tarifarias fechadas 17 nov.; no son cotizaciones en vivo. Revalidar operación con terminal y naviera.</span>
+            Corte editorial: lunes 23 de noviembre de 2026, 10:11 h centro de México. Fuentes: Drewry (19 nov.), Kuehne+Nagel (17 nov.), T21 (4 nov.), PMA (21 nov.), navieras (GRI 1 dic.) y medios locales Brasil (23 nov.). Los riesgos futuros no son cierres confirmados. Las tarifas no son cotizaciones all-in.</span>
         </div>
       </footer>
     </main>
