@@ -2,7 +2,7 @@ import Image from "next/image";
 
 // DATOS EDITABLES — CORTE 23 NOVIEMBRE 2026
 const brief = {
-  "fecha": "lunes 23 de noviembre de 2026 · corte 10:11 h (centro de México)",
+  "fecha": "lunes 23 de noviembre de 2026",
   "titulo": "Vector Global Logistics | Radar Logístico Global",
   "subtitulo": "Riesgo global medio-alto. Prioridad: congestión de puertos en el norte de Europa y riesgo de disponibilidad limitada de contenedores vacíos hacia diciembre. México registra presión en accesos a Manzanillo; Brasil enfrenta huelga regional de transporte de carga. En LA/Long Beach se evitó el paro inmediato, aunque la ratificación del acuerdo sigue pendiente.",
   "noticias": [
@@ -33,14 +33,14 @@ const brief = {
     {
       "region": "BRASIL · RIO GRANDE DO NORTE",
       "modo": "ALTA REGIONAL · HUELGA 23 NOV.",
-      "imagen": "https://images.unsplash.com/photo-1501706362039-c6e80948a366?auto=format&fit=crop&w=1200&q=85",
+      "imagen": "https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=1200&q=85",
       "bandera": "https://flagcdn.com/w40/br.png",
       "titular": "Comienza huelga indefinida de transportistas de carga en Rio Grande do Norte",
       "dato": "Medios locales reportan que los trabajadores del transporte de cargas de Rio Grande do Norte iniciaron una huelga el lunes 23 nov. vinculada a cambios en su plan de salud. La adhesión y los efectos sobre rutas son locales y variables. Fuentes: https://98fmnatal.com.br/ultimas/greve-caminhoneiros-rn-plano-de-saude-hapvida-unimed-sintrocern/418638/ · https://tribunadonorte.com.br/rio-grande-do-norte/caminhoneiros-do-rn-iniciam-greve-por-tempo-indeterminado-nesta-segunda-feira/",
       "impacto": "Riesgo de falta de unidades, retrasos en recogida/entrega y mayor variabilidad en conexiones terrestres dentro del estado; no implica una huelga nacional de Brasil.",
       "accion": "Confirmar adhesión de cada transportista y rutas afectadas, evaluar capacidad alternativa y notificar con anticipación cambios de ETA.",
-      "fotoCredito": "Imagen ilustrativa: Unsplash",
-      "fotoUrl": "https://unsplash.com/photos"
+      "fotoCredito": "Imagen ilustrativa de transporte terrestre: Unsplash",
+      "fotoUrl": "https://unsplash.com/s/photos/truck-on-highway"
     }
   ],
   "vigilancia": [
@@ -503,7 +503,7 @@ export default function Home() {
           </div>
 
           <span className="max-w-xl text-white/60 md:text-right">
-            Corte editorial: lunes 23 de noviembre de 2026, 10:11 h centro de México. Fuentes: Drewry (19 nov.), Kuehne+Nagel (17 nov.), T21 (4 nov.), PMA (21 nov.), navieras (GRI 1 dic.) y medios locales Brasil (23 nov.). Los riesgos futuros no son cierres confirmados. Las tarifas no son cotizaciones all-in.</span>
+            Corte editorial: lunes 23 de noviembre de 2026. Fuentes: Drewry (19 nov.), Kuehne+Nagel (17 nov.), T21 (4 nov.), PMA (21 nov.), navieras (GRI 1 dic.) y medios locales Brasil (23 nov.). Los riesgos futuros no son cierres confirmados. Las tarifas no son cotizaciones all-in.</span>
         </div>
       </footer>
     </main>
