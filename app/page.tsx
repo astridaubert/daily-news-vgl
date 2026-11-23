@@ -1,44 +1,44 @@
 import Image from "next/image";
 
-// DATOS EDITABLES — CORTE 20 NOVIEMBRE 2026
+// DATOS EDITABLES — CORTE 23 NOVIEMBRE 2026
 const brief = {
-  "fecha": "viernes 20 de noviembre de 2026",
+  "fecha": "lunes 23 de noviembre de 2026",
   "titulo": "Vector Global Logistics | Radar Logístico Global",
-  "subtitulo": "20 de noviembre: LA/Long Beach entra en jornada clave de negociación ante el riesgo de paro desde el 21; el ciclón Akvan tocó tierra en la costa oriental de India. En Europa persisten presiones por congestión y el aviso de movilización en Bélgica para el 23. México requiere validación de rutas caso por caso.",
+  "subtitulo": "23 de noviembre: se evita la huelga en Los Ángeles/Long Beach tras un acuerdo preliminar pendiente de ratificación. Bélgica afronta una movilización sindical nacional con potencial impacto portuario y aduanero. En India, verificar la recuperación de conexiones tras Akvan; planear con anticipación Thanksgiving en Estados Unidos.",
   "noticias": [
     {
       "region": "ESTADOS UNIDOS · LA / LONG BEACH",
-      "modo": "ALTA · POSIBLE HUELGA DESDE 21 NOV.",
+      "modo": "MEJORA · ACUERDO PRELIMINAR 21 NOV.",
       "imagen": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?auto=format&fit=crop&w=1200&q=85",
       "bandera": "https://flagcdn.com/w40/us.png",
-      "titular": "LA/Long Beach: negociación decisiva hoy ante posible huelga el 21",
-      "dato": "Al 20 nov., PMA e ILWU Local 26 tienen prevista una sesión de negociación. La extensión contractual vence a las 00:01 del sábado 21 nov. (hora del Pacífico). PMA advierte que las seis terminales expuestas gestionan cerca del 85% de la carga de Long Beach y 33% de Los Ángeles. La huelga es un riesgo, NO un hecho confirmado. Fuentes: https://www.reuters.com/business/world-at-work/southern-california-port-employers-say-no-movement-watchmen-union-contract-talks-2026-11-18/ · https://www.ttnews.com/articles/strike-risk-los-angeles-ports",
-      "impacto": "Posibles retrasos de recepción, liberaciones, trenes y drayage si se materializa el paro. El ferrocarril ya presenta demoras en enlaces de la costa oeste.",
-      "accion": "Revisar llegada y disponibilidad de contenedores, adelantar retiros viables, reconfirmar ventanas terminal/rail y preparar alternativas por escrito; vigilar demurrage y detention.",
+      "titular": "LA/Long Beach evita huelga: acuerdo preliminar pendiente de ratificación",
+      "dato": "El 21 nov., PMA e ILWU Local 26 alcanzaron un acuerdo contractual preliminar, evitando el paro previsto en los puertos de Los Ángeles y Long Beach. El contrato actual continúa mientras la membresía vota su ratificación; no se han divulgado los términos. Fuente: https://www.reuters.com/world/us/southern-california-port-employers-watchmen-union-reach-tentative-deal-2026-11-21/",
+      "impacto": "Se reduce el riesgo inmediato de interrupción sindical. Persisten posibles demoras intermodales y restricciones de acceso vial; el acuerdo aún requiere ratificación.",
+      "accion": "Retomar planificación habitual de retiros, verificar tiempos reales de ferrocarril y drayage, y monitorear la ratificación del acuerdo sin anunciar una huelga activa.",
       "fotoCredito": "Imagen ilustrativa: Unsplash",
       "fotoUrl": "https://unsplash.com/photos"
     },
     {
-      "region": "INDIA · GOLFO DE BENGALA",
-      "modo": "ALTA · AKVAN TOCÓ TIERRA · 20 NOV.",
+      "region": "INDIA · COSTA ORIENTAL",
+      "modo": "SEGUIMIENTO · EFECTOS DE AKVAN",
       "imagen": "https://images.unsplash.com/photo-1567604154063-4e079ff60be3?auto=format&fit=crop&w=1200&q=85",
       "bandera": "https://flagcdn.com/w40/in.png",
-      "titular": "Akvan toca tierra en Odisha: lluvias y riesgos de conexiones logísticas",
-      "dato": "El ciclón Akvan cruzó la costa cerca de Gopalpur, Odisha, el 20 nov., con vientos de 70–80 km/h y rachas de hasta 90 km/h, según el servicio meteorológico indio. Se reportan lluvias fuertes en Odisha y Andhra Pradesh; los impactos concretos en puerto, ferrocarril y aviación deben confirmarse por operador. No hay base para afirmar cierre general de todos los puertos de India. Fuentes: https://www.reuters.com/business/environment/indias-eastern-coast-hit-by-third-cyclone-within-month-2026-11-20/ · https://mausam.imd.gov.in/backend/assets/cyclone_pdf/Tropical_cylone_advisory_no__30_based_on_0300_UTC_of_20_11_2026.pdf",
+      "titular": "India: evaluación de accesos y conexiones tras el paso de Akvan",
+      "dato": "Akvan tocó tierra en Odisha el 20 nov. Informes meteorológicos del 21 nov. advertían efectos residuales de lluvia y vientos en el este de India. Al corte del 23 nov. no se ha verificado un cierre general de puertos: la continuidad operacional debe evaluarse por terminal y corredor. Fuente: https://www.jagranjosh.com/general-knowledge/imd-weather-today-november-21-2026-cyclone-akvans-aftereffects-bring-rain-to-eastern-india-dense-fog-alert-in-north-1820014001-1",
       "impacto": "Riesgo para accesos terrestres y ferroviarios, operación de terminales costeras, conexión marítima y posibles itinerarios aéreos en el este de India.",
       "accion": "Confirmar boletín IMD más reciente, gate-in, atraque, disponibilidad de tren y espacio aéreo con proveedor antes de posicionar carga; no desviar sin validar que el puerto alterno esté fuera del área expuesta.",
       "fotoCredito": "Imagen ilustrativa de oleaje: Unsplash",
       "fotoUrl": "https://unsplash.com/s/photos/storm-at-sea"
     },
     {
-      "region": "EUROPA · PUERTOS DEL NORTE",
-      "modo": "MEDIA-ALTA · PAROS Y RECUPERACIÓN OPERATIVA",
+      "region": "EUROPA · BÉLGICA",
+      "modo": "ALTA · MOVILIZACIÓN SINDICAL 23 NOV.",
       "imagen": "https://images.unsplash.com/photo-1707635649895-242ea947e888?auto=format&fit=crop&w=1200&q=85",
-      "bandera": "https://flagcdn.com/w40/eu.png",
-      "titular": "Europa: presión en puertos del norte y seguimiento a Bélgica",
-      "dato": "El informe operativo del 17 nov. de Kuehne+Nagel identifica ocupación elevada en terminales de Hamburgo, Bremerhaven y Róterdam, y congestión en London Gateway. Francia tuvo paro portuario convocado el 17 nov.; verificar recuperación por terminal. Bélgica mantiene una movilización anunciada para el 23 nov., sujeta a confirmación de impacto local. Fuente: https://mykn.kuehne-nagel.com/news/article/port-operational-updates-from-17-11-2026",
-      "impacto": "Posibles retrasos puntuales en liberaciones, conexiones intermodales y ventanas de atraque; las afectaciones dependerán del puerto, terminal y servicio.",
-      "accion": "Validar con navieras, terminales y agentes aduanales citas, liberaciones, ETAs y conexiones terrestres. Para Bélgica, anticipar documentación previa al 23 de noviembre.",
+      "bandera": "https://flagcdn.com/w40/be.png",
+      "titular": "Bélgica: movilización nacional puede afectar puertos y aduanas",
+      "dato": "Inchcape Shipping Services advirtió sobre una acción sindical nacional convocada en Bélgica para el lunes 23 nov., con posibles retrasos en servicios portuarios y aduanales. La afectación efectiva puede variar por puerto, buque y autoridad; no se debe presentar un cierre nacional completo como confirmado. Fuente: https://www.iss-shipping.com/advisories/belgium-national-union-action-may-affect-port-and-customs-operations/",
+      "impacto": "Posibles demoras en despachos aduanales, liberaciones, servicios portuarios y conexiones terrestres en operaciones relacionadas con Bélgica.",
+      "accion": "Reconfirmar con el agente local y la terminal qué servicios están disponibles hoy; anticipar documentación y ajustar ETA, citas y promesas de entrega solo con evidencia operativa.",
       "fotoCredito": "Imagen ilustrativa: Bernd Dittrich / Unsplash (Puerto de Róterdam, Países Bajos)",
       "fotoUrl": "https://unsplash.com/photos/an-overhead-view-of-cargo-containers-and-a-crane-06axNInHp-I"
     }
@@ -55,9 +55,9 @@ const brief = {
       "texto": "Semarnat otorgó autorización condicionada a una etapa del proyecto Puerto Nuevo Manzanillo en Cuyutlán. Se trata de infraestructura de largo plazo, no de capacidad portuaria adicional disponible hoy."
     },
     {
-      "titulo": "EE. UU. | PMA e ILWU Local 26",
+      "titulo": "EE. UU. | Acuerdo PMA e ILWU Local 26",
       "bandera": "https://flagcdn.com/w40/us.png",
-      "texto": "PMA confirmó el 18 nov. negociaciones estancadas, nueva cita el 20 y riesgo de interrupción desde 00:01 del 21 nov. hora del Pacífico. No anunciar huelga activa antes de confirmarla. Fuente: https://www.pmanet.org/press_releases/statement-from-the-pacific-maritime-association-on-contract-talks-with-ilwu-local-26-at-ports-of-la-and-long-beach/"
+      "texto": "Acuerdo preliminar del 21 nov. evita la huelga en LA/Long Beach. La ratificación sindical sigue pendiente; mantener vigilancia sin comunicar cierre portuario. Fuente: https://www.reuters.com/world/us/southern-california-port-employers-watchmen-union-reach-tentative-deal-2026-11-21/"
     },
     {
       "titulo": "EE. UU. | Intermodal y Thanksgiving",
@@ -72,7 +72,7 @@ const brief = {
     {
       "titulo": "Europa | Bélgica, 23 nov.",
       "bandera": "https://flagcdn.com/w40/be.png",
-      "texto": "Acción sindical nacional anunciada para el 23 nov. con posible afectación aduanera. Verificar aviso específico por puerto y aduana: no se ha confirmado un cierre marítimo nacional."
+      "texto": "Hoy 23 nov. se desarrolla la jornada convocada de acción sindical nacional; hay riesgo de retrasos portuarios y aduanales. Confirmar afectación concreta con el agente local. Fuente: https://www.iss-shipping.com/advisories/belgium-national-union-action-may-affect-port-and-customs-operations/"
     },
     {
       "titulo": "Europa | España, Alemania, Reino Unido",
@@ -100,9 +100,9 @@ const brief = {
       "texto": "APS informó contingencia de sus sistemas administrativos tras incidente del 6 nov.; verificar documentación y citas. Fuente: https://www.porttechnology.org/news/safety-and-security/port-of-santos-cyber-incident/"
     },
     {
-      "titulo": "Brasil | Feriado 20 nov.",
-      "bandera": "https://flagcdn.com/w40/br.png",
-      "texto": "Día Nacional de Zumbi y de la Conciencia Negra: reconfirmar horarios de agentes, bancos, almacenes y terminales; no asumir suspensión uniforme."
+      "titulo": "EE. UU. | Thanksgiving 26 nov.",
+      "bandera": "https://flagcdn.com/w40/us.png",
+      "texto": "El jueves 26 nov. es Thanksgiving: reconfirmar horarios de terminales, almacenes, agentes y transporte terrestre con cada proveedor; anticipar documentación y entregas."
     },
     {
       "titulo": "Tarifas | Referencia de mercado 17 nov.",
@@ -112,7 +112,7 @@ const brief = {
     {
       "titulo": "Calendario | Próximos hitos",
       "bandera": "",
-      "texto": "20 nov.: negociación LA/LB, impacto de Akvan en India y feriado en Brasil; 21 nov. 00:01 PT: posible inicio de paro LA/LB; 23 nov.: movilización anunciada en Bélgica; 26 nov.: Thanksgiving en EE. UU."
+      "texto": "23 nov.: movilización sindical en Bélgica; seguimiento de ratificación en LA/Long Beach y de efectos de Akvan en India; 26 nov.: Thanksgiving en EE. UU. Confirmar horarios por proveedor."
     }
   ],
   "metricas": [
@@ -137,9 +137,9 @@ const brief = {
       "tendencia": "FEU · -1% semanal · referencia 17 nov."
     },
     {
-      "indicador": "LA/LB · riesgo de paro",
-      "valor": "21 nov.",
-      "tendencia": "00:01 PT; sin paro confirmado al corte"
+      "indicador": "LA/LB · huelga evitada",
+      "valor": "Acuerdo",
+      "tendencia": "21 nov.; ratificación pendiente"
     },
     {
       "indicador": "India · ciclón Akvan",
@@ -152,27 +152,27 @@ const brief = {
       "tendencia": "Afectación por confirmar"
     },
     {
-      "indicador": "Brasil · feriado",
-      "valor": "20 nov.",
-      "tendencia": "Validar horarios de proveedores"
+      "indicador": "EE. UU. · Thanksgiving",
+      "valor": "26 nov.",
+      "tendencia": "Confirmar horarios y retiros"
     }
   ],
   "recomendaciones": [
-    "Estados Unidos: gestionar contenedores sensibles antes del vencimiento del contrato de ILWU Local 26; confirmar citas, trenes, drayage y costos de almacenamiento. Riesgo de paro desde 21 nov., no huelga activa al corte.",
+    "Estados Unidos: huelga LA/Long Beach evitada por acuerdo preliminar del 21 nov.; vigilar ratificación y revisar retrasos intermodales, disponibilidad de retiro y accesos.",
     "India: Akvan ya tocó tierra; consultar avisos posteriores al impacto y confirmar continuidad por terminal, carretera, tren y aerolínea antes de programar o desviar carga.",
     "Brasil / Santos: preparar alternativas documentales ante contingencia administrativa; la situación no equivale a cierre general del puerto.",
-    "Europa: confirmar recuperación de Francia y España; revisar liberaciones aduaneras en Bélgica antes del 23 nov. y afectaciones por clima en puertos concretos.",
+    "Europa: confirmar con operadores los servicios portuarios y aduanales afectados hoy por la movilización en Bélgica; comprobar por separado congestión y citas en el norte europeo.",
     "México: confirmar circulación terrestre y accesos a puertos con información operativa local; no reciclar bloqueos o cierres de días anteriores como vigentes.",
     "Mercado: referencias tarifarias del 17 nov. no equivalen a cotizaciones all-in. Validar equipo, ruta, PSS, días libres, transbordos y disponibilidad.",
-    "Calendario: Brasil 20 nov. y Thanksgiving EE. UU. 26 nov.; reservar transporte, citas y gestionar documentos con anticipación.",
-    "Fuentes: PMA https://www.pmanet.org/press_releases/statement-from-the-pacific-maritime-association-on-contract-talks-with-ilwu-local-26-at-ports-of-la-and-long-beach/ · IMD https://mausam.imd.gov.in/backend/assets/cyclone_pdf/32__National_Bulletin_No_32-19Nov2026_1430IST.pdf · Santos https://www.porttechnology.org/news/safety-and-security/port-of-santos-cyber-incident/ · tarifas de referencia y Europa del reporte operativo suministrado (corte 19 nov. 2026)."
+    "Calendario: movilización belga hoy 23 nov. y Thanksgiving en EE. UU. el 26 nov.; reservar transporte, citas y gestionar documentos con anticipación.",
+    "Fuentes (corte 23 nov.): Reuters 21 nov. https://www.reuters.com/world/us/southern-california-port-employers-watchmen-union-reach-tentative-deal-2026-11-21/ · Inchcape/Bélgica https://www.iss-shipping.com/advisories/belgium-national-union-action-may-affect-port-and-customs-operations/ · India, reporte posterior al ciclón https://www.jagranjosh.com/general-knowledge/imd-weather-today-november-21-2026-cyclone-akvans-aftereffects-bring-rain-to-eastern-india-dense-fog-alert-in-north-1820014001-1. Las métricas de flete muestran fecha propia del 17 nov."
   ]
 };
 const retrasos = [
   {
     "puerto": "EE. UU. · LA/Long Beach",
-    "tiempo": "21 nov. · riesgo",
-    "estado": "PMA e ILWU Local 26: posible huelga desde 00:01 PT del sábado; NO cierre confirmado."
+    "tiempo": "21 nov. · acuerdo",
+    "estado": "Huelga evitada tras acuerdo preliminar PMA/ILWU Local 26; ratificación aún pendiente."
   },
   {
     "puerto": "India · Andhra Pradesh/Odisha",
@@ -191,8 +191,8 @@ const retrasos = [
   },
   {
     "puerto": "Europa · Bélgica",
-    "tiempo": "23 nov. · aviso",
-    "estado": "Movilización sindical anunciada; confirmar posibles impactos aduaneros."
+    "tiempo": "23 nov. · hoy",
+    "estado": "Acción sindical nacional convocada; comprobar posibles retrasos en puerto y aduana."
   },
   {
     "puerto": "China · Yantian",
@@ -381,7 +381,7 @@ export default function Home() {
       </section>
 
       {/* TABLA DE RETRASOS PORTUARIOS */}
-      <section className="bg-white"><div className="mx-auto max-w-7xl px-6 py-14 md:px-10"><p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">OPERACIÓN LOGÍSTICA · CORTE 20 DE NOVIEMBRE</p><h2 className="mt-3 text-3xl font-bold text-[#003C6F]">Estado de puertos y conexiones</h2><p className="mt-3 max-w-4xl text-sm leading-6 text-gray-600">No se dispone de tiempos en vivo comparables en todos los puertos. Las cifras indicativas y restricciones deben validarse con terminal y naviera antes de comprometer ETA.</p><div className="mt-7 overflow-x-auto rounded-2xl border border-gray-200"><table className="w-full min-w-[760px] text-left text-sm"><thead className="bg-[#003C6F] text-white"><tr><th className="p-4">País / puerto</th><th className="p-4">Fecha o dato</th><th className="p-4">Estado e interpretación</th></tr></thead><tbody>{retrasos.map((r,i)=><tr key={r.puerto} className={i%2===0?"bg-[#F3F5F7]":"bg-white"}><td className="p-4 font-bold text-[#003C6F]">{r.puerto}</td><td className="p-4 font-semibold">{r.tiempo}</td><td className="p-4 text-gray-600">{r.estado}</td></tr>)}</tbody></table></div></div></section>
+      <section className="bg-white"><div className="mx-auto max-w-7xl px-6 py-14 md:px-10"><p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">OPERACIÓN LOGÍSTICA · CORTE 23 DE NOVIEMBRE</p><h2 className="mt-3 text-3xl font-bold text-[#003C6F]">Estado de puertos y conexiones</h2><p className="mt-3 max-w-4xl text-sm leading-6 text-gray-600">No se dispone de tiempos en vivo comparables en todos los puertos. Las cifras indicativas y restricciones deben validarse con terminal y naviera antes de comprometer ETA.</p><div className="mt-7 overflow-x-auto rounded-2xl border border-gray-200"><table className="w-full min-w-[760px] text-left text-sm"><thead className="bg-[#003C6F] text-white"><tr><th className="p-4">País / puerto</th><th className="p-4">Fecha o dato</th><th className="p-4">Estado e interpretación</th></tr></thead><tbody>{retrasos.map((r,i)=><tr key={r.puerto} className={i%2===0?"bg-[#F3F5F7]":"bg-white"}><td className="p-4 font-bold text-[#003C6F]">{r.puerto}</td><td className="p-4 font-semibold">{r.tiempo}</td><td className="p-4 text-gray-600">{r.estado}</td></tr>)}</tbody></table></div></div></section>
 
       {/* MÉTRICAS CLAVE */}
       <section className="bg-[#F3F5F7]">
@@ -492,7 +492,7 @@ export default function Home() {
           </div>
 
           <span className="max-w-xl text-white/60 md:text-right">
-            Corte editorial: 20 de noviembre de 2026. Fuentes: Reuters (20 nov., India; 18 nov., LA/LB), PMA, Transport Topics (18 nov.) y Kuehne+Nagel (reporte 11–17 nov.). Las referencias tarifarias mantienen fecha propia del 17 nov.; no son cotizaciones en vivo. Validar situación y horarios por terminal y naviera.</span>
+            Corte editorial: 23 de noviembre de 2026. Fuentes: Reuters (21 nov., acuerdo LA/LB), Inchcape Shipping Services (movilización belga 23 nov.) e informes sobre los efectos posteriores de Akvan (21 nov.). Referencias tarifarias fechadas 17 nov.; no son cotizaciones en vivo. Revalidar operación con terminal y naviera.</span>
         </div>
       </footer>
     </main>
