@@ -9,14 +9,14 @@ const brief = {
     {
       "region": "EE. UU. · TRANSPORTE MARÍTIMO Y FRONTERA",
       "modo": "ALTA · CIERRES PROGRAMADOS",
-      "imagen": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/A_U_S_Customs_and_Border_Protection_oPicer_guides_a_truck_into_place_in-preparation_for_x-ray_scanning_at_the_Bridges_of_the_Americas_Point_of_Entry_in-El_Paso%2C_TX%2C_September_30%2C_2026_%2855591496001%29.jpg/1280px-thumbnail.jpg",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/b/ba/New_York_container_terminal_%28Staten_Island%29_north_gate.jpg",
       "bandera": "https://flagcdn.com/w40/us.png",
       "titular": "Thanksgiving: cierres de terminales el 26 y ajustes el 27",
       "dato": "El aviso de OOCL del 24 nov. confirma cierres de accesos en diversas terminales estadounidenses durante Thanksgiving, con cierres adicionales el viernes en algunas instalaciones. CBP confirma operación comercial en El Paso el jueves 26. Fuentes: https://www.oocl.com/usa/eng/localinformation/localnews/2026/Pages/2026NOV24.aspx · https://content.govdelivery.com/accounts/USDHSCBP/bulletins/433dfcc",
       "impacto": "Menos ventanas disponibles para retiro y entrega; posibles costos de almacenaje y cambios de itinerario.",
       "accion": "Revalidar horarios, citas y días libres con cada terminal y cruce antes del despacho.",
-      "fotoCredito": "Archivo: William Berksteiner / CBP · dominio público",
-      "fotoUrl": "https://commons.wikimedia.org/wiki/File:A_U_S_Customs_and_Border_Protection_oPicer_guides_a_truck_into_place_in-preparation_for_x-ray_scanning_at_the_Bridges_of_the_Americas_Point_of_Entry_in-El_Paso%2C_TX%2C_September_30%2C_2026_(55591496001).jpg"
+      "fotoCredito": "Imagen de archivo: Jim.henderson / Wikimedia Commons · CC0",
+      "fotoUrl": "https://commons.wikimedia.org/wiki/File:New_York_container_terminal_(Staten_Island)_north_gate.jpg"
     },
     {
       "region": "MÉXICO · AUTOTRANSPORTE",
