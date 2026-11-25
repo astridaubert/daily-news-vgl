@@ -1,42 +1,42 @@
 import Image from "next/image";
 
-// DATOS EDITABLES — CORTE 24 NOVIEMBRE 2026
+// DATOS EDITABLES — CORTE 25 NOVIEMBRE 2026
 const brief = {
-  "fecha": "martes 24 de noviembre de 2026",
+  "fecha": "miércoles 25 de noviembre de 2026",
   "titulo": "Vector Global Logistics | Radar Logístico Global",
-  "subtitulo": "Riesgo global medio-alto. Prioridades: amenaza de nuevas movilizaciones de transportistas en México, segundo día de huelga regional en Brasil y ajustes operativos por Thanksgiving en EE. UU. Europa mantiene presión portuaria e intermodal; Bélgica registra afectaciones localizadas.",
+  "subtitulo": "Riesgo global medio-alto (evaluación editorial). Prioridades: cierres programados de terminales por Thanksgiving en EE. UU., presión portuaria en Manzanillo y Europa, y suspensión temporal de la huelga regional en Brasil.",
   "noticias": [
     {
-      "region": "MÉXICO · AUTOTRANSPORTE",
-      "modo": "MEDIA-ALTA · RIESGO DE MOVILIZACIÓN",
+      "region": "EE. UU. · TRANSPORTE MARÍTIMO Y FRONTERA",
+      "modo": "ALTA · CIERRES PROGRAMADOS",
       "imagen": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?auto=format&fit=crop&w=1200&q=85",
-      "bandera": "https://flagcdn.com/w40/mx.png",
-      "titular": "Transportistas mantienen advertencia de nuevo paro nacional",
-      "dato": "El 24 nov. se reportó que organizaciones de carga mantienen la posibilidad de un paro por inseguridad carretera. Las mesas de negociación continúan; no se ha verificado una fecha de paro ni un cierre nacional activo. Fuentes: https://t21.com.mx/transportistas-negocian-en-dos-frentes-problematicas-que-motivaron-el-paro-nacional-continuan/ · https://cadenapolitica.com/2026/11/24/transportistas-amenazan-con-paro-nacional-por-inseguridad-en-carreteras/",
-      "impacto": "Posible variabilidad de entregas terrestres y disponibilidad de unidades si se materializan las protestas.",
-      "accion": "Confirmar condiciones operativas con transportistas y fuentes oficiales antes de despachar; prever margen para entregas críticas.",
+      "bandera": "https://flagcdn.com/w40/us.png",
+      "titular": "Thanksgiving: cierres de terminales el 26 y ajustes el 27",
+      "dato": "El aviso de OOCL del 24 nov. confirma cierres de accesos en diversas terminales estadounidenses durante Thanksgiving, con cierres adicionales el viernes en algunas instalaciones. CBP confirma operación comercial en El Paso el jueves 26. Fuentes: https://www.oocl.com/usa/eng/localinformation/localnews/2026/Pages/2026NOV24.aspx · https://content.govdelivery.com/accounts/USDHSCBP/bulletins/433dfcc",
+      "impacto": "Menos ventanas disponibles para retiro y entrega; posibles costos de almacenaje y cambios de itinerario.",
+      "accion": "Revalidar horarios, citas y días libres con cada terminal y cruce antes del despacho.",
       "fotoCredito": "Imagen ilustrativa: Unsplash",
       "fotoUrl": "https://unsplash.com/photos"
     },
     {
-      "region": "BRASIL · RIO GRANDE DO NORTE",
-      "modo": "ALTA REGIONAL · SEGUNDO DÍA",
-      "imagen": "https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=1200&q=85",
-      "bandera": "https://flagcdn.com/w40/br.png",
-      "titular": "Huelga de carga en Rio Grande do Norte continúa sin acuerdo",
-      "dato": "El 24 nov. la huelga entró en su segundo día tras negociaciones sin acuerdo. El sindicato reporta afectación a por lo menos 30 empresas, incluyendo distribución de mercancías. Es una movilización regional, no nacional. Fuente: https://novonoticias.com.br/sem-avanco-nas-negociacoes-caminhoneiros-no-rn-mantem-greve-por-tempo-indeterminado/",
-      "impacto": "Riesgo de falta de unidades, retrasos en recogida/entrega y mayor variabilidad en conexiones terrestres dentro del estado; no implica una huelga nacional de Brasil.",
-      "accion": "Confirmar adhesión de cada transportista y rutas afectadas, evaluar capacidad alternativa y notificar con anticipación cambios de ETA.",
-      "fotoCredito": "Imagen ilustrativa de transporte terrestre: Unsplash",
-      "fotoUrl": "https://unsplash.com/s/photos/truck-on-highway"
+      "region": "MÉXICO · AUTOTRANSPORTE",
+      "modo": "MEDIA-ALTA · PUERTOS Y CARRETERAS",
+      "imagen": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?auto=format&fit=crop&w=1200&q=85",
+      "bandera": "https://flagcdn.com/w40/mx.png",
+      "titular": "Manzanillo: presión operativa y vigilancia del autotransporte",
+      "dato": "El informe portuario del 24 nov. registra espera media de buques de 1.89 días en Manzanillo. El 24 nov. también se reportó la posibilidad de nuevas movilizaciones de transportistas; no se confirma un paro nacional activo. Fuentes: https://mykn.kuehne-nagel.com/news/article/port-operational-updates-from-24-11-2026 · https://cadenapolitica.com/2026/11/24/transportistas-amenazan-con-paro-nacional-por-inseguridad-en-carreteras/",
+      "impacto": "Posibles demoras de atraque y entrega terrestre.",
+      "accion": "Confirmar disponibilidad de unidades, citas y ETA con operadores.",
+      "fotoCredito": "Imagen ilustrativa: Unsplash",
+      "fotoUrl": "https://unsplash.com/photos"
     },
     {
       "region": "EUROPA · NORTE DE EUROPA",
       "modo": "ALTA · CONGESTIÓN Y EQUIPOS",
       "imagen": "https://images.unsplash.com/photo-1707635649895-242ea947e888?auto=format&fit=crop&w=1200&q=85",
       "bandera": "https://flagcdn.com/w40/eu.png",
-      "titular": "Europa: congestión y afectaciones intermodales en Bélgica",
-      "dato": "La movilización belga del 23 nov. afectó los puertos interiores de Lieja y Namur; Amberes-Brujas informó que su operación no fue interrumpida. También se anunciaron acciones ferroviarias del 24 al 26 nov.; confirmar el alcance por servicio. Persiste la presión de congestión en el norte de Europa. Fuentes: https://www.bairdmaritime.com/amp/story/shipping/inland-shipping/belgian-general-strike-port-traffic · https://kbl.kukla-spedition.com/news/information-update-2026 · https://www.chrobinson.com/en-gb/resources/insights-and-advisories/north-america-freight-insights/nov-2026-freight-market-update/ocean/",
+      "titular": "Norte de Europa: presión de patios y conexiones interiores",
+      "dato": "Informe del 24 nov.: Róterdam registra demoras de barcazas y feeders de 12–36 horas; Hamburgo mantiene elevada ocupación en algunas terminales. En Bélgica no se reportó una interrupción portuaria importante tras las acciones del 23 nov. Fuente: https://mykn.kuehne-nagel.com/news/article/port-operational-updates-from-24-11-2026",
       "impacto": "Posibles retrasos de atraque y conexiones intermodales, menor confiabilidad de itinerarios y presión para conseguir equipo en reservas de diciembre.",
       "accion": "Reservar con mayor anticipación, confirmar equipos vacíos y cut-offs con naviera, validar rutas alternas y mantener margen en ETAs para operaciones críticas.",
       "fotoCredito": "Imagen ilustrativa: Bernd Dittrich / Unsplash",
@@ -45,9 +45,19 @@ const brief = {
   ],
   "vigilancia": [
     {
+      "titulo": "Brasil | Rio Grande do Norte",
+      "bandera": "https://flagcdn.com/w40/br.png",
+      "texto": "El 25 nov. el sindicato suspendió temporalmente el paro iniciado el 23, hasta la audiencia de conciliación del 26 nov. Confirmar recuperación de servicios; el conflicto no está resuelto. https://tribunadonorte.com.br/rio-grande-do-norte/greve-dos-caminhoneiros-no-rn-e-suspensa-ate-audiencia-desta-quinta-26/"
+    },
+    {
+      "titulo": "Colombia | Recuperación tras protestas",
+      "bandera": "https://flagcdn.com/w40/co.png",
+      "texto": "Movilizaciones del 17 al 22 nov.; verificar entregas pendientes. No se confirmó participación de trabajadores portuarios. https://mykn.kuehne-nagel.com/news/article/port-operational-updates-from-24-11-2026"
+    },
+    {
       "titulo": "Europa | Bélgica, conexiones interiores",
       "bandera": "https://flagcdn.com/w40/be.png",
-      "texto": "El paro del 23 nov. afectó Lieja y Namur, sin interrupción reportada en Amberes-Brujas. Aviso de acciones ferroviarias 24–26 nov.; validar servicio. https://www.bairdmaritime.com/amp/story/shipping/inland-shipping/belgian-general-strike-port-traffic"
+      "texto": "Sin interrupción portuaria importante reportada en el informe del 24 nov.; verificar conexiones interiores y aduanas. https://mykn.kuehne-nagel.com/news/article/port-operational-updates-from-24-11-2026"
     },
     {
       "titulo": "EE. UU. | LA/Long Beach, acuerdo preliminar",
@@ -57,12 +67,12 @@ const brief = {
     {
       "titulo": "EE. UU. | Intermodal de Costa Oeste",
       "bandera": "https://flagcdn.com/w40/us.png",
-      "texto": "Seguimiento a contenedores pendientes de tren y disponibilidad de drayage en LA/LB. La cifra de 35,700 contenedores no se trata aquí como medición vigente al 23 sin verificación del corte."
+      "texto": "Reporte del 24 nov.: permanencia ferroviaria media de 10 días en Los Ángeles y 11 en Long Beach. https://mykn.kuehne-nagel.com/news/article/port-operational-updates-from-24-11-2026"
     },
     {
       "titulo": "EE. UU. | Thanksgiving 26 nov.",
       "bandera": "https://flagcdn.com/w40/us.png",
-      "texto": "El jueves 26 nov. habrá horarios especiales en terminales estadounidenses. Consultar por turno y terminal el calendario actualizado el 23 nov. https://www.oocl.com/usa/eng/localinformation/localnews/2026/Pages/2026Jan05.aspx?site=usa"
+      "texto": "Cierres de accesos marítimos el 26 y algunos el 27; El Paso mantiene operación comercial el 26. https://www.oocl.com/usa/eng/localinformation/localnews/2026/Pages/2026NOV24.aspx · https://content.govdelivery.com/accounts/USDHSCBP/bulletins/433dfcc"
     },
     {
       "titulo": "México | Lázaro Cárdenas y CPKC",
@@ -92,7 +102,7 @@ const brief = {
     {
       "titulo": "India | Akvan y puertos orientales",
       "bandera": "https://flagcdn.com/w40/in.png",
-      "texto": "Verificar normalización de servicios tras el temporal de la semana anterior; no hay confirmación independiente de cierre vigente."
+      "texto": "Sin confirmación independiente de cierre vigente en la costa oriental; Nhava Sheva registra presión por exportaciones según reporte del 24 nov. https://mykn.kuehne-nagel.com/news/article/port-operational-updates-from-24-11-2026"
     },
     {
       "titulo": "Brasil | GRI Asia–Latinoamérica desde 1 dic.",
@@ -102,7 +112,7 @@ const brief = {
     {
       "titulo": "Brasil | Santos",
       "bandera": "https://flagcdn.com/w40/br.png",
-      "texto": "Confirmar disponibilidad y ventanas con terminal; no se ha verificado cierre general vigente."
+      "texto": "Operación de terminales estable según informe del 24 nov.; espera media de buques de 1.11 días. https://mykn.kuehne-nagel.com/news/article/port-operational-updates-from-24-11-2026"
     },
     {
       "titulo": "Tarifas | Drewry 19 nov.",
@@ -185,20 +195,20 @@ const brief = {
   "recomendaciones": [
     "Europa: asegurar espacios y equipo para diciembre y verificar conexiones interiores belgas por servicio.",
     "México: monitorear negociaciones del autotransporte y confirmar condiciones de tránsito antes de despachar; no asumir que hay un paro nacional activo.",
-    "Brasil: segundo día de huelga regional en Rio Grande do Norte; confirmar capacidad y compromisos de entrega con proveedores.",
+    "Brasil: paro regional suspendido temporalmente hasta la audiencia del 26; confirmar capacidad y entregas pendientes.",
     "EE. UU.: la huelga en LA/Long Beach se evitó con acuerdo preliminar el 21 nov., pendiente de ratificación. Mantener revisión de tren/drayage y prepararse para Thanksgiving el 26.",
     "India: tras Akvan, validar la continuidad de las operaciones en la costa oriental a nivel de puerto y transportista sin extrapolar cierres a todo el país.",
     "Asia–Latinoamérica: Hapag-Lloyd y CMA CGM anunciaron GRI de US$1,000 desde 1 dic. (incluye México y Brasil según rutas). Revalidar vigencia, equipos y cotización final.",
     "Mercado: las cuatro tarifas de Drewry corresponden al 19 nov. y son indicadores de referencia Shanghai–destino, no tarifas all-in ni Asia–México.",
     "Bélgica: verificar recuperación de conexiones interiores y posibles afectaciones ferroviarias del 24 al 26 nov.",
-    "Fuentes adicionales: https://novonoticias.com.br/sem-avanco-nas-negociacoes-caminhoneiros-no-rn-mantem-greve-por-tempo-indeterminado/ · https://www.forwardernews.com/brief/2026-11-23 · https://www.oocl.com/usa/eng/localinformation/localnews/2026/Pages/2026Jan05.aspx?site=usa"
+    "Fuentes recientes: https://mykn.kuehne-nagel.com/news/article/port-operational-updates-from-24-11-2026 · https://www.oocl.com/usa/eng/localinformation/localnews/2026/Pages/2026NOV24.aspx · https://tribunadonorte.com.br/rio-grande-do-norte/greve-dos-caminhoneiros-no-rn-e-suspensa-ate-audiencia-desta-quinta-26/"
   ]
 };
 const retrasos = [
   {
     "puerto": "México · Manzanillo",
-    "tiempo": "5–9 h · reporte 4 nov.",
-    "estado": "Congestión histórica por obras Manzanillo–Colima, no espera en vivo; confirmar tránsito hoy."
+    "tiempo": "1.89 días · 24 nov.",
+    "estado": "Espera media de buques de siete días; no medición en vivo."
   },
   {
     "puerto": "México · Lázaro Cárdenas",
@@ -207,13 +217,13 @@ const retrasos = [
   },
   {
     "puerto": "EE. UU. · LA/Long Beach",
-    "tiempo": "Acuerdo 21 nov.",
-    "estado": "Huelga evitada mediante acuerdo preliminar; vigilar ratificación y conexiones intermodales."
+    "tiempo": "10 / 11 días · 24 nov.",
+    "estado": "Permanencia ferroviaria media; verificar citas por Thanksgiving."
   },
   {
     "puerto": "Europa · Róterdam",
-    "tiempo": "Congestión",
-    "estado": "Altas ocupaciones de patio y demoras feeder/barcaza reportadas en semana 11–17 nov."
+    "tiempo": "1.27 días · 24 nov.",
+    "estado": "Espera media de buques; retrasos en conexiones interiores."
   },
   {
     "puerto": "Europa · Hamburgo/Bremerhaven",
@@ -227,8 +237,8 @@ const retrasos = [
   },
   {
     "puerto": "Brasil · Rio Grande do Norte",
-    "tiempo": "24 nov. · día 2",
-    "estado": "Huelga regional continúa sin acuerdo; confirmar disponibilidad."
+    "tiempo": "25 nov. · suspensión",
+    "estado": "Paro suspendido temporalmente hasta audiencia del 26."
   },
   {
     "puerto": "India · Odisha / Paradip",
@@ -239,6 +249,11 @@ const retrasos = [
     "puerto": "Asia · Busan / Yantian",
     "tiempo": "Monitoreo",
     "estado": "Verificar disponibilidad y conexiones específicas; no extrapolar reportes anteriores a hoy."
+  },
+  {
+    "puerto": "India · Nhava Sheva",
+    "tiempo": "3.14 días · 24 nov.",
+    "estado": "Espera media de buques; presión por exportación."
   }
 ];
 // Imágenes de portada ilustrativas; no representan necesariamente los incidentes del día.
@@ -412,7 +427,7 @@ export default function Home() {
       </section>
 
       {/* TABLA DE RETRASOS PORTUARIOS */}
-      <section className="bg-white"><div className="mx-auto max-w-7xl px-6 py-14 md:px-10"><p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">OPERACIÓN LOGÍSTICA · CORTE 24 DE NOVIEMBRE</p><h2 className="mt-3 text-3xl font-bold text-[#003C6F]">Estado de puertos y conexiones</h2><p className="mt-3 max-w-4xl text-sm leading-6 text-gray-600">No se dispone de tiempos en vivo comparables en todos los puertos. Las cifras indicativas y restricciones deben validarse con terminal y naviera antes de comprometer ETA.</p><div className="mt-7 overflow-x-auto rounded-2xl border border-gray-200"><table className="w-full min-w-[760px] text-left text-sm"><thead className="bg-[#003C6F] text-white"><tr><th className="p-4">País / puerto</th><th className="p-4">Fecha o dato</th><th className="p-4">Estado e interpretación</th></tr></thead><tbody>{retrasos.map((r,i)=><tr key={r.puerto} className={i%2===0?"bg-[#F3F5F7]":"bg-white"}><td className="p-4 font-bold text-[#003C6F]">{r.puerto}</td><td className="p-4 font-semibold">{r.tiempo}</td><td className="p-4 text-gray-600">{r.estado}</td></tr>)}</tbody></table></div></div></section>
+      <section className="bg-white"><div className="mx-auto max-w-7xl px-6 py-14 md:px-10"><p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">OPERACIÓN LOGÍSTICA · CORTE 25 DE NOVIEMBRE</p><h2 className="mt-3 text-3xl font-bold text-[#003C6F]">Estado de puertos y conexiones</h2><p className="mt-3 max-w-4xl text-sm leading-6 text-gray-600">No se dispone de tiempos en vivo comparables en todos los puertos. Las cifras indicativas y restricciones deben validarse con terminal y naviera antes de comprometer ETA.</p><div className="mt-7 overflow-x-auto rounded-2xl border border-gray-200"><table className="w-full min-w-[760px] text-left text-sm"><thead className="bg-[#003C6F] text-white"><tr><th className="p-4">País / puerto</th><th className="p-4">Fecha o dato</th><th className="p-4">Estado e interpretación</th></tr></thead><tbody>{retrasos.map((r,i)=><tr key={r.puerto} className={i%2===0?"bg-[#F3F5F7]":"bg-white"}><td className="p-4 font-bold text-[#003C6F]">{r.puerto}</td><td className="p-4 font-semibold">{r.tiempo}</td><td className="p-4 text-gray-600">{r.estado}</td></tr>)}</tbody></table></div></div></section>
 
       {/* MÉTRICAS CLAVE */}
       <section className="bg-[#F3F5F7]">
@@ -523,7 +538,7 @@ export default function Home() {
           </div>
 
           <span className="max-w-xl text-white/60 md:text-right">
-            Corte editorial: lunes 23 de noviembre de 2026. Fuentes: Drewry (19 nov.), Kuehne+Nagel (17 nov.), T21 (4 nov.), PMA (21 nov.), navieras (GRI 1 dic.) y medios locales Brasil (23 nov.). Los riesgos futuros no son cierres confirmados. Las tarifas no son cotizaciones all-in.</span>
+            Corte editorial: miércoles 25 de noviembre de 2026. Fuentes: avisos de terminales y CBP, informe portuario del 24 nov., prensa brasileña del 25 nov. y Drewry (19 nov.). Los riesgos futuros no son cierres confirmados. Las tarifas no son cotizaciones all-in.</span>
         </div>
       </footer>
     </main>
