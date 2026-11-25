@@ -9,38 +9,38 @@ const brief = {
     {
       "region": "EE. UU. · TRANSPORTE MARÍTIMO Y FRONTERA",
       "modo": "ALTA · CIERRES PROGRAMADOS",
-      "imagen": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?auto=format&fit=crop&w=1200&q=85",
+      "imagen": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/View_of_Port_of_Los_Angeles_with_container_ships.jpg/1280px-View_of_Port_of_Los_Angeles_with_container_ships.jpg",
       "bandera": "https://flagcdn.com/w40/us.png",
       "titular": "Thanksgiving: cierres de terminales el 26 y ajustes el 27",
       "dato": "El aviso de OOCL del 24 nov. confirma cierres de accesos en diversas terminales estadounidenses durante Thanksgiving, con cierres adicionales el viernes en algunas instalaciones. CBP confirma operación comercial en El Paso el jueves 26. Fuentes: https://www.oocl.com/usa/eng/localinformation/localnews/2026/Pages/2026NOV24.aspx · https://content.govdelivery.com/accounts/USDHSCBP/bulletins/433dfcc",
       "impacto": "Menos ventanas disponibles para retiro y entrega; posibles costos de almacenaje y cambios de itinerario.",
       "accion": "Revalidar horarios, citas y días libres con cada terminal y cruce antes del despacho.",
-      "fotoCredito": "Imagen ilustrativa: Unsplash",
-      "fotoUrl": "https://unsplash.com/photos"
+      "fotoCredito": "Archivo · Downtowngal · CC BY-SA 4.0 · encuadre adaptado",
+      "fotoUrl": "https://commons.wikimedia.org/wiki/File:View_of_Port_of_Los_Angeles_with_container_ships.jpg"
     },
     {
       "region": "MÉXICO · AUTOTRANSPORTE",
       "modo": "MEDIA-ALTA · PUERTOS Y CARRETERAS",
-      "imagen": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?auto=format&fit=crop&w=1200&q=85",
+      "imagen": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Puerto_de_Manzanillo_.jpg/1280px-Puerto_de_Manzanillo_.jpg",
       "bandera": "https://flagcdn.com/w40/mx.png",
       "titular": "Manzanillo: presión operativa y vigilancia del autotransporte",
       "dato": "El informe portuario del 24 nov. registra espera media de buques de 1.89 días en Manzanillo. El 24 nov. también se reportó la posibilidad de nuevas movilizaciones de transportistas; no se confirma un paro nacional activo. Fuentes: https://mykn.kuehne-nagel.com/news/article/port-operational-updates-from-24-11-2026 · https://cadenapolitica.com/2026/11/24/transportistas-amenazan-con-paro-nacional-por-inseguridad-en-carreteras/",
       "impacto": "Posibles demoras de atraque y entrega terrestre.",
       "accion": "Confirmar disponibilidad de unidades, citas y ETA con operadores.",
-      "fotoCredito": "Imagen ilustrativa: Unsplash",
-      "fotoUrl": "https://unsplash.com/photos"
+      "fotoCredito": "Archivo · Puerto de Manzanillo · CC BY-SA 4.0 · encuadre adaptado",
+      "fotoUrl": "https://commons.wikimedia.org/wiki/File:Puerto_de_Manzanillo_.jpg"
     },
     {
       "region": "EUROPA · NORTE DE EUROPA",
       "modo": "ALTA · CONGESTIÓN Y EQUIPOS",
-      "imagen": "https://images.unsplash.com/photo-1707635649895-242ea947e888?auto=format&fit=crop&w=1200&q=85",
+      "imagen": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/APM_Terminal_Maasvlakte_Rotterdam.jpg/1280px-APM_Terminal_Maasvlakte_Rotterdam.jpg",
       "bandera": "https://flagcdn.com/w40/eu.png",
       "titular": "Norte de Europa: presión de patios y conexiones interiores",
       "dato": "Informe del 24 nov.: Róterdam registra demoras de barcazas y feeders de 12–36 horas; Hamburgo mantiene elevada ocupación en algunas terminales. En Bélgica no se reportó una interrupción portuaria importante tras las acciones del 23 nov. Fuente: https://mykn.kuehne-nagel.com/news/article/port-operational-updates-from-24-11-2026",
       "impacto": "Posibles retrasos de atraque y conexiones intermodales, menor confiabilidad de itinerarios y presión para conseguir equipo en reservas de diciembre.",
       "accion": "Reservar con mayor anticipación, confirmar equipos vacíos y cut-offs con naviera, validar rutas alternas y mantener margen en ETAs para operaciones críticas.",
-      "fotoCredito": "Imagen ilustrativa: Bernd Dittrich / Unsplash",
-      "fotoUrl": "https://unsplash.com/photos/an-overhead-view-of-cargo-containers-and-a-crane-06axNInHp-I"
+      "fotoCredito": "Archivo · Spielvogel · CC BY-SA 4.0 · encuadre adaptado",
+      "fotoUrl": "https://commons.wikimedia.org/wiki/File:APM_Terminal_Maasvlakte_Rotterdam.jpg"
     }
   ],
   "vigilancia": [
