@@ -21,26 +21,26 @@ const brief = {
     {
       "region": "MÉXICO · AUTOTRANSPORTE",
       "modo": "MEDIA-ALTA · PUERTOS Y CARRETERAS",
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Tractor-semitrailer-semitrailer.jpg",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/5/50/Freight_truck_as_seen_on_highway.jpg",
       "bandera": "https://flagcdn.com/w40/mx.png",
       "titular": "Manzanillo: presión operativa y vigilancia del autotransporte",
       "dato": "El informe portuario del 24 nov. registra espera media de buques de 1.89 días en Manzanillo. El 24 nov. también se reportó la posibilidad de nuevas movilizaciones de transportistas; no se confirma un paro nacional activo. Fuentes: https://mykn.kuehne-nagel.com/news/article/port-operational-updates-from-24-11-2026 · https://cadenapolitica.com/2026/11/24/transportistas-amenazan-con-paro-nacional-por-inseguridad-en-carreteras/",
       "impacto": "Posibles demoras de atraque y entrega terrestre.",
       "accion": "Confirmar disponibilidad de unidades, citas y ETA con operadores.",
-      "fotoCredito": "Archivo: M.J. Lewandowski · CC BY-SA 3.0 · recorte",
-      "fotoUrl": "https://commons.wikimedia.org/wiki/File:Tractor-semitrailer-semitrailer.jpg"
+      "fotoCredito": "Imagen ilustrativa: Soulful sunshine · CC BY-SA 4.0 · recorte",
+      "fotoUrl": "https://commons.wikimedia.org/wiki/File:Freight_truck_as_seen_on_highway.jpg"
     },
     {
       "region": "EUROPA · NORTE DE EUROPA",
       "modo": "ALTA · CONGESTIÓN Y EQUIPOS",
-      "imagen": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Container_train_Hamelen_2019.jpg/1280px-Container_train_Hamelen_2019.jpg",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/4/45/Shipping_container_stacks_-_Port_of_Rotterdam_-_2017_-_3.jpg",
       "bandera": "https://flagcdn.com/w40/eu.png",
       "titular": "Norte de Europa: presión de patios y conexiones interiores",
       "dato": "Informe del 24 nov.: Róterdam registra demoras de barcazas y feeders de 12–36 horas; Hamburgo mantiene elevada ocupación en algunas terminales. En Bélgica no se reportó una interrupción portuaria importante tras las acciones del 23 nov. Fuente: https://mykn.kuehne-nagel.com/news/article/port-operational-updates-from-24-11-2026",
       "impacto": "Posibles retrasos de atraque y conexiones intermodales, menor confiabilidad de itinerarios y presión para conseguir equipo en reservas de diciembre.",
       "accion": "Reservar con mayor anticipación, confirmar equipos vacíos y cut-offs con naviera, validar rutas alternas y mantener margen en ETAs para operaciones críticas.",
-      "fotoCredito": "Archivo: Steven Lek · CC BY-SA 4.0 · recorte",
-      "fotoUrl": "https://commons.wikimedia.org/wiki/File:Container_train_Hamelen_2019.jpg"
+      "fotoCredito": "Archivo: AgainErick · CC BY-SA 4.0 · recorte",
+      "fotoUrl": "https://commons.wikimedia.org/wiki/File:Shipping_container_stacks_-_Port_of_Rotterdam_-_2017_-_3.jpg"
     }
   ],
   "vigilancia": [
