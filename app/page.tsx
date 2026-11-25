@@ -9,38 +9,38 @@ const brief = {
     {
       "region": "EE. UU. · TRANSPORTE MARÍTIMO Y FRONTERA",
       "modo": "ALTA · CIERRES PROGRAMADOS",
-      "imagen": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/View_of_Port_of_Los_Angeles_with_container_ships.jpg/1280px-View_of_Port_of_Los_Angeles_with_container_ships.jpg",
+      "imagen": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/A_U_S_Customs_and_Border_Protection_oPicer_guides_a_truck_into_place_in-preparation_for_x-ray_scanning_at_the_Bridges_of_the_Americas_Point_of_Entry_in-El_Paso%2C_TX%2C_September_30%2C_2026_%2855591496001%29.jpg/1280px-thumbnail.jpg",
       "bandera": "https://flagcdn.com/w40/us.png",
       "titular": "Thanksgiving: cierres de terminales el 26 y ajustes el 27",
       "dato": "El aviso de OOCL del 24 nov. confirma cierres de accesos en diversas terminales estadounidenses durante Thanksgiving, con cierres adicionales el viernes en algunas instalaciones. CBP confirma operación comercial en El Paso el jueves 26. Fuentes: https://www.oocl.com/usa/eng/localinformation/localnews/2026/Pages/2026NOV24.aspx · https://content.govdelivery.com/accounts/USDHSCBP/bulletins/433dfcc",
       "impacto": "Menos ventanas disponibles para retiro y entrega; posibles costos de almacenaje y cambios de itinerario.",
       "accion": "Revalidar horarios, citas y días libres con cada terminal y cruce antes del despacho.",
-      "fotoCredito": "Archivo · Downtowngal · CC BY-SA 4.0 · encuadre adaptado",
-      "fotoUrl": "https://commons.wikimedia.org/wiki/File:View_of_Port_of_Los_Angeles_with_container_ships.jpg"
+      "fotoCredito": "Archivo: William Berksteiner / CBP · dominio público",
+      "fotoUrl": "https://commons.wikimedia.org/wiki/File:A_U_S_Customs_and_Border_Protection_oPicer_guides_a_truck_into_place_in-preparation_for_x-ray_scanning_at_the_Bridges_of_the_Americas_Point_of_Entry_in-El_Paso%2C_TX%2C_September_30%2C_2026_(55591496001).jpg"
     },
     {
       "region": "MÉXICO · AUTOTRANSPORTE",
       "modo": "MEDIA-ALTA · PUERTOS Y CARRETERAS",
-      "imagen": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Puerto_de_Manzanillo_.jpg/1280px-Puerto_de_Manzanillo_.jpg",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Tractor-semitrailer-semitrailer.jpg",
       "bandera": "https://flagcdn.com/w40/mx.png",
       "titular": "Manzanillo: presión operativa y vigilancia del autotransporte",
       "dato": "El informe portuario del 24 nov. registra espera media de buques de 1.89 días en Manzanillo. El 24 nov. también se reportó la posibilidad de nuevas movilizaciones de transportistas; no se confirma un paro nacional activo. Fuentes: https://mykn.kuehne-nagel.com/news/article/port-operational-updates-from-24-11-2026 · https://cadenapolitica.com/2026/11/24/transportistas-amenazan-con-paro-nacional-por-inseguridad-en-carreteras/",
       "impacto": "Posibles demoras de atraque y entrega terrestre.",
       "accion": "Confirmar disponibilidad de unidades, citas y ETA con operadores.",
-      "fotoCredito": "Archivo · Puerto de Manzanillo · CC BY-SA 4.0 · encuadre adaptado",
-      "fotoUrl": "https://commons.wikimedia.org/wiki/File:Puerto_de_Manzanillo_.jpg"
+      "fotoCredito": "Archivo: M.J. Lewandowski · CC BY-SA 3.0 · recorte",
+      "fotoUrl": "https://commons.wikimedia.org/wiki/File:Tractor-semitrailer-semitrailer.jpg"
     },
     {
       "region": "EUROPA · NORTE DE EUROPA",
       "modo": "ALTA · CONGESTIÓN Y EQUIPOS",
-      "imagen": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/APM_Terminal_Maasvlakte_Rotterdam.jpg/1280px-APM_Terminal_Maasvlakte_Rotterdam.jpg",
+      "imagen": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Container_train_Hamelen_2019.jpg/1280px-Container_train_Hamelen_2019.jpg",
       "bandera": "https://flagcdn.com/w40/eu.png",
       "titular": "Norte de Europa: presión de patios y conexiones interiores",
       "dato": "Informe del 24 nov.: Róterdam registra demoras de barcazas y feeders de 12–36 horas; Hamburgo mantiene elevada ocupación en algunas terminales. En Bélgica no se reportó una interrupción portuaria importante tras las acciones del 23 nov. Fuente: https://mykn.kuehne-nagel.com/news/article/port-operational-updates-from-24-11-2026",
       "impacto": "Posibles retrasos de atraque y conexiones intermodales, menor confiabilidad de itinerarios y presión para conseguir equipo en reservas de diciembre.",
       "accion": "Reservar con mayor anticipación, confirmar equipos vacíos y cut-offs con naviera, validar rutas alternas y mantener margen en ETAs para operaciones críticas.",
-      "fotoCredito": "Archivo · Spielvogel · CC BY-SA 4.0 · encuadre adaptado",
-      "fotoUrl": "https://commons.wikimedia.org/wiki/File:APM_Terminal_Maasvlakte_Rotterdam.jpg"
+      "fotoCredito": "Archivo: Steven Lek · CC BY-SA 4.0 · recorte",
+      "fotoUrl": "https://commons.wikimedia.org/wiki/File:Container_train_Hamelen_2019.jpg"
     }
   ],
   "vigilancia": [
