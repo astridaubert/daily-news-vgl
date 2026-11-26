@@ -1,32 +1,32 @@
 import Image from "next/image";
 
-// DATOS EDITABLES — CORTE 25 NOVIEMBRE 2026
+// DATOS EDITABLES — CORTE 26 NOVIEMBRE 2026
 const brief = {
-  "fecha": "miércoles 25 de noviembre de 2026",
+  "fecha": "jueves 26 de noviembre de 2026",
   "titulo": "Vector Global Logistics | Radar Logístico Global",
-  "subtitulo": "Riesgo global medio-alto (evaluación editorial). Prioridades: cierres programados de terminales por Thanksgiving en EE. UU., presión portuaria en Manzanillo y Europa, y suspensión temporal de la huelga regional en Brasil.",
+  "subtitulo": "Riesgo global medio-alto (evaluación editorial). Prioridades: cierres programados hoy por Thanksgiving en Estados Unidos, afectaciones carreteras en México y congestión portuaria e intermodal en Europa. Drewry reporta una nueva baja del índice global de fletes; Brasil permanece atento a la conciliación del transporte de carga.",
   "noticias": [
     {
       "region": "EE. UU. · TRANSPORTE MARÍTIMO Y FRONTERA",
       "modo": "ALTA · CIERRES PROGRAMADOS",
       "imagen": "https://upload.wikimedia.org/wikipedia/commons/b/ba/New_York_container_terminal_%28Staten_Island%29_north_gate.jpg",
       "bandera": "https://flagcdn.com/w40/us.png",
-      "titular": "Thanksgiving: cierres de terminales el 26 y ajustes el 27",
-      "dato": "El aviso de OOCL del 24 nov. confirma cierres de accesos en diversas terminales estadounidenses durante Thanksgiving, con cierres adicionales el viernes en algunas instalaciones. CBP confirma operación comercial en El Paso el jueves 26. Fuentes: https://www.oocl.com/usa/eng/localinformation/localnews/2026/Pages/2026NOV24.aspx · https://content.govdelivery.com/accounts/USDHSCBP/bulletins/433dfcc",
+      "titular": "Thanksgiving: terminales cerradas hoy y horarios especiales mañana",
+      "dato": "South Carolina Ports y Port Liberty New York confirman cierres de accesos el jueves 26. OOCL publica calendarios por terminal para hoy y mañana 27. No todos los servicios fronterizos o de transporte terrestre están cerrados. Fuentes: https://scspa.com/advisories/thanksgiving-holiday-gate-hours-2/ · https://portlibertynewyork.com/daily-update/ · https://www.oocl.com/usa/eng/localinformation/localnews/2026/Pages/2026NOV24.aspx",
       "impacto": "Menos ventanas disponibles para retiro y entrega; posibles costos de almacenaje y cambios de itinerario.",
-      "accion": "Revalidar horarios, citas y días libres con cada terminal y cruce antes del despacho.",
+      "accion": "Confirmar reapertura, citas y días libres por terminal antes de programar recolecciones; revisar disponibilidad de transporte para el viernes.",
       "fotoCredito": "Imagen de archivo: Jim.henderson / Wikimedia Commons · CC0",
       "fotoUrl": "https://commons.wikimedia.org/wiki/File:New_York_container_terminal_(Staten_Island)_north_gate.jpg"
     },
     {
       "region": "MÉXICO · AUTOTRANSPORTE",
-      "modo": "MEDIA-ALTA · PUERTOS Y CARRETERAS",
+      "modo": "MEDIA-ALTA · TRANSPORTE TERRESTRE",
       "imagen": "https://upload.wikimedia.org/wikipedia/commons/5/50/Freight_truck_as_seen_on_highway.jpg",
       "bandera": "https://flagcdn.com/w40/mx.png",
-      "titular": "Manzanillo: presión operativa y vigilancia del autotransporte",
-      "dato": "El informe portuario del 24 nov. registra espera media de buques de 1.89 días en Manzanillo. El 24 nov. también se reportó la posibilidad de nuevas movilizaciones de transportistas; no se confirma un paro nacional activo. Fuentes: https://mykn.kuehne-nagel.com/news/article/port-operational-updates-from-24-11-2026 · https://cadenapolitica.com/2026/11/24/transportistas-amenazan-con-paro-nacional-por-inseguridad-en-carreteras/",
-      "impacto": "Posibles demoras de atraque y entrega terrestre.",
-      "accion": "Confirmar disponibilidad de unidades, citas y ETA con operadores.",
+      "titular": "México: afectaciones carreteras y vigilancia de protestas",
+      "dato": "Hoy 26 se reportaron cierres parciales por incidentes en México–Cuernavaca, Guadalajara–Tepic, Zacatecas–Saltillo y La Tinaja–Isla. Prensa regional también reporta protestas agrícolas en distintos estados; su alcance debe verificarse con el operador. No equivale a un paro nacional confirmado del autotransporte. Fuentes: https://www.adn40.mx/mexico/2026-11-26/mexico-cuernavaca-paralizada-por-cierre-de-tramo-bloqueos-y-accidentes-ocasionan-trafico-en-carreteras/ · https://esteesmichoacan.com/noticias/36556/bloqueos-se-extienden-en-todo-el-pais-negociaciones-estancadas-y-carreteras-saturadas-Michoacan/",
+      "impacto": "Posible variabilidad de tiempos de tránsito y entregas; las restricciones pueden cambiar durante el día.",
+      "accion": "Consultar avisos vigentes de CAPUFE y Guardia Nacional, validar la ruta con el transportista y comunicar cambios de ETA.",
       "fotoCredito": "Imagen ilustrativa: Soulful sunshine · CC BY-SA 4.0 · recorte",
       "fotoUrl": "https://commons.wikimedia.org/wiki/File:Freight_truck_as_seen_on_highway.jpg"
     },
@@ -35,19 +35,29 @@ const brief = {
       "modo": "ALTA · CONGESTIÓN Y EQUIPOS",
       "imagen": "https://upload.wikimedia.org/wikipedia/commons/4/45/Shipping_container_stacks_-_Port_of_Rotterdam_-_2017_-_3.jpg",
       "bandera": "https://flagcdn.com/w40/eu.png",
-      "titular": "Norte de Europa: presión de patios y conexiones interiores",
-      "dato": "Informe del 24 nov.: Róterdam registra demoras de barcazas y feeders de 12–36 horas; Hamburgo mantiene elevada ocupación en algunas terminales. En Bélgica no se reportó una interrupción portuaria importante tras las acciones del 23 nov. Fuente: https://mykn.kuehne-nagel.com/news/article/port-operational-updates-from-24-11-2026",
+      "titular": "Europa: congestión en patios y red interior de Reino Unido e Irlanda",
+      "dato": "Maersk informó el 24 nov. que los altos volúmenes de importación, retrasos de buques, clima y problemas ferroviarios mantienen presión sobre su red británica e irlandesa. El informe portuario del 24 también registra demoras de conexiones en Róterdam. Fuentes: https://www.maersk.com/news/articles/2026/11/24/uki-logistics-network-operational-update · https://mykn.kuehne-nagel.com/news/article/port-operational-updates-from-24-11-2026",
       "impacto": "Posibles retrasos de atraque y conexiones intermodales, menor confiabilidad de itinerarios y presión para conseguir equipo en reservas de diciembre.",
-      "accion": "Reservar con mayor anticipación, confirmar equipos vacíos y cut-offs con naviera, validar rutas alternas y mantener margen en ETAs para operaciones críticas.",
+      "accion": "Retirar importaciones disponibles cuanto antes, verificar instrucciones de devolución de vacíos y reservar transporte interior con flexibilidad.",
       "fotoCredito": "Archivo: AgainErick · CC BY-SA 4.0 · recorte",
       "fotoUrl": "https://commons.wikimedia.org/wiki/File:Shipping_container_stacks_-_Port_of_Rotterdam_-_2017_-_3.jpg"
     }
   ],
   "vigilancia": [
     {
+      "titulo": "Europa | Reino Unido e Irlanda",
+      "bandera": "https://flagcdn.com/w40/gb.png",
+      "texto": "Maersk mantiene advertencia de acumulación de carga y presión en la red interior. https://www.maersk.com/news/articles/2026/11/24/uki-logistics-network-operational-update"
+    },
+    {
+      "titulo": "Asia–Europa | Recargos de temporada",
+      "bandera": "",
+      "texto": "Drewry informa anuncios de PSS de US$1,000–1,500/FEU desde el 1 dic. en rutas Asia–Europa. Confirmar condiciones por naviera. https://www.drewry.co.uk/supply-chain-advisors/world-container-index-weekly-update"
+    },
+    {
       "titulo": "Brasil | Rio Grande do Norte",
       "bandera": "https://flagcdn.com/w40/br.png",
-      "texto": "El 25 nov. el sindicato suspendió temporalmente el paro iniciado el 23, hasta la audiencia de conciliación del 26 nov. Confirmar recuperación de servicios; el conflicto no está resuelto. https://tribunadonorte.com.br/rio-grande-do-norte/greve-dos-caminhoneiros-no-rn-e-suspensa-ate-audiencia-desta-quinta-26/"
+      "texto": "La huelga regional se mantiene suspendida temporalmente desde el 25; hoy 26 está prevista la audiencia de conciliación. No se ha verificado su resultado. https://ocorreiodehoje.com.br/greve-caminhoneiros-rn-suspensa-audiencia-trt/"
     },
     {
       "titulo": "Colombia | Recuperación tras protestas",
@@ -72,7 +82,7 @@ const brief = {
     {
       "titulo": "EE. UU. | Thanksgiving 26 nov.",
       "bandera": "https://flagcdn.com/w40/us.png",
-      "texto": "Cierres de accesos marítimos el 26 y algunos el 27; El Paso mantiene operación comercial el 26. https://www.oocl.com/usa/eng/localinformation/localnews/2026/Pages/2026NOV24.aspx · https://content.govdelivery.com/accounts/USDHSCBP/bulletins/433dfcc"
+      "texto": "Hoy 26 se confirman cierres programados de accesos; mañana 27 hay reaperturas y horarios diferenciados. https://scspa.com/advisories/thanksgiving-holiday-gate-hours-2/ · https://portlibertynewyork.com/daily-update/"
     },
     {
       "titulo": "México | Lázaro Cárdenas y CPKC",
@@ -82,7 +92,7 @@ const brief = {
     {
       "titulo": "México | Carreteras y puertos",
       "bandera": "https://flagcdn.com/w40/mx.png",
-      "texto": "Amenaza de nuevas protestas por inseguridad; no se verificó cierre nacional activo. Consultar avisos oficiales antes de despachar. https://t21.com.mx/transportistas-negocian-en-dos-frentes-problematicas-que-motivaron-el-paro-nacional-continuan/"
+      "texto": "Incidentes y restricciones parciales reportados hoy; además, seguimiento a protestas agrícolas. Verificar situación vigente antes del despacho. https://www.adn40.mx/mexico/2026-11-26/mexico-cuernavaca-paralizada-por-cierre-de-tramo-bloqueos-y-accidentes-ocasionan-trafico-en-carreteras/ · https://esteesmichoacan.com/noticias/36556/bloqueos-se-extienden-en-todo-el-pais-negociaciones-estancadas-y-carreteras-saturadas-Michoacan/"
     },
     {
       "titulo": "Europa | Francia, España e Italia",
@@ -92,7 +102,7 @@ const brief = {
     {
       "titulo": "Asia | Suez y conexiones",
       "bandera": "https://flagcdn.com/w40/cn.png",
-      "texto": "El retorno parcial de algunas rutas al Canal de Suez no implica normalización general: seguir confirmando desvíos, transbordos, exposición de seguridad y tiempos por servicio."
+      "texto": "Drewry informa el 26 nov. que 60 buques transitaron el canal la semana pasada. El retorno parcial no implica normalización general. https://www.drewry.co.uk/supply-chain-advisors/world-container-index-weekly-update"
     },
     {
       "titulo": "Asia | Carga aérea",
@@ -115,19 +125,19 @@ const brief = {
       "texto": "Operación de terminales estable según informe del 24 nov.; espera media de buques de 1.11 días. https://mykn.kuehne-nagel.com/news/article/port-operational-updates-from-24-11-2026"
     },
     {
-      "titulo": "Tarifas | Drewry 19 nov.",
+      "titulo": "Tarifas | Drewry 26 nov.",
       "bandera": "",
-      "texto": "WCI: US$4,176/FEU (−3% semanal). Shanghai–LA US$7,026 (−5%); Shanghai–NY US$8,194 (−9%); Rotterdam US$3,496 (sin cambio); Génova US$4,436 (+6%). https://www.drewry.co.uk/supply-chain-advisors/world-container-index-weekly-update"
+      "texto": "WCI US$4,032/FEU (−3% semanal). Shanghai–LA US$6,437 (−8%); Nueva York US$7,615 (−7%); Róterdam US$3,485 (estable según Drewry); Génova US$4,802 (+8%). https://www.drewry.co.uk/supply-chain-advisors/world-container-index-weekly-update"
     },
     {
       "titulo": "Capacidad | Cancelaciones anunciadas",
       "bandera": "",
-      "texto": "Drewry proyecta 42 blank sailings entre las semanas 48–52, 6% de 724 itinerarios previstos en grandes rutas este-oeste. Es una previsión de calendario, no cancelaciones ya ejecutadas. https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/cancelled-sailings-tracker"
+      "texto": "Drewry reporta 7 cancelaciones anunciadas para la próxima semana en el transpacífico y 7 en Asia–Europa/Mediterráneo. Son itinerarios anunciados, no cancelaciones ejecutadas. https://www.drewry.co.uk/supply-chain-advisors/world-container-index-weekly-update"
     },
     {
       "titulo": "Calendario | Próximos hitos",
       "bandera": "",
-      "texto": "24–26 nov.: acciones ferroviarias anunciadas en Bélgica; 26 nov.: Thanksgiving EE. UU.; 1 dic.: ajustes tarifarios anunciados en rutas elegibles Asia–Latinoamérica."
+      "texto": "26 nov.: Thanksgiving y audiencia de conciliación en Brasil; 27 nov.: horarios especiales en terminales estadounidenses; 1 dic.: ajustes tarifarios anunciados en rutas elegibles."
     },
     {
       "titulo": "EE. UU. | Mercado terrestre",
@@ -148,33 +158,33 @@ const brief = {
   "metricas": [
     {
       "indicador": "Shanghai–Los Ángeles",
-      "valor": "US$7,026",
-      "tendencia": "por FEU · −5% semanal · Drewry 19 nov."
+      "valor": "US$6,437",
+      "tendencia": "por FEU · −8% semanal · Drewry 26 nov."
     },
     {
       "indicador": "Shanghai–Nueva York",
-      "valor": "US$8,194",
-      "tendencia": "por FEU · −9% semanal · Drewry 19 nov."
+      "valor": "US$7,615",
+      "tendencia": "por FEU · −7% semanal · Drewry 26 nov."
     },
     {
       "indicador": "Shanghai–Róterdam",
-      "valor": "US$3,496",
-      "tendencia": "por FEU · sin cambio · Drewry 19 nov."
+      "valor": "US$3,485",
+      "tendencia": "por FEU · estable según Drewry · Drewry 26 nov."
     },
     {
       "indicador": "Shanghai–Génova",
-      "valor": "US$4,436",
-      "tendencia": "por FEU · +6% semanal · Drewry 19 nov."
+      "valor": "US$4,802",
+      "tendencia": "por FEU · +8% semanal · Drewry 26 nov."
     },
     {
       "indicador": "Drewry WCI global",
-      "valor": "US$4,176",
-      "tendencia": "por FEU · −3% semanal · 19 nov."
+      "valor": "US$4,032",
+      "tendencia": "por FEU · −3% semanal · Drewry 26 nov."
     },
     {
-      "indicador": "Blank sailings proyectados",
-      "valor": "42",
-      "tendencia": "semanas 48–52 · 6% de 724 itinerarios"
+      "indicador": "Blank sailings · semana próxima",
+      "valor": "14",
+      "tendencia": "7 transpacífico + 7 Asia–Europa/Med · Drewry 26 nov."
     },
     {
       "indicador": "Asia–LatAm · GRI anunciado",
@@ -193,15 +203,15 @@ const brief = {
     }
   ],
   "recomendaciones": [
-    "Europa: asegurar espacios y equipo para diciembre y verificar conexiones interiores belgas por servicio.",
-    "México: monitorear negociaciones del autotransporte y confirmar condiciones de tránsito antes de despachar; no asumir que hay un paro nacional activo.",
-    "Brasil: paro regional suspendido temporalmente hasta la audiencia del 26; confirmar capacidad y entregas pendientes.",
-    "EE. UU.: la huelga en LA/Long Beach se evitó con acuerdo preliminar el 21 nov., pendiente de ratificación. Mantener revisión de tren/drayage y prepararse para Thanksgiving el 26.",
+    "Europa: acelerar retiros y confirmar devolución de vacíos; anticipar reservas de diciembre.",
+    "México: confirmar restricciones carreteras vigentes y coordinar contingencias con transportistas.",
+    "Brasil: confirmar resultado de la audiencia del 26 y disponibilidad de unidades; no asumir reanudación de huelga.",
+    "EE. UU.: validar horarios de Thanksgiving hoy y reaperturas del 27, citas y días libres.",
     "India: tras Akvan, validar la continuidad de las operaciones en la costa oriental a nivel de puerto y transportista sin extrapolar cierres a todo el país.",
     "Asia–Latinoamérica: Hapag-Lloyd y CMA CGM anunciaron GRI de US$1,000 desde 1 dic. (incluye México y Brasil según rutas). Revalidar vigencia, equipos y cotización final.",
-    "Mercado: las cuatro tarifas de Drewry corresponden al 19 nov. y son indicadores de referencia Shanghai–destino, no tarifas all-in ni Asia–México.",
+    "Mercado: utilizar los indicadores Drewry del 26 nov. como referencia, no como cotizaciones all-in; revalidar recargos de diciembre.",
     "Bélgica: verificar recuperación de conexiones interiores y posibles afectaciones ferroviarias del 24 al 26 nov.",
-    "Fuentes recientes: https://mykn.kuehne-nagel.com/news/article/port-operational-updates-from-24-11-2026 · https://www.oocl.com/usa/eng/localinformation/localnews/2026/Pages/2026NOV24.aspx · https://tribunadonorte.com.br/rio-grande-do-norte/greve-dos-caminhoneiros-no-rn-e-suspensa-ate-audiencia-desta-quinta-26/"
+    "Fuentes recientes: https://scspa.com/advisories/thanksgiving-holiday-gate-hours-2/ · https://www.adn40.mx/mexico/2026-11-26/mexico-cuernavaca-paralizada-por-cierre-de-tramo-bloqueos-y-accidentes-ocasionan-trafico-en-carreteras/ · https://www.maersk.com/news/articles/2026/11/24/uki-logistics-network-operational-update · https://ocorreiodehoje.com.br/greve-caminhoneiros-rn-suspensa-audiencia-trt/ · https://www.drewry.co.uk/supply-chain-advisors/world-container-index-weekly-update"
   ]
 };
 const retrasos = [
@@ -237,8 +247,8 @@ const retrasos = [
   },
   {
     "puerto": "Brasil · Rio Grande do Norte",
-    "tiempo": "25 nov. · suspensión",
-    "estado": "Paro suspendido temporalmente hasta audiencia del 26."
+    "tiempo": "26 nov. · conciliación",
+    "estado": "Suspensión temporal; audiencia prevista hoy 26, sin resultado verificado."
   },
   {
     "puerto": "India · Odisha / Paradip",
@@ -254,6 +264,16 @@ const retrasos = [
     "puerto": "India · Nhava Sheva",
     "tiempo": "3.14 días · 24 nov.",
     "estado": "Espera media de buques; presión por exportación."
+  },
+  {
+    "puerto": "Europa · Reino Unido e Irlanda",
+    "tiempo": "Aviso 24 nov.",
+    "estado": "Acumulación de carga y restricciones interiores; recuperación gradual."
+  },
+  {
+    "puerto": "EE. UU. · Nueva York / Charleston",
+    "tiempo": "26 nov. · festivo",
+    "estado": "Cierres programados de accesos; confirmar reapertura del 27."
   }
 ];
 // Imágenes de portada ilustrativas; no representan necesariamente los incidentes del día.
@@ -427,7 +447,7 @@ export default function Home() {
       </section>
 
       {/* TABLA DE RETRASOS PORTUARIOS */}
-      <section className="bg-white"><div className="mx-auto max-w-7xl px-6 py-14 md:px-10"><p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">OPERACIÓN LOGÍSTICA · CORTE 25 DE NOVIEMBRE</p><h2 className="mt-3 text-3xl font-bold text-[#003C6F]">Estado de puertos y conexiones</h2><p className="mt-3 max-w-4xl text-sm leading-6 text-gray-600">No se dispone de tiempos en vivo comparables en todos los puertos. Las cifras indicativas y restricciones deben validarse con terminal y naviera antes de comprometer ETA.</p><div className="mt-7 overflow-x-auto rounded-2xl border border-gray-200"><table className="w-full min-w-[760px] text-left text-sm"><thead className="bg-[#003C6F] text-white"><tr><th className="p-4">País / puerto</th><th className="p-4">Fecha o dato</th><th className="p-4">Estado e interpretación</th></tr></thead><tbody>{retrasos.map((r,i)=><tr key={r.puerto} className={i%2===0?"bg-[#F3F5F7]":"bg-white"}><td className="p-4 font-bold text-[#003C6F]">{r.puerto}</td><td className="p-4 font-semibold">{r.tiempo}</td><td className="p-4 text-gray-600">{r.estado}</td></tr>)}</tbody></table></div></div></section>
+      <section className="bg-white"><div className="mx-auto max-w-7xl px-6 py-14 md:px-10"><p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">OPERACIÓN LOGÍSTICA · CORTE 26 DE NOVIEMBRE</p><h2 className="mt-3 text-3xl font-bold text-[#003C6F]">Estado de puertos y conexiones</h2><p className="mt-3 max-w-4xl text-sm leading-6 text-gray-600">No se dispone de tiempos en vivo comparables en todos los puertos. Las cifras indicativas y restricciones deben validarse con terminal y naviera antes de comprometer ETA.</p><div className="mt-7 overflow-x-auto rounded-2xl border border-gray-200"><table className="w-full min-w-[760px] text-left text-sm"><thead className="bg-[#003C6F] text-white"><tr><th className="p-4">País / puerto</th><th className="p-4">Fecha o dato</th><th className="p-4">Estado e interpretación</th></tr></thead><tbody>{retrasos.map((r,i)=><tr key={r.puerto} className={i%2===0?"bg-[#F3F5F7]":"bg-white"}><td className="p-4 font-bold text-[#003C6F]">{r.puerto}</td><td className="p-4 font-semibold">{r.tiempo}</td><td className="p-4 text-gray-600">{r.estado}</td></tr>)}</tbody></table></div></div></section>
 
       {/* MÉTRICAS CLAVE */}
       <section className="bg-[#F3F5F7]">
@@ -538,7 +558,7 @@ export default function Home() {
           </div>
 
           <span className="max-w-xl text-white/60 md:text-right">
-            Corte editorial: miércoles 25 de noviembre de 2026. Fuentes: avisos de terminales y CBP, informe portuario del 24 nov., prensa brasileña del 25 nov. y Drewry (19 nov.). Los riesgos futuros no son cierres confirmados. Las tarifas no son cotizaciones all-in.</span>
+            Corte editorial: jueves 26 de noviembre de 2026. Fuentes: SC Ports, OOCL, Maersk, Kuehne+Nagel (24 nov.), Drewry (26 nov.) y prensa local. Las restricciones pueden cambiar; las tarifas no son cotizaciones all-in.</span>
         </div>
       </footer>
     </main>
