@@ -4,7 +4,7 @@ import Image from "next/image";
 const brief = {
   "fecha": "jueves 26 de noviembre de 2026",
   "titulo": "Vector Global Logistics | Radar Logístico Global",
-  "subtitulo": "Riesgo global medio-alto (evaluación editorial). Prioridades: cierres programados hoy por Thanksgiving en Estados Unidos, afectaciones carreteras en México y congestión portuaria e intermodal en Europa. Drewry reporta una nueva baja del índice global de fletes; Brasil permanece atento a la conciliación del transporte de carga.",
+  "subtitulo": "Riesgo global medio-alto. Prioridades: cierres programados hoy por Thanksgiving en Estados Unidos, afectaciones carreteras en México y congestión portuaria e intermodal en Europa. Drewry reporta una nueva baja del índice global de fletes; Brasil permanece atento a la conciliación del transporte de carga.",
   "noticias": [
     {
       "region": "EE. UU. · TRANSPORTE MARÍTIMO Y FRONTERA",
