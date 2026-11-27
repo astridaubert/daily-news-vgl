@@ -1,30 +1,18 @@
 import Image from "next/image";
 
-// DATOS EDITABLES — CORTE 26 NOVIEMBRE 2026
+// DATOS EDITABLES — CORTE 27 NOVIEMBRE 2026
 const brief = {
-  "fecha": "jueves 26 de noviembre de 2026",
+  "fecha": "viernes 27 de noviembre de 2026",
   "titulo": "Vector Global Logistics | Radar Logístico Global",
-  "subtitulo": "Riesgo global medio-alto. Prioridades: cierres programados hoy por Thanksgiving en Estados Unidos, afectaciones carreteras en México y congestión portuaria e intermodal en Europa. Drewry reporta una nueva baja del índice global de fletes; Brasil permanece atento a la conciliación del transporte de carga.",
+  "subtitulo": "Riesgo global medio-alto. Prioridades: restricciones carreteras en México, reaperturas y horarios especiales tras Thanksgiving en Estados Unidos, y congestión portuaria e intermodal en el norte de Europa. Black Friday y los recargos anunciados para diciembre requieren anticipar capacidad.",
   "noticias": [
-    {
-      "region": "EE. UU. · TRANSPORTE MARÍTIMO Y FRONTERA",
-      "modo": "ALTA · CIERRES PROGRAMADOS",
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/b/ba/New_York_container_terminal_%28Staten_Island%29_north_gate.jpg",
-      "bandera": "https://flagcdn.com/w40/us.png",
-      "titular": "Thanksgiving: terminales cerradas hoy y horarios especiales mañana",
-      "dato": "South Carolina Ports y Port Liberty New York confirman cierres de accesos el jueves 26. OOCL publica calendarios por terminal para hoy y mañana 27. No todos los servicios fronterizos o de transporte terrestre están cerrados. Fuentes: https://scspa.com/advisories/thanksgiving-holiday-gate-hours-2/ · https://portlibertynewyork.com/daily-update/ · https://www.oocl.com/usa/eng/localinformation/localnews/2026/Pages/2026NOV24.aspx",
-      "impacto": "Menos ventanas disponibles para retiro y entrega; posibles costos de almacenaje y cambios de itinerario.",
-      "accion": "Confirmar reapertura, citas y días libres por terminal antes de programar recolecciones; revisar disponibilidad de transporte para el viernes.",
-      "fotoCredito": "Imagen de archivo: Jim.henderson / Wikimedia Commons · CC0",
-      "fotoUrl": "https://commons.wikimedia.org/wiki/File:New_York_container_terminal_(Staten_Island)_north_gate.jpg"
-    },
     {
       "region": "MÉXICO · AUTOTRANSPORTE",
       "modo": "MEDIA-ALTA · TRANSPORTE TERRESTRE",
       "imagen": "https://upload.wikimedia.org/wikipedia/commons/5/50/Freight_truck_as_seen_on_highway.jpg",
       "bandera": "https://flagcdn.com/w40/mx.png",
-      "titular": "México: afectaciones carreteras y vigilancia de protestas",
-      "dato": "Hoy 26 se reportaron cierres parciales por incidentes en México–Cuernavaca, Guadalajara–Tepic, Zacatecas–Saltillo y La Tinaja–Isla. Prensa regional también reporta protestas agrícolas en distintos estados; su alcance debe verificarse con el operador. No equivale a un paro nacional confirmado del autotransporte. Fuentes: https://www.adn40.mx/mexico/2026-11-26/mexico-cuernavaca-paralizada-por-cierre-de-tramo-bloqueos-y-accidentes-ocasionan-trafico-en-carreteras/ · https://esteesmichoacan.com/noticias/36556/bloqueos-se-extienden-en-todo-el-pais-negociaciones-estancadas-y-carreteras-saturadas-Michoacan/",
+      "titular": "México: restricciones carreteras y seguimiento a negociaciones del autotransporte",
+      "dato": "Reportes del 27 nov. registran cierres parciales, manifestaciones e incidentes en distintas carreteras. La reunión de seguimiento entre autoridades y transportistas estaba prevista para hoy; no se ha verificado su resultado ni un cierre generalizado de la red. Fuentes: https://www.nmas.com.mx/movilidad/que-carreteras-mexico-estan-cerradas-hoy-27-de-noviembre-2026-accidentes-cierre-bloqueos/ · https://www.adn40.mx/mexico/2026-11-20/transportistas-mantienen-amenaza-con-un-nuevo-paro-nacional-habra-bloqueos-en-carreteras-esta-semana/",
       "impacto": "Posible variabilidad de tiempos de tránsito y entregas; las restricciones pueden cambiar durante el día.",
       "accion": "Consultar avisos vigentes de CAPUFE y Guardia Nacional, validar la ruta con el transportista y comunicar cambios de ETA.",
       "fotoCredito": "Imagen ilustrativa: Soulful sunshine · CC BY-SA 4.0 · recorte",
@@ -35,15 +23,32 @@ const brief = {
       "modo": "ALTA · CONGESTIÓN Y EQUIPOS",
       "imagen": "https://upload.wikimedia.org/wikipedia/commons/4/45/Shipping_container_stacks_-_Port_of_Rotterdam_-_2017_-_3.jpg",
       "bandera": "https://flagcdn.com/w40/eu.png",
-      "titular": "Europa: congestión en patios y red interior de Reino Unido e Irlanda",
-      "dato": "Maersk informó el 24 nov. que los altos volúmenes de importación, retrasos de buques, clima y problemas ferroviarios mantienen presión sobre su red británica e irlandesa. El informe portuario del 24 también registra demoras de conexiones en Róterdam. Fuentes: https://www.maersk.com/news/articles/2026/11/24/uki-logistics-network-operational-update · https://mykn.kuehne-nagel.com/news/article/port-operational-updates-from-24-11-2026",
+      "titular": "Europa: congestión en Reino Unido y presión sobre contenedores vacíos",
+      "dato": "El reporte del 26 nov. señala que los retrasos de buques, el clima y las restricciones ferroviarias siguen dificultando la recuperación de la red británica e irlandesa. La congestión del norte de Europa retrasa también el retorno de equipos vacíos a Asia. Fuente: https://www.containersignal.com/posts/2026-11-26-cs-daily/",
       "impacto": "Posibles retrasos de atraque y conexiones intermodales, menor confiabilidad de itinerarios y presión para conseguir equipo en reservas de diciembre.",
       "accion": "Retirar importaciones disponibles cuanto antes, verificar instrucciones de devolución de vacíos y reservar transporte interior con flexibilidad.",
       "fotoCredito": "Archivo: AgainErick · CC BY-SA 4.0 · recorte",
       "fotoUrl": "https://commons.wikimedia.org/wiki/File:Shipping_container_stacks_-_Port_of_Rotterdam_-_2017_-_3.jpg"
+    },
+    {
+      "region": "EE. UU. · TRANSPORTE MARÍTIMO Y FRONTERA",
+      "modo": "MEDIA-ALTA · HORARIOS ESPECIALES",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/b/ba/New_York_container_terminal_%28Staten_Island%29_north_gate.jpg",
+      "bandera": "https://flagcdn.com/w40/us.png",
+      "titular": "EE. UU.: reaperturas y horarios especiales tras Thanksgiving",
+      "dato": "Tras los cierres programados del 26 nov., SC Ports prevé reabrir accesos de contenedores el viernes 27; las operaciones de carga suelta mantienen restricciones. Otros puertos pueden operar con horarios diferenciados. Fuentes: https://scspa.com/advisories/thanksgiving-holiday-gate-hours-2/ · https://www.oocl.com/usa/eng/localinformation/localnews/2026/Pages/2026NOV24.aspx",
+      "impacto": "Menos ventanas disponibles para retiro y entrega; posibles costos de almacenaje y cambios de itinerario.",
+      "accion": "Confirmar horario efectivo, citas y días libres por terminal antes de programar retiros.",
+      "fotoCredito": "Imagen de archivo: Jim.henderson / Wikimedia Commons · CC0",
+      "fotoUrl": "https://commons.wikimedia.org/wiki/File:New_York_container_terminal_(Staten_Island)_north_gate.jpg"
     }
   ],
   "vigilancia": [
+    {
+      "titulo": "España | Las Palmas",
+      "bandera": "https://flagcdn.com/w40/es.png",
+      "texto": "Transportistas preparan una posible suspensión del servicio de contenedores desde el 30 nov.; no es un paro activo confirmado. https://in-supply.co.uk/las-palmas-hauliers-prepare-container-transport-stoppage/"
+    },
     {
       "titulo": "Europa | Reino Unido e Irlanda",
       "bandera": "https://flagcdn.com/w40/gb.png",
@@ -57,7 +62,7 @@ const brief = {
     {
       "titulo": "Brasil | Rio Grande do Norte",
       "bandera": "https://flagcdn.com/w40/br.png",
-      "texto": "La huelga regional se mantiene suspendida temporalmente desde el 25; hoy 26 está prevista la audiencia de conciliación. No se ha verificado su resultado. https://ocorreiodehoje.com.br/greve-caminhoneiros-rn-suspensa-audiencia-trt/"
+      "texto": "La suspensión temporal fue reportada el 25 nov.; no se ha verificado el resultado de la audiencia prevista el 26. Confirmar con operador local."
     },
     {
       "titulo": "Colombia | Recuperación tras protestas",
@@ -80,9 +85,9 @@ const brief = {
       "texto": "Reporte del 24 nov.: permanencia ferroviaria media de 10 días en Los Ángeles y 11 en Long Beach. https://mykn.kuehne-nagel.com/news/article/port-operational-updates-from-24-11-2026"
     },
     {
-      "titulo": "EE. UU. | Thanksgiving 26 nov.",
+      "titulo": "EE. UU. | Operación posterior a Thanksgiving",
       "bandera": "https://flagcdn.com/w40/us.png",
-      "texto": "Hoy 26 se confirman cierres programados de accesos; mañana 27 hay reaperturas y horarios diferenciados. https://scspa.com/advisories/thanksgiving-holiday-gate-hours-2/ · https://portlibertynewyork.com/daily-update/"
+      "texto": "El 27 nov. se prevén reaperturas y horarios diferenciados; verificar cada terminal. https://scspa.com/advisories/thanksgiving-holiday-gate-hours-2/"
     },
     {
       "titulo": "México | Lázaro Cárdenas y CPKC",
@@ -92,7 +97,7 @@ const brief = {
     {
       "titulo": "México | Carreteras y puertos",
       "bandera": "https://flagcdn.com/w40/mx.png",
-      "texto": "Incidentes y restricciones parciales reportados hoy; además, seguimiento a protestas agrícolas. Verificar situación vigente antes del despacho. https://www.adn40.mx/mexico/2026-11-26/mexico-cuernavaca-paralizada-por-cierre-de-tramo-bloqueos-y-accidentes-ocasionan-trafico-en-carreteras/ · https://esteesmichoacan.com/noticias/36556/bloqueos-se-extienden-en-todo-el-pais-negociaciones-estancadas-y-carreteras-saturadas-Michoacan/"
+      "texto": "Reportes del 27 nov. registran restricciones e incidentes; validar situación vigente antes del despacho. https://www.nmas.com.mx/movilidad/que-carreteras-mexico-estan-cerradas-hoy-27-de-noviembre-2026-accidentes-cierre-bloqueos/"
     },
     {
       "titulo": "Europa | Francia, España e Italia",
@@ -107,7 +112,7 @@ const brief = {
     {
       "titulo": "Asia | Carga aérea",
       "bandera": "https://flagcdn.com/w40/cn.png",
-      "texto": "La carga aérea mantiene presión estacional; confirmar disponibilidad y tarifa por ruta. https://www.forwardernews.com/brief/2026-11-22"
+      "texto": "Maersk identifica presión estacional del 27 al 30 nov. por Black Friday y Cyber Monday; confirmar capacidad y tarifas. https://www.maersk.com/news/articles/2026/11/06/maersk-asia-pacific-market-update-november"
     },
     {
       "titulo": "India | Akvan y puertos orientales",
@@ -137,7 +142,7 @@ const brief = {
     {
       "titulo": "Calendario | Próximos hitos",
       "bandera": "",
-      "texto": "26 nov.: Thanksgiving y audiencia de conciliación en Brasil; 27 nov.: horarios especiales en terminales estadounidenses; 1 dic.: ajustes tarifarios anunciados en rutas elegibles."
+      "texto": "27–30 nov.: Black Friday y Cyber Monday; 30 nov.: posible suspensión de transporte de contenedores en Las Palmas; 1 dic.: ajustes tarifarios anunciados."
     },
     {
       "titulo": "EE. UU. | Mercado terrestre",
@@ -206,12 +211,12 @@ const brief = {
     "Europa: acelerar retiros y confirmar devolución de vacíos; anticipar reservas de diciembre.",
     "México: confirmar restricciones carreteras vigentes y coordinar contingencias con transportistas.",
     "Brasil: confirmar resultado de la audiencia del 26 y disponibilidad de unidades; no asumir reanudación de huelga.",
-    "EE. UU.: validar horarios de Thanksgiving hoy y reaperturas del 27, citas y días libres.",
+    "EE. UU.: confirmar reaperturas y horarios especiales del 27 nov., citas y días libres.",
     "India: tras Akvan, validar la continuidad de las operaciones en la costa oriental a nivel de puerto y transportista sin extrapolar cierres a todo el país.",
     "Asia–Latinoamérica: Hapag-Lloyd y CMA CGM anunciaron GRI de US$1,000 desde 1 dic. (incluye México y Brasil según rutas). Revalidar vigencia, equipos y cotización final.",
     "Mercado: utilizar los indicadores Drewry del 26 nov. como referencia, no como cotizaciones all-in; revalidar recargos de diciembre.",
     "Bélgica: verificar recuperación de conexiones interiores y posibles afectaciones ferroviarias del 24 al 26 nov.",
-    "Fuentes recientes: https://scspa.com/advisories/thanksgiving-holiday-gate-hours-2/ · https://www.adn40.mx/mexico/2026-11-26/mexico-cuernavaca-paralizada-por-cierre-de-tramo-bloqueos-y-accidentes-ocasionan-trafico-en-carreteras/ · https://www.maersk.com/news/articles/2026/11/24/uki-logistics-network-operational-update · https://ocorreiodehoje.com.br/greve-caminhoneiros-rn-suspensa-audiencia-trt/ · https://www.drewry.co.uk/supply-chain-advisors/world-container-index-weekly-update"
+    "Fuentes recientes: https://www.nmas.com.mx/movilidad/que-carreteras-mexico-estan-cerradas-hoy-27-de-noviembre-2026-accidentes-cierre-bloqueos/ · https://scspa.com/advisories/thanksgiving-holiday-gate-hours-2/ · https://www.containersignal.com/posts/2026-11-26-cs-daily/"
   ]
 };
 const retrasos = [
@@ -248,7 +253,7 @@ const retrasos = [
   {
     "puerto": "Brasil · Rio Grande do Norte",
     "tiempo": "26 nov. · conciliación",
-    "estado": "Suspensión temporal; audiencia prevista hoy 26, sin resultado verificado."
+    "estado": "Sin resultado verificado de la audiencia prevista el 26 nov.; confirmar operación."
   },
   {
     "puerto": "India · Odisha / Paradip",
@@ -272,8 +277,8 @@ const retrasos = [
   },
   {
     "puerto": "EE. UU. · Nueva York / Charleston",
-    "tiempo": "26 nov. · festivo",
-    "estado": "Cierres programados de accesos; confirmar reapertura del 27."
+    "tiempo": "27 nov. · reaperturas",
+    "estado": "Horarios diferenciados tras el festivo; confirmar acceso y citas."
   }
 ];
 // Imágenes de portada ilustrativas; no representan necesariamente los incidentes del día.
@@ -447,7 +452,7 @@ export default function Home() {
       </section>
 
       {/* TABLA DE RETRASOS PORTUARIOS */}
-      <section className="bg-white"><div className="mx-auto max-w-7xl px-6 py-14 md:px-10"><p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">OPERACIÓN LOGÍSTICA · CORTE 26 DE NOVIEMBRE</p><h2 className="mt-3 text-3xl font-bold text-[#003C6F]">Estado de puertos y conexiones</h2><p className="mt-3 max-w-4xl text-sm leading-6 text-gray-600">No se dispone de tiempos en vivo comparables en todos los puertos. Las cifras indicativas y restricciones deben validarse con terminal y naviera antes de comprometer ETA.</p><div className="mt-7 overflow-x-auto rounded-2xl border border-gray-200"><table className="w-full min-w-[760px] text-left text-sm"><thead className="bg-[#003C6F] text-white"><tr><th className="p-4">País / puerto</th><th className="p-4">Fecha o dato</th><th className="p-4">Estado e interpretación</th></tr></thead><tbody>{retrasos.map((r,i)=><tr key={r.puerto} className={i%2===0?"bg-[#F3F5F7]":"bg-white"}><td className="p-4 font-bold text-[#003C6F]">{r.puerto}</td><td className="p-4 font-semibold">{r.tiempo}</td><td className="p-4 text-gray-600">{r.estado}</td></tr>)}</tbody></table></div></div></section>
+      <section className="bg-white"><div className="mx-auto max-w-7xl px-6 py-14 md:px-10"><p className="text-sm font-bold tracking-[0.15em] text-[#FF3E32]">OPERACIÓN LOGÍSTICA · CORTE 27 DE NOVIEMBRE</p><h2 className="mt-3 text-3xl font-bold text-[#003C6F]">Estado de puertos y conexiones</h2><p className="mt-3 max-w-4xl text-sm leading-6 text-gray-600">No se dispone de tiempos en vivo comparables en todos los puertos. Las cifras indicativas y restricciones deben validarse con terminal y naviera antes de comprometer ETA.</p><div className="mt-7 overflow-x-auto rounded-2xl border border-gray-200"><table className="w-full min-w-[760px] text-left text-sm"><thead className="bg-[#003C6F] text-white"><tr><th className="p-4">País / puerto</th><th className="p-4">Fecha o dato</th><th className="p-4">Estado e interpretación</th></tr></thead><tbody>{retrasos.map((r,i)=><tr key={r.puerto} className={i%2===0?"bg-[#F3F5F7]":"bg-white"}><td className="p-4 font-bold text-[#003C6F]">{r.puerto}</td><td className="p-4 font-semibold">{r.tiempo}</td><td className="p-4 text-gray-600">{r.estado}</td></tr>)}</tbody></table></div></div></section>
 
       {/* MÉTRICAS CLAVE */}
       <section className="bg-[#F3F5F7]">
@@ -558,7 +563,7 @@ export default function Home() {
           </div>
 
           <span className="max-w-xl text-white/60 md:text-right">
-            Corte editorial: jueves 26 de noviembre de 2026. Fuentes: SC Ports, OOCL, Maersk, Kuehne+Nagel (24 nov.), Drewry (26 nov.) y prensa local. Las restricciones pueden cambiar; las tarifas no son cotizaciones all-in.</span>
+            Actualización: viernes 27 de noviembre de 2026. Fuentes: SC Ports, OOCL, Maersk, Kuehne+Nagel, Drewry, ContainerSignal y prensa local. Las restricciones pueden cambiar; las tarifas no son cotizaciones all-in.</span>
         </div>
       </footer>
     </main>
